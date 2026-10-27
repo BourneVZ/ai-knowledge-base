@@ -42,7 +42,31 @@ SCORE_YELLOW_THRESHOLD = 0.6
 """🟟 档下限（innovation_score >= 3）。"""
 
 DEFAULT_TOP_N = 5
-"""generate_daily_digest 默认取前 N 篇。"""
+"""generate_daily_digest 平铺模式默认取前 N 篇。"""
+
+DEFAULT_PER_GROUP_TOP_N = 2
+"""generate_daily_digest 分组模式每个 category 默认取前 N 篇。"""
+
+MAX_BRIEF_CHARS = 80
+"""一句话简介（article_brief）长度上限。"""
+
+MAX_TELEGRAM_SUMMARY_CHARS = 500
+"""单篇 Telegram 渲染时 summary 截断阈值。"""
+
+MAX_TELEGRAM_TITLE_CHARS = 120
+"""单篇 Telegram 渲染时标题截断阈值。"""
+
+MAX_TELEGRAM_MESSAGE_CHARS = 4096
+"""Telegram 单条消息长度上限（以字符数近似，另预留省略提示空间）。"""
+
+_TELEGRAM_OMITTED_RESERVE = 100
+"""digest Telegram 消息为省略提示行预留的字符数。"""
+
+TELEGRAM_OMITTED_TEMPLATE = "…（篇幅超限，已省略 {n} 段）"
+"""digest Telegram 消息超限丢块后附加的提示模板。"""
+
+UNCATEGORIZED_LABEL = "未分类"
+"""category 缺失时的分组名。"""
 
 EMPTY_DIGEST_TEMPLATE = "📭 {date} 暂无新增知识条目"
 """当日无文章时的提示文案模板。"""
@@ -76,6 +100,55 @@ def _to_float(value: object) -> float:
     if isinstance(value, (int, float)):
         return float(value)
     return 0.0
+
+
+def _truncate_chars(text: str, max_chars: int) -> str:
+    """按字符数截断文本，超出时尾部追加 ``…``。
+
+    Args:
+        text: 原文本。
+        max_chars: 截断上限（含省略号计入前的原文部分）。
+
+    Returns:
+        原文本（不超限时）或截断加省略号后的文本。
+
+    Raises:
+        ValueError: ``max_chars`` 非正。
+    """
+    if max_chars <= 0:
+        raise ValueError(f"max_chars 必须为正整数，收到: {max_chars}")
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rstrip() + "…"
+
+
+def article_brief(article: Article) -> str:
+    """提取一句话简介，供简报等紧凑场景替代长 ``summary``。
+
+    取值优先级：``key_insight``（V3 早期字段，兼容保留，现行数据为空）
+    > ``key_points`` 首个非空项（现行数据 83% 覆盖）> 截断的 ``summary``。
+
+    Args:
+        article: 知识条目。
+
+    Returns:
+        不超过 ``MAX_BRIEF_CHARS`` 字符的简介；全空时返回占位文案。
+    """
+    insight = str(article.get("key_insight") or "").strip()
+    if insight:
+        return _truncate_chars(insight, MAX_BRIEF_CHARS)
+
+    key_points = article.get("key_points")
+    if isinstance(key_points, list):
+        for item in key_points:
+            text = str(item).strip()
+            if text:
+                return _truncate_chars(text, MAX_BRIEF_CHARS)
+
+    summary = str(article.get("summary") or "").strip()
+    if summary:
+        return _truncate_chars(summary, MAX_BRIEF_CHARS)
+    return "（暂无摘要）"
 
 
 def normalized_score(article: Article) -> float:
@@ -187,7 +260,9 @@ def _load_articles_by_date(
 # ---------------------------------------------------------------------------
 
 
-def json_to_markdown(article: Article) -> str:
+def json_to_markdown(
+    article: Article, brief: bool = False, heading_level: int = 2
+) -> str:
     """单条知识条目 → 通用 Markdown。
 
     呈现字段：标题（链接）、来源、采集日期、评分（🟢🟟🔴）、标签、
@@ -195,6 +270,10 @@ def json_to_markdown(article: Article) -> str:
 
     Args:
         article: 知识条目。
+        brief: True 时正文用一句话简介（``article_brief``）替代长
+            ``summary``，并省略 💡 亮点行（简介本身即亮点）。
+        heading_level: 条目标题的 Markdown 层级（1-6），分组简报中
+            条目为 3 级、组标题为 2 级。
 
     Returns:
         Markdown 格式文本。
@@ -205,17 +284,23 @@ def json_to_markdown(article: Article) -> str:
     source = str(article.get("source") or "unknown")
     tags = _article_tags(article)
 
+    heading_prefix = "#" * max(1, min(heading_level, 6))
     heading = f"[{title}]({url})" if url else title
     tag_text = " ".join(f"`{tag}`" for tag in tags)
 
-    insight = str(article.get("key_insight") or "").strip()
-    if not insight:
-        key_points = article.get("key_points")
-        if isinstance(key_points, list) and key_points:
-            insight = str(key_points[0]).strip()
+    if brief:
+        body = article_brief(article)
+        insight = ""
+    else:
+        body = _article_summary(article)
+        insight = str(article.get("key_insight") or "").strip()
+        if not insight:
+            key_points = article.get("key_points")
+            if isinstance(key_points, list) and key_points:
+                insight = str(key_points[0]).strip()
 
     lines = [
-        f"## {heading}",
+        f"{heading_prefix} {heading}",
         "",
         f"**来源**：{source} ｜ **日期**：{_article_date(article)} ｜ "
         f"**评分**：{_score_emoji(score)} {score:.1f}",
@@ -224,7 +309,7 @@ def json_to_markdown(article: Article) -> str:
         lines.append("")
         lines.append(f"**标签**：{tag_text}")
     lines.append("")
-    lines.append(_article_summary(article))
+    lines.append(body)
     if insight:
         lines.append("")
         lines.append(f"> 💡 {insight}")
@@ -234,22 +319,34 @@ def json_to_markdown(article: Article) -> str:
     return "\n".join(lines)
 
 
-def json_to_telegram(article: Article) -> str:
+def json_to_telegram(article: Article, brief: bool = False) -> str:
     """单条知识条目 → Telegram MarkdownV2 文本。
 
     正文全部经 MarkdownV2 转义；标题渲染为链接并加粗，附摘要、评分、
     来源与标签。标签中的空格替换为下划线（空格会打断 ``#tag`` 的连续性）。
+    标题与摘要分别截断至 ``MAX_TELEGRAM_TITLE_CHARS`` /
+    ``MAX_TELEGRAM_SUMMARY_CHARS``，保证单篇远低于单条消息 4096 上限，
+    完整内容经文末原文链接查看。
 
     Args:
         article: 知识条目。
+        brief: True 时正文用一句话简介（``article_brief``）替代长摘要。
 
     Returns:
         ``parse_mode=MarkdownV2`` 可发送的文本。
     """
-    title = str(article.get("title") or "").strip() or "（无标题）"
+    title = _truncate_chars(
+        str(article.get("title") or "").strip() or "（无标题）",
+        MAX_TELEGRAM_TITLE_CHARS,
+    )
     url = _article_url(article)
     score = normalized_score(article)
     source = _escape_telegram(str(article.get("source") or "unknown"))
+
+    if brief:
+        body = article_brief(article)
+    else:
+        body = _truncate_chars(_article_summary(article), MAX_TELEGRAM_SUMMARY_CHARS)
 
     if url:
         heading = f"*[{_escape_telegram(title)}]({_escape_telegram_url(url)})*"
@@ -263,17 +360,21 @@ def json_to_telegram(article: Article) -> str:
 
     lines = [
         f"📌 {heading}",
-        _escape_telegram(_article_summary(article)),
+        _escape_telegram(body),
         f"{_score_emoji(score)} {_escape_telegram(f'{score:.1f}')} ｜ 来源：{source}",
     ]
     if tags:
         lines.append(tags)
     if url:
-        lines.append(_escape_telegram_url(url))
+        # 独立成行的 URL 处于正文上下文，须全量转义（含 "."）；
+        # 仅链接目标 (...) 内才只需转义 "\" 与 ")"
+        lines.append(_escape_telegram(url))
     return "\n".join(lines)
 
 
-def json_to_weixin(article: Article) -> str:
+def json_to_weixin(
+    article: Article, brief: bool = False, heading_level: int = 2
+) -> str:
     """单条知识条目 → 企业微信群机器人 Markdown 文本。
 
     企业微信 markdown 支持 ``[text](url)`` 链接、标题与三种内置字体色
@@ -282,6 +383,9 @@ def json_to_weixin(article: Article) -> str:
 
     Args:
         article: 知识条目。
+        brief: True 时正文用一句话简介（``article_brief``）替代长摘要。
+        heading_level: 条目标题的 Markdown 层级（1-6），分组简报中
+            条目为 3 级、组标题为 2 级。
 
     Returns:
         ``msgtype=markdown`` 的 ``content`` 文本。
@@ -292,15 +396,17 @@ def json_to_weixin(article: Article) -> str:
     source = str(article.get("source") or "unknown")
     color = _WEIXIN_COLOR_BY_GRADE[score_grade(score)]
 
+    heading_prefix = "#" * max(1, min(heading_level, 6))
     heading = f"[{title}]({url})" if url else title
     tags = " ".join(f"#{tag.replace(' ', '_')}" for tag in _article_tags(article))
+    body = article_brief(article) if brief else _article_summary(article)
 
     lines = [
-        f"## {heading}",
+        f"{heading_prefix} {heading}",
         f'> 评分：<font color="{color}">{_score_emoji(score)} {score:.1f}</font>'
         f" ｜ 来源：{source} ｜ {_article_date(article)}",
         "",
-        _article_summary(article),
+        body,
     ]
     if tags:
         lines.append("")
@@ -313,42 +419,128 @@ def json_to_weixin(article: Article) -> str:
 # ---------------------------------------------------------------------------
 
 
+def _normalize_date(date: str | None) -> str:
+    """校验并归一化日期参数。
+
+    Args:
+        date: ``YYYY-MM-DD`` 格式日期；``None`` 取当前 UTC 日期
+            （与 Organizer 落盘命名的时区一致）。
+
+    Returns:
+        ``YYYY-MM-DD`` 字符串。
+
+    Raises:
+        ValueError: ``date`` 非 ``YYYY-MM-DD`` 格式。
+    """
+    if date is None:
+        return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    try:
+        datetime.strptime(date, "%Y-%m-%d")
+    except ValueError as e:
+        raise ValueError(f"date 需为 YYYY-MM-DD 格式，收到: {date!r}") from e
+    return date
+
+
+def _group_top_articles(
+    ranked_articles: list[Article], per_group_top_n: int
+) -> list[tuple[str, list[Article]]]:
+    """将已按评分降序的条目按 ``category`` 动态分组，每组取前 N 篇。
+
+    category 取值随分析产出动态变化（如 ``AI Application`` /
+    ``Research`` 等），不做硬编码枚举；组间按组内最高分降序。
+
+    Args:
+        ranked_articles: 已按 ``normalized_score`` 降序排列的条目。
+        per_group_top_n: 每组保留的条数上限。
+
+    Returns:
+        ``(category, 条目列表)`` 二元组列表，组间按组内最高分降序。
+    """
+    groups: dict[str, list[Article]] = {}
+    for article in ranked_articles:
+        category = str(article.get("category") or "").strip() or UNCATEGORIZED_LABEL
+        groups.setdefault(category, []).append(article)
+    sections = [
+        (category, members[:per_group_top_n]) for category, members in groups.items()
+    ]
+    sections.sort(key=lambda pair: normalized_score(pair[1][0]), reverse=True)
+    return sections
+
+
+def _fit_telegram_message(header: str, blocks: list[str]) -> str:
+    """拼接 digest Telegram 消息，超限时丢弃尾部整块并附省略提示。
+
+    以逻辑块（分组简报为一组、平铺简报为一篇）为丢弃粒度，避免在块
+    内部截断破坏 MarkdownV2 转义配对；总长控制在
+    ``MAX_TELEGRAM_MESSAGE_CHARS`` 内。
+
+    Args:
+        header: 必须保留的标题行（已转义）。
+        blocks: 已渲染的 Telegram 文本块。
+
+    Returns:
+        不超过消息上限的拼接文本。
+    """
+    kept: list[str] = []
+    length = len(header)
+    budget = MAX_TELEGRAM_MESSAGE_CHARS - _TELEGRAM_OMITTED_RESERVE
+    for block in blocks:
+        extra = len(block) + 2
+        if length + extra > budget:
+            break
+        kept.append(block)
+        length += extra
+
+    omitted = len(blocks) - len(kept)
+    parts = [header, *kept]
+    if omitted:
+        parts.append(_escape_telegram(TELEGRAM_OMITTED_TEMPLATE.format(n=omitted)))
+    return "\n\n".join(parts)
+
+
 def generate_daily_digest(
     knowledge_dir: str | Path | None = None,
     date: str | None = None,
     top_n: int = DEFAULT_TOP_N,
+    grouped: bool = True,
+    per_group_top_n: int = DEFAULT_PER_GROUP_TOP_N,
+    brief: bool = True,
 ) -> dict[str, str]:
     """生成某日知识条目的三渠道简报。
 
-    用 ``Path.glob("{date}-*.json")`` 扫描目录，按归一化评分降序取前
-    ``top_n`` 篇（同分按 ``collected_at`` 降序），分别渲染通用 Markdown、
-    Telegram MarkdownV2 与企业微信 Markdown。
+    用 ``Path.glob("{date}-*.json")`` 扫描目录，按归一化评分降序排序。
+    ``grouped=True``（默认）按 ``category`` 动态分组、每组取前
+    ``per_group_top_n`` 篇、组间按组内最高分降序；``grouped=False``
+    平铺取全局前 ``top_n`` 篇。``brief=True``（默认）正文用一句话简介
+    （``article_brief``）替代长 ``summary``，简报体积约为全文摘要的一半。
+
+    Telegram 渠道逐篇限制标题/摘要长度，拼接后若整体超出单条消息
+    4096 上限，按逻辑块从尾部丢弃并附省略提示；微信 markdown 的
+    content 4096 字节上限由 ``publisher`` 负责分段，本模块不截断。
 
     Args:
         knowledge_dir: 知识条目目录；``None`` 时用主仓库默认路径
             （相对本模块定位，与调用方 cwd 无关）。
-        date: ``YYYY-MM-DD`` 格式日期；``None`` 时取当前 UTC 日期
-            （与 Organizer 落盘命名的时区一致）。
-        top_n: 取前 N 篇，需为正整数。
+        date: ``YYYY-MM-DD`` 格式日期；``None`` 时取当前 UTC 日期。
+        top_n: 平铺模式（``grouped=False``）取前 N 篇，需为正整数。
+        grouped: 是否按 category 分组。
+        per_group_top_n: 分组模式每组取前 N 篇，需为正整数。
+        brief: 正文是否用一句话简介替代长摘要。
 
     Returns:
         ``{"markdown": ..., "telegram": ..., "weixin": ...}``；当日无
         文章时三个值均为 ``"📭 {date} 暂无新增知识条目"``。
 
     Raises:
-        ValueError: ``date`` 非 ``YYYY-MM-DD`` 格式或 ``top_n`` 非正。
+        ValueError: ``date`` 非 ``YYYY-MM-DD`` 格式，或 ``top_n`` /
+            ``per_group_top_n`` 非正。
     """
     if top_n <= 0:
         raise ValueError(f"top_n 必须为正整数，收到: {top_n}")
+    if per_group_top_n <= 0:
+        raise ValueError(f"per_group_top_n 必须为正整数，收到: {per_group_top_n}")
 
-    if date is None:
-        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    else:
-        date_str = date
-        try:
-            datetime.strptime(date_str, "%Y-%m-%d")
-        except ValueError as e:
-            raise ValueError(f"date 需为 YYYY-MM-DD 格式，收到: {date_str!r}") from e
+    date_str = _normalize_date(date)
 
     directory = (
         Path(knowledge_dir) if knowledge_dir is not None else DEFAULT_KNOWLEDGE_DIR
@@ -359,30 +551,147 @@ def generate_daily_digest(
         empty = EMPTY_DIGEST_TEMPLATE.format(date=date_str)
         return {"markdown": empty, "telegram": empty, "weixin": empty}
 
-    top = sorted(
+    ranked = sorted(
         entries,
         key=lambda pair: (
             normalized_score(pair[0]),
             str(pair[0].get("collected_at") or ""),
         ),
         reverse=True,
-    )[:top_n]
-    articles = [article for article, _ in top]
-
+    )
     title = DIGEST_TITLE_TEMPLATE.format(date=date_str)
-    markdown_body = "\n\n---\n\n".join(json_to_markdown(a) for a in articles)
-    telegram_body = "\n\n".join(json_to_telegram(a) for a in articles)
-    weixin_body = "\n\n".join(json_to_weixin(a) for a in articles)
+
+    if grouped:
+        sections = _group_top_articles(
+            [article for article, _ in ranked], per_group_top_n
+        )
+        selected = sum(len(members) for _, members in sections)
+
+        md_sections: list[str] = []
+        tg_sections: list[str] = []
+        wx_sections: list[str] = []
+        for category, members in sections:
+            md_sections.append(
+                f"## 🗂 {category}\n\n"
+                + "\n\n".join(
+                    json_to_markdown(a, brief=brief, heading_level=3) for a in members
+                )
+            )
+            tg_sections.append(
+                f"*🗂 {_escape_telegram(category)}*\n\n"
+                + "\n\n".join(json_to_telegram(a, brief=brief) for a in members)
+            )
+            wx_sections.append(
+                f"## 🗂 {category}\n\n"
+                + "\n\n".join(
+                    json_to_weixin(a, brief=brief, heading_level=3) for a in members
+                )
+            )
+        markdown_result = f"# {title}\n\n" + "\n\n---\n\n".join(md_sections)
+        telegram_result = _fit_telegram_message(_escape_telegram(title), tg_sections)
+        weixin_result = f"## {title}\n\n" + "\n\n".join(wx_sections)
+    else:
+        top = [article for article, _ in ranked[:top_n]]
+        selected = len(top)
+
+        markdown_result = f"# {title}\n\n" + "\n\n---\n\n".join(
+            json_to_markdown(a, brief=brief) for a in top
+        )
+        telegram_result = _fit_telegram_message(
+            _escape_telegram(title),
+            [json_to_telegram(a, brief=brief) for a in top],
+        )
+        weixin_result = f"## {title}\n\n" + "\n\n".join(
+            json_to_weixin(a, brief=brief) for a in top
+        )
 
     logger.info(
-        "[Formatter] %s 简报生成：%d/%d 篇入选 (目录: %s)",
+        "[Formatter] %s 简报生成：%d/%d 篇入选，分组=%s (目录: %s)",
         date_str,
-        len(articles),
+        selected,
         len(entries),
+        grouped,
         directory,
     )
     return {
-        "markdown": f"# {title}\n\n{markdown_body}",
-        "telegram": f"{_escape_telegram(title)}\n\n{telegram_body}",
-        "weixin": f"## {title}\n\n{weixin_body}",
+        "markdown": markdown_result,
+        "telegram": telegram_result,
+        "weixin": weixin_result,
     }
+
+
+# ---------------------------------------------------------------------------
+# 索引快速预览
+# ---------------------------------------------------------------------------
+
+
+def digest_from_index(
+    date: str | None = None,
+    top_n: int = DEFAULT_TOP_N,
+    index_path: str | Path | None = None,
+) -> list[dict[str, Any]]:
+    """基于 ``index.json`` 的快速预览：某日 Top N 标题与评分。
+
+    与 ``generate_daily_digest`` 的全量 glob 读取不同，本函数只读一次
+    索引文件（组织者维护的目录页），按 ``file`` 名前缀过滤当日条目，
+    ``innovation_score`` 降序、``None`` 排最后（与 Bot 检索约定一致）取
+    前 ``top_n``。需要详情时调用方再按返回的 ``file`` 回读
+    ``knowledge/articles/{file}`` 全文（延迟加载）。
+
+    Args:
+        date: ``YYYY-MM-DD`` 格式日期；``None`` 时取当前 UTC 日期。
+        top_n: 取前 N 篇，需为正整数。
+        index_path: 索引文件路径；``None`` 用默认
+            ``knowledge/articles/index.json``。
+
+    Returns:
+        索引条目原样子集（``title`` / ``category`` / ``innovation_score`` /
+        ``stars`` / ``tags`` / ``collected_at`` / ``file``），事实字段
+        原值引用不做换算。
+
+    Raises:
+        ValueError: ``date`` 格式非法或 ``top_n`` 非正。
+        FileNotFoundError: 索引文件不存在。
+    """
+    if top_n <= 0:
+        raise ValueError(f"top_n 必须为正整数，收到: {top_n}")
+
+    date_str = _normalize_date(date)
+    path = (
+        Path(index_path)
+        if index_path is not None
+        else DEFAULT_KNOWLEDGE_DIR / "index.json"
+    )
+
+    with open(path, encoding="utf-8") as f:
+        try:
+            loaded = json.load(f)
+        except json.JSONDecodeError as e:
+            logger.warning("[Formatter] 索引解析失败，返回空列表 %s: %s", path, e)
+            return []
+    if not isinstance(loaded, list):
+        logger.warning("[Formatter] 索引结构异常（非列表），返回空列表 %s", path)
+        return []
+
+    prefix = f"{date_str}-"
+    matched = [
+        entry
+        for entry in loaded
+        if isinstance(entry, dict) and str(entry.get("file") or "").startswith(prefix)
+    ]
+    # 降序排序下 None 沉底：有效评分 rank=1 大于 None 的 rank=0
+    matched.sort(
+        key=lambda entry: (
+            1 if _to_float(entry.get("innovation_score")) > 0 else 0,
+            _to_float(entry.get("innovation_score")),
+        ),
+        reverse=True,
+    )
+    logger.info(
+        "[Formatter] %s 索引预览：%d/%d 条命中 (索引: %s)",
+        date_str,
+        min(len(matched), top_n),
+        len(matched),
+        path,
+    )
+    return matched[:top_n]

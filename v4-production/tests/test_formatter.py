@@ -8,6 +8,11 @@ from pathlib import Path
 import pytest
 from distribution.formatter import (
     DEFAULT_KNOWLEDGE_DIR,
+    MAX_BRIEF_CHARS,
+    MAX_TELEGRAM_SUMMARY_CHARS,
+    MAX_TELEGRAM_TITLE_CHARS,
+    article_brief,
+    digest_from_index,
     generate_daily_digest,
     json_to_markdown,
     json_to_telegram,
@@ -201,12 +206,14 @@ class TestGenerateDailyDigest:
         assert "langgenius/dify" in digest["telegram"]
         assert "langgenius/dify" in digest["weixin"]
 
-    def test_top_n_sorted_by_score_desc(self, tmp_path: Path) -> None:
+    def test_top_n_sorted_by_score_desc_flat_mode(self, tmp_path: Path) -> None:
         _write_article(tmp_path, "2026-04-11-a.json", title="low", innovation_score=2)
         _write_article(tmp_path, "2026-04-11-b.json", title="high", innovation_score=5)
         _write_article(tmp_path, "2026-04-11-c.json", title="mid", innovation_score=3)
         _write_article(tmp_path, "2026-04-11-d.json", title="extra", innovation_score=4)
-        digest = generate_daily_digest(tmp_path, date="2026-04-11", top_n=2)
+        digest = generate_daily_digest(
+            tmp_path, date="2026-04-11", top_n=2, grouped=False
+        )
         body = digest["markdown"]
         high_pos = body.index("high")
         extra_pos = body.index("extra")
@@ -246,3 +253,289 @@ class TestGenerateDailyDigest:
         assert DEFAULT_KNOWLEDGE_DIR.name == "articles"
         assert DEFAULT_KNOWLEDGE_DIR.parent.name == "knowledge"
         assert DEFAULT_KNOWLEDGE_DIR.exists()
+
+
+# ---------------------------------------------------------------------------
+# 特性 1：一句话简介（article_brief）
+# ---------------------------------------------------------------------------
+
+
+class TestArticleBrief:
+    def test_key_insight_takes_priority(self) -> None:
+        article = {
+            **SAMPLE_ARTICLE,
+            "key_insight": "一体化平台降低门槛",
+            "key_points": ["亮点一"],
+        }
+        assert article_brief(article) == "一体化平台降低门槛"
+
+    def test_key_points_first_non_empty(self) -> None:
+        article = {**SAMPLE_ARTICLE, "key_points": ["", "  ", "亮点二"]}
+        assert article_brief(article) == "亮点二"
+
+    def test_summary_truncated_as_fallback(self) -> None:
+        article = {**SAMPLE_ARTICLE, "key_points": []}
+        brief = article_brief(article)
+        assert brief.startswith("Dify 是一个开源")
+        assert len(brief) <= MAX_BRIEF_CHARS + 1
+
+    def test_empty_article_returns_placeholder(self) -> None:
+        assert article_brief({}) == "（暂无摘要）"
+
+    def test_long_insight_truncated_with_ellipsis(self) -> None:
+        article = {**SAMPLE_ARTICLE, "key_insight": "长" * 200}
+        brief = article_brief(article)
+        assert len(brief) == MAX_BRIEF_CHARS + 1
+        assert brief.endswith("…")
+
+
+# ---------------------------------------------------------------------------
+# 特性 2：brief 模式下的三渠道渲染
+# ---------------------------------------------------------------------------
+
+
+class TestBriefRendering:
+    def test_markdown_brief_uses_short_text_without_insight(self) -> None:
+        article = {**SAMPLE_ARTICLE, "key_points": ["一句话亮点"]}
+        md = json_to_markdown(article, brief=True)
+        assert "一句话亮点" in md
+        assert "💡" not in md
+        assert "Dify 是一个开源 LLM 应用开发平台。" not in md
+
+    def test_markdown_brief_false_keeps_summary_and_insight(self) -> None:
+        article = {**SAMPLE_ARTICLE, "key_points": ["一句话亮点"]}
+        md = json_to_markdown(article, brief=False)
+        assert "Dify 是一个开源 LLM 应用开发平台。" in md
+        assert "💡 一句话亮点" in md
+
+    def test_markdown_heading_level(self) -> None:
+        md = json_to_markdown(SAMPLE_ARTICLE, heading_level=3)
+        assert md.startswith("### [langgenius/dify](")
+
+    def test_telegram_brief(self) -> None:
+        article = {**SAMPLE_ARTICLE, "key_points": ["一句话亮点"]}
+        text = json_to_telegram(article, brief=True)
+        assert "一句话亮点" in text
+        assert "Dify 是一个开源 LLM 应用开发平台。" not in text
+
+    def test_weixin_brief_and_heading_level(self) -> None:
+        article = {**SAMPLE_ARTICLE, "key_points": ["一句话亮点"]}
+        wx = json_to_weixin(article, brief=True, heading_level=3)
+        assert wx.startswith("### [langgenius/dify](")
+        assert "一句话亮点" in wx
+
+
+# ---------------------------------------------------------------------------
+# 特性 3：Telegram 超长截断
+# ---------------------------------------------------------------------------
+
+
+class TestTelegramTruncation:
+    def test_long_summary_truncated_with_ellipsis(self) -> None:
+        article = {
+            **SAMPLE_ARTICLE,
+            "summary": "字" * (MAX_TELEGRAM_SUMMARY_CHARS + 50),
+        }
+        text = json_to_telegram(article)
+        assert "字…" in text
+        escaped_body_lines = text.split("\n")[1]
+        assert len(escaped_body_lines) < MAX_TELEGRAM_SUMMARY_CHARS + 60
+
+    def test_short_summary_not_truncated(self) -> None:
+        text = json_to_telegram(SAMPLE_ARTICLE)
+        assert "Dify 是一个开源 LLM 应用开发平台。" in text
+
+    def test_long_title_truncated(self) -> None:
+        article = {**SAMPLE_ARTICLE, "title": "T" * (MAX_TELEGRAM_TITLE_CHARS + 30)}
+        text = json_to_telegram(article)
+        title_line = text.split("\n")[0]
+        assert "T…" in title_line
+        assert len(title_line) < MAX_TELEGRAM_TITLE_CHARS + 60
+
+    def test_truncated_message_keeps_url(self) -> None:
+        article = {**SAMPLE_ARTICLE, "summary": "字" * 3000}
+        text = json_to_telegram(article)
+        # 独立 URL 行处于正文上下文，"." 等特殊字符须全量转义（回归：
+        # 未转义会被 Telegram API 拒绝 can't parse entities）
+        assert text.rstrip().endswith("https://github\\.com/langgenius/dify")
+
+
+# ---------------------------------------------------------------------------
+# 特性 2 + 3：分组简报与 Telegram 超限适配
+# ---------------------------------------------------------------------------
+
+
+class TestGroupedDigest:
+    def test_grouped_by_category(self, tmp_path: Path) -> None:
+        _write_article(
+            tmp_path,
+            "2026-04-11-app1.json",
+            title="app-one",
+            category="AI Application",
+            innovation_score=4,
+        )
+        _write_article(
+            tmp_path,
+            "2026-04-11-agent1.json",
+            title="agent-one",
+            category="AI Agent",
+            innovation_score=5,
+        )
+        digest = generate_daily_digest(tmp_path, date="2026-04-11")
+        md = digest["markdown"]
+        assert "## 🗂 AI Agent" in md
+        assert "## 🗂 AI Application" in md
+        # 组间按组内最高分降序：AI Agent (1.0) 在前
+        assert md.index("🗂 AI Agent") < md.index("🗂 AI Application")
+        # 分组模式下条目标题降为 3 级
+        assert "### [agent-one]" in md
+
+    def test_per_group_top_n_limits_each_group(self, tmp_path: Path) -> None:
+        for i in range(1, 4):
+            _write_article(
+                tmp_path,
+                f"2026-04-11-app{i}.json",
+                title=f"app-{i}",
+                category="AI Application",
+                innovation_score=i,
+            )
+        digest = generate_daily_digest(tmp_path, date="2026-04-11", per_group_top_n=2)
+        body = digest["markdown"]
+        assert "app-3" in body
+        assert "app-2" in body
+        assert "app-1" not in body
+
+    def test_missing_category_grouped_as_uncategorized(self, tmp_path: Path) -> None:
+        _write_article(tmp_path, "2026-04-11-x.json", title="no-cat", category="")
+        digest = generate_daily_digest(tmp_path, date="2026-04-11")
+        assert "🗂 未分类" in digest["markdown"]
+
+    def test_flat_mode_still_available(self, tmp_path: Path) -> None:
+        for i, cat in enumerate(["AI Agent", "AI Application"]):
+            _write_article(
+                tmp_path,
+                f"2026-04-11-{i}.json",
+                title=f"item-{i}",
+                category=cat,
+                innovation_score=4,
+            )
+        digest = generate_daily_digest(tmp_path, date="2026-04-11", grouped=False)
+        assert "🗂" not in digest["markdown"]
+        assert "## [item-0]" in digest["markdown"]
+
+    def test_telegram_over_limit_drops_tail_blocks(self, tmp_path: Path) -> None:
+        for i in range(1, 8):
+            _write_article(
+                tmp_path,
+                f"2026-04-11-{i}.json",
+                title=f"title-{i}",
+                category=f"Cat-{i}",
+                innovation_score=i,
+                summary="长" * 600,
+            )
+        digest = generate_daily_digest(tmp_path, date="2026-04-11", brief=False)
+        telegram = digest["telegram"]
+        assert len(telegram) <= 4096
+        assert "已省略" in telegram
+        # 高分组保留在消息内（Telegram 中 "-" 转义为 "\-"）
+        assert "title\\-7" in telegram
+        # 低分组（Cat-1，0.2 分）被丢弃
+        assert "Cat\\-1" not in telegram
+
+    def test_invalid_per_group_top_n_raises(self, tmp_path: Path) -> None:
+        with pytest.raises(ValueError, match="per_group_top_n"):
+            generate_daily_digest(tmp_path, date="2026-04-11", per_group_top_n=0)
+
+
+# ---------------------------------------------------------------------------
+# 特性 4：基于 index.json 的快速预览
+# ---------------------------------------------------------------------------
+
+
+def _write_index(tmp_path: Path, entries: list[dict[str, object]]) -> Path:
+    index_path = tmp_path / "index.json"
+    index_path.write_text(json.dumps(entries, ensure_ascii=False), encoding="utf-8")
+    return index_path
+
+
+class TestDigestFromIndex:
+    def test_filters_by_date_and_sorts_score_desc(self, tmp_path: Path) -> None:
+        entries = [
+            {
+                "file": "2026-04-11-a.json",
+                "title": "zero",
+                "category": "AI Agent",
+                "innovation_score": None,
+            },
+            {
+                "file": "2026-04-11-b.json",
+                "title": "high",
+                "category": "AI Agent",
+                "innovation_score": 5,
+            },
+            {
+                "file": "2026-04-11-c.json",
+                "title": "mid",
+                "category": "AI Application",
+                "innovation_score": 3,
+            },
+            {
+                "file": "2026-04-10-old.json",
+                "title": "other-day",
+                "category": "AI Agent",
+                "innovation_score": 5,
+            },
+        ]
+        index_path = _write_index(tmp_path, entries)
+        result = digest_from_index(date="2026-04-11", index_path=index_path)
+        # None 评分排最后（与 Bot 检索约定一致），其它日期不参与
+        assert [e["title"] for e in result] == ["high", "mid", "zero"]
+
+    def test_top_n_limits_result(self, tmp_path: Path) -> None:
+        entries = [
+            {"file": f"2026-04-11-{i}.json", "title": f"t{i}", "innovation_score": i}
+            for i in range(1, 6)
+        ]
+        index_path = _write_index(tmp_path, entries)
+        result = digest_from_index(date="2026-04-11", top_n=2, index_path=index_path)
+        assert [e["title"] for e in result] == ["t5", "t4"]
+
+    def test_no_match_returns_empty(self, tmp_path: Path) -> None:
+        index_path = _write_index(tmp_path, [])
+        assert digest_from_index(date="2026-04-11", index_path=index_path) == []
+
+    def test_missing_index_raises(self, tmp_path: Path) -> None:
+        with pytest.raises(FileNotFoundError):
+            digest_from_index(date="2026-04-11", index_path=tmp_path / "none.json")
+
+    def test_corrupt_index_returns_empty(self, tmp_path: Path) -> None:
+        index_path = tmp_path / "index.json"
+        index_path.write_text("{ broken", encoding="utf-8")
+        assert digest_from_index(date="2026-04-11", index_path=index_path) == []
+
+    def test_non_list_index_returns_empty(self, tmp_path: Path) -> None:
+        index_path = tmp_path / "index.json"
+        index_path.write_text('{"not": "a list"}', encoding="utf-8")
+        assert digest_from_index(date="2026-04-11", index_path=index_path) == []
+
+    def test_invalid_date_raises(self, tmp_path: Path) -> None:
+        with pytest.raises(ValueError, match="YYYY-MM-DD"):
+            digest_from_index(date="04-11-2026", index_path=tmp_path / "i.json")
+
+    def test_invalid_top_n_raises(self, tmp_path: Path) -> None:
+        with pytest.raises(ValueError, match="top_n"):
+            digest_from_index(
+                date="2026-04-11", top_n=0, index_path=tmp_path / "i.json"
+            )
+
+    def test_returns_original_fields(self, tmp_path: Path) -> None:
+        entry = {
+            "file": "2026-04-11-a.json",
+            "title": "t",
+            "category": "AI Agent",
+            "innovation_score": 4,
+            "stars": 123,
+        }
+        index_path = _write_index(tmp_path, [entry])
+        result = digest_from_index(date="2026-04-11", index_path=index_path)
+        assert result == [entry]
