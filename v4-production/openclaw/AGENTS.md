@@ -114,12 +114,14 @@ You wake up fresh each session. These files are your continuity:
 
 ## 后续扩展（14 / 15 节）
 
-`skills/` 目录会随课程进度补充：
+`skills/` 已落地三个（2026-10-29）：
 
-- 14-3 加 `skills/daily-digest/` —— 每日简报的 Skill 化封装
-- 15-2 加 `skills/top-rated/` —— 高分推荐的 Skill 化封装
+- `skills/top-rated/` —— 高分推荐。口径：高分 = `innovation_score` = 5；未评分 GitHub 仓库 ⭐ 50k+ 折算等效 5 分进榜（须标注 stars 折算，不得冒充真实评分）
+- `skills/category-summary/` —— 按 category 过滤 + 总数统计；用户问的是"RAG"这类关键词时退化为 tags/title 筛选并明说
+- `skills/weekly-digest/` —— 最近 N 天（默认 7）收录速览；空结果时如实报告并附索引最新覆盖时间
+- 14-3 的 `skills/daily-digest/`（每日简报）尚未做
 
-加上 Skill 后，Bot 在 description 命中时会优先走 Skill 的精细化流程，没命中就 fallback 到主 Agent 的"读 index.json"逻辑。
+Bot 在 skill description 命中时会优先走 Skill 的精细化流程，没命中就 fallback 到主 Agent 的"读 index.json"逻辑。
 
 ## Make It Yours
 
