@@ -264,8 +264,17 @@ def score_summary_quality(data: dict[str, object]) -> DimensionScore:
 def score_technical_depth(data: dict[str, object]) -> DimensionScore:
     """评分维度 2：技术深度（满分 25）。
 
-    优先读取顶层 ``score``，其次读取 ``metadata.score``。
+    V3 契约优先：``innovation_score`` / ``difficulty_score``（1-5 制，×5 映射）；
+    兼容旧条目的顶层 ``score`` / ``metadata.score``（1-10 制，×2.5 映射）。
     """
+    for key in ("innovation_score", "difficulty_score"):
+        raw = data.get(key)
+        if isinstance(raw, (int, float)) and not isinstance(raw, bool):
+            clamped = max(1, min(5, int(raw)))
+            return DimensionScore(
+                "技术深度", clamped * 5, 25, f"{key}={clamped}，映射 1-5 × 5"
+            )
+
     raw_score: object = data.get("score")
     if raw_score is None:
         metadata = data.get("metadata")
@@ -273,7 +282,9 @@ def score_technical_depth(data: dict[str, object]) -> DimensionScore:
             raw_score = metadata.get("score")
 
     if not isinstance(raw_score, (int, float)) or isinstance(raw_score, bool):
-        return DimensionScore("技术深度", 0, 25, "缺少 score 字段或类型无效")
+        return DimensionScore(
+            "技术深度", 0, 25, "缺少评分字段（innovation_score / score 均无效）"
+        )
 
     clamped = max(1, min(10, int(raw_score)))
     mapped = round(clamped * 2.5, 1)
@@ -348,7 +359,8 @@ def score_format_compliance(data: dict[str, object]) -> DimensionScore:
 def score_tag_precision(data: dict[str, object]) -> DimensionScore:
     """评分维度 4：标签精度（满分 15）。
 
-    1-3 个标准标签最佳（15 分），4+ 个扣 3 分，无非标准标签额外扣分。
+    1-5 个标签为佳（AGENTS.md 未设上限，analyzer 实际产出 3-5 个），
+    超过 5 个按超出数扣分；非标准标签轻微扣分（最多 3 分）。
     """
     tags = data.get("tags")
     if not isinstance(tags, list) or len(tags) == 0:
@@ -361,23 +373,14 @@ def score_tag_precision(data: dict[str, object]) -> DimensionScore:
     standard_count = sum(1 for t in valid_tags if t.lower() in STANDARD_TAGS)
     non_standard_count = len(valid_tags) - standard_count
 
-    if len(valid_tags) <= 3:
-        score = 15
-        if non_standard_count > 0:
-            score = max(12, 15 - non_standard_count * 3)
-        detail = (
-            f"{len(valid_tags)} 个标签"
-            f"（标准 {standard_count}，非标准 {non_standard_count}）"
-        )
-    else:
-        score = max(8, 12 - (len(valid_tags) - 3))
-        if non_standard_count > 0:
-            score = max(5, score - non_standard_count * 2)
-        detail = (
-            f"{len(valid_tags)} 个标签（过多，扣分）"
-            f"（标准 {standard_count}，非标准 {non_standard_count}）"
-        )
-
+    score = 15
+    if len(valid_tags) > 5:
+        score -= len(valid_tags) - 5
+    score -= min(3, non_standard_count)
+    score = max(5, score)
+    detail = (
+        f"{len(valid_tags)} 个标签（标准 {standard_count}，非标准 {non_standard_count}）"
+    )
     return DimensionScore("标签精度", score, 15, detail)
 
 

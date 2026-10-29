@@ -59,7 +59,7 @@ jobs:
         run: |
           DATE="${{ steps.date.outputs.today }}"
           COUNT=$(ls knowledge/articles/${DATE}-*.json 2>/dev/null | wc -l)
-          PENDING=$(ls knowledge/pending_review/pending-*.json 2>/dev/null | wc -l)
+          PENDING=$(ls knowledge/pending_review/pending-${DATE}-*.json 2>/dev/null | wc -l)
           echo "count=${COUNT}" >> "$GITHUB_OUTPUT"
           echo "pending=${PENDING}" >> "$GITHUB_OUTPUT"
           echo "date=${DATE}" >> "$GITHUB_OUTPUT"
