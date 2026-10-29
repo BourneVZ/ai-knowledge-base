@@ -94,7 +94,7 @@ python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 | 语言 | Python 3.12（ruff lint/format + mypy --strict；V4 分发层依赖 PEP 695 语法） |
 | Agent 框架 | OpenCode（角色与技能）、LangGraph（工作流）、OpenClaw（常驻助手） |
 | 大模型 | DeepSeek（默认 `deepseek-chat`），OpenAI 兼容协议可切换 Qwen / OpenAI |
-| 调度 | GitHub Actions（每周二、周六 02:00 定时采集 + 手动触发，采集后自动推送 Telegram 简报） |
+| 调度 | GitHub Actions（每周二、周六 02:00 采集并推送当日简报；周日 02:00 推送全库精选 Top 5；均支持手动触发） |
 | 推送渠道 | Telegram Bot API、企业微信群机器人 webhook（aiohttp 异步） |
 | 主要依赖 | httpx、aiohttp、pyyaml、python-dotenv |
 

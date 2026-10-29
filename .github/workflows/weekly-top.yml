@@ -1,0 +1,47 @@
+name: Weekly Top Digest
+
+on:
+  schedule:
+    # 每周日北京时间 02:00 = 周六 UTC 18:00（与采集 cron 周一/周五错开）
+    - cron: "0 18 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  top-digest:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 推送失败时脚本退出码非 0，后续提交推荐记录的步骤自动跳过，
+      # 保证"没收到就不标记已推荐"
+      - name: Push top digest to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python v4-production/distribution/push_top_digest.py --top 5
+
+      - name: Commit recommended state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add knowledge/recommended.json
+          if git diff --cached --quiet; then
+            echo "No recommended state changes"
+            exit 0
+          fi
+          git commit -m "chore: update recommended state (weekly top digest)"
+          git push
