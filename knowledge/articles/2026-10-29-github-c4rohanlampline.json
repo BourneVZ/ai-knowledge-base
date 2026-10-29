@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-001",
+  "title": "C4rohan/Lampline",
+  "source": "github",
+  "source_url": "https://github.com/C4rohan/Lampline",
+  "description": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+  "summary": "Lampline 是一个开源项目，允许用户在本地计算机上构建 AI 电话代理，并使用 AI 呼叫者测试每次更改。无需 API 密钥即可免费运行，使用自己的密钥时每次呼叫成本仅几美分。支持导入 Dialogflow CX 对话流，便于复用现有配置。项目旨在降低 AI 语音代理开发与测试门槛，实现自动化回归验证，适合需要快速迭代电话机器人流程的开发者。",
+  "tags": [
+    "ai",
+    "voice-agent",
+    "opensource",
+    "dialogflow",
+    "local"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 547,
+  "collected_at": "2026-10-29T13:11:59.591850+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "本地运行AI电话代理",
+    "AI呼叫者自动化测试每次变更",
+    "支持导入Dialogflow CX"
+  ],
+  "risks": [
+    "真实电话集成依赖额外配置",
+    "语音识别合成质量可能影响测试效果"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-006",
+  "title": "eliasbiondo/antirion",
+  "source": "github",
+  "source_url": "https://github.com/eliasbiondo/antirion",
+  "description": "⚡ The fastest open-source AI Gateway and LLM Gateway — one binary with built-in console to route, secure, budget and observe every LLM call across OpenAI, Anthropic, Gemini, Bedrock and more.",
+  "summary": "Antirion 是一个号称最快的开源 AI 网关和 LLM 网关，提供单一二进制文件，内置控制台，用于路由、安全、预算控制和观测所有 LLM 调用，支持 OpenAI、Anthropic、Gemini、Bedrock 等多种提供商。该项目旨在简化企业级 AI 基础设施，通过统一入口管理不同模型 API，降低集成成本并增强可观测性。其核心优势在于高性能、轻量部署和全功能集成，适合需要集中管控多云模型的中大型团队。",
+  "tags": [
+    "ai",
+    "llm",
+    "gateway",
+    "observability",
+    "open-source"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 440,
+  "collected_at": "2026-10-29T13:11:59.591869+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "统一多模型接入与路由",
+    "内置预算控制和观测面板",
+    "单二进制零依赖部署"
+  ],
+  "risks": [
+    "生态成熟度待验证",
+    "与主流云服务商深度集成存在挑战"
+  ]
+}

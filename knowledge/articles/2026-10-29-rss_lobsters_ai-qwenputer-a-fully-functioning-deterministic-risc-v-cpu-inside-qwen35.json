@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261029-011",
+  "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://divagr.com/blog/qwenputer",
+  "description": "Comments",
+  "summary": "Qwenputer 是一个在 Qwen3.5 大语言模型内部构建的、功能完备且确定性的 RISC-V CPU 实现。该项目利用 LLM 的指令跟随和推理能力，将模型转换为可执行机器码的处理器，能够运行 RISC-V 指令集。其核心价值在于探索 LLM 作为通用计算设备的边界，实现从自然语言到硬件行为模拟的跨越。项目类似于“软件中的软件”，通过提示工程和自回归生成，在模型权重层面实现确定性的计算流程，可能用于研究、教育或安全验证。该创意展示了 LLM 不仅限于文本生成，还可以成为可编程的底层计算单元，具有高度的实验性和极客精神。",
+  "tags": [
+    "llm",
+    "risc-v",
+    "cpu",
+    "deterministic",
+    "agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T13:11:59.591891+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 5,
+  "difficulty_score": 4,
+  "key_points": [
+    "在LLM内实现完整RISC-V处理器",
+    "确定性执行与硬件模拟创新",
+    "拓展大模型应用边界"
+  ],
+  "risks": [
+    "性能远低于真实硬件",
+    "依赖模型推理稳定性，实际执行受限"
+  ]
+}

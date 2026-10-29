@@ -1,0 +1,30 @@
+{
+  "id": "google_ai_blog-20261029-013",
+  "title": "Our newest AI Quest: Mapping the human brain",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+  "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+  "summary": "谷歌最新AI Quests课程“Polar Peaks”旨在通过神经科学主题提升公众的AI素养。该项目将脑科学与AI学习相结合，以互动式课程引导用户理解AI如何映射人脑，并探索智力与认知的边界。课程内容涉及神经元、神经网络及AI在脑科学中的应用，适合初学者入门。其创新之处在于用游戏化方式降低学习门槛，但深度有限，更多是科普而非专业研究。",
+  "tags": [
+    "ai",
+    "education",
+    "neuroscience",
+    "google"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T13:11:59.591891+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 2,
+  "key_points": [
+    "结合脑科学与AI的科普课程",
+    "游戏化互动学习提升AI素养"
+  ],
+  "risks": [
+    "内容深度有限，偏重基础科普"
+  ]
+}

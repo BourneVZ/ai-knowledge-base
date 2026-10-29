@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-003",
+  "title": "huaxialucaicaizi/ai-startup-skills",
+  "source": "github",
+  "source_url": "https://github.com/huaxialucaicaizi/ai-startup-skills",
+  "description": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。",
+  "summary": "该项目是一个面向创业公司的AI产品开发技能合集，以Agent Skill形式封装了从创意验证到公司注册的完整流程。它包含七个关键步骤：验证市场需求、撰写商业计划书、了解政策法规、准备路演、获取客户、制定定价策略以及完成注册。每个步骤都被设计为可复用的智能体技能，帮助创业者系统化推进AI产品落地。项目来源于GitHub，旨在降低AI创业门槛，提升效率。通过模块化技能组合，用户可以根据自身需求灵活调用，覆盖创业全周期。该合集体现了AI与创业实践的深度融合，具有一定的实用价值和创新性。",
+  "tags": [
+    "ai",
+    "agent",
+    "startup",
+    "skill",
+    "llm"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 518,
+  "collected_at": "2026-10-29T13:11:59.591864+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "七步全流程覆盖",
+    "模块化Agent技能",
+    "降低AI创业门槛"
+  ],
+  "risks": [
+    "实战效果依赖具体执行",
+    "政策法规可能因地区而异"
+  ]
+}

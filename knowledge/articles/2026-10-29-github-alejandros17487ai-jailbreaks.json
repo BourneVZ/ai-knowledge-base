@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-002",
+  "title": "Alejandros17487/ai-jailbreaks",
+  "source": "github",
+  "source_url": "https://github.com/Alejandros17487/ai-jailbreaks",
+  "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
+  "summary": "该项目是一个AI越狱提示词集合，包含35个可直接使用的越狱提示，覆盖25+前沿及开源模型。资源包括系统提示词、AGENTS.md规格和Ollama Modelfiles，专为AI安全研究和红队测试设计。项目旨在帮助安全研究人员评估模型边界，识别漏洞，并推动防御改进。其内容涉及多模型适配和实际测试，具有较高的实用价值。",
+  "tags": [
+    "ai",
+    "llm",
+    "security",
+    "jailbreak",
+    "redteam"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 518,
+  "collected_at": "2026-10-29T13:11:59.591862+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "覆盖25+模型的越狱提示库",
+    "提供系统提示与Ollama配置",
+    "面向安全研究与红队测试"
+  ],
+  "risks": [
+    "恶意滥用可能绕过AI安全限制",
+    "越狱效果随模型更新可能失效"
+  ]
+}

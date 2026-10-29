@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-007",
+  "title": "langchain-ai/design-agent",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/design-agent",
+  "description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+  "summary": "Design Agent 是一个基于 Deep Agents 架构的开源设计智能体，能够通过自然语言聊天线程生成品牌一致的静态图像、演示文稿、图表、数据可视化和动态图形。它利用大型语言模型理解用户意图，并自动完成设计任务，降低专业设计门槛。项目由 LangChain AI 团队开发，强调多智能体协作与工具调用，适合快速原型设计和内容创作。其核心优势在于将深度智能体与设计流程结合，实现从概念到成品的自动化产出，同时支持自定义品牌风格和多种输出格式。该项目展示了 AI 在设计领域的应用潜力，但可能面临设计质量不稳定、复杂需求处理能力有限等挑战。",
+  "tags": [
+    "ai",
+    "llm",
+    "design",
+    "agent",
+    "open-source"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 428,
+  "collected_at": "2026-10-29T13:11:59.591870+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "基于Deep Agents的多智能体设计自动化",
+    "生成品牌一致的多种视觉内容",
+    "自然语言交互降低设计门槛"
+  ],
+  "risks": [
+    "设计质量可能不稳定",
+    "复杂设计需求处理能力有限"
+  ]
+}

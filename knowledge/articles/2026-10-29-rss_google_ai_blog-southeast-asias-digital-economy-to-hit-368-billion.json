@@ -1,0 +1,32 @@
+{
+  "id": "google_ai_blog-20261029-014",
+  "title": "Southeast Asia’s digital economy to hit $368 billion",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+  "description": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+  "summary": "报告预测，在人工智能广泛应用的推动下，东南亚数字经济规模将在2026年达到3680亿美元，并有望在2035年突破1万亿美元。这一增长涵盖电商、金融科技、在线媒体和出行服务等领域，AI技术成为关键驱动力。数字基础设施的完善、年轻人口红利以及区域一体化进程加速了数字化转型。同时，投资持续涌入，为初创企业和科技巨头提供增长机会。但报告也指出，需关注监管环境、数据安全及人才缺口等挑战，以确保可持续增长。",
+  "tags": [
+    "ai",
+    "digital-economy",
+    "southeast-asia",
+    "forecast"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T13:11:59.591891+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "AI驱动数字经济快速增长",
+    "区域市场规模预期显著",
+    "投资与数字化转型加速"
+  ],
+  "risks": [
+    "监管与数据安全挑战",
+    "人才与基础设施瓶颈"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "C4rohan/Lampline",
+    "url": "https://github.com/C4rohan/Lampline",
+    "description": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+    "stars": 547,
+    "collected_at": "2026-10-29T13:11:59.591850+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Alejandros17487/ai-jailbreaks",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
+    "stars": 518,
+    "collected_at": "2026-10-29T13:11:59.591862+00:00"
+  },
+  {
+    "source": "github",
+    "title": "huaxialucaicaizi/ai-startup-skills",
+    "url": "https://github.com/huaxialucaicaizi/ai-startup-skills",
+    "description": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。",
+    "stars": 518,
+    "collected_at": "2026-10-29T13:11:59.591864+00:00"
+  },
+  {
+    "source": "github",
+    "title": "MemTensor/MemT-1.0",
+    "url": "https://github.com/MemTensor/MemT-1.0",
+    "description": "Official repository for MemT-1.0",
+    "stars": 468,
+    "collected_at": "2026-10-29T13:11:59.591866+00:00"
+  },
+  {
+    "source": "github",
+    "title": "hevnsnt/CVEngine",
+    "url": "https://github.com/hevnsnt/CVEngine",
+    "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+    "stars": 451,
+    "collected_at": "2026-10-29T13:11:59.591868+00:00"
+  },
+  {
+    "source": "github",
+    "title": "eliasbiondo/antirion",
+    "url": "https://github.com/eliasbiondo/antirion",
+    "description": "⚡ The fastest open-source AI Gateway and LLM Gateway — one binary with built-in console to route, secure, budget and observe every LLM call across OpenAI, Anthropic, Gemini, Bedrock and more.",
+    "stars": 440,
+    "collected_at": "2026-10-29T13:11:59.591869+00:00"
+  },
+  {
+    "source": "github",
+    "title": "langchain-ai/design-agent",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+    "stars": 428,
+    "collected_at": "2026-10-29T13:11:59.591870+00:00"
+  },
+  {
+    "source": "github",
+    "title": "ChannelCooperStart/capri-ai",
+    "url": "https://github.com/ChannelCooperStart/capri-ai",
+    "description": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+    "stars": 387,
+    "collected_at": "2026-10-29T13:11:59.591874+00:00"
+  },
+  {
+    "source": "github",
+    "title": "shipwords-dev/shipwords",
+    "url": "https://github.com/shipwords-dev/shipwords",
+    "description": "Ship a money-making AI site for every new keyword. Cloudflare-native starter with auth, credits, payments and AI generation. | 新词站群框架：一个新词一个站，一个下午上线。起量的继续迭代，没起来的放着不管。不变的共享，变的独立。",
+    "stars": 253,
+    "collected_at": "2026-10-29T13:11:59.591876+00:00"
+  },
+  {
+    "source": "github",
+    "title": "JunWan666/astrbot-for-android",
+    "url": "https://github.com/JunWan666/astrbot-for-android",
+    "description": "在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
+    "stars": 250,
+    "collected_at": "2026-10-29T13:11:59.591877+00:00"
+  }
+]

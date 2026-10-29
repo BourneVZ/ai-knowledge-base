@@ -1,0 +1,31 @@
+{
+  "id": "github-20261029-004",
+  "title": "MemTensor/MemT-1.0",
+  "source": "github",
+  "source_url": "https://github.com/MemTensor/MemT-1.0",
+  "description": "Official repository for MemT-1.0",
+  "summary": "MemTensor/MemT-1.0 是一个名为 MemT-1.0 的官方开源仓库，推测其核心方向是面向 AI 系统的记忆增强张量计算框架。该项目可能旨在通过引入可微分的记忆模块，提升大语言模型（LLM）在长上下文、知识更新和推理任务中的表现。结合命名习惯，MemTensor 或许实现了将记忆机制与张量操作深度融合，支持更高效的信息存储与检索。作为官方发布的第一版，项目处于早期阶段，可能提供基础接口与实验性实现，适合研究与开发者探索。整体上，该项目聚焦于 AI Agent 的记忆组件优化，具有明确的实用导向。",
+  "tags": [
+    "memory",
+    "tensor",
+    "llm",
+    "agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 468,
+  "collected_at": "2026-10-29T13:11:59.591866+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "记忆增强张量计算",
+    "面向LLM/Agent场景"
+  ],
+  "risks": [
+    "描述信息过少，实际功能需验证",
+    "早期版本可能缺乏稳定性"
+  ]
+}

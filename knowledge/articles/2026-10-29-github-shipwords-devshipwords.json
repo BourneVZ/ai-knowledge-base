@@ -1,0 +1,32 @@
+{
+  "id": "github-20261029-009",
+  "title": "shipwords-dev/shipwords",
+  "source": "github",
+  "source_url": "https://github.com/shipwords-dev/shipwords",
+  "description": "Ship a money-making AI site for every new keyword. Cloudflare-native starter with auth, credits, payments and AI generation. | 新词站群框架：一个新词一个站，一个下午上线。起量的继续迭代，没起来的放着不管。不变的共享，变的独立。",
+  "summary": "这是一个基于Cloudflare的AI站群框架，针对每个新关键词快速生成一个盈利性AI网站。它内置认证、积分、支付和AI生成功能，使得开发者能在半天内上线新站点。对于有流量的关键词继续迭代优化，未起量的则暂放。架构上共享不变的部分，独立变化的部分，实现了高效的站群管理。",
+  "tags": [
+    "ai",
+    "cloudflare",
+    "seo",
+    "monetization"
+  ],
+  "category": "AI Web Framework",
+  "status": "draft",
+  "stars": 253,
+  "collected_at": "2026-10-29T13:11:59.591876+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "关键词自动建站",
+    "Cloudflare原生架构",
+    "变现闭环（认证/积分/支付）"
+  ],
+  "risks": [
+    "同质化内容可能影响SEO",
+    "关键词价值依赖市场机会"
+  ]
+}

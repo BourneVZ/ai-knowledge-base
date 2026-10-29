@@ -1,0 +1,32 @@
+{
+  "id": "github-20261029-008",
+  "title": "ChannelCooperStart/capri-ai",
+  "source": "github",
+  "source_url": "https://github.com/ChannelCooperStart/capri-ai",
+  "description": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+  "summary": "Capri 是一款受《赛博朋克：边缘行者》启发的桌面 AI 代理，旨在与 Claude Code、Codex、Antigravity 等主流 AI 编程工具协同工作。它通过独特的视觉风格和交互体验，将 AI 代理融入桌面环境，提供更沉浸式的开发辅助体验。项目强调个性化和工具链集成，适合追求新潮开发方式的用户。",
+  "tags": [
+    "ai",
+    "agent",
+    "desktop",
+    "cli"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 387,
+  "collected_at": "2026-10-29T13:11:59.591874+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "多工具兼容集成",
+    "赛博朋克视觉风格",
+    "桌面级 AI 交互"
+  ],
+  "risks": [
+    "依赖第三方工具稳定性",
+    "风格化可能影响实用效率"
+  ]
+}

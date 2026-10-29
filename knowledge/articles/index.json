@@ -1,6 +1,224 @@
 [
   {
     "id": "lobsters_ai-20261029-011",
+    "file": "2026-10-29-rss_lobsters_ai-qwenputer-a-fully-functioning-deterministic-risc-v-cpu-inside-qwen35.json",
+    "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+    "category": "AI Agent",
+    "tags": [
+      "llm",
+      "risc-v",
+      "cpu",
+      "deterministic",
+      "agent"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591891+00:00",
+    "innovation_score": 5,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261029-012",
+    "file": "2026-10-29-rss_huggingface_blog-introducing-anyspeechrecognizer-and-anydecisionmodel-open-models-for-speech-and-.json",
+    "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+    "category": "AI",
+    "tags": [
+      "apple",
+      "speech-recognition",
+      "decision-model",
+      "open-source"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591891+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261029-013",
+    "file": "2026-10-29-rss_google_ai_blog-our-newest-ai-quest-mapping-the-human-brain.json",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "education",
+      "neuroscience",
+      "google"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591891+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261029-014",
+    "file": "2026-10-29-rss_google_ai_blog-southeast-asias-digital-economy-to-hit-368-billion.json",
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "digital-economy",
+      "southeast-asia",
+      "forecast"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591891+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261029-010",
+    "file": "2026-10-29-github-junwan666astrbot-for-android.json",
+    "title": "JunWan666/astrbot-for-android",
+    "category": "AI Agent",
+    "tags": [
+      "android",
+      "llm",
+      "chatbot",
+      "proot",
+      "no-root"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591877+00:00",
+    "innovation_score": 4,
+    "stars": 250
+  },
+  {
+    "id": "github-20261029-009",
+    "file": "2026-10-29-github-shipwords-devshipwords.json",
+    "title": "shipwords-dev/shipwords",
+    "category": "AI Web Framework",
+    "tags": [
+      "ai",
+      "cloudflare",
+      "seo",
+      "monetization"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591876+00:00",
+    "innovation_score": 4,
+    "stars": 253
+  },
+  {
+    "id": "github-20261029-008",
+    "file": "2026-10-29-github-channelcooperstartcapri-ai.json",
+    "title": "ChannelCooperStart/capri-ai",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "agent",
+      "desktop",
+      "cli"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591874+00:00",
+    "innovation_score": 4,
+    "stars": 387
+  },
+  {
+    "id": "github-20261029-007",
+    "file": "2026-10-29-github-langchain-aidesign-agent.json",
+    "title": "langchain-ai/design-agent",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "design",
+      "agent",
+      "open-source"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591870+00:00",
+    "innovation_score": 4,
+    "stars": 428
+  },
+  {
+    "id": "github-20261029-006",
+    "file": "2026-10-29-github-eliasbiondoantirion.json",
+    "title": "eliasbiondo/antirion",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "gateway",
+      "observability",
+      "open-source"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591869+00:00",
+    "innovation_score": 4,
+    "stars": 440
+  },
+  {
+    "id": "github-20261029-005",
+    "file": "2026-10-29-github-hevnsntcvengine.json",
+    "title": "hevnsnt/CVEngine",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "security",
+      "mcp",
+      "agent"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591868+00:00",
+    "innovation_score": 4,
+    "stars": 451
+  },
+  {
+    "id": "github-20261029-004",
+    "file": "2026-10-29-github-memtensormemt-10.json",
+    "title": "MemTensor/MemT-1.0",
+    "category": "AI Agent",
+    "tags": [
+      "memory",
+      "tensor",
+      "llm",
+      "agent"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591866+00:00",
+    "innovation_score": 4,
+    "stars": 468
+  },
+  {
+    "id": "github-20261029-003",
+    "file": "2026-10-29-github-huaxialucaicaiziai-startup-skills.json",
+    "title": "huaxialucaicaizi/ai-startup-skills",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "agent",
+      "startup",
+      "skill",
+      "llm"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591864+00:00",
+    "innovation_score": 4,
+    "stars": 518
+  },
+  {
+    "id": "github-20261029-002",
+    "file": "2026-10-29-github-alejandros17487ai-jailbreaks.json",
+    "title": "Alejandros17487/ai-jailbreaks",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "security",
+      "jailbreak",
+      "redteam"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591862+00:00",
+    "innovation_score": 4,
+    "stars": 518
+  },
+  {
+    "id": "github-20261029-001",
+    "file": "2026-10-29-github-c4rohanlampline.json",
+    "title": "C4rohan/Lampline",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "voice-agent",
+      "opensource",
+      "dialogflow",
+      "local"
+    ],
+    "collected_at": "2026-10-29T13:11:59.591850+00:00",
+    "innovation_score": 4,
+    "stars": 547
+  },
+  {
+    "id": "lobsters_ai-20261029-011",
     "file": "2026-10-29-rss_lobsters_ai-fuzzers-vs-ai-comparing-fuzzilli-and-bigsleep-on-javascript-engines.json",
     "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
     "category": "AI Security",

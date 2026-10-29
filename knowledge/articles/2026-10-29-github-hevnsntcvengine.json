@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-005",
+  "title": "hevnsnt/CVEngine",
+  "source": "github",
+  "source_url": "https://github.com/hevnsnt/CVEngine",
+  "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+  "summary": "CVEngine 是一个以AI为核心的外部攻击面评估引擎，强调持续发现与证据驱动的漏洞验证。它结合了LLM与安全自动化，能够动态追踪企业数字资产，并通过多源情报验证风险真实性。项目特别设计了开发者代理MCP集成，使安全发现可直接嵌入开发工作流，提升响应效率。其创新点在于将AI Agent应用于攻击面管理全流程，从资产发现到验证形成闭环。",
+  "tags": [
+    "ai",
+    "llm",
+    "security",
+    "mcp",
+    "agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 451,
+  "collected_at": "2026-10-29T13:11:59.591868+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "持续攻击面发现",
+    "证据驱动漏洞验证",
+    "MCP开发者集成"
+  ],
+  "risks": [
+    "依赖外部数据源质量",
+    "误报与验证准确性挑战"
+  ]
+}

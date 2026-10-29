@@ -1,0 +1,32 @@
+{
+  "id": "huggingface_blog-20261029-012",
+  "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/anydecisionmodel",
+  "description": "",
+  "summary": "AnySpeechRecognizer和AnyDecisionModel是面向Apple平台的开源语音识别与决策模型。两者专为端侧部署设计，在保护用户隐私的同时提供高效低延迟的推理能力。语音识别模型支持高精度转写，可应用于语音命令、实时字幕等场景；决策模型则能在设备本地完成分类、推理等任务，减少云端依赖。模型基于HuggingFace社区发布，开发者可轻松集成至iOS、macOS应用中。项目旨在推动Apple生态中的本地AI能力，兼顾性能与隐私。",
+  "tags": [
+    "apple",
+    "speech-recognition",
+    "decision-model",
+    "open-source"
+  ],
+  "category": "AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T13:11:59.591891+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "端侧部署保障隐私",
+    "开源模型易于集成",
+    "面向Apple平台优化"
+  ],
+  "risks": [
+    "模型规模与准确率权衡",
+    "仅限Apple生态"
+  ]
+}

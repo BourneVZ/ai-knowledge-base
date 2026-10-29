@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-010",
+  "title": "JunWan666/astrbot-for-android",
+  "source": "github",
+  "source_url": "https://github.com/JunWan666/astrbot-for-android",
+  "description": "在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
+  "summary": "该项目提供在Android手机上无需Root即可本地部署和管理AstrBot与NapCat的完整解决方案。通过内置PRoot Ubuntu运行环境，实现了在移动设备上运行完整的LLM聊天机器人框架及QQ协议适配层。项目自带原生管理界面和WebUI，方便用户进行配置、监控和操作。同时支持日志查看、数据备份恢复以及独立更新功能，降低了使用门槛。该方案为移动设备上的AI机器人应用提供了便捷的部署途径，适合个人或轻量级场景。",
+  "tags": [
+    "android",
+    "llm",
+    "chatbot",
+    "proot",
+    "no-root"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 250,
+  "collected_at": "2026-10-29T13:11:59.591877+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-131211.json",
+  "analyzed_at": "2026-10-29T13:14:52.944271+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "无需Root本地部署",
+    "内置PRoot Ubuntu环境",
+    "一体化管理界面与备份恢复"
+  ],
+  "risks": [
+    "移动端性能受限",
+    "PRoot兼容性问题"
+  ]
+}
