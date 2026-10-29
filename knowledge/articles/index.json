@@ -1,5 +1,296 @@
 [
   {
+    "id": "lobsters_ai-20261029-011",
+    "file": "2026-10-29-rss_lobsters_ai-fuzzers-vs-ai-comparing-fuzzilli-and-bigsleep-on-javascript-engines.json",
+    "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+    "category": "AI Security",
+    "tags": [
+      "ai",
+      "fuzzing",
+      "security",
+      "javascript",
+      "llm"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261029-012",
+    "file": "2026-10-29-rss_lobsters_ai-next-concept-modeling-fast-parallel-coarse-to-fine-text-generation.json",
+    "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "text-generation",
+      "parallel-decoding"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261029-013",
+    "file": "2026-10-29-rss_lobsters_ai-ai-eu-member-states-approve-digital-expropriation-of-europeans-for-ai-companies.json",
+    "title": "AI: EU Member States approve “digital expropriation” of Europeans for AI companies",
+    "category": "AI Policy",
+    "tags": [
+      "ai",
+      "eu",
+      "policy",
+      "data"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261029-014",
+    "file": "2026-10-29-rss_huggingface_blog-nvidia-nemotron-35-transcribe-and-granary-v2-intelligent-multilingual-transcript.json",
+    "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "multilingual",
+      "transcription",
+      "nvidia"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261029-015",
+    "file": "2026-10-29-rss_huggingface_blog-build-specialized-multimodal-models-with-lfm3.json",
+    "title": "Build specialized multimodal models with LFM3",
+    "category": "Multimodal AI",
+    "tags": [
+      "multimodal",
+      "foundation-models",
+      "fine-tuning",
+      "ai"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261029-016",
+    "file": "2026-10-29-rss_huggingface_blog-can-we-trust-llms-to-judge-whether-a-research-idea-is-novel.json",
+    "title": "Can we trust LLMs to judge whether a research idea is novel?",
+    "category": "AI Agent",
+    "tags": [
+      "llm",
+      "novelty",
+      "research-evaluation",
+      "ai"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261029-017",
+    "file": "2026-10-29-rss_google_ai_blog-our-newest-ai-quest-mapping-the-human-brain.json",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "category": "AI Education",
+    "tags": [
+      "ai",
+      "education",
+      "neuroscience",
+      "google"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261029-018",
+    "file": "2026-10-29-rss_google_ai_blog-southeast-asias-digital-economy-to-hit-368-billion.json",
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "category": "Market Analysis",
+    "tags": [
+      "ai",
+      "digital-economy",
+      "southeast-asia",
+      "economic-growth"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261029-019",
+    "file": "2026-10-29-rss_google_ai_blog-gemini-4-argon-built-to-solve-your-hardest-problems.json",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "gemini",
+      "frontier-model"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889527+00:00",
+    "innovation_score": 5,
+    "stars": null
+  },
+  {
+    "id": "github-20261029-010",
+    "file": "2026-10-29-github-dietrichgebertponytail.json",
+    "title": "DietrichGebert/ponytail",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "agent",
+      "codegen"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889510+00:00",
+    "innovation_score": 4,
+    "stars": 179454
+  },
+  {
+    "id": "github-20261029-009",
+    "file": "2026-10-29-github-ollamaollama.json",
+    "title": "ollama/ollama",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "inference",
+      "local",
+      "open-source"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889507+00:00",
+    "innovation_score": 4,
+    "stars": 185169
+  },
+  {
+    "id": "github-20261029-008",
+    "file": "2026-10-29-github-significant-gravitasautogpt.json",
+    "title": "Significant-Gravitas/AutoGPT",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "autonomous-agents",
+      "open-source"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889505+00:00",
+    "innovation_score": 4,
+    "stars": 187809
+  },
+  {
+    "id": "github-20261029-007",
+    "file": "2026-10-29-github-firecrawlfirecrawl.json",
+    "title": "firecrawl/firecrawl",
+    "category": "AI Agent",
+    "tags": [
+      "web-scraping",
+      "ai-agent",
+      "data-extraction",
+      "llm"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889500+00:00",
+    "innovation_score": 4,
+    "stars": 196514
+  },
+  {
+    "id": "github-20261029-006",
+    "file": "2026-10-29-github-n8n-ion8n.json",
+    "title": "n8n-io/n8n",
+    "category": "AI Agent",
+    "tags": [
+      "workflow",
+      "automation",
+      "ai",
+      "low-code",
+      "self-hosted"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889495+00:00",
+    "innovation_score": 4,
+    "stars": 208954
+  },
+  {
+    "id": "github-20261029-005",
+    "file": "2026-10-29-github-nousresearchhermes-agent.json",
+    "title": "NousResearch/hermes-agent",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "agent"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889493+00:00",
+    "innovation_score": 4,
+    "stars": 258283
+  },
+  {
+    "id": "github-20261029-004",
+    "file": "2026-10-29-github-affaan-mecc.json",
+    "title": "affaan-m/ECC",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "agent",
+      "performance",
+      "harness"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889491+00:00",
+    "innovation_score": 4,
+    "stars": 292024
+  },
+  {
+    "id": "github-20261029-003",
+    "file": "2026-10-29-github-obrasuperpowers.json",
+    "title": "obra/superpowers",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "agent",
+      "framework",
+      "dev-tools"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889489+00:00",
+    "innovation_score": 4,
+    "stars": 307699
+  },
+  {
+    "id": "github-20261029-002",
+    "file": "2026-10-29-github-openclawopenclaw.json",
+    "title": "openclaw/openclaw",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "agent",
+      "automation",
+      "cross-platform"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889486+00:00",
+    "innovation_score": 4,
+    "stars": 393312
+  },
+  {
+    "id": "github-20261029-001",
+    "file": "2026-10-29-github-morlutorea.json",
+    "title": "morluto/rea",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "reverse-engineering",
+      "security",
+      "agent"
+    ],
+    "collected_at": "2026-10-29T07:35:29.889470+00:00",
+    "innovation_score": 4,
+    "stars": 404234
+  },
+  {
     "id": "google_ai_blog-20260815-085",
     "file": "2026-08-15-rss_google_ai_blog-amie-our-research-medical-ai-system-demonstrates-real-time-clinical-video-consul.json",
     "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",

@@ -1,0 +1,32 @@
+{
+  "id": "huggingface_blog-20261029-016",
+  "title": "Can we trust LLMs to judge whether a research idea is novel?",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/allenai/novelty-bench",
+  "description": "",
+  "summary": "该项目探讨了大型语言模型（LLM）在判断研究想法是否具有新颖性方面的可信度。研究指出，LLM虽能快速生成评估，但其判断可能受训练数据偏差、表面相似性和上下文影响，导致误判。文章通过实验分析了LLM与人类专家在新颖性评估上的差异，并提出了潜在改进方向，如引入外部知识或结构化评估框架。项目旨在为科研评估提供辅助工具，但强调不能完全替代专家判断。",
+  "tags": [
+    "llm",
+    "novelty",
+    "research-evaluation",
+    "ai"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T07:35:29.889527+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-073531.json",
+  "analyzed_at": "2026-10-29T07:37:36.479972+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "评估LLM判断新颖性的可靠性",
+    "揭示数据偏差与误判风险",
+    "提出人机协同评估方案"
+  ],
+  "risks": [
+    "LLM判断易受训练数据影响",
+    "缺乏真实专家验证的广泛性"
+  ]
+}

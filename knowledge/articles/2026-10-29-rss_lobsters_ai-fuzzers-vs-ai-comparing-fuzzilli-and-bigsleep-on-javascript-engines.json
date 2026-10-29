@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261029-011",
+  "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+  "description": "Comments",
+  "summary": "本项目对比分析了两款针对JavaScript引擎的模糊测试工具：传统方法Fuzzilli和基于AI（大语言模型）的BigSleep。研究旨在评估AI驱动的模糊测试在漏洞挖掘中的表现，包括代码覆盖率、发现漏洞的效率及所需资源。通过实验对比，揭示AI在生成更有效测试用例方面的潜力，以及当前面临的挑战，如误报率、计算成本和对未知漏洞的适应性。该分析为未来将AI集成到安全测试工具链中提供了参考，并指出了结合两者优势的改进方向。",
+  "tags": [
+    "ai",
+    "fuzzing",
+    "security",
+    "javascript",
+    "llm"
+  ],
+  "category": "AI Security",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T07:35:29.889527+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-073531.json",
+  "analyzed_at": "2026-10-29T07:37:36.479972+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "系统对比Fuzzilli与BigSleep",
+    "评估AI在模糊测试中的实用价值",
+    "揭示AI驱动测试的优缺点"
+  ],
+  "risks": [
+    "实验环境可能不全面",
+    "AI模型的通用性有待验证"
+  ]
+}

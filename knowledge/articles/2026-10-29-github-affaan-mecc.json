@@ -1,0 +1,33 @@
+{
+  "id": "github-20261029-004",
+  "title": "affaan-m/ECC",
+  "source": "github",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "summary": "该项目是一个面向AI编程助手的性能优化系统，支持Claude Code、Codex、Opencode、Cursor等主流工具。它通过技能（Skills）、本能（Instincts）、记忆（Memory）、安全（Security）和研究优先开发（Research-first）等多维度机制，提升Agent的推理效率、任务执行准确性和长期自主性。系统采用模块化架构，可灵活集成到不同Agent框架中，强调在真实开发环境中的快速适配与持续学习能力。其核心理念是将工程最佳实践与AI代理行为深度结合，降低手动调优成本，并增强复杂任务下的稳定性。",
+  "tags": [
+    "ai",
+    "llm",
+    "agent",
+    "performance",
+    "harness"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 292024,
+  "collected_at": "2026-10-29T07:35:29.889491+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-29-073531.json",
+  "analyzed_at": "2026-10-29T07:37:36.479972+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "多Agent框架适配",
+    "技能与记忆协同优化",
+    "研究优先开发策略"
+  ],
+  "risks": [
+    "依赖特定平台API",
+    "长期记忆可能带来隐私问题"
+  ]
+}

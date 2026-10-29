@@ -1,0 +1,31 @@
+{
+  "id": "lobsters_ai-20261029-012",
+  "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://arxiv.org/abs/2610.14162",
+  "description": "Comments",
+  "summary": "该项目提出了一种名为Next-Concept Modeling的文本生成方法，旨在实现快速、并行的从粗到细生成。与传统逐词生成不同，该方法先预测更高层次的概念或结构，再在并行过程中细化生成具体文本，从而大幅提升生成速度，同时保持输出质量。该方法可能适用于大语言模型的高效推理，减少序列依赖带来的延迟，为实时交互式AI应用提供新思路。",
+  "tags": [
+    "ai",
+    "llm",
+    "text-generation",
+    "parallel-decoding"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T07:35:29.889527+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-073531.json",
+  "analyzed_at": "2026-10-29T07:37:36.479972+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "粗到细两阶段生成",
+    "并行解码加速推理"
+  ],
+  "risks": [
+    "生成质量可能受影响",
+    "实现复杂度较高"
+  ]
+}

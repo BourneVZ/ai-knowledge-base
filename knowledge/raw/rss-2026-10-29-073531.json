@@ -1,0 +1,74 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+    "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+    "url": "https://arxiv.org/abs/2610.14162",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "AI: EU Member States approve “digital expropriation” of Europeans for AI companies",
+    "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Build specialized multimodal models with LFM3",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Can we trust LLMs to judge whether a research idea is novel?",
+    "url": "https://huggingface.co/blog/allenai/novelty-bench",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+    "description": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+    "stars": null,
+    "collected_at": "2026-10-29T07:35:29.889527+00:00"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "lobsters_ai-20261029-013",
+  "title": "AI: EU Member States approve “digital expropriation” of Europeans for AI companies",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+  "description": "Comments",
+  "summary": "欧盟成员国近日批准了一项被批评为“数字征用”的政策，允许AI公司在特定条件下获取欧洲公民的个人数据用于模型训练。该决定引发广泛争议，支持者认为这将促进AI技术发展，反对者则担忧公民隐私权受到侵犯。政策细节尚未完全公开，但已引起民间组织和立法者的关注。此举被视为欧洲在AI监管和数据主权之间的一次重大权衡，可能对全球AI产业产生深远影响。目前，该政策仍需欧盟议会最终确认，具体实施路径和保障措施尚待明确。",
+  "tags": [
+    "ai",
+    "eu",
+    "policy",
+    "data"
+  ],
+  "category": "AI Policy",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T07:35:29.889527+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-073531.json",
+  "analyzed_at": "2026-10-29T07:37:36.479972+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "欧盟批准数字征用机制",
+    "AI公司可获取公民数据",
+    "引发隐私与主权争议"
+  ],
+  "risks": [
+    "侵犯个人隐私权",
+    "可能遭公众强烈反对"
+  ]
+}
