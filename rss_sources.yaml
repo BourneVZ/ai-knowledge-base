@@ -21,17 +21,25 @@ sources:
     enabled: true
 
   # ---- AI 研究 ----
+  # LLM 论文主力在 cs.CL，其次 cs.LG；cs.AI 保持禁用（噪声多、与 CL/LG 重叠大）
+  - name: arxiv_cs_cl
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: AI研究
+    enabled: true
+
+  - name: arxiv_cs_lg
+    url: "https://rss.arxiv.org/rss/cs.LG"
+    category: AI研究
+    enabled: true
+
   - name: arxiv_cs_ai
     url: "https://rss.arxiv.org/rss/cs.AI"
     category: AI研究
     enabled: false
 
   # ---- 公司博客 ----
-  - name: openai_blog
-    url: "https://openai.com/blog/rss.xml"
-    category: 公司博客
-    enabled: true
-
+  # openai_blog 已移除：Cloudflare 拦截数据中心 IP（403），且其动态由
+  # HN / The Verge / Google AI Blog 二次覆盖，冗余度高
   - name: anthropic_research
     url: "https://www.anthropic.com/research/feed"
     category: 公司博客

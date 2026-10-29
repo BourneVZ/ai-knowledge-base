@@ -25,6 +25,7 @@ CONFIG_PATH: Path = Path(__file__).resolve().parent.parent / "config.yaml"
 DEFAULT_CONFIG: dict[str, Any] = {
     "collection": {
         "github_search_query": "ai OR llm OR agent in:topics",
+        "github_created_within_days": 0,
         "rss_per_source_limit": 3,
         "rss_total_limit": 10,
     },

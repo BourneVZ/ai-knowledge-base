@@ -7,10 +7,13 @@ collection:
   # 注意：GitHub 的 OR 只作用于文本字段、不能组合 topic: 限定符；
   # 用「关键词 OR ... in:topics」实现话题并集（含任一话题的仓库）
   github_search_query: "ai OR llm OR agent in:topics"
+  # 只采近 N 天内创建的仓库（新星窗口）；0 表示不限。
+  # 不加时间窗时 sort=stars 只会反复抓到老牌高星仓库，抓不到新项目
+  github_created_within_days: 14
   # RSS 每个源最多采集条数（单 feed 上限）
   rss_per_source_limit: 3
   # RSS 所有源累计最多采集条数（总量上限）
-  rss_total_limit: 10
+  rss_total_limit: 20
 
 plan:
   # 目标文章总量：>=20 用 full 档 / >=10 用 standard 档 / 其余 lite 档
