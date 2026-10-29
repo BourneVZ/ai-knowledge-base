@@ -11,14 +11,15 @@ permissions:
 
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    # 钉住 24.04，避免 ubuntu-latest 迁移 Ubuntu 26 带来环境漂移
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -31,6 +32,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUDGET_YUAN: ${{ vars.BUDGET_YUAN }}
+          # Reviser 单次重写全部条目，prompt/response 都很大，
+          # 默认读超时不够（实测 4 次全超时），放宽上限
+          LLM_TIMEOUT: "600"
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -50,28 +54,43 @@ jobs:
         # 此处必须同用 UTC：若按北京时间（+8h）计算会差一天，统计与提交将落空
         run: echo "today=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
-      - name: Validate articles
-        continue-on-error: true
-        run: python hooks/validate_json.py knowledge/articles/${{ steps.date.outputs.today }}-*.json
-
-      - name: Check article quality
-        continue-on-error: true
-        run: python hooks/check_quality.py knowledge/articles/${{ steps.date.outputs.today }}-*.json
-
       - name: Count articles
         id: count
         run: |
           DATE="${{ steps.date.outputs.today }}"
           COUNT=$(ls knowledge/articles/${DATE}-*.json 2>/dev/null | wc -l)
+          PENDING=$(ls knowledge/pending_review/pending-*.json 2>/dev/null | wc -l)
           echo "count=${COUNT}" >> "$GITHUB_OUTPUT"
+          echo "pending=${PENDING}" >> "$GITHUB_OUTPUT"
           echo "date=${DATE}" >> "$GITHUB_OUTPUT"
-          echo "Articles collected: ${COUNT} on ${DATE}"
+          echo "Articles collected: ${COUNT} (pending review: ${PENDING}) on ${DATE}"
 
-      - name: Commit and push
+      # 0 条时跳过校验钩子——hooks 对空通配符会 exit 1，制造假错误告警
+      - name: Validate articles
         if: steps.count.outputs.count != '0'
+        continue-on-error: true
+        run: python hooks/validate_json.py knowledge/articles/${{ steps.date.outputs.today }}-*.json
+
+      - name: Check article quality
+        if: steps.count.outputs.count != '0'
+        continue-on-error: true
+        run: python hooks/check_quality.py knowledge/articles/${{ steps.date.outputs.today }}-*.json
+
+      # 只要 knowledge/ 有变更就提交（含 raw 原始记录与 pending_review 待审数据），
+      # 避免审核未过、当日 0 篇时把 raw 数据丢在临时 runner 上
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add knowledge/
-          git commit -m "chore: collect ${{ steps.count.outputs.count }} articles (${{ steps.count.outputs.date }})"
+          if git diff --cached --quiet; then
+            echo "No knowledge changes to commit"
+            exit 0
+          fi
+          if [ "${{ steps.count.outputs.count }}" != "0" ]; then
+            MSG="chore: collect ${{ steps.count.outputs.count }} articles (${{ steps.count.outputs.date }})"
+          else
+            MSG="chore: collect 0 articles, ${{ steps.count.outputs.pending }} pending review (${{ steps.count.outputs.date }})"
+          fi
+          git commit -m "$MSG"
           git push
