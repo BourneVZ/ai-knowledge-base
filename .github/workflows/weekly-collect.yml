@@ -2,8 +2,9 @@ name: Weekly Collect
 
 on:
   schedule:
-    # 每周六北京时间 02:00 = 周五 UTC 18:00
-    - cron: "0 18 * * 5"
+    # 每周二、周六北京时间 02:00 = 周一、周五 UTC 18:00
+    # 提频理由：HN/Reddit 等 hot 型源按周采样会漏掉周中爆发的内容
+    - cron: "0 18 * * 1,5"
   workflow_dispatch:
 
 permissions:
@@ -94,3 +95,14 @@ jobs:
           fi
           git commit -m "$MSG"
           git push
+
+      # 当日有新条目时推送简报到 Telegram（渠道失败不阻断整体，仅告警）
+      - name: Push digest to Telegram
+        if: steps.count.outputs.count != '0'
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python v4-production/distribution/push_digest.py \
+            --date "${{ steps.date.outputs.today }}" --channels telegram

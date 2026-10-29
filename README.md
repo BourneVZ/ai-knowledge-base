@@ -2,7 +2,7 @@
 
 > 基于多 Agent 协作的 AI 技术知识库——自动采集、智能分析、定时推送。
 
-每周六凌晨自动从 GitHub 与 11 个 RSS 源（Hacker News、arXiv、OpenAI / Anthropic / Google AI / HuggingFace 博客、Reddit、机器之心等）采集 AI / LLM / Agent 相关内容，经 LangGraph 工作流分析、评分、审核后沉淀为结构化 JSON 知识条目，并可通过 Telegram 与企业微信推送简报、由 OpenClaw 助手随时问答检索。
+每周二、周六凌晨自动从 GitHub（近 14 天新星窗口）与 12 个 RSS 源（Hacker News、Lobsters、arXiv cs.CL / cs.LG、Google AI / HuggingFace 博客、Reddit、The Verge 等）采集 AI / LLM / Agent 相关内容，经 LangGraph 工作流分析、评分、审核后沉淀为结构化 JSON 知识条目，自动更新检索索引、推送 Telegram 简报，并可通过 OpenClaw 助手随时问答检索。
 
 ## 架构概览
 
@@ -18,7 +18,7 @@
 │  pipeline/    V2 自动化流水线（collect → analyze → organize）     │
 │  core/        统一 LLM 客户端（DeepSeek / Qwen / OpenAI）+ 配置   │
 │  config.yaml  采集档位（lite / standard / full）与审核策略         │
-│  rss_sources.yaml   RSS 源配置（11 源）                           │
+│  rss_sources.yaml   RSS 源配置（12 源，支持 enabled 开关）        │
 │  knowledge/   raw/（原始采集存档，只读）→ articles/（知识条目      │
 │               JSON + index.json 检索索引）                        │
 │  mcp_knowledge_server.py   MCP 知识检索服务                       │
@@ -27,7 +27,8 @@
 │  hooks/       JSON schema 校验 + 内容质量评分                     │
 │  tests/       pytest 单元 / 集成测试（branch coverage ≥ 80%）     │
 │  质量管线     ruff（lint + format）· mypy --strict                │
-│  .github/     GitHub Actions 每周六定时采集，自动提交入库          │
+│  .github/     GitHub Actions 每周二/六定时采集，提交入库并        │
+│               推送 Telegram 简报                                  │
 ├─────────────────────────── 分发层 ───────────────────────────────┤
 │  v4-production/distribution/   formatter（Markdown / Telegram /   │
 │                企业微信三格式）+ publisher 多渠道异步推送           │
@@ -55,7 +56,7 @@ pip install -r requirements.txt
 python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 ```
 
-**免服务器路线**：把 `LLM_API_KEY` 等配置到仓库的 GitHub Actions Secrets 后，无需本地环境——`weekly-collect.yml` 每周六北京时间 02:00 自动运行 V3 LangGraph 工作流（采集 → 分析 → 审核 → 入库并更新 `index.json` 索引），也可在 Actions 页面手动触发（workflow_dispatch）。
+**免服务器路线**：把 `LLM_API_KEY` 等配置到仓库的 GitHub Actions Secrets 后，无需本地环境——`weekly-collect.yml` 每周二、周六北京时间 02:00 自动运行 V3 LangGraph 工作流（采集 → 分析 → 审核 → 入库并更新 `index.json` 索引），并把当日简报自动推送到 Telegram（需配置 `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` secrets），也可在 Actions 页面手动触发（workflow_dispatch）。
 
 **进阶模块**：
 
@@ -74,7 +75,7 @@ python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 | `hooks/` | JSON schema 校验、内容质量评分钩子 | V1 |
 | `core/` | 共享包：统一 LLM 客户端、配置、RSS 源读取 | V2 |
 | `pipeline/` | V2 自动化流水线（collect → analyze → organize） | V2 |
-| `rss_sources.yaml` | 11 个 RSS 源配置 | V2 |
+| `rss_sources.yaml` | 12 个 RSS 源配置（支持 enabled 开关） | V2 |
 | `mcp_knowledge_server.py` | MCP 知识检索服务 | V2 |
 | `.github/workflows/` | 每周定时采集 workflow | V2 |
 | `tests/` | 单元测试与集成测试（pytest + coverage） | V2 |
@@ -93,7 +94,7 @@ python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 | 语言 | Python 3.11+（编码规范按 3.12：ruff lint/format + mypy --strict） |
 | Agent 框架 | OpenCode（角色与技能）、LangGraph（工作流）、OpenClaw（常驻助手） |
 | 大模型 | DeepSeek（默认 `deepseek-chat`），OpenAI 兼容协议可切换 Qwen / OpenAI |
-| 调度 | GitHub Actions（每周六 02:00 定时采集 + 手动触发） |
+| 调度 | GitHub Actions（每周二、周六 02:00 定时采集 + 手动触发，采集后自动推送 Telegram 简报） |
 | 推送渠道 | Telegram Bot API、企业微信群机器人 webhook（aiohttp 异步） |
 | 主要依赖 | httpx、aiohttp、pyyaml、python-dotenv |
 
@@ -108,10 +109,10 @@ python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 
 | 项目 | 估算（人民币 / 月） | 说明 |
 | --- | --- | --- |
-| LLM API（DeepSeek） | ¥2 – 5 | 每周 1 次采集、约 10 篇 / 次（standard 档，`config.yaml` 可调），含审核循环，单次成本 < ¥1（`BUDGET_YUAN=1.0` 预算熔断兜底） |
-| 服务器（GitHub Actions） | ¥0 | 公共仓库免费；私有仓库单次约 5 – 10 分钟，远低于免费额度 |
+| LLM API（DeepSeek） | ¥1 – 3 | 每周 2 次采集、每次 10 – 30 篇（standard 档 + RSS 总量 20），含审核循环，单次成本 < ¥0.2（`BUDGET_YUAN=1.0` 预算熔断兜底） |
+| 服务器（GitHub Actions） | ¥0 | 公共仓库免费；每次约 3 – 5 分钟，远低于免费额度 |
 | OpenClaw 常驻（可选） | ¥20 – 40 | 最低配 VPS；只跑定时采集完全不需要服务器 |
-| **合计** | **约 ¥5**（含常驻助手约 ¥25 – 45） | 按 `deepseek-chat` 单价与当前采集量估算 |
+| **合计** | **约 ¥5 内**（含常驻助手约 ¥25 – 45） | 按 `deepseek-chat` 单价与当前采集量估算；Telegram Bot API 推送免费 |
 
 ## License
 
