@@ -91,7 +91,7 @@ python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 
 | 类别 | 选型 |
 | --- | --- |
-| 语言 | Python 3.11+（编码规范按 3.12：ruff lint/format + mypy --strict） |
+| 语言 | Python 3.12（ruff lint/format + mypy --strict；V4 分发层依赖 PEP 695 语法） |
 | Agent 框架 | OpenCode（角色与技能）、LangGraph（工作流）、OpenClaw（常驻助手） |
 | 大模型 | DeepSeek（默认 `deepseek-chat`），OpenAI 兼容协议可切换 Qwen / OpenAI |
 | 调度 | GitHub Actions（每周二、周六 02:00 定时采集 + 手动触发，采集后自动推送 Telegram 简报） |

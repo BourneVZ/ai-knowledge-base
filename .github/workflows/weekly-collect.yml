@@ -19,10 +19,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Python 3.11
+      - name: Setup Python 3.12
         uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          # V4 分发层使用 PEP 695 类型语法（type X = ...），3.11 会语法报错
+          python-version: "3.12"
           cache: pip
 
       - name: Install dependencies
