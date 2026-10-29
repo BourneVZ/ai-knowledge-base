@@ -17,7 +17,7 @@ from __future__ import annotations
 import json
 import logging
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -73,6 +73,9 @@ EMPTY_DIGEST_TEMPLATE = "📭 {date} 暂无新增知识条目"
 
 DIGEST_TITLE_TEMPLATE = "📚 AI 知识库日报 · {date}"
 """digest 标题模板。"""
+
+WEEKLY_DIGEST_TITLE_TEMPLATE = "📚 AI 知识库周报 · {range}"
+"""跨日期周报标题模板（``{range}`` 形如 ``2026-10-25 ~ 2026-10-31``）。"""
 
 _TELEGRAM_ESCAPE_PATTERN = re.compile(r"([_*\[\]()~`>#+\-=|{}.!])")
 """Telegram MarkdownV2 需转义的字符集。"""
@@ -233,7 +236,8 @@ def _load_articles_by_date(
 ) -> list[tuple[Article, str]]:
     """扫描目录中 ``{date}-*.json`` 并反序列化为 ``(article, filename)`` 列表。
 
-    单个文件解析失败仅告警跳过，不中断整体 digest。
+    等价于日期窗口 ``[date_str, date_str]`` 的 :func:`_load_articles_between`，
+    保留原签名供既有调用方与测试使用。
 
     Args:
         knowledge_dir: 知识条目目录。
@@ -242,8 +246,30 @@ def _load_articles_by_date(
     Returns:
         解析成功的条目与文件名二元组列表。
     """
+    return _load_articles_between(knowledge_dir, date_str, date_str)
+
+
+def _load_articles_between(
+    knowledge_dir: Path, since: str, until: str
+) -> list[tuple[Article, str]]:
+    """扫描目录中文件名日期前缀落在 ``[since, until]``（含端点）的条目。
+
+    ``index.json`` / ``recommended.json`` 等非日期命名文件的前缀字典序
+    大于任何 ``YYYY-MM-DD`` 字符串，天然被窗口过滤排除。单个文件解析
+    失败仅告警跳过，不中断整体 digest。
+
+    Args:
+        knowledge_dir: 知识条目目录。
+        since: 起始日期（``YYYY-MM-DD``，含）。
+        until: 结束日期（``YYYY-MM-DD``，含）。
+
+    Returns:
+        解析成功的条目与文件名二元组列表，按文件名升序。
+    """
     articles: list[tuple[Article, str]] = []
-    for filepath in sorted(knowledge_dir.glob(f"{date_str}-*.json")):
+    for filepath in sorted(knowledge_dir.glob("*.json")):
+        if not (since <= filepath.name[:10] <= until):
+            continue
         try:
             with open(filepath, encoding="utf-8") as f:
                 article = json.load(f)
@@ -551,6 +577,114 @@ def generate_daily_digest(
         empty = EMPTY_DIGEST_TEMPLATE.format(date=date_str)
         return {"markdown": empty, "telegram": empty, "weixin": empty}
 
+    return _assemble_digest(
+        entries,
+        DIGEST_TITLE_TEMPLATE.format(date=date_str),
+        date_str,
+        directory,
+        top_n,
+        grouped,
+        per_group_top_n,
+        brief,
+    )
+
+
+def generate_range_digest(
+    knowledge_dir: str | Path | None = None,
+    since: str | None = None,
+    until: str | None = None,
+    top_n: int = DEFAULT_TOP_N,
+    grouped: bool = True,
+    per_group_top_n: int = DEFAULT_PER_GROUP_TOP_N,
+    brief: bool = True,
+) -> dict[str, str]:
+    """生成日期窗口 ``[since, until]``（含端点）的三渠道周报。
+
+    文件名日期前缀落在窗口内的全部条目按归一化评分降序参与分组/平铺
+    选取，组装逻辑与 :func:`generate_daily_digest` 完全一致，仅标题与
+    窗口标注不同。窗口内无文章时三渠道均为占位提示。
+
+    Args:
+        knowledge_dir: 知识条目目录；``None`` 时用主仓库默认路径。
+        since: 起始日期（``YYYY-MM-DD``，含）；``None`` 取 ``until``
+            前 6 天（近 7 天窗口）。
+        until: 结束日期（``YYYY-MM-DD``，含）；``None`` 取当前 UTC 日期。
+        top_n: 平铺模式（``grouped=False``）取前 N 篇，需为正整数。
+        grouped: 是否按 category 分组。
+        per_group_top_n: 分组模式每组取前 N 篇，需为正整数。
+        brief: 正文是否用一句话简介替代长摘要。
+
+    Returns:
+        ``{"markdown": ..., "telegram": ..., "weixin": ...}``。
+
+    Raises:
+        ValueError: 日期非 ``YYYY-MM-DD`` 格式、``since`` 晚于 ``until``，
+            或 ``top_n`` / ``per_group_top_n`` 非正。
+    """
+    if top_n <= 0:
+        raise ValueError(f"top_n 必须为正整数，收到: {top_n}")
+    if per_group_top_n <= 0:
+        raise ValueError(f"per_group_top_n 必须为正整数，收到: {per_group_top_n}")
+
+    until_str = _normalize_date(until)
+    if since is None:
+        since_str = (
+            datetime.strptime(until_str, "%Y-%m-%d") - timedelta(days=6)
+        ).strftime("%Y-%m-%d")
+    else:
+        since_str = _normalize_date(since)
+    if since_str > until_str:
+        raise ValueError(f"since 不得晚于 until: {since_str} > {until_str}")
+
+    directory = (
+        Path(knowledge_dir) if knowledge_dir is not None else DEFAULT_KNOWLEDGE_DIR
+    )
+    entries = _load_articles_between(directory, since_str, until_str)
+    label = f"{since_str} ~ {until_str}"
+    if not entries:
+        logger.info(
+            "[Formatter] %s 无知识条目 (目录: %s)", label, directory
+        )
+        empty = EMPTY_DIGEST_TEMPLATE.format(date=label)
+        return {"markdown": empty, "telegram": empty, "weixin": empty}
+
+    return _assemble_digest(
+        entries,
+        WEEKLY_DIGEST_TITLE_TEMPLATE.format(range=label),
+        label,
+        directory,
+        top_n,
+        grouped,
+        per_group_top_n,
+        brief,
+    )
+
+
+def _assemble_digest(
+    entries: list[tuple[Article, str]],
+    title: str,
+    log_label: str,
+    directory: Path,
+    top_n: int,
+    grouped: bool,
+    per_group_top_n: int,
+    brief: bool,
+) -> dict[str, str]:
+    """按归一化评分降序组装三渠道简报（日报与周报共用）。
+
+    Args:
+        entries: ``(article, filename)`` 二元组列表。
+        title: 已格式化的完整标题行。
+        log_label: 日志与统计使用的窗口标注（单日日期或日期区间）。
+        directory: 知识条目目录（仅用于日志）。
+        top_n: 平铺模式取前 N 篇。
+        grouped: 是否按 category 分组。
+        per_group_top_n: 分组模式每组取前 N 篇。
+        brief: 正文是否用一句话简介。
+
+    Returns:
+        ``{"markdown": ..., "telegram": ..., "weixin": ...}``。
+    """
     ranked = sorted(
         entries,
         key=lambda pair: (
@@ -559,7 +693,6 @@ def generate_daily_digest(
         ),
         reverse=True,
     )
-    title = DIGEST_TITLE_TEMPLATE.format(date=date_str)
 
     if grouped:
         sections = _group_top_articles(
@@ -607,7 +740,7 @@ def generate_daily_digest(
 
     logger.info(
         "[Formatter] %s 简报生成：%d/%d 篇入选，分组=%s (目录: %s)",
-        date_str,
+        log_label,
         selected,
         len(entries),
         grouped,

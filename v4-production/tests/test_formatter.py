@@ -14,6 +14,7 @@ from distribution.formatter import (
     article_brief,
     digest_from_index,
     generate_daily_digest,
+    generate_range_digest,
     json_to_markdown,
     json_to_telegram,
     json_to_weixin,
@@ -253,6 +254,55 @@ class TestGenerateDailyDigest:
         assert DEFAULT_KNOWLEDGE_DIR.name == "articles"
         assert DEFAULT_KNOWLEDGE_DIR.parent.name == "knowledge"
         assert DEFAULT_KNOWLEDGE_DIR.exists()
+
+
+class TestGenerateRangeDigest:
+    def test_collects_across_dates_in_window(self, tmp_path: Path) -> None:
+        _write_article(tmp_path, "2026-10-27-github-a.json", title="tuesdayitem")
+        _write_article(tmp_path, "2026-10-31-github-b.json", title="saturdayitem")
+        digest = generate_range_digest(
+            tmp_path, since="2026-10-25", until="2026-10-31"
+        )
+        assert digest["markdown"].startswith(
+            "# 📚 AI 知识库周报 · 2026-10-25 ~ 2026-10-31"
+        )
+        assert "tuesdayitem" in digest["telegram"]
+        assert "saturdayitem" in digest["weixin"]
+
+    def test_excludes_out_of_window(self, tmp_path: Path) -> None:
+        _write_article(tmp_path, "2026-10-27-github-in.json", title="in-item")
+        _write_article(tmp_path, "2026-10-20-github-out.json", title="out-item")
+        digest = generate_range_digest(
+            tmp_path, since="2026-10-25", until="2026-10-31"
+        )
+        assert "in-item" in digest["markdown"]
+        assert "out-item" not in digest["markdown"]
+
+    def test_default_since_is_six_days_before_until(self, tmp_path: Path) -> None:
+        _write_article(tmp_path, "2026-10-25-github-edge.json", title="edge-item")
+        digest = generate_range_digest(tmp_path, until="2026-10-31")
+        assert "edge-item" in digest["markdown"]
+
+    def test_empty_window_returns_placeholder(self, tmp_path: Path) -> None:
+        (tmp_path / "index.json").write_text("[]", encoding="utf-8")
+        (tmp_path / "recommended.json").write_text("[]", encoding="utf-8")
+        digest = generate_range_digest(
+            tmp_path, since="2026-10-25", until="2026-10-31"
+        )
+        expected = "📭 2026-10-25 ~ 2026-10-31 暂无新增知识条目"
+        assert digest == {
+            "markdown": expected,
+            "telegram": expected,
+            "weixin": expected,
+        }
+
+    def test_since_after_until_raises(self, tmp_path: Path) -> None:
+        with pytest.raises(ValueError, match="since"):
+            generate_range_digest(tmp_path, since="2026-10-31", until="2026-10-25")
+
+    def test_invalid_top_n_raises(self, tmp_path: Path) -> None:
+        with pytest.raises(ValueError, match="top_n"):
+            generate_range_digest(tmp_path, since="2026-10-25", top_n=0)
 
 
 # ---------------------------------------------------------------------------

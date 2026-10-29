@@ -2,9 +2,9 @@ name: Weekly Collect
 
 on:
   schedule:
-    # 每周二、周六北京时间 02:00 = 周一、周五 UTC 18:00
-    # 提频理由：HN/Reddit 等 hot 型源按周采样会漏掉周中爆发的内容
-    - cron: "0 18 * * 1,5"
+    # 每周二、周四、周六北京时间 02:00 = 周一、周三、周五 UTC 18:00
+    # 周二/周四静默采集入库；周六批次额外推送近 7 天周报（见推送步骤）
+    - cron: "0 18 * * 1,3,5"
   workflow_dispatch:
 
 permissions:
@@ -97,13 +97,26 @@ jobs:
           git commit -m "$MSG"
           git push
 
-      # 当日有新条目时推送简报到 Telegram（渠道失败不阻断整体，仅告警）
-      - name: Push digest to Telegram
-        if: steps.count.outputs.count != '0'
+      - name: Compute push window
+        id: pushwin
+        # 周报只在周六（北京时间）批次推送 = UTC 周五（%u=5）；手动触发也推
+        run: |
+          DOW=$(date -u +%u)
+          if [ "$DOW" = "5" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "push=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "push=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "since=$(date -u -d '6 days ago' +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      # 周六批次推送近 7 天周报（窗口含周二/周四/周六三批与手动补采；
+      # 窗口空时脚本静默跳过）；周二/周四批次只采集入库，不推送
+      - name: Push weekly digest to Telegram
+        if: steps.pushwin.outputs.push == 'true'
         continue-on-error: true
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python v4-production/distribution/push_digest.py \
-            --date "${{ steps.date.outputs.today }}" --channels telegram
+            --since "${{ steps.pushwin.outputs.since }}" --channels telegram
