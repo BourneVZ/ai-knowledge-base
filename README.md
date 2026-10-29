@@ -55,11 +55,11 @@ pip install -r requirements.txt
 python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 ```
 
-**免服务器路线**：把 `LLM_API_KEY` 等配置到仓库的 GitHub Actions Secrets 后，无需本地环境——`weekly-collect.yml` 每周六北京时间 02:00 自动采集、校验并提交入库，也可在 Actions 页面手动触发（workflow_dispatch）。
+**免服务器路线**：把 `LLM_API_KEY` 等配置到仓库的 GitHub Actions Secrets 后，无需本地环境——`weekly-collect.yml` 每周六北京时间 02:00 自动运行 V3 LangGraph 工作流（采集 → 分析 → 审核 → 入库并更新 `index.json` 索引），也可在 Actions 页面手动触发（workflow_dispatch）。
 
 **进阶模块**：
 
-- V3 LangGraph 工作流（`workflows/`）：需额外安装 `langgraph`；
+- V3 LangGraph 工作流（`workflows/`）：`python workflows/graph.py`（`langgraph` 已含在 requirements.txt）；
 - V4 推送（`v4-production/distribution/`）：需配置 `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` / `WEIXIN_WEBHOOK_URL`；
 - V4 交互助手（`v4-production/openclaw/`）：由 OpenClaw 网关接入 Telegram。
 
@@ -108,7 +108,7 @@ python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 
 | 项目 | 估算（人民币 / 月） | 说明 |
 | --- | --- | --- |
-| LLM API（DeepSeek） | ¥2 – 5 | 每周 1 次采集、约 20 – 30 篇 / 次，单次成本 < ¥1（`BUDGET_YUAN=1.0` 预算熔断兜底） |
+| LLM API（DeepSeek） | ¥2 – 5 | 每周 1 次采集、约 10 篇 / 次（standard 档，`config.yaml` 可调），含审核循环，单次成本 < ¥1（`BUDGET_YUAN=1.0` 预算熔断兜底） |
 | 服务器（GitHub Actions） | ¥0 | 公共仓库免费；私有仓库单次约 5 – 10 分钟，远低于免费额度 |
 | OpenClaw 常驻（可选） | ¥20 – 40 | 最低配 VPS；只跑定时采集完全不需要服务器 |
 | **合计** | **约 ¥5**（含常驻助手约 ¥25 – 45） | 按 `deepseek-chat` 单价与当前采集量估算 |
