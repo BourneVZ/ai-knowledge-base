@@ -28,5 +28,35 @@
     "title": "AI Learns the \"Dark Art\" of RF Chip Design",
     "tier": "A",
     "recommended_at": "2026-10-30T00:08:48+00:00"
+  },
+  {
+    "file": "2026-07-11-rss_openai_blog-chatgpt-is-now-a-partner-for-your-most-ambitious-work.json",
+    "title": "ChatGPT is now a partner for your most ambitious work",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:11:12+00:00"
+  },
+  {
+    "file": "2026-07-03-rss_lobsters_ai-ai-agents-enable-adaptive-computer-worms.json",
+    "title": "AI Agents Enable Adaptive Computer Worms",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:11:12+00:00"
+  },
+  {
+    "file": "2026-07-03-rss_lobsters_ai-event-tensor-a-unified-abstraction-for-compiling-dynamic-megakernel.json",
+    "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:11:12+00:00"
+  },
+  {
+    "file": "2026-07-03-rss_openai_blog-introducing-genebench-pro.json",
+    "title": "Introducing GeneBench-Pro",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:11:12+00:00"
+  },
+  {
+    "file": "2026-07-03-rss_openai_blog-openai-and-broadcom-unveil-llm-optimized-inference-chip.json",
+    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:11:12+00:00"
   }
 ]
