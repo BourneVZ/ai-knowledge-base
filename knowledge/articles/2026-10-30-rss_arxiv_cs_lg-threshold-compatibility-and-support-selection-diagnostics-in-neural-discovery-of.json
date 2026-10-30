@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261030-009",
+  "title": "Threshold Compatibility and Support-Selection Diagnostics in Neural Discovery of Partial Differential Equations",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2610.37726",
+  "description": "arXiv:2610.37726v1 Announce Type: new \nAbstract: Accurate regression need not yield the correct equation after support selection. For a median/sample-standard-deviation threshold in neural PDE discovery, we derive an exact two-signal retention boundary and a complete-vector perturbation bound. Exact",
+  "summary": "该研究聚焦神经偏微分方程发现中的支持选择阶段，指出即使回归重建误差很小，经阈值筛选后也未必能恢复正确方程结构。作者针对基于中位数/样本标准差的阈值规则，推导了精确的双信号保留边界和完整向量扰动界，用以刻画阈值兼容性条件和支持选择诊断依据。这些理论结果可帮助判断两个候选信号项在阈值下能否被同时保留，并量化系数扰动对选择结果的影响边界，从而识别高精度回归但结构选择错误的情况。研究为神经PDE发现中的阈值设定和失效诊断提供了可计算的理论工具，有助于提升自动方程发现的稳定性和可解释性。",
+  "tags": [
+    "pde",
+    "neural-network",
+    "support-selection",
+    "threshold",
+    "scientific-machine-learning"
+  ],
+  "category": "AI for Science",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-30T21:46:09.968479+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "揭示回归精度与方程结构正确性之间的脱节",
+    "推导双信号保留边界与完整向量扰动界",
+    "为阈值设定和支持选择提供理论诊断工具"
+  ],
+  "risks": [
+    "理论边界依赖特定阈值规则",
+    "缺少实验验证或真实PDE发现案例"
+  ]
+}

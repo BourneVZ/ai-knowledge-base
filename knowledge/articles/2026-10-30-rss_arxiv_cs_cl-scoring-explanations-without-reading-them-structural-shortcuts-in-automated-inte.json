@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261030-005",
+  "title": "Scoring Explanations Without Reading Them: Structural Shortcuts in Automated-Interpretability Evaluation Data",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2610.37676",
+  "description": "arXiv:2610.37676v1 Announce Type: new \nAbstract: Automated interpretability scores an explanation of a sparse-autoencoder (SAE) feature by asking a model to predict, token by token, where the feature fires on evaluation examples or to judge whether marked tokens fit it. We find that the evaluation d",
+  "summary": "本文研究自动可解释性评估中稀疏自编码器（SAE）特征解释的评分方法。现有方法让模型逐token预测特征激活位置，或判断标记token是否符合特征，从而为解释打分。作者发现评估数据本身存在结构性捷径，可能使评分模型无需真正阅读或理解解释内容即可获得高分，导致评估结果失真。论文揭示了这一评估缺陷，指出当前自动可解释性评估协议可能高估解释质量，需要更严格的数据设计与评估标准，以避免捷径带来的虚假高分，为改进SAE特征解释的自动化评估提供重要参考。",
+  "tags": [
+    "interpretability",
+    "sparse-autoencoder",
+    "evaluation",
+    "shortcut-learning",
+    "llm"
+  ],
+  "category": "AI Interpretability",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-30T21:46:09.968479+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "发现SAE自动评估数据存在结构性捷径",
+    "证明模型无需理解解释即可获得高分",
+    "为改进可解释性评估协议提供方向"
+  ],
+  "risks": [
+    "结构性捷径可能仅存在于特定评估数据集，泛化性待验证",
+    "若被滥用可能进一步削弱自动评估可信度"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261030-007",
+  "title": "Moment-Guided Optimizers for Noisy Deep Learning: MGO-SC as a Simple Consistency Gate for Adam-Style Updates",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2610.37712",
+  "description": "arXiv:2610.37712v1 Announce Type: new \nAbstract: Adaptive optimizers are widely used in deep learning, yet their behavior can degrade under heavy stochasticity and label noise where the sign and magnitude of gradients can be unstable. We study MGO-SC (Moment-Guided Optimizer with Sign-Consistency), ",
+  "summary": "该论文针对噪声环境下深度学习的优化问题，提出 MGO-SC（Moment-Guided Optimizer with Sign-Consistency）。在重随机性和标签噪声影响下，梯度符号和幅度容易不稳定，导致 Adam 等自适应优化器性能下降。MGO-SC 引入基于动量的符号一致性门控：当当前梯度与动量方向不一致时，约束或抑制更新，从而过滤噪声梯度，提升训练稳定性。该方法结构简单，可作为插件集成到现有 Adam 风格优化器中，有望改善嘈杂标签和强随机场景下的模型鲁棒性与收敛表现。",
+  "tags": [
+    "optimizer",
+    "deep-learning",
+    "adam",
+    "sign-consistency",
+    "label-noise"
+  ],
+  "category": "AI Optimizer",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-30T21:46:09.968479+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出符号一致性门控，利用动量与梯度方向一致性抑制噪声",
+    "可作为简单插件集成到 Adam 风格更新",
+    "针对标签噪声和强随机性提升训练稳定性"
+  ],
+  "risks": [
+    "门控机制可能误丢弃有效梯度信号",
+    "在低噪声或平稳场景下收益有限"
+  ]
+}

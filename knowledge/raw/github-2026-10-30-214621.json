@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "ccch1mneyyy/dsh-Go",
+    "url": "https://github.com/ccch1mneyyy/dsh-Go",
+    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "stars": 2389,
+    "collected_at": "2026-10-30T21:46:09.968424+00:00"
+  },
+  {
+    "source": "github",
+    "title": "wangzan101/Mika",
+    "url": "https://github.com/wangzan101/Mika",
+    "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "stars": 1134,
+    "collected_at": "2026-10-30T21:46:09.968439+00:00"
+  },
+  {
+    "source": "github",
+    "title": "huaxialucaicaizi/ai-startup-skills",
+    "url": "https://github.com/huaxialucaicaizi/ai-startup-skills",
+    "description": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。",
+    "stars": 604,
+    "collected_at": "2026-10-30T21:46:09.968443+00:00"
+  },
+  {
+    "source": "github",
+    "title": "C4rohan/Lampline",
+    "url": "https://github.com/C4rohan/Lampline",
+    "description": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+    "stars": 548,
+    "collected_at": "2026-10-30T21:46:09.968445+00:00"
+  },
+  {
+    "source": "github",
+    "title": "hevnsnt/CVEngine",
+    "url": "https://github.com/hevnsnt/CVEngine",
+    "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+    "stars": 534,
+    "collected_at": "2026-10-30T21:46:09.968447+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Alejandros17487/ai-jailbreaks",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
+    "stars": 528,
+    "collected_at": "2026-10-30T21:46:09.968449+00:00"
+  },
+  {
+    "source": "github",
+    "title": "langchain-ai/design-agent",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+    "stars": 509,
+    "collected_at": "2026-10-30T21:46:09.968451+00:00"
+  },
+  {
+    "source": "github",
+    "title": "jackwener/DSH-Android",
+    "url": "https://github.com/jackwener/DSH-Android",
+    "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+    "stars": 502,
+    "collected_at": "2026-10-30T21:46:09.968453+00:00"
+  },
+  {
+    "source": "github",
+    "title": "eliasbiondo/antirion",
+    "url": "https://github.com/eliasbiondo/antirion",
+    "description": "🕷️ The fastest open-source AI Gateway and LLM Gateway — one binary with built-in console to route, secure, budget and observe every LLM call across OpenAI, Anthropic, Gemini, Bedrock and more.",
+    "stars": 495,
+    "collected_at": "2026-10-30T21:46:09.968455+00:00"
+  },
+  {
+    "source": "github",
+    "title": "MemTensor/MemT-1.0",
+    "url": "https://github.com/MemTensor/MemT-1.0",
+    "description": "Official repository for MemT-1.0",
+    "stars": 480,
+    "collected_at": "2026-10-30T21:46:09.968457+00:00"
+  }
+]

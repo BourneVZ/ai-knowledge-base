@@ -1,0 +1,122 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+    "url": "https://divagr.com/blog/qwenputer",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+    "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+    "url": "https://arxiv.org/abs/2610.14162",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "The FlightFinder Occurrence Corpus: harmonising 128 aviation-safety source codes into one deduplicated cross-national accident dataset",
+    "url": "https://arxiv.org/abs/2610.37671",
+    "description": "arXiv:2610.37671v1 Announce Type: new \nAbstract: National aviation-investigation databases are deep but territorial; global compilations such as the Aviation Safety Network and the Bureau of Aircraft Accidents Archives are hand-curated, apply their own inclusion thresholds, and publish no per-record",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Scoring Explanations Without Reading Them: Structural Shortcuts in Automated-Interpretability Evaluation Data",
+    "url": "https://arxiv.org/abs/2610.37676",
+    "description": "arXiv:2610.37676v1 Announce Type: new \nAbstract: Automated interpretability scores an explanation of a sparse-autoencoder (SAE) feature by asking a model to predict, token by token, where the feature fires on evaluation examples or to judge whether marked tokens fit it. We find that the evaluation d",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "The Best Second Opinion Is Right Where the Primary Is Wrong: Partner Selection for Selective Span Tagging",
+    "url": "https://arxiv.org/abs/2610.37678",
+    "description": "arXiv:2610.37678v1 Announce Type: new \nAbstract: A span tagger that ranks its outputs by risk can defer the riskiest ones to a person, and a second model can sharpen this ranking. Which second model should it be? Partner selection is conditional, not global: the best second opinion is the model that",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Moment-Guided Optimizers for Noisy Deep Learning: MGO-SC as a Simple Consistency Gate for Adam-Style Updates",
+    "url": "https://arxiv.org/abs/2610.37712",
+    "description": "arXiv:2610.37712v1 Announce Type: new \nAbstract: Adaptive optimizers are widely used in deep learning, yet their behavior can degrade under heavy stochasticity and label noise where the sign and magnitude of gradients can be unstable. We study MGO-SC (Moment-Guided Optimizer with Sign-Consistency), ",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "What a Weight Update Buys: Leverage Across Training Stages",
+    "url": "https://arxiv.org/abs/2610.37719",
+    "description": "arXiv:2610.37719v1 Announce Type: new \nAbstract: Post-training moves a language model's weights by about a thousandth of their norm and changes its behavior sharply; pretraining moves them by a third and buys a slow drift. We introduce leverage, an exact measure of what a unit of weight change buys:",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Threshold Compatibility and Support-Selection Diagnostics in Neural Discovery of Partial Differential Equations",
+    "url": "https://arxiv.org/abs/2610.37726",
+    "description": "arXiv:2610.37726v1 Announce Type: new \nAbstract: Accurate regression need not yield the correct equation after support selection. For a median/sample-standard-deviation threshold in neural PDE discovery, we derive an exact two-signal retention boundary and a complete-vector perturbation bound. Exact",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "nemotron-halloween",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Granite Switch 4.1.1 — Update models like you update software",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+    "url": "https://huggingface.co/blog/announcing-project-protostar",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+    "description": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+    "stars": null,
+    "collected_at": "2026-10-30T21:46:09.968479+00:00"
+  }
+]

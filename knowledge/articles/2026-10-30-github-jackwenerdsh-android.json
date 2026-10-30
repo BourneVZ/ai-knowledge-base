@@ -1,0 +1,33 @@
+{
+  "id": "github-20261030-003",
+  "title": "jackwener/DSH-Android",
+  "source": "github",
+  "source_url": "https://github.com/jackwener/DSH-Android",
+  "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+  "summary": "该项目是一个安卓端 AI Agent 应用，将 DeepSeek Harness 引擎内嵌到单个 APK 中，免 ROOT、免 Termux 即可运行。它利用无障碍读屏能力感知和操作其他 App，可修改系统设置，支持定时与条件触发自动化任务，并可选集成 Shizuku 获取更高权限。该方案大幅降低了在移动端部署大语言模型智能体的门槛，让普通用户通过安装 APK 即可获得本地智能自动化能力。但其读屏操作依赖系统无障碍服务，在不同厂商 ROM 上的兼容性和稳定性可能存在差异，部分系统设置修改也可能受到限制。",
+  "tags": [
+    "android",
+    "ai-agent",
+    "deepseek",
+    "automation",
+    "accessibility"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 502,
+  "collected_at": "2026-10-30T21:46:09.968453+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "免 ROOT 免 Termux 单 APK 部署",
+    "内嵌 DeepSeek Harness 本地引擎",
+    "读屏操作 App + 定时/条件自动化"
+  ],
+  "risks": [
+    "依赖无障碍服务，兼容性与稳定性存疑",
+    "修改系统设置可能受 ROM 限制"
+  ]
+}

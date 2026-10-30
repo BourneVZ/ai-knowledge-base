@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261030-004",
+  "title": "The FlightFinder Occurrence Corpus: harmonising 128 aviation-safety source codes into one deduplicated cross-national accident dataset",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2610.37671",
+  "description": "arXiv:2610.37671v1 Announce Type: new \nAbstract: National aviation-investigation databases are deep but territorial; global compilations such as the Aviation Safety Network and the Bureau of Aircraft Accidents Archives are hand-curated, apply their own inclusion thresholds, and publish no per-record",
+  "summary": "该项目提出构建FlightFinder航空事故语料库，协调128个航空安全来源代码或分类体系，将多国航空调查数据库整合为去重后的跨国事故数据集。现有全球汇编如Aviation Safety Network和Bureau of Aircraft Accidents Archives多依赖人工整理，收录标准不统一，且缺乏记录级公开数据。该语料库通过统一编码与去重，提供更一致、可追溯的记录级事故数据，有助于提升跨国事故统计的可比性、覆盖率，并支撑航空安全分析和风险建模。",
+  "tags": [
+    "aviation-safety",
+    "dataset",
+    "deduplication",
+    "record-linkage",
+    "harmonization"
+  ],
+  "category": "Data Engineering",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-30T21:46:09.968479+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "协调128个航空安全来源代码",
+    "构建去重的跨国航空事故语料库",
+    "提供更统一的记录级事故数据"
+  ],
+  "risks": [
+    "不同来源分类代码映射可能存在语义偏差",
+    "各国报告制度差异可能影响数据覆盖均衡"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261030-008",
+  "title": "What a Weight Update Buys: Leverage Across Training Stages",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2610.37719",
+  "description": "arXiv:2610.37719v1 Announce Type: new \nAbstract: Post-training moves a language model's weights by about a thousandth of their norm and changes its behavior sharply; pretraining moves them by a third and buys a slow drift. We introduce leverage, an exact measure of what a unit of weight change buys:",
+  "summary": "该论文提出“leverage”（杠杆）度量，精确量化单位权重变化对模型行为或损失的影响。作者对比语言模型后训练与预训练阶段，发现后训练仅需将权重移动约千分之一范数即可引起行为剧烈改变，而预训练权重移动幅度达三分之一范数却只带来缓慢漂移。该度量揭示不同训练阶段权重更新收益的巨大差异，统一刻画训练动态，为优化训练策略、理解模型泛化与行为变化提供新的理论工具。",
+  "tags": [
+    "ai",
+    "llm",
+    "training-dynamics",
+    "weight-update",
+    "leverage"
+  ],
+  "category": "AI Training",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-30T21:46:09.968479+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出 leverage 度量单位权重变化的行为收益",
+    "揭示后训练微小权重变化可剧烈改变行为，预训练大幅变化仅带来缓慢漂移",
+    "为跨训练阶段动态提供统一分析框架"
+  ],
+  "risks": [
+    "度量依赖损失或行为定义，可能难以全面反映实际能力变化",
+    "缺乏大规模多模型验证，普适性待考"
+  ]
+}

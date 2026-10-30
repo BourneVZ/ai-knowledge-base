@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261030-006",
+  "title": "The Best Second Opinion Is Right Where the Primary Is Wrong: Partner Selection for Selective Span Tagging",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2610.37678",
+  "description": "arXiv:2610.37678v1 Announce Type: new \nAbstract: A span tagger that ranks its outputs by risk can defer the riskiest ones to a person, and a second model can sharpen this ranking. Which second model should it be? Partner selection is conditional, not global: the best second opinion is the model that",
+  "summary": "本文针对选择性跨度标注场景，研究如何为已能按风险排序的主标注模型选择第二意见模型。主模型可把高风险样本交由人工处理，而第二模型用于进一步校准风险排序。作者指出，伙伴选择不应依据全局性能，而应是条件性的：最佳第二意见模型是那些在主模型犯错处表现正确的模型。论文提出面向选择性跨度标注的伙伴选择方法，关注候选模型与主模型错误模式之间的互补关系，而非单纯准确率。该方法有助于在高风险样本上提升排序质量与人工干预效率，降低错误标注风险。整体思路将人机协作中的模型选择从全局最优转向局部互补，为选择性预测和 deferral 机制提供了新的伙伴选择标准。",
+  "tags": [
+    "selective prediction",
+    "span tagging",
+    "human-in-the-loop",
+    "model selection",
+    "nlp"
+  ],
+  "category": "Natural Language Processing",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-30T21:46:09.968479+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出条件化伙伴选择，而非全局最优第二模型",
+    "关注第二模型在主模型犯错处正确的互补能力",
+    "优化选择性跨度标注的风险排序与人机协同"
+  ],
+  "risks": [
+    "依赖主模型错误分布的可靠估计",
+    "方法专用性强，跨任务泛化尚未验证"
+  ]
+}

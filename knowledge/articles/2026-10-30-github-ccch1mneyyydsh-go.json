@@ -1,0 +1,33 @@
+{
+  "id": "github-20261030-001",
+  "title": "ccch1mneyyy/dsh-Go",
+  "source": "github",
+  "source_url": "https://github.com/ccch1mneyyy/dsh-Go",
+  "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+  "summary": "dsh-go 是一个基于 Go 语言实现的 DeepSeek Harness 工具，核心定位是让用户将 DeepSeek 能力“装进口袋”。它面向移动端场景，支持在手机本机运行，同时提供远程控制电脑端会话或任务的能力，便于用户通过手机随时接入大模型、查看结果或管理运行在电脑上的服务。项目采用 Go 开发，具备跨平台、轻量部署和单二进制分发优势，适合在 Termux 等移动环境中快速启动。其双模式设计将本地便携性与桌面端算力或资源结合，降低了个人及小型团队使用 DeepSeek 的门槛，也为移动 AI 助手、远程调试等场景提供了简单实现路径。",
+  "tags": [
+    "deepseek",
+    "go",
+    "cli",
+    "mobile",
+    "remote-control"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 2389,
+  "collected_at": "2026-10-30T21:46:09.968424+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "Go 单二进制跨平台，适配手机运行",
+    "手机本机与遥控电脑双模式",
+    "轻量接入 DeepSeek，降低使用门槛"
+  ],
+  "risks": [
+    "远程控制需强化鉴权与网络安全",
+    "移动端依赖网络或 API，离线能力有限"
+  ]
+}

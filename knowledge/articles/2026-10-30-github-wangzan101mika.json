@@ -1,0 +1,33 @@
+{
+  "id": "github-20261030-002",
+  "title": "wangzan101/Mika",
+  "source": "github",
+  "source_url": "https://github.com/wangzan101/Mika",
+  "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+  "summary": "Mika 是一个面向 Android 的端侧 AI 助理，目标是代替用户操作手机应用与网页，完成真实任务。它通过设备端多模态模型理解屏幕内容并生成操作指令，利用 Android 无障碍或自动化框架执行点击、输入、导航等动作，无需依赖云端大模型。相比云端方案，Mika 强调隐私保护和离线可用，适合处理订餐、信息查询、表单填写等跨应用流程。项目展示了移动端 GUI Agent 的可行路径，但端侧模型在复杂推理、长流程规划和界面适配方面仍面临挑战，兼容性与稳定性有待打磨。",
+  "tags": [
+    "ai",
+    "android",
+    "agent",
+    "automation",
+    "on-device"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 1134,
+  "collected_at": "2026-10-30T21:46:09.968439+00:00",
+  "raw_path": "knowledge/raw/github-2026-10-30-214621.json",
+  "analyzed_at": "2026-10-30T21:59:04.408656+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "端侧运行，隐私友好",
+    "跨 App 与网页自主操作",
+    "多步骤任务自动化执行"
+  ],
+  "risks": [
+    "端侧模型能力受限",
+    "不同应用界面兼容性风险"
+  ]
+}
