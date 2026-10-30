@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261030-003",
+  "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+  "source": "rss/hn_ai",
+  "source_url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+  "description": "Article URL: https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/\nComments URL: https://news.ycombinator.com/item?id=50273396\nPoints: 482\n# Comments: 520",
+  "summary": "肯塔基州一名人文主义者成为首个因宗教豁免而获准不使用AI的人。该案例基于人文主义信仰，主张AI使用与其核心价值观相冲突，因此申请宗教豁免。这一决定开创了法律先例，将AI伦理与宗教自由结合，引发关于技术强制性、个人信仰与数字权利之间平衡的讨论。支持者认为这是对多元世界观尊重的重要一步，反对者则担忧豁免可能导致AI监管漏洞。此案例凸显了在技术普及背景下，如何兼顾不同群体的伦理和宗教需求，以及法律框架需要适应新兴挑战。",
+  "tags": [
+    "ai",
+    "ethics",
+    "religion",
+    "humanism",
+    "policy"
+  ],
+  "category": "AI Policy",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T23:59:43.818537+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-235952.json",
+  "analyzed_at": "2026-10-30T00:03:07.330382+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "首次人文主义宗教豁免AI",
+    "确立AI伦理与宗教自由交叉先例",
+    "推动技术监管包容性"
+  ],
+  "risks": [
+    "豁免范围界定模糊",
+    "可能被滥用为规避AI要求"
+  ]
+}

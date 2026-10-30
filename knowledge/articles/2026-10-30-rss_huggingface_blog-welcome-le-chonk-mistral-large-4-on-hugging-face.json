@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261030-006",
+  "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/mistral-large4",
+  "description": "",
+  "summary": "Mistral Large 4 模型正式登陆 Hugging Face 平台，标志着 Mistral AI 在大型语言模型领域的又一重要进展。该模型具备更强的推理能力、更大的上下文窗口以及多语言支持，旨在为开发者提供高性能的开放权重模型。通过 Hugging Face 的集成，用户可便捷地使用 Transformers 库进行部署和微调，同时兼容多种推理框架。此举进一步推动了开源大模型的生态发展，为企业和研究者提供了更灵活的选择。",
+  "tags": [
+    "ai",
+    "llm",
+    "mistral",
+    "huggingface",
+    "open-source"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T23:59:43.818537+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-235952.json",
+  "analyzed_at": "2026-10-30T00:03:07.330382+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "高性能开放权重模型",
+    "Hugging Face 原生集成",
+    "多语言与长上下文支持"
+  ],
+  "risks": [
+    "模型参数量大，推理成本较高",
+    "潜在偏见与安全对齐挑战"
+  ]
+}

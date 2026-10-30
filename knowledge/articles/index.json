@@ -1,5 +1,97 @@
 [
   {
+    "id": "hn_ai-20261030-001",
+    "file": "2026-10-30-rss_hn_ai-llm-voice.json",
+    "title": "LLM Voice",
+    "category": "AI Agent",
+    "tags": [
+      "llm",
+      "voice",
+      "architecture",
+      "agent"
+    ],
+    "collected_at": "2026-10-29T23:59:43.818537+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261030-002",
+    "file": "2026-10-30-rss_hn_ai-claude-code-regularly-sends-each-background-agents-transcript-to-its-model.json",
+    "title": "Claude Code regularly sends each background agent’s transcript to its model",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "privacy",
+      "llm",
+      "agent"
+    ],
+    "collected_at": "2026-10-29T23:59:43.818537+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261030-003",
+    "file": "2026-10-30-rss_hn_ai-kentucky-man-becomes-the-first-humanist-granted-religious-exemption-from-ai.json",
+    "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+    "category": "AI Policy",
+    "tags": [
+      "ai",
+      "ethics",
+      "religion",
+      "humanism",
+      "policy"
+    ],
+    "collected_at": "2026-10-29T23:59:43.818537+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261030-004",
+    "file": "2026-10-30-rss_huggingface_blog-granite-switch-411-update-models-like-you-update-software.json",
+    "title": "Granite Switch 4.1.1 — Update models like you update software",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "mlops",
+      "model-management"
+    ],
+    "collected_at": "2026-10-29T23:59:43.818537+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261030-005",
+    "file": "2026-10-30-rss_huggingface_blog-announcing-project-protostar-making-publicly-funded-science-ai-ready.json",
+    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+    "category": "AI Infrastructure",
+    "tags": [
+      "ai",
+      "science",
+      "open-data",
+      "infrastructure"
+    ],
+    "collected_at": "2026-10-29T23:59:43.818537+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261030-006",
+    "file": "2026-10-30-rss_huggingface_blog-welcome-le-chonk-mistral-large-4-on-hugging-face.json",
+    "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "mistral",
+      "huggingface",
+      "open-source"
+    ],
+    "collected_at": "2026-10-29T23:59:43.818537+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
     "id": "lobsters_ai-20261029-011",
     "file": "2026-10-29-rss_lobsters_ai-qwenputer-a-fully-functioning-deterministic-risc-v-cpu-inside-qwen35.json",
     "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",

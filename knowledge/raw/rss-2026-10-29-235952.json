@@ -1,0 +1,98 @@
+[
+  {
+    "source": "rss/hn_ai",
+    "title": "LLM Voice",
+    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+    "description": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html\nComments URL: https://news.ycombinator.com/item?id=50290177\nPoints: 315\n# Comments: 164",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "Claude Code regularly sends each background agent’s transcript to its model",
+    "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+    "description": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce\nComments URL: https://news.ycombinator.com/item?id=50284255\nPoints: 558\n# Comments: 224",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+    "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+    "description": "Article URL: https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/\nComments URL: https://news.ycombinator.com/item?id=50273396\nPoints: 482\n# Comments: 520",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+    "url": "https://divagr.com/blog/qwenputer",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+    "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+    "url": "https://arxiv.org/abs/2610.14162",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Granite Switch 4.1.1 — Update models like you update software",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+    "url": "https://huggingface.co/blog/announcing-project-protostar",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+    "url": "https://huggingface.co/blog/mistral-large4",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+    "description": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+    "stars": null,
+    "collected_at": "2026-10-29T23:59:43.818537+00:00"
+  }
+]

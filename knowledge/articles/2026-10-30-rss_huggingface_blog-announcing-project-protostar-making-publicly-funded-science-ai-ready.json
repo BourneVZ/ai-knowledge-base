@@ -1,0 +1,32 @@
+{
+  "id": "huggingface_blog-20261030-005",
+  "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/announcing-project-protostar",
+  "description": "",
+  "summary": "Project ProtoStar 是一项旨在将公共资助的科学数据转化为 AI 可读格式的倡议。通过标准化数据集、增强元数据和建立开放接口，该项目使研究人员和 AI 模型能够更高效地利用公共科研成果。其核心目标是打破数据孤岛，推动开放科学，并加速 AI 驱动的科学发现。该计划可能涉及与多个科研机构合作，构建大规模的数据基础设施，并促进跨学科研究。",
+  "tags": [
+    "ai",
+    "science",
+    "open-data",
+    "infrastructure"
+  ],
+  "category": "AI Infrastructure",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T23:59:43.818537+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-235952.json",
+  "analyzed_at": "2026-10-30T00:03:07.330382+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "公共科研数据标准化",
+    "AI 友好型开放接口",
+    "加速科学发现"
+  ],
+  "risks": [
+    "数据隐私与伦理挑战",
+    "跨机构标准实施难度"
+  ]
+}

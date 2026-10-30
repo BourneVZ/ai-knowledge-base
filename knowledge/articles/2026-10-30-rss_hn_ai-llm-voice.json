@@ -1,0 +1,32 @@
+{
+  "id": "hn_ai-20261030-001",
+  "title": "LLM Voice",
+  "source": "rss/hn_ai",
+  "source_url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "description": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html\nComments URL: https://news.ycombinator.com/item?id=50290177\nPoints: 315\n# Comments: 164",
+  "summary": "本文由 Martin Fowler 提出“LLM Voice”概念，探讨在构建大语言模型应用时，如何将自然语言交互作为一种核心设计模式。文章分析了 LLM 在软件架构中的位置，强调通过清晰的上下文管理和提示词设计来塑造模型的“声音”，使其行为可预测且符合产品需求。同时，文章讨论了将 LLM 封装为服务层、与现有系统集成的方式，并指出这有助于构建更自然的 AI Agent。文中也警示了模型幻觉、延迟和成本等工程挑战，建议开发者设置明确的边界和验证机制。",
+  "tags": [
+    "llm",
+    "voice",
+    "architecture",
+    "agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T23:59:43.818537+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-235952.json",
+  "analyzed_at": "2026-10-30T00:03:07.330382+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "自然语言交互机制",
+    "上下文与提示词设计",
+    "服务封装与边界控制"
+  ],
+  "risks": [
+    "幻觉和输出质量不稳定",
+    "上下文管理复杂"
+  ]
+}

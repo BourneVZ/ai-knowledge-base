@@ -1,0 +1,32 @@
+{
+  "id": "huggingface_blog-20261030-004",
+  "title": "Granite Switch 4.1.1 — Update models like you update software",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+  "description": "",
+  "summary": "Granite Switch 4.1.1 是一个将大型语言模型更新与软件工程实践相结合的框架，旨在让模型像软件一样可版本化、可更新、可回滚。它提供标准化的模型切换机制，降低模型迭代的运维成本，提升AI系统的可维护性。该项目借鉴软件包管理理念，支持细粒度控制、兼容性检测与动态加载，适用于多模型生产环境。其核心创新在于将DevOps流程引入模型生命周期管理，有望推动AI开发标准化。",
+  "tags": [
+    "ai",
+    "llm",
+    "mlops",
+    "model-management"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T23:59:43.818537+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-235952.json",
+  "analyzed_at": "2026-10-30T00:03:07.330382+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "模型版本化与热切换",
+    "软件式更新流程",
+    "降低运维成本"
+  ],
+  "risks": [
+    "框架成熟度待验证",
+    "兼容性处理复杂"
+  ]
+}

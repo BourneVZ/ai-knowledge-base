@@ -1,0 +1,32 @@
+{
+  "id": "hn_ai-20261030-002",
+  "title": "Claude Code regularly sends each background agent’s transcript to its model",
+  "source": "rss/hn_ai",
+  "source_url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+  "description": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce\nComments URL: https://news.ycombinator.com/item?id=50284255\nPoints: 558\n# Comments: 224",
+  "summary": "该项目揭示Anthropic的编程工具Claude Code会定期将每个后台代理的完整对话记录发送给其模型。这一行为意味着用户在使用后台代理时的所有交互内容都会被自动收集并传输至模型端，可能引发隐私和数据安全方面的担忧。社区讨论集中在透明度不足、用户知情权缺失以及敏感代码或数据暴露风险上。",
+  "tags": [
+    "ai",
+    "privacy",
+    "llm",
+    "agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-10-29T23:59:43.818537+00:00",
+  "raw_path": "knowledge/raw/rss-2026-10-29-235952.json",
+  "analyzed_at": "2026-10-30T00:03:07.330382+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 2,
+  "key_points": [
+    "自动回传代理完整记录",
+    "模型访问后台对话全量内容",
+    "引发隐私与透明度争议"
+  ],
+  "risks": [
+    "敏感信息未授权传输",
+    "用户对数据流向缺乏控制"
+  ]
+}
