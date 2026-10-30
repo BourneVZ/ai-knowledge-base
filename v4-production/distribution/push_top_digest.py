@@ -35,6 +35,7 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from distribution.formatter import (  # noqa: E402
+    _escape_telegram,
     _fit_telegram_message,
     json_to_telegram,
 )
@@ -188,8 +189,11 @@ def build_message(
             continue
         block = json_to_telegram(article, brief=True)
         first_line, _, rest = block.partition("\n")
-        blocks.append(f"{first_line}（档位 {TIER_LABEL[tier]}）\n{rest}")
-    return _fit_telegram_message(header, blocks)
+        # 档位标注里的 "+" 等 MarkdownV2 保留字符同样需要转义
+        note = _escape_telegram(f"（档位 {TIER_LABEL[tier]}）")
+        blocks.append(f"{first_line}{note}\n{rest}")
+    # header 含日期 "-" / "."，必须转义后才能进 MarkdownV2 消息
+    return _fit_telegram_message(_escape_telegram(header), blocks)
 
 
 def main() -> int:

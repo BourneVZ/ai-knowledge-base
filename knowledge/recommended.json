@@ -1,0 +1,32 @@
+[
+  {
+    "file": "2026-10-29-rss_lobsters_ai-qwenputer-a-fully-functioning-deterministic-risc-v-cpu-inside-qwen35.json",
+    "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:08:48+00:00"
+  },
+  {
+    "file": "2026-10-29-rss_google_ai_blog-gemini-4-argon-built-to-solve-your-hardest-problems.json",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:08:48+00:00"
+  },
+  {
+    "file": "2026-07-11-rss_hn_ai-ai-generated-videos-to-maximally-drive-a-target-brain-region.json",
+    "title": "AI-generated videos to maximally drive a target brain region",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:08:48+00:00"
+  },
+  {
+    "file": "2026-07-03-rss_huggingface_blog-discoformer-one-transformer-for-density-and-score-across-distributions.json",
+    "title": "DiScoFormer: One transformer for density and score, across distributions",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:08:48+00:00"
+  },
+  {
+    "file": "2026-07-03-rss_lobsters_ai-ai-learns-the-dark-art-of-rf-chip-design.json",
+    "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+    "tier": "A",
+    "recommended_at": "2026-10-30T00:08:48+00:00"
+  }
+]
