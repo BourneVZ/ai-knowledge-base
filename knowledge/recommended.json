@@ -58,5 +58,23 @@
     "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
     "tier": "A",
     "recommended_at": "2026-10-30T00:11:12+00:00"
+  },
+  {
+    "file": "2026-07-03-rss_openai_blog-a-near-autonomous-ai-chemist-improves-a-challenging-reaction-in-medicinal-chemis.json",
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "tier": "A",
+    "recommended_at": "2026-10-31T20:52:36+00:00"
+  },
+  {
+    "file": "2026-07-01-github-shubhamsabooawesome-llm-apps.json",
+    "title": "Shubhamsaboo/awesome-llm-apps",
+    "tier": "C",
+    "recommended_at": "2026-10-31T20:52:36+00:00"
+  },
+  {
+    "file": "2026-07-01-github-earendil-workspi.json",
+    "title": "earendil-works/pi",
+    "tier": "C",
+    "recommended_at": "2026-10-31T20:52:36+00:00"
   }
 ]
