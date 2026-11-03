@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261103-007",
+  "title": "Let’s Build a Brain",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://aatishb.com/myriad/lets-build-a-brain/",
+  "description": "Comments",
+  "summary": "该项目以“从零构建大脑”为核心，旨在用代码模拟生物神经元、突触连接与学习过程，帮助开发者理解人工神经网络的基本原理。项目采用模块化设计，从单神经元模型、激活函数、突触可塑性到多层网络训练逐步实现，强调可解释性与教学价值。来源为 Lobsters AI 社区，相关讨论显示其受到工程与研究者关注。当前版本更偏教育实验，适合学习神经网络底层机制，而非直接用于生产环境。其在生物拟真度、可扩展性和计算效率方面仍有局限，但作为理解深度学习与类脑计算的开源入门项目，具有较好的参考意义。",
+  "tags": [
+    "ai",
+    "neural-network",
+    "brain-simulation",
+    "deep-learning",
+    "education"
+  ],
+  "category": "AI Education",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "从零实现神经元与突触可塑性",
+    "模块化教学导向设计",
+    "兼顾类脑计算与深度学习基础"
+  ],
+  "risks": [
+    "生物拟真度有限",
+    "大规模网络计算开销较高"
+  ]
+}

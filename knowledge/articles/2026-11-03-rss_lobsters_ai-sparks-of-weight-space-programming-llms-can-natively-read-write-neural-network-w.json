@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261103-006",
+  "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://rikiyat.github.io/blog/weight-space-programming/",
+  "description": "Comments",
+  "summary": "该项目探索了权重空间编程的可能性，即让大语言模型（LLM）直接读取和写入神经网络权重，而不依赖传统的梯度下降微调。研究者将网络权重展平为序列或某种可学习的表示，使 LLM 能以原生方式理解权重模式，并进行修改、迁移甚至生成新的权重配置。实验显示 LLM 在部分小规模网络和任务上展现出一定的权重编辑能力，暗示其可能学会了对权重空间的某种结构化操作。这一思路若成立，将开辟一条不同于反向传播的模型编辑与元学习路径，有望降低模型调整成本、提升跨模型知识迁移的灵活性，但目前仍处于早期验证阶段。",
+  "tags": [
+    "ai",
+    "llm",
+    "weight-space",
+    "model-editing",
+    "neural-networks"
+  ],
+  "category": "Model Editing",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "原生读写神经网络权重",
+    "绕过梯度下降直接进行模型编辑",
+    "探索权重空间的序列建模与迁移"
+  ],
+  "risks": [
+    "权重序列长度过大导致扩展性受限",
+    "编辑可靠性及泛化能力尚未验证"
+  ]
+}

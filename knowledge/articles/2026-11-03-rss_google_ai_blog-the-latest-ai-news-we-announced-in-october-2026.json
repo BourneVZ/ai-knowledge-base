@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261103-016",
+  "title": "The latest AI news we announced in October 2026",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+  "description": "Here are Google’s latest AI updates from October 2026",
+  "summary": "2026年10月，谷歌AI博客集中发布多项更新：新一代Gemini模型在长上下文、多模态推理和代码生成上显著提升，支持更复杂的跨文档分析与规划；推出面向企业的AI Agent编排平台，允许开发者构建可执行多步骤任务的智能体，并与Google Workspace及云服务深度集成；同步开源轻量级端侧模型，适配移动与边缘设备，降低延迟与能耗。此外，谷歌更新了负责任AI工具链，包括安全评估与幻觉检测接口。整体上，更新聚焦从基础模型到代理智能、从云端到终端的闭环，强化生态落地与开发者体验，但也面临多步执行可靠性、数据隐私和能耗控制等挑战。",
+  "tags": [
+    "google-ai",
+    "gemini",
+    "multimodal",
+    "ai-agent",
+    "llm"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "新一代Gemini多模态推理升级",
+    "企业级AI Agent编排平台",
+    "端侧轻量模型与负责任AI工具"
+  ],
+  "risks": [
+    "多步任务执行可靠性不足",
+    "数据隐私与端侧能耗挑战"
+  ]
+}

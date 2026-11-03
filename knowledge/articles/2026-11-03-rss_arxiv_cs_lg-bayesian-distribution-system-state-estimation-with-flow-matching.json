@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261103-013",
+  "title": "Bayesian Distribution System State Estimation with Flow Matching",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2610.40728",
+  "description": "arXiv:2610.40728v1 Announce Type: new \nAbstract: Medium-voltage feeders have few real-time measurements, so distribution system state estimation (DSSE) rests on pseudo-measurements of the secondary substations, a prior in Bayesian terms. Weighted least squares keeps the power flow exact but reduces ",
+  "summary": "中压配电网实时量测稀缺，配电系统状态估计通常依赖二次变电站伪量测作为贝叶斯先验。传统加权最小二乘法保持潮流方程精确，但通常退化为点估计，难以量化不确定性。本文提出一种基于流匹配的贝叶斯配电系统状态估计方法，利用条件流匹配生成模型逼近状态变量的后验分布，融合伪量测先验与稀疏实时量测进行概率推断。该方法可生成状态样本，提供完整的不确定性量化，提升有限量测条件下的估计稳健性。相比传统WLS点估计，该方法能更灵活地刻画配电系统状态的不确定性，适合可观测性不足的实际配电网场景。",
+  "tags": [
+    "flow-matching",
+    "bayesian-inference",
+    "distribution-system",
+    "state-estimation",
+    "generative-model"
+  ],
+  "category": "AI for Energy",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "采用条件流匹配生成模型估计状态后验分布",
+    "融合伪量测先验与稀疏实时量测进行贝叶斯推断",
+    "提供不确定性量化，突破加权最小二乘点估计局限"
+  ],
+  "risks": [
+    "配电网规模扩展时生成模型训练与推理成本较高",
+    "对伪量测先验质量敏感，可能影响后验估计精度"
+  ]
+}

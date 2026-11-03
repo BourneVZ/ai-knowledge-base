@@ -1,0 +1,33 @@
+{
+  "id": "github-20261103-001",
+  "title": "modelflare-ai/AnyModelBot",
+  "source": "github",
+  "source_url": "https://github.com/modelflare-ai/AnyModelBot",
+  "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+  "summary": "AnyModelBot 是一个开源、本地优先的 AI 机器人项目，定位为 Grok Bot、OpenAI dots 与 Claude Duet 的替代品。它通过一个 Modelflare key 统一接入 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等 70 多种模型，用户可在应用、微信或飞书中与自有 AI bot 交互。机器人具备上下文记忆、后台任务、命令执行和电脑操作能力，采用按量付费模式。项目强调本地化与开放生态，将多模型聚合、跨渠道消息打通和自动化执行整合在一起，适合希望构建个性化 AI 助手并嵌入日常通讯工具的开发者和用户。",
+  "tags": [
+    "ai",
+    "llm",
+    "chatbot",
+    "multi-model",
+    "local-first"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 1332,
+  "collected_at": "2026-11-03T00:09:42.279446+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "聚合70+大模型统一接入",
+    "本地优先与多渠道触达（App/微信/飞书）",
+    "后台运行、记忆与电脑控制能力"
+  ],
+  "risks": [
+    "运行命令和控制电脑存在安全风险",
+    "第三方平台自动化可能触发封禁或合规问题"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261103-008",
+  "title": "Building fine-grained version control for agents with Rust and Durable Objects",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
+  "description": "Comments",
+  "summary": "该项目探讨为 AI Agent 构建细粒度版本控制系统，使用 Rust 实现高性能核心逻辑，并借助 Cloudflare Durable Objects 提供分布式持久化与强一致性。与传统代码版本控制不同，系统记录 Agent 的每一步状态变更、工具调用和决策轨迹，支持回溯、审计与多代理协同。Rust 的类型安全与内存安全有助于处理高并发更新，Durable Objects 则简化全局唯一实例的状态管理。整体方案适合需要可追溯、可复现的智能体工作流，但需评估云平台绑定与额外存储开销。该方案为构建可靠、可调试的智能体系统提供了新思路。",
+  "tags": [
+    "agents",
+    "version-control",
+    "rust",
+    "durable-objects",
+    "cloudflare"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "细粒度记录 Agent 状态和决策轨迹",
+    "Rust 与 Durable Objects 结合保证一致性和高性能",
+    "支持回溯审计与多代理协同"
+  ],
+  "risks": [
+    "深度绑定 Cloudflare 生态",
+    "细粒度版本数据可能带来较高的存储和计算成本"
+  ]
+}

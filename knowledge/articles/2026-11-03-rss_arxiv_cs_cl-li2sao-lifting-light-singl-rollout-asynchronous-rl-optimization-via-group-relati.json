@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261103-009",
+  "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2610.40726",
+  "description": "arXiv:2610.40726v1 Announce Type: new \nAbstract: Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues that group-wise sampling in GRPO",
+  "summary": "异步强化学习（RL）正成为大语言模型（LLM）后训练的主流范式，通过 rollouts 到达即更新提升训练效率。近期研究指出 GRPO 组采样在单 rollout 异步场景下面临挑战，缺乏稳定的组相对优势估计。Li²SAO 提出轻量级单 rollout 异步 RL 优化方法，采用组相对 Actor-Critic 自助法，结合组内相对比较与 critic 引导信号，降低估计方差并保持训练高效。该方法旨在兼顾异步训练吞吐与策略更新质量，为 LLM 后训练提供更实用的 RL 方案。",
+  "tags": [
+    "reinforcement-learning",
+    "llm",
+    "grpo",
+    "actor-critic",
+    "asynchronous-training"
+  ],
+  "category": "LLM Post-Training",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "提出组相对 Actor-Critic 自助法，适配单 rollout 异步场景",
+    "降低优势估计方差，提升训练稳定性",
+    "保持轻量高效，适合 LLM 后训练"
+  ],
+  "risks": [
+    "单 rollout 异步场景组内比较信号可能仍不稳定",
+    "摘要未展示大规模实验验证，泛化性待观察"
+  ]
+}

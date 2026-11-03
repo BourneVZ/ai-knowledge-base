@@ -1,5 +1,261 @@
 [
   {
+    "id": "lobsters_ai-20261103-006",
+    "file": "2026-11-03-rss_lobsters_ai-sparks-of-weight-space-programming-llms-can-natively-read-write-neural-network-w.json",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "category": "Model Editing",
+    "tags": [
+      "ai",
+      "llm",
+      "weight-space",
+      "model-editing",
+      "neural-networks"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261103-007",
+    "file": "2026-11-03-rss_lobsters_ai-lets-build-a-brain.json",
+    "title": "Let’s Build a Brain",
+    "category": "AI Education",
+    "tags": [
+      "ai",
+      "neural-network",
+      "brain-simulation",
+      "deep-learning",
+      "education"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261103-008",
+    "file": "2026-11-03-rss_lobsters_ai-building-fine-grained-version-control-for-agents-with-rust-and-durable-objects.json",
+    "title": "Building fine-grained version control for agents with Rust and Durable Objects",
+    "category": "AI Agent",
+    "tags": [
+      "agents",
+      "version-control",
+      "rust",
+      "durable-objects",
+      "cloudflare"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261103-009",
+    "file": "2026-11-03-rss_arxiv_cs_cl-li2sao-lifting-light-singl-rollout-asynchronous-rl-optimization-via-group-relati.json",
+    "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+    "category": "LLM Post-Training",
+    "tags": [
+      "reinforcement-learning",
+      "llm",
+      "grpo",
+      "actor-critic",
+      "asynchronous-training"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261103-010",
+    "file": "2026-11-03-rss_arxiv_cs_cl-mage-vl-cowork-a-full-training-recipe-to-learn-hybrid-computer-use-from-evolved-.json",
+    "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+    "category": "AI Agent",
+    "tags": [
+      "computer use",
+      "multimodal agent",
+      "gui automation",
+      "vision-language model",
+      "training recipe"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261103-011",
+    "file": "2026-11-03-rss_arxiv_cs_cl-the-generative-gap-between-speculative-drafter-and-continuous-diffusion-language.json",
+    "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+    "category": "生成模型",
+    "tags": [
+      "continuous-diffusion-language-model",
+      "speculative-decoding",
+      "text-generation",
+      "language-model",
+      "efficiency"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261103-012",
+    "file": "2026-11-03-rss_arxiv_cs_lg-automatic-construction-of-strong-simple-baselines.json",
+    "title": "Automatic Construction of Strong Simple Baselines",
+    "category": "AI Benchmarking",
+    "tags": [
+      "deep-learning",
+      "baselines",
+      "benchmarking",
+      "automl",
+      "model-evaluation"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261103-013",
+    "file": "2026-11-03-rss_arxiv_cs_lg-bayesian-distribution-system-state-estimation-with-flow-matching.json",
+    "title": "Bayesian Distribution System State Estimation with Flow Matching",
+    "category": "AI for Energy",
+    "tags": [
+      "flow-matching",
+      "bayesian-inference",
+      "distribution-system",
+      "state-estimation",
+      "generative-model"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261103-014",
+    "file": "2026-11-03-rss_arxiv_cs_lg-dont-just-impute-detect-task-aware-diffusion-pipelines-for-edge-anomaly-detectio.json",
+    "title": "Don't Just Impute, Detect: Task-Aware Diffusion Pipelines for Edge Anomaly Detection",
+    "category": "Anomaly Detection",
+    "tags": [
+      "anomaly detection",
+      "diffusion models",
+      "edge computing",
+      "industrial iot",
+      "time series"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261103-015",
+    "file": "2026-11-03-rss_huggingface_blog-nemotron-halloween.json",
+    "title": "nemotron-halloween",
+    "category": "LLM 应用",
+    "tags": [
+      "llm",
+      "nemotron",
+      "halloween",
+      "text-generation",
+      "creative-ai"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261103-016",
+    "file": "2026-11-03-rss_google_ai_blog-the-latest-ai-news-we-announced-in-october-2026.json",
+    "title": "The latest AI news we announced in October 2026",
+    "category": "AI Agent",
+    "tags": [
+      "google-ai",
+      "gemini",
+      "multimodal",
+      "ai-agent",
+      "llm"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279481+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261103-005",
+    "file": "2026-11-03-github-loopljreveric.json",
+    "title": "looplj/reveric",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "novel",
+      "scriptwriting",
+      "agent"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279461+00:00",
+    "innovation_score": 4,
+    "stars": 550
+  },
+  {
+    "id": "github-20261103-004",
+    "file": "2026-11-03-github-balanovuncut.json",
+    "title": "Balanov/uncut",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "coding-agent",
+      "headless",
+      "cli"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279456+00:00",
+    "innovation_score": 4,
+    "stars": 571
+  },
+  {
+    "id": "github-20261103-003",
+    "file": "2026-11-03-github-n1nemansapper-v2.json",
+    "title": "N1nEmAn/sapper-v2",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "multi-agent",
+      "cybersecurity",
+      "autonomous-pentest"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279454+00:00",
+    "innovation_score": 4,
+    "stars": 597
+  },
+  {
+    "id": "github-20261103-002",
+    "file": "2026-11-03-github-sleepy-zoneai-ref-library-cn.json",
+    "title": "sleepy-zone/ai-ref-library-cn",
+    "category": "AI Image Generation",
+    "tags": [
+      "ai-image-generation",
+      "prompt-library",
+      "reference-dataset",
+      "chinese-localization",
+      "stable-diffusion"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279452+00:00",
+    "innovation_score": 3,
+    "stars": 667
+  },
+  {
+    "id": "github-20261103-001",
+    "file": "2026-11-03-github-modelflare-aianymodelbot.json",
+    "title": "modelflare-ai/AnyModelBot",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "chatbot",
+      "multi-model",
+      "local-first"
+    ],
+    "collected_at": "2026-11-03T00:09:42.279446+00:00",
+    "innovation_score": 4,
+    "stars": 1332
+  },
+  {
     "id": "arxiv_cs_cl-20261030-004",
     "file": "2026-10-30-rss_arxiv_cs_cl-the-flightfinder-occurrence-corpus-harmonising-128-aviation-safety-source-codes-.json",
     "title": "The FlightFinder Occurrence Corpus: harmonising 128 aviation-safety source codes into one deduplicated cross-national accident dataset",

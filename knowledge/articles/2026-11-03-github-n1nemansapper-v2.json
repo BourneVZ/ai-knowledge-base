@@ -1,0 +1,33 @@
+{
+  "id": "github-20261103-003",
+  "title": "N1nEmAn/sapper-v2",
+  "source": "github",
+  "source_url": "https://github.com/N1nEmAn/sapper-v2",
+  "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+  "summary": "N1nEmAn/sapper-v2 是一个自主渗透测试多智能体系统，采用AI指挥官与工人集群协同架构，结合分层事实-意图图进行推理与决策，用于自动化攻击路径发现与安全评估。该系统在腾讯智能攻防在线赛634支队伍中获得第三名，在8小时无人值守下以约1B tokens预算超越4.5B参数级方案，验证了实战能力。此外项目还提出女娲测试，通过赋予AI创造、语言与历史能力，观察多智能体文明演化，探索通用智能与涌现行为。",
+  "tags": [
+    "ai",
+    "llm",
+    "multi-agent",
+    "cybersecurity",
+    "autonomous-pentest"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 597,
+  "collected_at": "2026-11-03T00:09:42.279454+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "AI指挥官+worker swarm协同自主渗透",
+    "分层事实-意图图推理与记忆",
+    "腾讯攻防赛第三名及女娲测试双线验证"
+  ],
+  "risks": [
+    "自主渗透工具存在滥用风险",
+    "大规模token推理成本较高"
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Let’s Build a Brain",
+    "url": "https://aatishb.com/myriad/lets-build-a-brain/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Building fine-grained version control for agents with Rust and Durable Objects",
+    "url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+    "url": "https://arxiv.org/abs/2610.40726",
+    "description": "arXiv:2610.40726v1 Announce Type: new \nAbstract: Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues that group-wise sampling in GRPO",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+    "url": "https://arxiv.org/abs/2610.40747",
+    "description": "arXiv:2610.40747v1 Announce Type: new \nAbstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+    "url": "https://arxiv.org/abs/2610.40847",
+    "description": "arXiv:2610.40847v1 Announce Type: new \nAbstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-mode",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Automatic Construction of Strong Simple Baselines",
+    "url": "https://arxiv.org/abs/2610.40700",
+    "description": "arXiv:2610.40700v1 Announce Type: new \nAbstract: To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent p",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Bayesian Distribution System State Estimation with Flow Matching",
+    "url": "https://arxiv.org/abs/2610.40728",
+    "description": "arXiv:2610.40728v1 Announce Type: new \nAbstract: Medium-voltage feeders have few real-time measurements, so distribution system state estimation (DSSE) rests on pseudo-measurements of the secondary substations, a prior in Bayesian terms. Weighted least squares keeps the power flow exact but reduces ",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Don't Just Impute, Detect: Task-Aware Diffusion Pipelines for Edge Anomaly Detection",
+    "url": "https://arxiv.org/abs/2610.40732",
+    "description": "arXiv:2610.40732v1 Announce Type: new \nAbstract: Industrial Internet of Things (IIoT) edge pipelines routinely lose contiguous blocks of multi-sensor data to network dropouts and hardware faults. The standard remedy is a disjointed \"impute-then-detect\" pipeline whose imputer is trained only for Mean",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "nemotron-halloween",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Granite Switch 4.1.1 — Update models like you update software",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+    "url": "https://huggingface.co/blog/announcing-project-protostar",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "The latest AI news we announced in October 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "description": "Here are Google’s latest AI updates from October 2026",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+    "description": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+    "stars": null,
+    "collected_at": "2026-11-03T00:09:42.279481+00:00"
+  }
+]

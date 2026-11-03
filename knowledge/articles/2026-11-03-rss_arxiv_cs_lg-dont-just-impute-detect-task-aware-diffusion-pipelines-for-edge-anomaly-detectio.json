@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261103-014",
+  "title": "Don't Just Impute, Detect: Task-Aware Diffusion Pipelines for Edge Anomaly Detection",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2610.40732",
+  "description": "arXiv:2610.40732v1 Announce Type: new \nAbstract: Industrial Internet of Things (IIoT) edge pipelines routinely lose contiguous blocks of multi-sensor data to network dropouts and hardware faults. The standard remedy is a disjointed \"impute-then-detect\" pipeline whose imputer is trained only for Mean",
+  "summary": "工业物联网边缘管道常因网络中断或硬件故障丢失连续的多传感器数据块。传统做法采用分离的“先插补后检测”流程，插补器通常仅以均方误差等重建目标训练，与下游异常检测任务脱节，容易丢失对异常敏感的信息。本文提出任务感知的扩散流水线，不再单纯插补，而是将缺失数据建模与异常检测目标联合优化；利用扩散模型对连续缺失块进行条件重建或特征恢复，并直接服务于边缘异常检测。该方法面向边缘场景的多传感器时序数据，期望提升对缺失鲁棒且检测准确的性能。",
+  "tags": [
+    "anomaly detection",
+    "diffusion models",
+    "edge computing",
+    "industrial iot",
+    "time series"
+  ],
+  "category": "Anomaly Detection",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "任务感知扩散流水线替代分离式插补+检测",
+    "联合优化缺失数据重建与边缘异常检测",
+    "针对IIoT连续多传感器数据块缺失场景"
+  ],
+  "risks": [
+    "扩散模型推理开销可能限制边缘实时部署",
+    "摘要未完整披露实验对比与鲁棒性验证"
+  ]
+}

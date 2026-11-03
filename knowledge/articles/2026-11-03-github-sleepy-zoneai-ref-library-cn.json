@@ -1,0 +1,33 @@
+{
+  "id": "github-20261103-002",
+  "title": "sleepy-zone/ai-ref-library-cn",
+  "source": "github",
+  "source_url": "https://github.com/sleepy-zone/ai-ref-library-cn",
+  "description": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
+  "summary": "该项目是面向中文用户的 AI 绘画参考素材库，重点整理脸型、姿势与服装三类视觉元素，提供结构化、可检索的中文参考条目，帮助创作者快速查找并组装适用于 Stable Diffusion、Midjourney 等工具的提示词与参考图。项目通过翻译和归类英文开源资源，降低中文用户在角色设计、构图与服装设定时的语言门槛，适合插画、游戏原画、电商设计等场景。整体来看，项目技术难度不高，但具备本地化整合价值与垂直实用性；主要风险在于素材版权、肖像权以及社区维护的持续性。",
+  "tags": [
+    "ai-image-generation",
+    "prompt-library",
+    "reference-dataset",
+    "chinese-localization",
+    "stable-diffusion"
+  ],
+  "category": "AI Image Generation",
+  "status": "draft",
+  "stars": 667,
+  "collected_at": "2026-11-03T00:09:42.279452+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 2,
+  "key_points": [
+    "脸/姿势/服装三维度结构化整理",
+    "中文提示词参考降低使用门槛",
+    "适用于主流 AI 绘图工具"
+  ],
+  "risks": [
+    "素材版权与人物肖像权风险",
+    "依赖人工维护，更新频率有限"
+  ]
+}

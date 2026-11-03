@@ -1,0 +1,33 @@
+{
+  "id": "github-20261103-005",
+  "title": "looplj/reveric",
+  "source": "github",
+  "source_url": "https://github.com/looplj/reveric",
+  "description": "Agent Native 一站式 AI 小说，短剧桌面创作工作台",
+  "summary": "reveric 是一个 Agent Native 架构的一站式 AI 小说与短剧桌面创作工作台，面向个人作者与小型内容团队。项目将大语言模型智能体作为核心创作单元，围绕小说和短剧场景提供从选题、世界观设定、角色构建、分章大纲到正文生成、润色改写和版本管理的全流程支持。桌面端形态便于本地素材管理、多模型接入与离线/在线混合运行，同时通过结构化项目面板维护角色、场景、情节线等上下文，降低长文本生成中的遗忘与冲突。其重点在于以智能体协作模拟策划、编剧、编辑等角色，并保留人工确认节点，提升内容可控性与产出效率。",
+  "tags": [
+    "ai",
+    "llm",
+    "novel",
+    "scriptwriting",
+    "agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 550,
+  "collected_at": "2026-11-03T00:09:42.279461+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "Agent Native 多智能体协作创作流程",
+    "一站式小说/短剧项目管理与结构化生成",
+    "桌面端多模型接入与长文本上下文维护"
+  ],
+  "risks": [
+    "长篇小说生成的一致性与连贯性仍存在挑战",
+    "高度依赖外部大模型 API，成本与内容隐私风险较高"
+  ]
+}

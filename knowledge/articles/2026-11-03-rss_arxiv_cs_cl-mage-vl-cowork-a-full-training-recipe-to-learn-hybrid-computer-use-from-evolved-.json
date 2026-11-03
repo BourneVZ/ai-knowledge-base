@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261103-010",
+  "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2610.40747",
+  "description": "arXiv:2610.40747v1 Announce Type: new \nAbstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an",
+  "summary": "Mage-VL-Cowork 是一个 4B 参数的混合计算机使用智能体，旨在将视觉 GUI 交互与代码、终端执行融合在单一策略中。该工作提出一套完整训练配方，从通用多模态对齐检查点出发，利用演化式 harness 进行学习，使模型能同时处理图形界面操作和程序化任务。其核心是通过统一视觉-语言策略，提升计算机使用智能体在真实数字环境中的泛化能力与执行效率。摘要未展开具体训练细节与实验结果，但项目名与摘要表明研究聚焦于混合操作模式的训练方法与智能体设计。",
+  "tags": [
+    "computer use",
+    "multimodal agent",
+    "gui automation",
+    "vision-language model",
+    "training recipe"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "统一视觉GUI与代码终端操作",
+    "基于演化Harness的完整训练配方",
+    "4B参数高效混合智能体"
+  ],
+  "risks": [
+    "摘要未披露完整训练流程与实验结果",
+    "4B规模可能限制复杂任务性能"
+  ]
+}

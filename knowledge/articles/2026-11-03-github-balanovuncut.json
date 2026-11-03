@@ -1,0 +1,33 @@
+{
+  "id": "github-20261103-004",
+  "title": "Balanov/uncut",
+  "source": "github",
+  "source_url": "https://github.com/Balanov/uncut",
+  "description": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+  "summary": "Balanov/uncut 是一个面向编程代理的无损无头执行框架，定位为 LLM 编码代理与本地工具之间的轻量桥梁。它以单个约 7MB 的静态二进制分发，内置四个工具，通过纯标准输入输出进行通信，不依赖图形界面或复杂服务。其核心特色是“无静默截断”，保证工具输出完整传递，减少 AI 编码场景中因内容被裁剪导致的上下文丢失。由于接口简单、部署轻量，适合嵌入管道、容器和自动化环境。不过当前工具数量较少，适用范围可能偏向基础文件、命令与文本处理等任务。",
+  "tags": [
+    "ai",
+    "llm",
+    "coding-agent",
+    "headless",
+    "cli"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 571,
+  "collected_at": "2026-11-03T00:09:42.279456+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "单 7MB 静态二进制，部署简单",
+    "纯 stdin/stdout 接口，无头集成",
+    "承诺不静默截断输出，保证无损"
+  ],
+  "risks": [
+    "仅四个工具，复杂任务能力有限",
+    "静态二进制可扩展性较弱"
+  ]
+}

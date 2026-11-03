@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261103-012",
+  "title": "Automatic Construction of Strong Simple Baselines",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2610.40700",
+  "description": "arXiv:2610.40700v1 Announce Type: new \nAbstract: To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent p",
+  "summary": "本项目提出自动构建强简单基线的方法，用于深度学习模型的严谨评估。针对物理和生命科学等领域中深度学习应用日益普及、但基线设置常偏弱导致虚假性能增益的问题，该方法自动生成或选择简单却具有竞争力的基线模型，帮助研究者更客观地衡量新方法的真实价值。通过减少人工设计和调参偏差，项目旨在提升实验比较的公平性、可复现性和说服力，属于机器学习评估方法论层面的改进。",
+  "tags": [
+    "deep-learning",
+    "baselines",
+    "benchmarking",
+    "automl",
+    "model-evaluation"
+  ],
+  "category": "AI Benchmarking",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "自动生成强简单基线",
+    "缓解基线薄弱导致的虚假性能增益",
+    "提升科学领域模型评估严谨性"
+  ],
+  "risks": [
+    "自动基线适用范围可能受限",
+    "可能增加评估计算成本"
+  ]
+}

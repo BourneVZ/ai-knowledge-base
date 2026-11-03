@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261103-011",
+  "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2610.40847",
+  "description": "arXiv:2610.40847v1 Announce Type: new \nAbstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-mode",
+  "summary": "本文研究连续扩散语言模型（CDLM）与推测草稿器在文本生成中的生成差距。CDLM通过迭代细化独立生成文本，而推测草稿器通常为目标模型快速起草候选文本再验证，两者在生成范式、评估方式和效率质量权衡上存在系统性差异。论文对比两类方法的生成行为，分析造成差异的关键因素，并提出量化生成差距的视角或框架。研究发现两者不能简单互换，混合使用时需要协调生成尺度与验证策略。该工作为理解扩散语言模型与推测解码之间的关系、改进高效语言生成策略提供了理论与实验参考。",
+  "tags": [
+    "continuous-diffusion-language-model",
+    "speculative-decoding",
+    "text-generation",
+    "language-model",
+    "efficiency"
+  ],
+  "category": "生成模型",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-03T00:09:42.279481+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-03-000954.json",
+  "analyzed_at": "2026-11-03T00:25:35.287953+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "系统比较CDLM迭代细化与推测草稿快速起草的生成差异",
+    "提出生成差距的量化或分析框架",
+    "为扩散语言模型与推测解码的混合策略提供参考"
+  ],
+  "risks": [
+    "依赖理论分析，实际生成任务验证可能有限",
+    "两类方法的评估基准差异可能影响结论普适性"
+  ]
+}
