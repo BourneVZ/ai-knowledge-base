@@ -1,0 +1,32 @@
+{
+  "id": "arxiv_cs_lg-20261104-008",
+  "title": "Latent Cluster Separation as a Regularizer for Lifelong Anomaly Detection",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.03652",
+  "description": "arXiv:2611.03652v1 Announce Type: new \nAbstract: Lifelong (continual) anomaly detection systems must learn a sequence of tasks without forgetting how to recognize anomaly types seen earlier -- a property known as backward transfer. A common way to try to improve backward transfer is to reshape a mod",
+  "summary": "该论文提出一种面向终身异常检测的潜在簇分离正则化方法。终身异常检测系统需顺序学习多个异常检测任务，同时避免遗忘早期已识别异常类型，即具备后向迁移能力。常见改进后向迁移的方式是重塑模型，而本文在潜在空间中引入簇分离正则项，使不同异常类型对应的潜在表示形成更紧凑、彼此分离的簇结构。通过在训练新任务时保持旧异常类型的判别性，该方法缓解灾难性遗忘，提升模型在动态环境下的持续异常识别能力。该思路将表示学习与任务增量学习结合，为终身异常检测提供几何约束。",
+  "tags": [
+    "lifelong learning",
+    "anomaly detection",
+    "continual learning",
+    "latent representation",
+    "regularization"
+  ],
+  "category": "Machine Learning",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出潜在簇分离正则化，增强后向迁移",
+    "缓解终身异常检测中的灾难性遗忘",
+    "提升不同异常类型在潜在空间的可分性"
+  ],
+  "risks": [
+    "依赖异常类型在潜在空间成簇分布的假设，可能不适用于高度重叠或动态演化的异常"
+  ]
+}

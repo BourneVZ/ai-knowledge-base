@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261104-013",
+  "title": "Palette: teaching a small model to build decks in your design language",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+  "description": "",
+  "summary": "Palette是Hugging Face博客介绍的一个项目，目标是教会一个小型语言模型按照用户或品牌的设计语言自动生成演示文稿（decks）。它通过提取既有幻灯片中的配色、字体、版式和组件风格等设计元素，将其转化为小模型可理解的约束或示例，使模型在生成内容时兼顾文案结构与视觉一致性。相比依赖大模型，Palette强调用小模型实现个性化、低成本的幻灯片生成，适合个人或团队快速产出符合品牌调性的演示材料。项目展示了从数据整理、模型微调到结构化输出的完整思路，为垂直场景下小模型定制化设计应用提供了参考。",
+  "tags": [
+    "ai",
+    "llm",
+    "design",
+    "deck-generation",
+    "personalization"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "小模型学习个人/品牌设计语言",
+    "自动生成排版一致的演示文稿",
+    "低资源定制化设计流程"
+  ],
+  "risks": [
+    "小模型生成质量与多样性有限",
+    "设计风格泛化能力不足"
+  ]
+}

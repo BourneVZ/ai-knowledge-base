@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261104-010",
+  "title": "Towards Automatic Heart Murmur Characterization from Multi-spot Phonocardiograms",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.03654",
+  "description": "arXiv:2611.03654v1 Announce Type: new \nAbstract: Cardiac auscultation traditionally detects the presence of a heart murmur, but clinicians further characterize it by timing, shape, pitch, quality, and grade. Most automatic phonocardiogram analysis systems stop at binary detection and do not estimate",
+  "summary": "传统心脏听诊不仅能发现杂音，还需进一步描述其时相、形状、音调、质量和分级等临床特征。然而，现有自动心音图分析系统大多停留在有无杂音的二分类检测，缺乏对上述特征的自动估计。本研究面向多点心音图，探索心脏杂音的自动表征方法，旨在同步或逐步预测杂音的多个临床维度，从而更贴近医生诊断流程。该方向有助于推动心音分析从简单筛查向精细辅助诊断发展，具有较高临床价值。摘要尚未详细披露模型架构与实验数据，但明确聚焦于多位置心音信号融合与多维特征建模。",
+  "tags": [
+    "heart murmur",
+    "phonocardiogram",
+    "multi-spot",
+    "deep learning",
+    "cardiac auscultation"
+  ],
+  "category": "Medical AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "从多点心音图自动表征心脏杂音的时相、形状、音调、质量与分级",
+    "超越传统仅二分类检测的自动心音分析框架",
+    "融合多听诊位置信号以提升表征鲁棒性"
+  ],
+  "risks": [
+    "摘要未披露方法、数据规模及标注质量，临床可行性待验证",
+    "多点信号采集与同步标注成本较高，可能限制实际部署"
+  ]
+}

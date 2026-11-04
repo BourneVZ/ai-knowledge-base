@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "ccch1mneyyy/dsh-Go",
+    "url": "https://github.com/ccch1mneyyy/dsh-Go",
+    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "stars": 9385,
+    "collected_at": "2026-11-04T22:59:01.643233+00:00"
+  },
+  {
+    "source": "github",
+    "title": "wangzan101/Mika",
+    "url": "https://github.com/wangzan101/Mika",
+    "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "stars": 6604,
+    "collected_at": "2026-11-04T22:59:01.643254+00:00"
+  },
+  {
+    "source": "github",
+    "title": "modelflare-ai/AnyModelBot",
+    "url": "https://github.com/modelflare-ai/AnyModelBot",
+    "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+    "stars": 2700,
+    "collected_at": "2026-11-04T22:59:01.643257+00:00"
+  },
+  {
+    "source": "github",
+    "title": "N1nEmAn/sapper-v2",
+    "url": "https://github.com/N1nEmAn/sapper-v2",
+    "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+    "stars": 822,
+    "collected_at": "2026-11-04T22:59:01.643260+00:00"
+  },
+  {
+    "source": "github",
+    "title": "jackwener/DSH-Android",
+    "url": "https://github.com/jackwener/DSH-Android",
+    "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+    "stars": 818,
+    "collected_at": "2026-11-04T22:59:01.643262+00:00"
+  },
+  {
+    "source": "github",
+    "title": "huaxialucaicaizi/ai-startup-skills",
+    "url": "https://github.com/huaxialucaicaizi/ai-startup-skills",
+    "description": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。",
+    "stars": 803,
+    "collected_at": "2026-11-04T22:59:01.643266+00:00"
+  },
+  {
+    "source": "github",
+    "title": "sleepy-zone/ai-ref-library-cn",
+    "url": "https://github.com/sleepy-zone/ai-ref-library-cn",
+    "description": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
+    "stars": 715,
+    "collected_at": "2026-11-04T22:59:01.643268+00:00"
+  },
+  {
+    "source": "github",
+    "title": "looplj/reveric",
+    "url": "https://github.com/looplj/reveric",
+    "description": "Agent Native 一站式 AI 小说，短剧桌面创作工作台",
+    "stars": 627,
+    "collected_at": "2026-11-04T22:59:01.643270+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Balanov/uncut",
+    "url": "https://github.com/Balanov/uncut",
+    "description": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+    "stars": 600,
+    "collected_at": "2026-11-04T22:59:01.643272+00:00"
+  },
+  {
+    "source": "github",
+    "title": "hevnsnt/CVEngine",
+    "url": "https://github.com/hevnsnt/CVEngine",
+    "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+    "stars": 576,
+    "collected_at": "2026-11-04T22:59:01.643274+00:00"
+  }
+]

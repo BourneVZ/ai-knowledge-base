@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261104-003",
+  "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+  "source": "rss/hn_ai",
+  "source_url": "https://arxiv.org/abs/2605.29713",
+  "description": "Article URL: https://arxiv.org/abs/2605.29713\nComments URL: https://news.ycombinator.com/item?id=50358582\nPoints: 381\n# Comments: 59",
+  "summary": "《The Little Book of Generative AI Foundations》是一本以直观数学视角介绍生成式AI核心原理的入门读物。内容从概率建模、向量表示、注意力机制到Transformer与扩散模型等关键主题，用简化公式和直觉解释降低理解门槛，帮助读者建立对生成式AI内部工作机制的系统认知。该资源在Hacker News获得381分、59条评论，显示技术社区对其可读性与实用性的高度关注。适合希望深入理解LLM和生成模型数学基础但不具备高阶数学背景的开发者与研究者。",
+  "tags": [
+    "generative-ai",
+    "llm",
+    "mathematics",
+    "primer",
+    "deep-learning"
+  ],
+  "category": "AI Foundations",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "以直观数学视角系统讲解生成式AI基础",
+    "覆盖Transformer、扩散模型等核心机制",
+    "HN社区高热度验证内容实用性与可读性"
+  ],
+  "risks": [
+    "数学内容对完全初学者仍可能有一定门槛",
+    "作为教学资源缺乏同行评审或正式出版流程"
+  ]
+}

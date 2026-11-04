@@ -1,0 +1,146 @@
+[
+  {
+    "source": "rss/hn_ai",
+    "title": "AI is forcing us to pay off 40 years of technical debt",
+    "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+    "description": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\nComments URL: https://news.ycombinator.com/item?id=50364336\nPoints: 990\n# Comments: 600",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+    "description": "Article URL: https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai\nComments URL: https://news.ycombinator.com/item?id=50363554\nPoints: 294\n# Comments: 289",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+    "url": "https://arxiv.org/abs/2605.29713",
+    "description": "Article URL: https://arxiv.org/abs/2605.29713\nComments URL: https://news.ycombinator.com/item?id=50358582\nPoints: 381\n# Comments: 59",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "An easy way to try local AI with braindead-local-intelligence",
+    "url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Let’s Build a Brain",
+    "url": "https://aatishb.com/myriad/lets-build-a-brain/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication",
+    "url": "https://arxiv.org/abs/2611.03826",
+    "description": "arXiv:2611.03826v1 Announce Type: new \nAbstract: Next-visit diagnosis prediction forecasts the diagnoses documented at a patient's next encounter, turning retrospective electronic health records into prospective clinical prediction. However, conventional aggregate evaluation obscures its multifacete",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "A Conditional Mutual Information Analysis of Response Variety in Language Models",
+    "url": "https://arxiv.org/abs/2611.03836",
+    "description": "arXiv:2611.03836v1 Announce Type: new \nAbstract: Large language models provide a variety of responses at inference (generation) that conventionally depend on a temperature parameter. Using a conditional mutual information approach, a quantitative, entropy based analysis of response variety is given.",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+    "url": "https://arxiv.org/abs/2611.03852",
+    "description": "arXiv:2611.03852v1 Announce Type: new \nAbstract: Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive. Efficient reasoning should express useful analysis in fewer tokens by reducing repetition and text that adds l",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Latent Cluster Separation as a Regularizer for Lifelong Anomaly Detection",
+    "url": "https://arxiv.org/abs/2611.03652",
+    "description": "arXiv:2611.03652v1 Announce Type: new \nAbstract: Lifelong (continual) anomaly detection systems must learn a sequence of tasks without forgetting how to recognize anomaly types seen earlier -- a property known as backward transfer. A common way to try to improve backward transfer is to reshape a mod",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Four Extensions of the Universal Law of Robustness: Log-Concave Covariates, Heterogeneous Mixtures, Vector-Valued Predictors, and Markovian Data",
+    "url": "https://arxiv.org/abs/2611.03653",
+    "description": "arXiv:2611.03653v1 Announce Type: new \nAbstract: Bubeck and Sellke's universal law of robustness says that fitting $n$ noisy samples below the noise level with a class of $p$ real parameters forces a Lipschitz constant of order $\\sqrt{nd/p}$, when the covariate distribution on $\\mathbb{R}^d$ is isop",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Towards Automatic Heart Murmur Characterization from Multi-spot Phonocardiograms",
+    "url": "https://arxiv.org/abs/2611.03654",
+    "description": "arXiv:2611.03654v1 Announce Type: new \nAbstract: Cardiac auscultation traditionally detects the presence of a heart murmur, but clinicians further characterize it by timing, shape, pitch, quality, and grade. Most automatic phonocardiogram analysis systems stop at binary detection and do not estimate",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+    "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "StateBench: Testing how language models track state changes over long documents",
+    "url": "https://huggingface.co/blog/allenai/statebench",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Palette: teaching a small model to build decks in your design language",
+    "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "The latest AI news we announced in October 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "description": "Here are Google’s latest AI updates from October 2026",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+    "description": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+    "stars": null,
+    "collected_at": "2026-11-04T22:59:01.643321+00:00"
+  }
+]

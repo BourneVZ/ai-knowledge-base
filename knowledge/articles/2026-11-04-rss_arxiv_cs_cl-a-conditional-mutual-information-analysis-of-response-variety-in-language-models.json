@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261104-006",
+  "title": "A Conditional Mutual Information Analysis of Response Variety in Language Models",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.03836",
+  "description": "arXiv:2611.03836v1 Announce Type: new \nAbstract: Large language models provide a variety of responses at inference (generation) that conventionally depend on a temperature parameter. Using a conditional mutual information approach, a quantitative, entropy based analysis of response variety is given.",
+  "summary": "该论文提出一种基于条件互信息的方法，对语言模型在推理生成时的响应多样性进行定量分析。传统上，模型生成响应的多样性通常通过温度参数进行控制，但缺乏统一的信息论度量框架。论文引入熵与条件互信息工具，从概率分布角度刻画响应集合的多样性与条件依赖关系，为理解生成行为提供了更严谨的定量基础。该方法有望为语言模型的采样策略、多样性评估及可控生成提供理论支持。",
+  "tags": [
+    "large language models",
+    "conditional mutual information",
+    "entropy",
+    "response diversity",
+    "information theory"
+  ],
+  "category": "LLM可解释性",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出基于条件互信息的多样性度量",
+    "从熵的角度定量分析响应多样性",
+    "超越温度参数的单一控制视角"
+  ],
+  "risks": [
+    "论文摘要未展示实证结果，偏理论分析",
+    "方法可能依赖具体生成设定，泛化性待验证"
+  ]
+}

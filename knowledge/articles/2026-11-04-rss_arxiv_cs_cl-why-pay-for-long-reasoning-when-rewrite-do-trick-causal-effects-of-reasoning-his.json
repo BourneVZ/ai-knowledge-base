@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261104-007",
+  "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.03852",
+  "description": "arXiv:2611.03852v1 Announce Type: new \nAbstract: Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive. Efficient reasoning should express useful analysis in fewer tokens by reducing repetition and text that adds l",
+  "summary": "该论文聚焦于大语言模型推理过程的高成本问题，指出现有长推理轨迹虽能提升解决复杂任务的能力，但会产生大量重复或低信息量文本，导致token开销和智能体运行成本显著上升。作者提出通过对推理历史进行重写或压缩，在保留关键分析内容的同时减少冗余，使模型以更少token表达有效推理。论文重点研究这种历史压缩对未来生成质量和智能体成本之间的因果效应，并探讨在推理能力与经济效益之间的平衡。整体思路是：既然重写能降低长推理成本，何必为冗长推理支付过高代价。该工作对推理密集型Agent和LLM应用具有实际优化价值。",
+  "tags": [
+    "reasoning",
+    "compression",
+    "token efficiency",
+    "agent",
+    "llm"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "推理历史压缩降低长推理token开销",
+    "分析压缩对未来生成与Agent成本的因果效应",
+    "重写机制在保持分析有效性的同时减少冗余"
+  ],
+  "risks": [
+    "摘要信息不完整，难以评估具体实现",
+    "过度压缩可能丢失关键推理细节"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261104-005",
+  "title": "Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.03826",
+  "description": "arXiv:2611.03826v1 Announce Type: new \nAbstract: Next-visit diagnosis prediction forecasts the diagnoses documented at a patient's next encounter, turning retrospective electronic health records into prospective clinical prediction. However, conventional aggregate evaluation obscures its multifacete",
+  "summary": "本文针对下次就诊诊断预测任务，反思仅依赖聚合指标评估的局限，指出其会掩盖模型在复杂病例、罕见诊断等细粒度场景下的真实表现。论文提出一种检索-记忆多智能体裁决框架，通过检索相关历史病历与知识，结合记忆机制和多智能体协同仲裁，对患者下次就诊诊断进行预测与评估。该方法旨在将回顾性电子健康记录转化为更具前瞻性、可解释且鲁棒的临床预测，推动医疗AI从单一指标评价向多维度、细粒度评价转变。",
+  "tags": [
+    "medical ai",
+    "multi-agent",
+    "retrieval-augmented",
+    "diagnosis prediction",
+    "ehr"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "超越聚合指标，推动细粒度评估",
+    "检索-记忆增强的多智能体裁决框架",
+    "面向电子健康记录的下次就诊诊断预测"
+  ],
+  "risks": [
+    "多智能体仲裁可能增加推理延迟与计算成本",
+    "医疗数据检索与记忆机制存在隐私合规风险"
+  ]
+}

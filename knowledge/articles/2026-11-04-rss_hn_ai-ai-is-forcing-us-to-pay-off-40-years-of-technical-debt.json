@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261104-001",
+  "title": "AI is forcing us to pay off 40 years of technical debt",
+  "source": "rss/hn_ai",
+  "source_url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+  "description": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\nComments URL: https://news.ycombinator.com/item?id=50364336\nPoints: 990\n# Comments: 600",
+  "summary": "本文探讨 AI 在网络安全领域的应用如何迫使业界正视并偿还长达四十年的技术债务。文章以 PHP2Shell 漏洞为例，指出该漏洞深植于遗留 PHP 代码与过时配置中，长期未被发现，而 AI 驱动的安全分析工具能够高效挖掘此类深层缺陷。这种现象揭示出大量企业系统仍运行在陈旧的软件架构之上，历史欠账已成为严重安全隐患。AI 既是压力也是契机：一方面加快漏洞曝光速度，另一方面也推动组织主动重构老代码、升级基础设施。最终，只有系统性地偿还技术债务，才能真正发挥 AI 在安全防御中的潜力。",
+  "tags": [
+    "ai",
+    "cybersecurity",
+    "technical-debt",
+    "vulnerability",
+    "php"
+  ],
+  "category": "AI Security",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "AI 加速发现遗留代码中的深层漏洞",
+    "PHP2Shell 漏洞成为四十年技术债务的典型案例",
+    "推动企业主动偿还技术债务并升级安全架构"
+  ],
+  "risks": [
+    "AI 安全工具可能产生误报或漏报",
+    "攻击者可能利用 AI 加速漏洞挖掘与利用"
+  ]
+}

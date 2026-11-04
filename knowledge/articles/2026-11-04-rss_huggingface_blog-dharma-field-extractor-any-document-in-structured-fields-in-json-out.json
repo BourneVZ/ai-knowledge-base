@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261104-011",
+  "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+  "description": "",
+  "summary": "Dharma Field Extractor 是一个面向文档智能的字段提取工具，目标是将任意格式文档转化为结构化 JSON 字段。它接收 PDF、扫描件、图片或 Office 文档，通过 OCR、版面分析和深度学习模型识别标题、键值对、表格等内容，并按照用户定义的字段模式输出 JSON，便于下游系统集成。该工具强调端到端和通用性，减少人工整理与模板配置工作。其核心能力在于结合视觉与语言模型理解文档结构，并支持灵活字段定制。主要风险在于复杂版式或低质量扫描文档可能影响抽取准确率，仍需人工校验。",
+  "tags": [
+    "document-ai",
+    "information-extraction",
+    "llm",
+    "json",
+    "ocr"
+  ],
+  "category": "Document AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "任意文档输入并输出结构化 JSON 字段",
+    "融合 OCR、版面分析与语言模型",
+    "支持用户自定义字段模式"
+  ],
+  "risks": [
+    "复杂版式或模糊扫描文档准确率有限",
+    "生成字段可能存在幻觉需人工复核"
+  ]
+}

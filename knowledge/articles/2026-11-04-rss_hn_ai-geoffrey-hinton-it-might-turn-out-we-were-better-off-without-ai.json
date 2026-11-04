@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261104-002",
+  "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+  "source": "rss/hn_ai",
+  "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+  "description": "Article URL: https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai\nComments URL: https://news.ycombinator.com/item?id=50363554\nPoints: 294\n# Comments: 289",
+  "summary": "Geoffrey Hinton 在接受《卫报》采访时表示，人工智能可能带来灾难性风险，甚至认为人类或许没有 AI 会过得更好。他担忧自主武器、大规模失业、虚假信息与失控的通用人工智能等威胁，并呼吁政府和企业加强安全监管。作为深度学习先驱，Hinton 的观点引发广泛讨论，也凸显 AI 发展与社会安全的紧张关系。该文在 Hacker News 获得 294 点、289 条评论，反映技术社区对 AI 风险的关注与分歧。",
+  "tags": [
+    "geoffrey-hinton",
+    "ai-safety",
+    "ai-ethics",
+    "agi",
+    "existential-risk"
+  ],
+  "category": "AI Safety",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 4,
+  "key_points": [
+    "深度学习先驱对 AI 风险发出公开警告",
+    "提出没有 AI 可能更好并呼吁严格监管",
+    "引发关于 AGI 与生存风险的社区讨论"
+  ],
+  "risks": [
+    "观点偏向长期预测，短期证据不足",
+    "可能加剧公众恐慌并阻碍 AI 有益应用"
+  ]
+}

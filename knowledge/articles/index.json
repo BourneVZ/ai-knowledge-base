@@ -1,5 +1,213 @@
 [
   {
+    "id": "hn_ai-20261104-001",
+    "file": "2026-11-04-rss_hn_ai-ai-is-forcing-us-to-pay-off-40-years-of-technical-debt.json",
+    "title": "AI is forcing us to pay off 40 years of technical debt",
+    "category": "AI Security",
+    "tags": [
+      "ai",
+      "cybersecurity",
+      "technical-debt",
+      "vulnerability",
+      "php"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261104-002",
+    "file": "2026-11-04-rss_hn_ai-geoffrey-hinton-it-might-turn-out-we-were-better-off-without-ai.json",
+    "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+    "category": "AI Safety",
+    "tags": [
+      "geoffrey-hinton",
+      "ai-safety",
+      "ai-ethics",
+      "agi",
+      "existential-risk"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261104-003",
+    "file": "2026-11-04-rss_hn_ai-the-little-book-of-generative-ai-foundations-an-intuitive-mathematical-primer.json",
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+    "category": "AI Foundations",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "mathematics",
+      "primer",
+      "deep-learning"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261104-004",
+    "file": "2026-11-04-rss_lobsters_ai-an-easy-way-to-try-local-ai-with-braindead-local-intelligence.json",
+    "title": "An easy way to try local AI with braindead-local-intelligence",
+    "category": "Local AI",
+    "tags": [
+      "ai",
+      "llm",
+      "local-first",
+      "cli",
+      "privacy"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261104-005",
+    "file": "2026-11-04-rss_arxiv_cs_cl-rethinking-next-visit-diagnosis-prediction-beyond-aggregate-metrics-retrieval-me.json",
+    "title": "Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication",
+    "category": "AI Agent",
+    "tags": [
+      "medical ai",
+      "multi-agent",
+      "retrieval-augmented",
+      "diagnosis prediction",
+      "ehr"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261104-006",
+    "file": "2026-11-04-rss_arxiv_cs_cl-a-conditional-mutual-information-analysis-of-response-variety-in-language-models.json",
+    "title": "A Conditional Mutual Information Analysis of Response Variety in Language Models",
+    "category": "LLM可解释性",
+    "tags": [
+      "large language models",
+      "conditional mutual information",
+      "entropy",
+      "response diversity",
+      "information theory"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261104-007",
+    "file": "2026-11-04-rss_arxiv_cs_cl-why-pay-for-long-reasoning-when-rewrite-do-trick-causal-effects-of-reasoning-his.json",
+    "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+    "category": "AI Agent",
+    "tags": [
+      "reasoning",
+      "compression",
+      "token efficiency",
+      "agent",
+      "llm"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261104-008",
+    "file": "2026-11-04-rss_arxiv_cs_lg-latent-cluster-separation-as-a-regularizer-for-lifelong-anomaly-detection.json",
+    "title": "Latent Cluster Separation as a Regularizer for Lifelong Anomaly Detection",
+    "category": "Machine Learning",
+    "tags": [
+      "lifelong learning",
+      "anomaly detection",
+      "continual learning",
+      "latent representation",
+      "regularization"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261104-009",
+    "file": "2026-11-04-rss_arxiv_cs_lg-four-extensions-of-the-universal-law-of-robustness-log-concave-covariates-hetero.json",
+    "title": "Four Extensions of the Universal Law of Robustness: Log-Concave Covariates, Heterogeneous Mixtures, Vector-Valued Predictors, and Markovian Data",
+    "category": "AI Theory",
+    "tags": [
+      "robustness",
+      "learning-theory",
+      "generalization",
+      "overparameterization",
+      "non-iid"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261104-010",
+    "file": "2026-11-04-rss_arxiv_cs_lg-towards-automatic-heart-murmur-characterization-from-multi-spot-phonocardiograms.json",
+    "title": "Towards Automatic Heart Murmur Characterization from Multi-spot Phonocardiograms",
+    "category": "Medical AI",
+    "tags": [
+      "heart murmur",
+      "phonocardiogram",
+      "multi-spot",
+      "deep learning",
+      "cardiac auscultation"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261104-011",
+    "file": "2026-11-04-rss_huggingface_blog-dharma-field-extractor-any-document-in-structured-fields-in-json-out.json",
+    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+    "category": "Document AI",
+    "tags": [
+      "document-ai",
+      "information-extraction",
+      "llm",
+      "json",
+      "ocr"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261104-012",
+    "file": "2026-11-04-rss_huggingface_blog-statebench-testing-how-language-models-track-state-changes-over-long-documents.json",
+    "title": "StateBench: Testing how language models track state changes over long documents",
+    "category": "LLM Evaluation",
+    "tags": [
+      "llm",
+      "benchmark",
+      "state-tracking",
+      "long-context",
+      "evaluation"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261104-013",
+    "file": "2026-11-04-rss_huggingface_blog-palette-teaching-a-small-model-to-build-decks-in-your-design-language.json",
+    "title": "Palette: teaching a small model to build decks in your design language",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "design",
+      "deck-generation",
+      "personalization"
+    ],
+    "collected_at": "2026-11-04T22:59:01.643321+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
     "id": "lobsters_ai-20261103-006",
     "file": "2026-11-03-rss_lobsters_ai-sparks-of-weight-space-programming-llms-can-natively-read-write-neural-network-w.json",
     "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",

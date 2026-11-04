@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261104-009",
+  "title": "Four Extensions of the Universal Law of Robustness: Log-Concave Covariates, Heterogeneous Mixtures, Vector-Valued Predictors, and Markovian Data",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.03653",
+  "description": "arXiv:2611.03653v1 Announce Type: new \nAbstract: Bubeck and Sellke's universal law of robustness says that fitting $n$ noisy samples below the noise level with a class of $p$ real parameters forces a Lipschitz constant of order $\\sqrt{nd/p}$, when the covariate distribution on $\\mathbb{R}^d$ is isop",
+  "summary": "本文针对Bubeck-Sellke普适鲁棒性定律提出四方面扩展：允许协变量服从对数凹分布、来自异质混合分布、预测器为向量值输出，以及数据服从马尔可夫过程。原定律表明，在用p个实参数拟合n个噪声样本至噪声水平以下时，模型Lipschitz常数至少为√(nd/p)量级。本文在更一般条件下证明类似下界，揭示过参数化、函数光滑性与拟合噪声之间的内在权衡。该工作为理解非独立同分布、复杂协变量和结构化输出场景下的鲁棒泛化提供了理论工具，对深度学习等现代模型具有参考价值。",
+  "tags": [
+    "robustness",
+    "learning-theory",
+    "generalization",
+    "overparameterization",
+    "non-iid"
+  ],
+  "category": "AI Theory",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "将对数凹协变量与异质混合分布纳入鲁棒性定律",
+    "把结论推广到向量值预测器和马尔可夫数据",
+    "为过参数化模型的鲁棒性下界提供统一理论视角"
+  ],
+  "risks": [
+    "理论假设仍可能限制对真实高维数据的直接适用性",
+    "未提供实验或算法验证，仅限理论下界分析"
+  ]
+}

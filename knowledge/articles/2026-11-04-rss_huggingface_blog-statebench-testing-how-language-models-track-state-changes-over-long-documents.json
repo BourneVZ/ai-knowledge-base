@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261104-012",
+  "title": "StateBench: Testing how language models track state changes over long documents",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/allenai/statebench",
+  "description": "",
+  "summary": "StateBench 是一个面向大语言模型长文档状态跟踪能力的评测基准。它通过构造包含实体状态随时间、事件或上下文逐步变化的文本，要求模型在阅读完整长文档后准确回答与最新状态相关的问题，重点考察模型对长距离依赖、状态更新、覆盖旧信息和抗干扰信息的能力。该基准覆盖多种状态变化类型和文档结构，能够系统揭示模型在处理持续变化信息时的遗忘、混淆或推理错误。StateBench 为长上下文建模、记忆机制和智能体状态管理研究提供了标准化测试平台，有助于推动模型在长文档理解与连续状态维护方面的改进。",
+  "tags": [
+    "llm",
+    "benchmark",
+    "state-tracking",
+    "long-context",
+    "evaluation"
+  ],
+  "category": "LLM Evaluation",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-04T22:59:01.643321+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-04-225910.json",
+  "analyzed_at": "2026-11-04T23:11:45.198771+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "长文档状态跟踪评测基准",
+    "覆盖多类型状态变化与干扰场景",
+    "揭示长上下文推理与记忆短板"
+  ],
+  "risks": [
+    "任务设计可能与真实应用状态跟踪存在差异",
+    "评测结果依赖提示与文档构造方式"
+  ]
+}
