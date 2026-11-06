@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261106-008",
+  "title": "SteelAgent: LLM-Orchestrated, Physics-Informed Steel Property Prediction with Audited Generalization and Calibrated Uncertainty",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.06953",
+  "description": "arXiv:2611.06953v1 Announce Type: new \nAbstract: Steel property models can perform well on random test splits even when they extrapolate poorly to unfamiliar alloys. SteelAgent couples metallurgical descriptors and machine-learning models with a language-model interface for property prediction, unce",
+  "summary": "钢铁性能预测模型在随机划分的测试集上常有良好表现，但对未见于训练分布的陌生合金外推能力不足。SteelAgent 针对这一问题，将冶金领域描述符与机器学习模型相结合，并通过大语言模型接口进行任务编排与交互，提供具有物理信息约束的性能预测。项目还引入泛化能力审计与校准的不确定性量化，旨在提升模型在未知合金上的可靠性和可解释性。该方法有望弥补纯数据驱动模型在材料科学中的外推缺陷，但摘要未披露完整技术细节。",
+  "tags": [
+    "ai",
+    "llm",
+    "materials-science",
+    "physics-informed",
+    "uncertainty-quantification"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "物理信息约束的冶金描述符与机器学习融合",
+    "大语言模型编排与自然语言交互",
+    "泛化审计与校准不确定性量化"
+  ],
+  "risks": [
+    "摘要截断，完整方法细节未充分披露",
+    "对全新合金体系的外推可靠性仍需实验验证"
+  ]
+}

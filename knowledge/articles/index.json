@@ -1,5 +1,229 @@
 [
   {
+    "id": "hn_ai-20261106-004",
+    "file": "2026-11-06-rss_hn_ai-cuban-facebook-knowingly-runs-ai-deepfake-scam-ads-docs-say-16b-fraud-revenue.json",
+    "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+    "category": "AI Safety & Governance",
+    "tags": [
+      "deepfake",
+      "scam-ads",
+      "meta",
+      "ai-ethics",
+      "generative-ai"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261106-005",
+    "file": "2026-11-06-rss_lobsters_ai-reflections-on-rust-in-the-llm-age.json",
+    "title": "Reflections on Rust in the LLM Age",
+    "category": "AI Programming",
+    "tags": [
+      "rust",
+      "llm",
+      "ai",
+      "programming",
+      "developer-tools"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261106-006",
+    "file": "2026-11-06-rss_arxiv_cs_cl-discourse-analysis-of-legislative-bill-discussions.json",
+    "title": "Discourse Analysis of Legislative Bill Discussions",
+    "category": "Computational Social Science",
+    "tags": [
+      "discourse-analysis",
+      "legislative-hearings",
+      "computational-social-science",
+      "nlp",
+      "argument-mining"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261106-007",
+    "file": "2026-11-06-rss_arxiv_cs_cl-ccdwiki-decoupling-case-formulation-from-response-generation-in-longitudinal-cbt.json",
+    "title": "CCDWIKI: Decoupling Case Formulation from Response Generation in Longitudinal CBT Dialogue",
+    "category": "Healthcare NLP",
+    "tags": [
+      "cognitive behavioral therapy",
+      "dialogue system",
+      "case formulation",
+      "mental health nlp",
+      "longitudinal modeling"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261106-008",
+    "file": "2026-11-06-rss_arxiv_cs_lg-steelagent-llm-orchestrated-physics-informed-steel-property-prediction-with-audi.json",
+    "title": "SteelAgent: LLM-Orchestrated, Physics-Informed Steel Property Prediction with Audited Generalization and Calibrated Uncertainty",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "materials-science",
+      "physics-informed",
+      "uncertainty-quantification"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261106-009",
+    "file": "2026-11-06-rss_arxiv_cs_lg-octopus-one-brain-many-branches-for-latent-kv-multi-agent-reinforcement-learning.json",
+    "title": "Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning",
+    "category": "AI Agent",
+    "tags": [
+      "multi-agent",
+      "reinforcement-learning",
+      "llm",
+      "kv-cache",
+      "latent-state"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261106-010",
+    "file": "2026-11-06-rss_arxiv_cs_lg-uncertainty-calibration-in-bayesian-meeg-source-imaging.json",
+    "title": "Uncertainty calibration in Bayesian M/EEG source imaging",
+    "category": "AI for Science",
+    "tags": [
+      "bayesian inference",
+      "uncertainty quantification",
+      "meg/eeg source imaging",
+      "calibration",
+      "neuroimaging"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261106-011",
+    "file": "2026-11-06-rss_huggingface_blog-toyblocks-a-controlled-world-for-robot-learning-and-evaluation.json",
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "category": "Robotics",
+    "tags": [
+      "robotics",
+      "simulation",
+      "reinforcement-learning",
+      "benchmark",
+      "manipulation"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261106-012",
+    "file": "2026-11-06-rss_huggingface_blog-egyptian-and-nigerian-english-join-the-open-asr-leaderboard.json",
+    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+    "category": "Speech Recognition",
+    "tags": [
+      "asr",
+      "speech-recognition",
+      "benchmark",
+      "african-english",
+      "hugging-face"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261106-013",
+    "file": "2026-11-06-rss_huggingface_blog-new-nvidia-cosmos-3-open-models-for-interactive-world-simulation.json",
+    "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+    "category": "World Simulation",
+    "tags": [
+      "world-simulation",
+      "nvidia",
+      "open-models",
+      "physical-ai",
+      "generative-video"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261106-014",
+    "file": "2026-11-06-rss_google_ai_blog-gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips.json",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "category": "Generative AI",
+    "tags": [
+      "google",
+      "gemini",
+      "video-generation",
+      "multimodal-ai",
+      "generative-ai"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062855+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261106-003",
+    "file": "2026-11-06-github-saos-3624dsh-see-now.json",
+    "title": "SAOS-3624/dsh-see-now",
+    "category": "AI Agent",
+    "tags": [
+      "screen-capture",
+      "llm-vision",
+      "token-optimization",
+      "real-time",
+      "computer-use"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062830+00:00",
+    "innovation_score": 4,
+    "stars": 417
+  },
+  {
+    "id": "github-20261106-002",
+    "file": "2026-11-06-github-wanghao-sunskycs329z-chinese.json",
+    "title": "wanghao-SunSky/cs329z-chinese",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "agents",
+      "rag",
+      "tutorial"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062828+00:00",
+    "innovation_score": 4,
+    "stars": 503
+  },
+  {
+    "id": "github-20261106-001",
+    "file": "2026-11-06-github-sandflow-aisand3d.json",
+    "title": "Sandflow-ai/sand3d",
+    "category": "AI Agent",
+    "tags": [
+      "3d",
+      "python",
+      "llm",
+      "cad",
+      "generative-modeling"
+    ],
+    "collected_at": "2026-11-06T22:29:45.062822+00:00",
+    "innovation_score": 4,
+    "stars": 766
+  },
+  {
     "id": "hn_ai-20261104-001",
     "file": "2026-11-04-rss_hn_ai-ai-is-forcing-us-to-pay-off-40-years-of-technical-debt.json",
     "title": "AI is forcing us to pay off 40 years of technical debt",

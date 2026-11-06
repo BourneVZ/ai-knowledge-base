@@ -1,0 +1,33 @@
+{
+  "id": "github-20261106-001",
+  "title": "Sandflow-ai/sand3d",
+  "source": "github",
+  "source_url": "https://github.com/Sandflow-ai/sand3d",
+  "description": "3D modeling in Python, built for LLMs.",
+  "summary": "Sandflow-ai/sand3d 是一个面向大语言模型的 Python 3D 建模库，旨在让 LLM 通过代码生成参数化三维模型。它将常用几何体、布尔运算、变换与导出封装为简洁 API，降低 LLM 生成可用 CAD/3D 资产的难度，适合智能设计、程序化建模和自动化内容生成等场景。项目以 Python 为核心，便于与现有 AI Agent 工具链集成，让模型从自然语言需求直接产出三维几何描述或可渲染模型。",
+  "tags": [
+    "3d",
+    "python",
+    "llm",
+    "cad",
+    "generative-modeling"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 766,
+  "collected_at": "2026-11-06T22:29:45.062822+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "面向 LLM 的 Python 3D 建模 API",
+    "参数化与程序化生成三维模型",
+    "便于 AI Agent 集成与自动化建模"
+  ],
+  "risks": [
+    "几何表达能力受限于库封装范围",
+    "生成模型的工程可用性与精度需人工校验"
+  ]
+}

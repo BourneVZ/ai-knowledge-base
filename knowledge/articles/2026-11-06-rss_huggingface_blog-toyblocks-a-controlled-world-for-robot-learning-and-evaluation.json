@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261106-011",
+  "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/allenai/toyblocks",
+  "description": "",
+  "summary": "ToyBlocks 是一个面向机器人学习与评估的受控模拟环境，旨在为操作类任务提供标准化、可复现的实验平台。该环境以积木搭建为核心，支持程序化生成多样化场景和任务，涵盖抓取、堆叠、排列等不同难度层次，帮助研究者系统评估机器人算法在规划、控制与泛化方面的能力。通过隔离真实世界噪声，ToyBlocks 使算法对比更加公平、结果更易复现，并提供统一评估指标和基线，促进社区基准建设。其模块化设计便于扩展新任务与传感器配置，适用于强化学习、模仿学习和规划等研究方向。",
+  "tags": [
+    "robotics",
+    "simulation",
+    "reinforcement-learning",
+    "benchmark",
+    "manipulation"
+  ],
+  "category": "Robotics",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "程序化积木任务生成",
+    "标准化评估与基线对比",
+    "受控环境聚焦算法核心能力"
+  ],
+  "risks": [
+    "任务简化可能导致真实机器人迁移差距",
+    "环境多样性有限"
+  ]
+}

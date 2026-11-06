@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261106-014",
+  "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+  "summary": "Gemini Omni 1.2 Flash 是谷歌推出的快速、低成本多模态生成模型，重点强化视频生成与编辑能力。该版本原生支持最长15秒的视频生成和编辑，显著提升画面与角色的一致性，并在定价上降低30%，进一步降低视频创作门槛。相比前代，它更适合需要快速迭代和较长连续片段的创意场景，可应用于广告、社交媒体和原型设计等。作为 Flash 系列，它平衡了性能与效率，适合规模化内容生产。当前仍需关注复杂场景下的可控性和版权合规问题。",
+  "tags": [
+    "google",
+    "gemini",
+    "video-generation",
+    "multimodal-ai",
+    "generative-ai"
+  ],
+  "category": "Generative AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "原生支持15秒视频生成与编辑",
+    "更强的一致性表现",
+    "定价降低30%"
+  ],
+  "risks": [
+    "15秒时长仍限制长叙事和复杂镜头",
+    "生成内容存在版权与可控性风险"
+  ]
+}

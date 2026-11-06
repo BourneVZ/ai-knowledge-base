@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261106-006",
+  "title": "Discourse Analysis of Legislative Bill Discussions",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.05381",
+  "description": "arXiv:2611.05381v1 Announce Type: new \nAbstract: Legislative hearings are distinct communication events with their own human recognizable structure and logic, yet they have been analyzed as distinct phenomena beyond their transcripts. Understanding legislative hearings at a deeper level is a major s",
+  "summary": "该研究聚焦立法听证会这一具有独特人为可识别结构与逻辑的交际事件，旨在超越传统仅依赖转写文本的分析方式，深入理解其话语结构和深层逻辑。研究可能采用自然语言处理、话语分析和计算社会科学方法，对听证会中的论证模式、主题演化、参与者立场及决策过程进行建模与挖掘。通过结构化建模立法讨论，论文有望揭示立法沟通的内在机制，并为法律信息抽取、政治话语分析等下游任务提供自动化支持。由于摘要信息不完整，具体技术细节尚不明确，但核心贡献在于将立法听证会视为可计算的话语现象，推动政治文本挖掘从浅层统计走向深层语义理解。",
+  "tags": [
+    "discourse-analysis",
+    "legislative-hearings",
+    "computational-social-science",
+    "nlp",
+    "argument-mining"
+  ],
+  "category": "Computational Social Science",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "立法听证会结构与逻辑的深度建模",
+    "超越纯转写文本的话语分析",
+    "立法讨论的语义与论证解析"
+  ],
+  "risks": [
+    "领域数据稀疏且标注成本高",
+    "方法可能依赖特定语言或议会制度"
+  ]
+}

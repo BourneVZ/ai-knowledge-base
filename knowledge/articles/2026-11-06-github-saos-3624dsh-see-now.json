@@ -1,0 +1,33 @@
+{
+  "id": "github-20261106-003",
+  "title": "SAOS-3624/dsh-see-now",
+  "source": "github",
+  "source_url": "https://github.com/SAOS-3624/dsh-see-now",
+  "description": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
+  "summary": "SAOS-3624/dsh-see-now 是一个面向多模态大模型的实时屏幕感知工具。其核心思路是通过比对画面变化量，仅在屏幕内容发生足够变化时提取帧，并将多个变化帧拼接成一张图片发送给视觉语言模型，从而显著减少 API 调用次数与 token 消耗。对于静态或几乎不动的屏幕画面，系统几乎不产生额外成本，适合长时间运行的 AI 助手、屏幕监控与自动化操作场景。项目来源于 GitHub，属于实用型开发工具，能够帮助开发者为 AI 赋予实时“看见”屏幕的能力，提升视觉理解效率。",
+  "tags": [
+    "screen-capture",
+    "llm-vision",
+    "token-optimization",
+    "real-time",
+    "computer-use"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 417,
+  "collected_at": "2026-11-06T22:29:45.062830+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "按画面变化量智能筛选帧",
+    "多帧拼接成单图降低请求频率",
+    "静止画面几乎不消耗 token"
+  ],
+  "risks": [
+    "细微但重要的画面变化可能被过滤",
+    "多帧拼接可能降低单帧分辨率并影响时序判断"
+  ]
+}

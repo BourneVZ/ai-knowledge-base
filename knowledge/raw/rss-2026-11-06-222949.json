@@ -1,0 +1,130 @@
+[
+  {
+    "source": "rss/hn_ai",
+    "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+    "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+    "description": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html\nComments URL: https://news.ycombinator.com/item?id=50385870\nPoints: 489\n# Comments: 222",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Reflections on Rust in the LLM Age",
+    "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "An easy way to try local AI with braindead-local-intelligence",
+    "url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Discourse Analysis of Legislative Bill Discussions",
+    "url": "https://arxiv.org/abs/2611.05381",
+    "description": "arXiv:2611.05381v1 Announce Type: new \nAbstract: Legislative hearings are distinct communication events with their own human recognizable structure and logic, yet they have been analyzed as distinct phenomena beyond their transcripts. Understanding legislative hearings at a deeper level is a major s",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "DS@GT ARC at CheckThat! 2026: A Verdict-Anchored Pipeline for Generating Fact-Checking Articles",
+    "url": "https://arxiv.org/abs/2611.05382",
+    "description": "arXiv:2611.05382v1 Announce Type: new \nAbstract: Misinformation spreads faster than professional fact-checkers can manually verify it and write articles explaining their verdicts. This creates a need to automate the production of fact-checking articles. This paper details work done by the DS@GT ARC ",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "CCDWIKI: Decoupling Case Formulation from Response Generation in Longitudinal CBT Dialogue",
+    "url": "https://arxiv.org/abs/2611.05383",
+    "description": "arXiv:2611.05383v1 Announce Type: new \nAbstract: Cognitive Behavioral Therapy (CBT) demands more than empathic validation, requiring instead a structured formulation of the interplay among situations, automatic thoughts, emotions, and behaviors. Therapists formalize this interplay through a Cognitiv",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "SteelAgent: LLM-Orchestrated, Physics-Informed Steel Property Prediction with Audited Generalization and Calibrated Uncertainty",
+    "url": "https://arxiv.org/abs/2611.06953",
+    "description": "arXiv:2611.06953v1 Announce Type: new \nAbstract: Steel property models can perform well on random test splits even when they extrapolate poorly to unfamiliar alloys. SteelAgent couples metallurgical descriptors and machine-learning models with a language-model interface for property prediction, unce",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2611.06956",
+    "description": "arXiv:2611.06956v1 Announce Type: new \nAbstract: Multi-agent LLM systems explore in parallel by spawning sub-agents with isolated context windows, whereas single-agent systems append every search and verification step into one growing trajectory. However, existing multi-agent frameworks duplicate pr",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Uncertainty calibration in Bayesian M/EEG source imaging",
+    "url": "https://arxiv.org/abs/2611.06979",
+    "description": "arXiv:2611.06979v1 Announce Type: new \nAbstract: M/EEG source imaging requires accurate localization and reliable uncertainty estimates, yet posterior credible regions are rarely assessed for empirical calibration. We present a simulation-based framework for uncertainty quantification and calibratio",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "url": "https://huggingface.co/blog/allenai/toyblocks",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "The latest AI news we announced in October 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "description": "Here are Google’s latest AI updates from October 2026",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "stars": null,
+    "collected_at": "2026-11-06T22:29:45.062855+00:00"
+  }
+]

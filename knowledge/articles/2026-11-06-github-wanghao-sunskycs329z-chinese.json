@@ -1,0 +1,33 @@
+{
+  "id": "github-20261106-002",
+  "title": "wanghao-SunSky/cs329z-chinese",
+  "source": "github",
+  "source_url": "https://github.com/wanghao-SunSky/cs329z-chinese",
+  "description": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+  "summary": "该项目是斯坦福 CS329Z《Engineering AI Agents》课程的中文学习资源，面向具备 Python 基础的开发者，系统整理 19 讲内容与 4 项实践，覆盖大语言模型、RAG、工具调用、记忆机制、多智能体协作、评测与安全等主题。项目提供完整 Markdown、在线和离线 HTML，便于自学与离线阅读，降低国内开发者学习前沿 AI 智能体课程的门槛。作为课程笔记类资源，内容结构清晰，适合希望快速入门 AI Agent 工程实践的学习者，但需注意非官方翻译可能存在准确性与更新滞后问题。",
+  "tags": [
+    "ai",
+    "llm",
+    "agents",
+    "rag",
+    "tutorial"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 503,
+  "collected_at": "2026-11-06T22:29:45.062828+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "斯坦福 CS329Z 中文课程笔记",
+    "覆盖 LLM/RAG/工具调用/多智能体/评测安全",
+    "提供 Markdown 与离线 HTML 多格式阅读"
+  ],
+  "risks": [
+    "非官方中文翻译，准确性需对照原课程核对",
+    "内容更新依赖上游课程，可能存在滞后"
+  ]
+}

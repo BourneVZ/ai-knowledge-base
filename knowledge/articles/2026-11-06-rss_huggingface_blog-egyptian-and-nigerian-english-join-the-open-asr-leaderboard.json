@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261106-012",
+  "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+  "description": "",
+  "summary": "Hugging Face 开放语音识别排行榜（Open ASR Leaderboard）新增埃及英语与尼日利亚英语评测数据集，用于衡量不同语音识别模型在这两种英语口音上的表现。该更新旨在提升排行榜对非洲英语变体的覆盖度，揭示现有 ASR 模型在非母语口音和区域方言上的鲁棒性。通过标准化评测，研究者和开发者可以更直观地比较模型在多口音场景下的词错误率等指标，从而优化训练数据与模型结构。整体来看，这是一项面向低资源口音的基准扩展，有助于推动更具包容性的语音技术，但本身不涉及模型创新，仍属于评测基础设施建设。",
+  "tags": [
+    "asr",
+    "speech-recognition",
+    "benchmark",
+    "african-english",
+    "hugging-face"
+  ],
+  "category": "Speech Recognition",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 2,
+  "key_points": [
+    "新增埃及英语与尼日利亚英语评测集",
+    "聚焦非洲英语口音识别",
+    "扩展Open ASR排行榜多样性"
+  ],
+  "risks": [
+    "口音数据规模可能有限",
+    "仅覆盖两种英语变体，代表性不足"
+  ]
+}

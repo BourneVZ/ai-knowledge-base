@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261106-007",
+  "title": "CCDWIKI: Decoupling Case Formulation from Response Generation in Longitudinal CBT Dialogue",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.05383",
+  "description": "arXiv:2611.05383v1 Announce Type: new \nAbstract: Cognitive Behavioral Therapy (CBT) demands more than empathic validation, requiring instead a structured formulation of the interplay among situations, automatic thoughts, emotions, and behaviors. Therapists formalize this interplay through a Cognitiv",
+  "summary": "该工作提出CCDWIKI，面向纵向认知行为治疗对话，将个案概念化与回复生成解耦。传统CBT对话系统往往侧重共情回应，忽略结构化梳理情境、自动思维、情绪与行为之间的关系。CCDWIKI通过显式标注和模块化设计，先引导模型形成稳定的认知行为个案概念，再据此生成治疗回复，提升长程对话中的一致性与可解释性。论文引入纵向对话场景，关注多轮治疗过程中的动态变化和案例跟踪，为构建更专业、可验证的心理健康对话系统提供数据资源与方法支撑，有助于后续临床辅助研究和模型评估。",
+  "tags": [
+    "cognitive behavioral therapy",
+    "dialogue system",
+    "case formulation",
+    "mental health nlp",
+    "longitudinal modeling"
+  ],
+  "category": "Healthcare NLP",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "将个案概念化与回复生成解耦",
+    "构建纵向CBT对话数据与标注",
+    "覆盖情境-自动思维-情绪-行为结构"
+  ],
+  "risks": [
+    "摘要信息截断，临床效果尚需验证",
+    "心理健康数据隐私与伦理风险"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261106-013",
+  "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+  "description": "",
+  "summary": "NVIDIA Cosmos 3 是面向交互式世界模拟的新一代开放模型家族，旨在为机器人、自动驾驶等物理 AI 系统提供可训练、可验证的虚拟环境。该系列开放模型权重，支持生成具有物理一致性和时序连续性的视频与世界状态推演，帮助开发者构建定制化的世界基础模型。Cosmos 3 强调交互式控制，可通过动作、传感器或语言指令驱动场景演化，降低真实数据采集成本并加速策略迭代。开放模型有助于社区微调、评测与二次开发，推动具身智能和世界模拟研究。",
+  "tags": [
+    "world-simulation",
+    "nvidia",
+    "open-models",
+    "physical-ai",
+    "generative-video"
+  ],
+  "category": "World Simulation",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "开放权重的交互式世界模拟模型",
+    "物理一致视频生成与状态推演",
+    "面向机器人/自动驾驶的虚拟环境"
+  ],
+  "risks": [
+    "模拟与现实差距影响泛化",
+    "训练与推理算力门槛较高"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261106-004",
+  "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+  "source": "rss/hn_ai",
+  "source_url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+  "description": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html\nComments URL: https://news.ycombinator.com/item?id=50385870\nPoints: 489\n# Comments: 222",
+  "summary": "马克·库班指控 Meta/Facebook 明知平台充斥 AI 深度伪造诈骗广告却未有效制止，内部文件显示相关欺诈收入高达160亿美元。这些广告利用生成式 AI 伪造名人形象与声音，诱导用户参与虚假投资。该报道在 Hacker News 获得489点热度、222条评论，聚焦平台审核责任、AI生成内容治理与监管滞后等议题。库班的公开批评可能加大 Meta 面临的法律与舆论压力，也凸显深度伪造在广告生态中的滥用风险与识别难题。",
+  "tags": [
+    "deepfake",
+    "scam-ads",
+    "meta",
+    "ai-ethics",
+    "generative-ai"
+  ],
+  "category": "AI Safety & Governance",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 4,
+  "key_points": [
+    "内部文件曝160亿美元欺诈广告收入",
+    "AI深度伪造冒充名人诱导投资",
+    "引发对Meta审核与法律责任的争议"
+  ],
+  "risks": [
+    "指控与文件真实性仍需独立核实",
+    "平台可能以第三方内容免责作为抗辩"
+  ]
+}

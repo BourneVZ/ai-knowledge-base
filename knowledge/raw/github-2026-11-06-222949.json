@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "ccch1mneyyy/dsh-Go",
+    "url": "https://github.com/ccch1mneyyy/dsh-Go",
+    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "stars": 12899,
+    "collected_at": "2026-11-06T22:29:45.062790+00:00"
+  },
+  {
+    "source": "github",
+    "title": "wangzan101/Mika",
+    "url": "https://github.com/wangzan101/Mika",
+    "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "stars": 7385,
+    "collected_at": "2026-11-06T22:29:45.062807+00:00"
+  },
+  {
+    "source": "github",
+    "title": "modelflare-ai/AnyModelBot",
+    "url": "https://github.com/modelflare-ai/AnyModelBot",
+    "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+    "stars": 2726,
+    "collected_at": "2026-11-06T22:29:45.062810+00:00"
+  },
+  {
+    "source": "github",
+    "title": "N1nEmAn/sapper-v2",
+    "url": "https://github.com/N1nEmAn/sapper-v2",
+    "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+    "stars": 1481,
+    "collected_at": "2026-11-06T22:29:45.062814+00:00"
+  },
+  {
+    "source": "github",
+    "title": "jackwener/DSH-Android",
+    "url": "https://github.com/jackwener/DSH-Android",
+    "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+    "stars": 850,
+    "collected_at": "2026-11-06T22:29:45.062819+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Sandflow-ai/sand3d",
+    "url": "https://github.com/Sandflow-ai/sand3d",
+    "description": "3D modeling in Python, built for LLMs.",
+    "stars": 766,
+    "collected_at": "2026-11-06T22:29:45.062822+00:00"
+  },
+  {
+    "source": "github",
+    "title": "sleepy-zone/ai-ref-library-cn",
+    "url": "https://github.com/sleepy-zone/ai-ref-library-cn",
+    "description": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
+    "stars": 727,
+    "collected_at": "2026-11-06T22:29:45.062824+00:00"
+  },
+  {
+    "source": "github",
+    "title": "hevnsnt/CVEngine",
+    "url": "https://github.com/hevnsnt/CVEngine",
+    "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+    "stars": 620,
+    "collected_at": "2026-11-06T22:29:45.062826+00:00"
+  },
+  {
+    "source": "github",
+    "title": "wanghao-SunSky/cs329z-chinese",
+    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
+    "description": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+    "stars": 503,
+    "collected_at": "2026-11-06T22:29:45.062828+00:00"
+  },
+  {
+    "source": "github",
+    "title": "SAOS-3624/dsh-see-now",
+    "url": "https://github.com/SAOS-3624/dsh-see-now",
+    "description": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
+    "stars": 417,
+    "collected_at": "2026-11-06T22:29:45.062830+00:00"
+  }
+]

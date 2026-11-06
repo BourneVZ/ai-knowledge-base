@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261106-010",
+  "title": "Uncertainty calibration in Bayesian M/EEG source imaging",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.06979",
+  "description": "arXiv:2611.06979v1 Announce Type: new \nAbstract: M/EEG source imaging requires accurate localization and reliable uncertainty estimates, yet posterior credible regions are rarely assessed for empirical calibration. We present a simulation-based framework for uncertainty quantification and calibratio",
+  "summary": "本文提出一种基于模拟的贝叶斯不确定性量化与校准框架，用于脑磁图/脑电图（M/EEG）源成像。传统源定位方法虽能提供后验可信区域，但很少对这些区域的频率性质进行经验校准。该框架通过仿真数据评估后验分布的可信度，旨在提高源定位不确定性估计的可靠性和校准性，为神经成像中的贝叶斯推断提供更可信的置信区间。研究有望改善临床和认知神经科学研究对源重建结果的解释。",
+  "tags": [
+    "bayesian inference",
+    "uncertainty quantification",
+    "meg/eeg source imaging",
+    "calibration",
+    "neuroimaging"
+  ],
+  "category": "AI for Science",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-06T22:29:45.062855+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-06-222949.json",
+  "analyzed_at": "2026-11-06T22:43:09.607262+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出面向M/EEG源成像的后验可信区域校准方法",
+    "基于模拟的框架进行不确定性量化",
+    "弥补贝叶斯源定位中经验校准不足"
+  ],
+  "risks": [
+    "依赖仿真假设，真实数据泛化性待验证",
+    "计算复杂度较高"
+  ]
+}
