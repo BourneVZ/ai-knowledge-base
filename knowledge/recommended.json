@@ -76,5 +76,17 @@
     "title": "earendil-works/pi",
     "tier": "C",
     "recommended_at": "2026-10-31T20:52:36+00:00"
+  },
+  {
+    "file": "2026-07-18-github-headroomlabs-aiheadroom.json",
+    "title": "headroomlabs-ai/headroom",
+    "tier": "C",
+    "recommended_at": "2026-11-07T21:19:42+00:00"
+  },
+  {
+    "file": "2026-07-01-github-aaif-goosegoose.json",
+    "title": "aaif-goose/goose",
+    "tier": "C",
+    "recommended_at": "2026-11-07T21:19:42+00:00"
   }
 ]
