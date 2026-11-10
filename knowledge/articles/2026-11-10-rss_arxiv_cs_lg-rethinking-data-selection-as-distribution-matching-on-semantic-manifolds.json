@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261110-014",
+  "title": "Rethinking Data Selection as Distribution Matching on Semantic Manifolds",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.08495",
+  "description": "arXiv:2611.08495v1 Announce Type: new \nAbstract: Instruction tuning of large language models and large vision language models relies on massive training data, which incurs substantial computational and storage costs. Meanwhile, training data often contains redundancy, noise, and low quality samples.",
+  "summary": "本文针对大语言模型与视觉语言模型指令微调中海量训练数据带来的高计算与存储成本，以及数据普遍存在的冗余、噪声和低质量问题，提出将数据选择重新定义为语义流形上的分布匹配任务。不同于传统逐样本质量评分或启发式筛选，该方法从整体分布视角出发，在语义流形中寻找与目标分布最匹配的紧凑子集，以保持数据多样性并提升训练效率。摘要未披露具体算法与实验细节，但该框架有望为高效指令微调提供新的理论视角和实用方案，在减少数据规模的同时维持或提升模型性能。",
+  "tags": [
+    "data selection",
+    "instruction tuning",
+    "distribution matching",
+    "semantic manifold",
+    "llm"
+  ],
+  "category": "Data Selection",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "将数据筛选建模为语义流形上的分布匹配",
+    "从整体分布优化子集以减少冗余噪声并保持多样性",
+    "适用于LLM与VLM指令微调以降低计算存储成本"
+  ],
+  "risks": [
+    "摘要未给出具体实验验证与性能对比",
+    "语义流形构建与分布匹配计算可能引入额外开销"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "wangzan101/Mika",
+    "url": "https://github.com/wangzan101/Mika",
+    "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "stars": 7911,
+    "collected_at": "2026-11-10T00:57:26.494080+00:00"
+  },
+  {
+    "source": "github",
+    "title": "N1nEmAn/sapper-v2",
+    "url": "https://github.com/N1nEmAn/sapper-v2",
+    "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+    "stars": 1795,
+    "collected_at": "2026-11-10T00:57:26.494098+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Sandflow-ai/sand3d",
+    "url": "https://github.com/Sandflow-ai/sand3d",
+    "description": "3D modeling in Python, built for LLMs.",
+    "stars": 1622,
+    "collected_at": "2026-11-10T00:57:26.494104+00:00"
+  },
+  {
+    "source": "github",
+    "title": "sleepy-zone/ai-ref-library-cn",
+    "url": "https://github.com/sleepy-zone/ai-ref-library-cn",
+    "description": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
+    "stars": 744,
+    "collected_at": "2026-11-10T00:57:26.494107+00:00"
+  },
+  {
+    "source": "github",
+    "title": "wanghao-SunSky/cs329z-chinese",
+    "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
+    "description": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+    "stars": 540,
+    "collected_at": "2026-11-10T00:57:26.494109+00:00"
+  },
+  {
+    "source": "github",
+    "title": "SAOS-3624/dsh-see-now",
+    "url": "https://github.com/SAOS-3624/dsh-see-now",
+    "description": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
+    "stars": 527,
+    "collected_at": "2026-11-10T00:57:26.494111+00:00"
+  },
+  {
+    "source": "github",
+    "title": "aa1143/NamiAgent",
+    "url": "https://github.com/aa1143/NamiAgent",
+    "description": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent",
+    "stars": 467,
+    "collected_at": "2026-11-10T00:57:26.494113+00:00"
+  },
+  {
+    "source": "github",
+    "title": "jmanico/grim-prompter",
+    "url": "https://github.com/jmanico/grim-prompter",
+    "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
+    "stars": 404,
+    "collected_at": "2026-11-10T00:57:26.494115+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Interactive-Active-AI/NextTransformer",
+    "url": "https://github.com/Interactive-Active-AI/NextTransformer",
+    "description": ":sunrise: A comprehensive, cutting-edge open-source framework for next-generation Transformers/LLM, with compute-matched benchmarking and a platform for autonomous architecture research.",
+    "stars": 399,
+    "collected_at": "2026-11-10T00:57:26.494117+00:00"
+  },
+  {
+    "source": "github",
+    "title": "shipwords-dev/shipwords",
+    "url": "https://github.com/shipwords-dev/shipwords",
+    "description": "Ship a money-making AI site for every new keyword. Cloudflare-native starter with auth, credits, payments and AI generation. | 新词站群框架：一个新词一个站，一个下午上线。起量的继续迭代，没起来的放着不管。不变的共享，变的独立。",
+    "stars": 362,
+    "collected_at": "2026-11-10T00:57:26.494119+00:00"
+  }
+]

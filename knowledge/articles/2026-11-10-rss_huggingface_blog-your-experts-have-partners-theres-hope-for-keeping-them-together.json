@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261110-016",
+  "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+  "description": "",
+  "summary": "HOPE 是一项面向混合专家（MoE）大模型的专家部署与推理优化技术。其核心观察是：不同专家并非独立工作，某些专家经常被路由器同时激活，形成事实上的“伙伴专家”关系。若在 GPU/TPU 等设备上将这些高共激活专家分散放置，推理时会产生大量跨设备通信与数据搬运。HOPE 通过统计路由共激活模式、构建专家亲和图并采用聚类或配对策略，将伙伴专家尽量部署在同一设备或相邻节点，从而降低通信开销、缩短延迟并提高吞吐。该思路尤其适用于大规模 MoE 语言模型的部署，能在不改变模型权重的前提下改善硬件利用率与可扩展性。",
+  "tags": [
+    "mixture-of-experts",
+    "moe",
+    "inference-optimization",
+    "expert-parallelism",
+    "llm"
+  ],
+  "category": "模型推理优化",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "基于路由共激活模式识别伙伴专家",
+    "通过聚类或配对优化专家设备放置",
+    "降低跨设备通信，提升推理吞吐"
+  ],
+  "risks": [
+    "共激活统计需额外处理，动态路由下可能失效",
+    "过度绑定可能降低动态调度弹性"
+  ]
+}

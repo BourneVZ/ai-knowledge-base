@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261110-011",
+  "title": "Compression of Emotion in Language Model Representations",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.08683",
+  "description": "arXiv:2611.08683v1 Announce Type: new \nAbstract: Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized interna",
+  "summary": "该研究关注大型语言模型（LLM）内部表征中情感信息的压缩与组织方式。现有评估多聚焦模型识别文本情绪或生成情感语言的输出表现，但输出结果无法揭示模型如何在内部向量空间中编码和区分细粒度情绪。论文从表征层面分析情感信息的压缩结构，考察不同情绪类别在隐藏状态中的几何分布、维度压缩程度及可分离性，以理解模型是否形成紧凑且可泛化的情感表征。该工作有助于桥接情感计算与模型可解释性，为改进情感理解和生成能力提供理论依据，并可能采用表征探测、降维或信息瓶颈等方法探索情感编码效率与冗余。",
+  "tags": [
+    "emotion recognition",
+    "representation learning",
+    "model interpretability",
+    "llm",
+    "compression"
+  ],
+  "category": "Model Interpretability",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "关注LLM内部情感表征而非仅输出预测",
+    "分析细粒度情绪区分在表征空间中的压缩与组织",
+    "为情感计算与可解释性研究提供新视角"
+  ],
+  "risks": [
+    "摘要截断，方法细节与实验结论尚不明确",
+    "细粒度情绪边界主观，可能影响表征分析一致性"
+  ]
+}

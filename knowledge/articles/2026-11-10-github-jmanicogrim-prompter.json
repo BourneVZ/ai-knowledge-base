@@ -1,0 +1,33 @@
+{
+  "id": "github-20261110-002",
+  "title": "jmanico/grim-prompter",
+  "source": "github",
+  "source_url": "https://github.com/jmanico/grim-prompter",
+  "description": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
+  "summary": "grim-prompter 是一个面向 AI 编码代理的威胁建模工具，由 jmanico 开发并以 MIT 协议开源。用户可将 Claude Code、Codex 或任意编码代理指向目标仓库，自动生成具备证据追踪的威胁模型。工具内置 36 种架构场景与 29 种方法，覆盖常见应用架构与攻击面。其核心特点是将威胁条目与仓库代码证据关联，减少模型幻觉带来的不可信结论，便于安全人员复核。适用于开发流程中的安全评估与威胁建模自动化，可提升 AI 辅助安全审计的效率和可追溯性。",
+  "tags": [
+    "threat-modeling",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "security"
+  ],
+  "category": "Security",
+  "status": "draft",
+  "stars": 404,
+  "collected_at": "2026-11-10T00:57:26.494115+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "支持 Claude Code、Codex 等任意 AI 编码代理",
+    "内置 36 种架构与 29 种方法，覆盖全面",
+    "生成证据追踪的威胁模型，可验证性高"
+  ],
+  "risks": [
+    "威胁模型质量依赖底层 AI 代理能力",
+    "可能对复杂业务逻辑产生误报或遗漏"
+  ]
+}

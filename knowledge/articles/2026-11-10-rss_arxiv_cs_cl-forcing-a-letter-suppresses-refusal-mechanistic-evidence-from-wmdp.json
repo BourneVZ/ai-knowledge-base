@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261110-009",
+  "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.08639",
+  "description": "arXiv:2611.08639v1 Announce Type: new \nAbstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide",
+  "summary": "该研究关注大语言模型安全评测中常见的多项选择题（MCQ）格式。已有研究表明MCQ格式会降低模型拒绝回答的概率，可能显著影响模型安全行为。论文题目“强制一个字母会抑制拒绝”提示：要求模型在MCQ中输出指定选项字母，可能通过机械性诱导使模型绕过拒绝机制。作者以WMDP基准为证据，分析模型在多选格式下的安全行为变化，揭示评测格式引入的偏差。研究提示当前基于MCQ的LLM安全基准可能高估模型安全性，需改进评测方法以更真实反映拒绝能力与风险。",
+  "tags": [
+    "llm safety",
+    "mcq benchmark",
+    "refusal",
+    "mechanistic interpretability",
+    "wmdp"
+  ],
+  "category": "AI Safety",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "MCQ格式降低LLM拒绝率",
+    "强制输出字母抑制拒绝行为",
+    "基于WMDP提供机制证据"
+  ],
+  "risks": [
+    "研究摘要截断，具体实验结论待确认",
+    "可能仅适用于MCQ安全评测场景"
+  ]
+}

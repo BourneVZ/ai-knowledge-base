@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261110-010",
+  "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.08643",
+  "description": "arXiv:2611.08643v1 Announce Type: new \nAbstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and",
+  "summary": "FinEvolveKG面向金融机构从SEC 10-K文件构建知识图谱，应对风险分析、组合管理、投资研究等差异化需求。传统抽取方法难以在共享实体、关系与类型体系下灵活适配，容易造成知识碎片化。该项目提出受控且可归因的提示进化机制，在保持共享知识模式和类型约束一致的前提下，动态调整抽取提示以适配不同下游任务，并追踪提示修改来源与演化路径，增强可解释性与审计能力。该框架有望提升金融知识图谱构建的自适应性与可靠性，为金融文本自动化抽取提供新思路。",
+  "tags": [
+    "ai",
+    "llm",
+    "prompt-engineering",
+    "knowledge-graph",
+    "finance"
+  ],
+  "category": "Knowledge Graph",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "受控提示进化机制",
+    "可归因审计与溯源",
+    "共享知识模式与类型一致性"
+  ],
+  "risks": [
+    "对SEC 10-K文本质量依赖较高",
+    "提示进化可能引入语义漂移"
+  ]
+}

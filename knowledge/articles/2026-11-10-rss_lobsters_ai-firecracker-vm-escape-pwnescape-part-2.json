@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261110-008",
+  "title": "Firecracker VM Escape: PwnEscape Part 2",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://pwn.ai/blog/firecracker-escape",
+  "description": "Comments",
+  "summary": "Firecracker VM Escape: PwnEscape Part 2 是一篇针对 AWS Firecracker 微虚拟机逃逸漏洞的深度利用研究，属于系列第二部分。内容重点分析 Firecracker 在 VirtIO 设备模拟、内存隔离或 KVM 交互路径中的安全缺陷，并构建从客户机到宿主机的完整逃逸链。研究可能涵盖漏洞根因、利用原语、KASLR/SMEP 绕过及补丁修复分析，验证轻量级虚拟化在云原生和 Serverless 场景下的隔离边界是否可靠，具有较高的学术与实战参考价值。",
+  "tags": [
+    "firecracker",
+    "vm-escape",
+    "vulnerability-research",
+    "kvm",
+    "exploit"
+  ],
+  "category": "Security Research",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 5,
+  "key_points": [
+    "Firecracker VirtIO/设备模拟攻击面",
+    "客户机到宿主机完整逃逸链",
+    "云原生隔离边界安全验证"
+  ],
+  "risks": [
+    "公开漏洞细节可能降低攻击门槛",
+    "依赖特定版本与配置"
+  ]
+}

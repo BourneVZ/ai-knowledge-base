@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261110-007",
+  "title": "Catching prompt injections hidden in PDFs",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://tomclancy.info/joshua-judges-ruth.html",
+  "description": "Comments",
+  "summary": "该项目聚焦于检测和防御隐藏在PDF文档中的提示注入攻击。随着大模型在文档问答、RAG等场景中广泛读取PDF，攻击者可在PDF的不可见文本、注释、元数据或嵌入层中植入恶意指令，绕过人工审查并诱导模型泄露数据或执行错误操作。项目通过解析PDF内部结构、提取可疑文本和对象、识别异常模式，从而在输入大模型前过滤潜在注入内容。该工作揭示了PDF作为新型攻击载体的安全风险，并为AI文档处理流水线提供了实用防护思路。",
+  "tags": [
+    "prompt-injection",
+    "pdf",
+    "llm",
+    "security",
+    "ai"
+  ],
+  "category": "AI Security",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "揭示PDF作为提示注入新载体",
+    "基于PDF结构解析的检测机制",
+    "提升LLM文档处理安全性"
+  ],
+  "risks": [
+    "对高度混淆的恶意PDF可能漏检",
+    "复杂PDF格式兼容性存在挑战"
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "source": "rss/hn_ai",
+    "title": "I'm not convinced the AI bubble exists",
+    "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+    "description": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists\nComments URL: https://news.ycombinator.com/item?id=50418975\nPoints: 541\n# Comments: 934",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "How I'm fighting the AI brain fry",
+    "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+    "description": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\nComments URL: https://news.ycombinator.com/item?id=50416363\nPoints: 303\n# Comments: 207",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "description": "Article URL: https://github.com/synchopate/llama-modchip\nComments URL: https://news.ycombinator.com/item?id=50411961\nPoints: 475\n# Comments: 204",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Catching prompt injections hidden in PDFs",
+    "url": "https://tomclancy.info/joshua-judges-ruth.html",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Firecracker VM Escape: PwnEscape Part 2",
+    "url": "https://pwn.ai/blog/firecracker-escape",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Reflections on Rust in the LLM Age",
+    "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+    "url": "https://arxiv.org/abs/2611.08639",
+    "description": "arXiv:2611.08639v1 Announce Type: new \nAbstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+    "url": "https://arxiv.org/abs/2611.08643",
+    "description": "arXiv:2611.08643v1 Announce Type: new \nAbstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Compression of Emotion in Language Model Representations",
+    "url": "https://arxiv.org/abs/2611.08683",
+    "description": "arXiv:2611.08683v1 Announce Type: new \nAbstract: Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized interna",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "FasterRW: An Efficient Prior-Assisted Random Walk Solver for Thermal Analysis",
+    "url": "https://arxiv.org/abs/2611.08490",
+    "description": "arXiv:2611.08490v1 Announce Type: new \nAbstract: Thermal simulation is becoming increasingly critical in modern IC design and manufacturing. Feynman--Kac random walk methods can estimate localized temperatures without solving the global field, but in practical settings without Dirichlet boundaries t",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Embedding Consistent Recurrent Neural Networks in Finite Element Simulations for Path-Dependent Damage Prediction",
+    "url": "https://arxiv.org/abs/2611.08494",
+    "description": "arXiv:2611.08494v1 Announce Type: new \nAbstract: Capturing sheet-metal localisation physics with a trained surrogate inside a finite element (FEM) solver requires the surrogate to deliver consistent predictions irrespective of the solver's strain-increment count, which is difficult to control in non",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Rethinking Data Selection as Distribution Matching on Semantic Manifolds",
+    "url": "https://arxiv.org/abs/2611.08495",
+    "description": "arXiv:2611.08495v1 Announce Type: new \nAbstract: Instruction tuning of large language models and large vision language models relies on massive training data, which incurs substantial computational and storage costs. Meanwhile, training data often contains redundancy, noise, and low quality samples.",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+    "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "url": "https://huggingface.co/blog/allenai/toyblocks",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "The latest AI news we announced in October 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "description": "Here are Google’s latest AI updates from October 2026",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "description": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "stars": null,
+    "collected_at": "2026-11-10T00:57:26.494144+00:00"
+  }
+]

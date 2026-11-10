@@ -1,5 +1,261 @@
 [
   {
+    "id": "hn_ai-20261110-004",
+    "file": "2026-11-10-rss_hn_ai-im-not-convinced-the-ai-bubble-exists.json",
+    "title": "I'm not convinced the AI bubble exists",
+    "category": "AI 产业分析",
+    "tags": [
+      "ai",
+      "bubble",
+      "economics",
+      "infrastructure",
+      "llm"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261110-005",
+    "file": "2026-11-10-rss_hn_ai-how-im-fighting-the-ai-brain-fry.json",
+    "title": "How I'm fighting the AI brain fry",
+    "category": "AI 伦理与认知",
+    "tags": [
+      "ai",
+      "llm",
+      "cognition",
+      "productivity",
+      "ai-ethics"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261110-006",
+    "file": "2026-11-10-rss_hn_ai-llama-modchip-284b-deepseek-on-64gb-ram-no-gpu.json",
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "category": "LLM Inference",
+    "tags": [
+      "llm",
+      "llama.cpp",
+      "moe",
+      "quantization",
+      "cpu-inference"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261110-007",
+    "file": "2026-11-10-rss_lobsters_ai-catching-prompt-injections-hidden-in-pdfs.json",
+    "title": "Catching prompt injections hidden in PDFs",
+    "category": "AI Security",
+    "tags": [
+      "prompt-injection",
+      "pdf",
+      "llm",
+      "security",
+      "ai"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261110-008",
+    "file": "2026-11-10-rss_lobsters_ai-firecracker-vm-escape-pwnescape-part-2.json",
+    "title": "Firecracker VM Escape: PwnEscape Part 2",
+    "category": "Security Research",
+    "tags": [
+      "firecracker",
+      "vm-escape",
+      "vulnerability-research",
+      "kvm",
+      "exploit"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261110-009",
+    "file": "2026-11-10-rss_arxiv_cs_cl-forcing-a-letter-suppresses-refusal-mechanistic-evidence-from-wmdp.json",
+    "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+    "category": "AI Safety",
+    "tags": [
+      "llm safety",
+      "mcq benchmark",
+      "refusal",
+      "mechanistic interpretability",
+      "wmdp"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261110-010",
+    "file": "2026-11-10-rss_arxiv_cs_cl-finevolvekg-controlled-and-attributable-prompt-evolution-for-financial-knowledge.json",
+    "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+    "category": "Knowledge Graph",
+    "tags": [
+      "ai",
+      "llm",
+      "prompt-engineering",
+      "knowledge-graph",
+      "finance"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261110-011",
+    "file": "2026-11-10-rss_arxiv_cs_cl-compression-of-emotion-in-language-model-representations.json",
+    "title": "Compression of Emotion in Language Model Representations",
+    "category": "Model Interpretability",
+    "tags": [
+      "emotion recognition",
+      "representation learning",
+      "model interpretability",
+      "llm",
+      "compression"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261110-012",
+    "file": "2026-11-10-rss_arxiv_cs_lg-fasterrw-an-efficient-prior-assisted-random-walk-solver-for-thermal-analysis.json",
+    "title": "FasterRW: An Efficient Prior-Assisted Random Walk Solver for Thermal Analysis",
+    "category": "AI for EDA",
+    "tags": [
+      "thermal-analysis",
+      "random-walk",
+      "eda",
+      "prior-assisted",
+      "scientific-computing"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261110-013",
+    "file": "2026-11-10-rss_arxiv_cs_lg-embedding-consistent-recurrent-neural-networks-in-finite-element-simulations-for.json",
+    "title": "Embedding Consistent Recurrent Neural Networks in Finite Element Simulations for Path-Dependent Damage Prediction",
+    "category": "Scientific Machine Learning",
+    "tags": [
+      "finite-element-method",
+      "recurrent-neural-networks",
+      "path-dependent-damage",
+      "surrogate-modeling",
+      "scientific-machine-learning"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261110-014",
+    "file": "2026-11-10-rss_arxiv_cs_lg-rethinking-data-selection-as-distribution-matching-on-semantic-manifolds.json",
+    "title": "Rethinking Data Selection as Distribution Matching on Semantic Manifolds",
+    "category": "Data Selection",
+    "tags": [
+      "data selection",
+      "instruction tuning",
+      "distribution matching",
+      "semantic manifold",
+      "llm"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261110-015",
+    "file": "2026-11-10-rss_huggingface_blog-nemotron-personas-finance-japan-a-synthetic-dataset-capturing-japans-demographic.json",
+    "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+    "category": "Synthetic Data",
+    "tags": [
+      "synthetic-data",
+      "llm",
+      "finance",
+      "japan",
+      "personas"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261110-016",
+    "file": "2026-11-10-rss_huggingface_blog-your-experts-have-partners-theres-hope-for-keeping-them-together.json",
+    "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+    "category": "模型推理优化",
+    "tags": [
+      "mixture-of-experts",
+      "moe",
+      "inference-optimization",
+      "expert-parallelism",
+      "llm"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494144+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261110-003",
+    "file": "2026-11-10-github-interactive-active-ainexttransformer.json",
+    "title": "Interactive-Active-AI/NextTransformer",
+    "category": "AI Framework",
+    "tags": [
+      "transformers",
+      "llm",
+      "benchmarking",
+      "architecture-search",
+      "open-source"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494117+00:00",
+    "innovation_score": 4,
+    "stars": 399
+  },
+  {
+    "id": "github-20261110-002",
+    "file": "2026-11-10-github-jmanicogrim-prompter.json",
+    "title": "jmanico/grim-prompter",
+    "category": "Security",
+    "tags": [
+      "threat-modeling",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "security"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494115+00:00",
+    "innovation_score": 4,
+    "stars": 404
+  },
+  {
+    "id": "github-20261110-001",
+    "file": "2026-11-10-github-aa1143namiagent.json",
+    "title": "aa1143/NamiAgent",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "agent",
+      "tutorial",
+      "llm",
+      "mcp"
+    ],
+    "collected_at": "2026-11-10T00:57:26.494113+00:00",
+    "innovation_score": 4,
+    "stars": 467
+  },
+  {
     "id": "hn_ai-20261106-004",
     "file": "2026-11-06-rss_hn_ai-cuban-facebook-knowingly-runs-ai-deepfake-scam-ads-docs-say-16b-fraud-revenue.json",
     "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",

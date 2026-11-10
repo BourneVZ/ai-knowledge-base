@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261110-006",
+  "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+  "source": "rss/hn_ai",
+  "source_url": "https://github.com/synchopate/llama-modchip",
+  "description": "Article URL: https://github.com/synchopate/llama-modchip\nComments URL: https://news.ycombinator.com/item?id=50411961\nPoints: 475\n# Comments: 204",
+  "summary": "Llama-modchip 是一个基于 llama.cpp 的修改项目，目标是在无 GPU 的普通电脑上运行 284B 参数的 DeepSeek 大模型。项目利用 DeepSeek 的 MoE 架构，只加载被激活的专家权重，并结合低位量化、内存映射与按需分页等技术，将完整模型的内存占用压缩到约 64GB RAM。这样消费级 CPU 也能本地推理超大规模模型，适合隐私敏感、离线或边缘场景。HN 上获得 475 分和 204 条评论，关注度较高。",
+  "tags": [
+    "llm",
+    "llama.cpp",
+    "moe",
+    "quantization",
+    "cpu-inference"
+  ],
+  "category": "LLM Inference",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "MoE专家按需加载与调度",
+    "64GB内存运行284B DeepSeek",
+    "无需GPU的量化CPU推理"
+  ],
+  "risks": [
+    "CPU与内存带宽限制生成速度",
+    "低比特量化可能损失模型精度"
+  ]
+}

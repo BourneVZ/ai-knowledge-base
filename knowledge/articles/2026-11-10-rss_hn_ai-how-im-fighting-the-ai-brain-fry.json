@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261110-005",
+  "title": "How I'm fighting the AI brain fry",
+  "source": "rss/hn_ai",
+  "source_url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+  "description": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\nComments URL: https://news.ycombinator.com/item?id=50416363\nPoints: 303\n# Comments: 207",
+  "summary": "本文探讨长期依赖AI导致的“脑腐”现象：注意力涣散、深度思维能力下降、创造力减弱。作者结合自身经历提出应对策略，包括严格限制AI使用场景，在写作、编程等核心认知任务中避免直接生成答案；恢复深度阅读、手写笔记与离线思考习惯；设置无AI时段，进行主动回忆与费曼技巧练习，重建认知耐力。文章强调AI应定位为辅助工具而非思维替代，避免用效率牺牲认知健康，为重度AI使用者提供自我调节思路。",
+  "tags": [
+    "ai",
+    "llm",
+    "cognition",
+    "productivity",
+    "ai-ethics"
+  ],
+  "category": "AI 伦理与认知",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 2,
+  "key_points": [
+    "识别AI依赖对深度思考的侵蚀",
+    "提出限制AI使用与无AI练习的实用策略",
+    "强调AI应作为辅助而非思维替代品"
+  ],
+  "risks": [
+    "主观经验总结，缺乏系统性验证",
+    "对重度依赖者执行门槛较高"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261110-013",
+  "title": "Embedding Consistent Recurrent Neural Networks in Finite Element Simulations for Path-Dependent Damage Prediction",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.08494",
+  "description": "arXiv:2611.08494v1 Announce Type: new \nAbstract: Capturing sheet-metal localisation physics with a trained surrogate inside a finite element (FEM) solver requires the surrogate to deliver consistent predictions irrespective of the solver's strain-increment count, which is difficult to control in non",
+  "summary": "该项目提出将具有一致性的循环神经网络（RNN）作为替代模型嵌入有限元仿真，用于钣金成形等路径相关损伤预测。传统代理模型在有限元求解中会因应变增量步数不同而产生不一致的响应，影响局部化现象捕捉。该方法通过设计对加载步数不敏感的循环架构或训练策略，使RNN在任意应变增量划分下保持一致的路径积分预测，从而提升FEM求解的鲁棒性与物理合理性。研究属计算力学与科学机器学习交叉方向，有望在保证精度的同时降低路径相关损伤模型的反复求解成本。",
+  "tags": [
+    "finite-element-method",
+    "recurrent-neural-networks",
+    "path-dependent-damage",
+    "surrogate-modeling",
+    "scientific-machine-learning"
+  ],
+  "category": "Scientific Machine Learning",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "将RNN替代模型嵌入有限元求解器进行路径相关损伤预测",
+    "提出对加载增量数一致性的训练或架构设计",
+    "聚焦钣金局部化现象，提升路径依赖预测鲁棒性"
+  ],
+  "risks": [
+    "摘要截断，非均匀路径依赖场景泛化未完全验证",
+    "训练数据覆盖与增量步鲁棒性可能引入额外计算开销"
+  ]
+}

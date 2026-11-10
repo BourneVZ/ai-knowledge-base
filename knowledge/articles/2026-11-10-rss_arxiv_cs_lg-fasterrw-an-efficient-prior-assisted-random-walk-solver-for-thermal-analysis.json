@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261110-012",
+  "title": "FasterRW: An Efficient Prior-Assisted Random Walk Solver for Thermal Analysis",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.08490",
+  "description": "arXiv:2611.08490v1 Announce Type: new \nAbstract: Thermal simulation is becoming increasingly critical in modern IC design and manufacturing. Feynman--Kac random walk methods can estimate localized temperatures without solving the global field, but in practical settings without Dirichlet boundaries t",
+  "summary": "本项目提出 FasterRW，一种面向集成电路热分析的高效先验辅助随机游走求解器。现代 IC 设计与制造中热仿真日益关键，Feynman-Kac 随机游走方法可在不求解全局温度场的情况下估计局部温度，但在缺乏 Dirichlet 边界等实际条件下存在局限。FasterRW 引入先验信息辅助随机游走过程，旨在提升采样效率与估计精度，解决实际无 Dirichlet 边界场景下的热分析问题。该方法有望显著降低热仿真计算成本，同时保持局部温度估计的灵活性，为芯片设计中的热点检测和热管理提供高效工具。目前摘要信息有限，具体算法实现与实验验证尚待完整论文揭示。",
+  "tags": [
+    "thermal-analysis",
+    "random-walk",
+    "eda",
+    "prior-assisted",
+    "scientific-computing"
+  ],
+  "category": "AI for EDA",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "先验辅助随机游走加速热分析",
+    "支持无 Dirichlet 边界的实际 IC 场景",
+    "局部温度估计无需全局求解"
+  ],
+  "risks": [
+    "先验质量依赖较强，可能影响精度",
+    "摘要信息有限，实验验证不充分"
+  ]
+}

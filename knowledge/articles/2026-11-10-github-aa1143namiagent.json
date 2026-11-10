@@ -1,0 +1,32 @@
+{
+  "id": "github-20261110-001",
+  "title": "aa1143/NamiAgent",
+  "source": "github",
+  "source_url": "https://github.com/aa1143/NamiAgent",
+  "description": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent",
+  "summary": "aa1143/NamiAgent 是一个面向零基础学习者的 AI Agent 入门教程，同时也是一个可在本地运行的完整 Agent。项目从约 100 行的最小执行循环开始，逐步加入文件读写、命令执行、MCP 协议接入、长期记忆等能力，并自带网页端可视化展示每一步决策与操作，帮助学习者直观理解 Agent 工作过程。教程采用一课一能力的渐进式设计，降低学习曲线，最后通过拆解 Claude Code、Codex 等主流 Agent 产品，帮助读者将基础知识与真实工程架构衔接。整体定位强调动手实践，适合希望从零开始理解 AI Agent 核心原理与实现方式的开发者。",
+  "tags": [
+    "ai",
+    "agent",
+    "tutorial",
+    "llm",
+    "mcp"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 467,
+  "collected_at": "2026-11-10T00:57:26.494113+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "零基础渐进式教程",
+    "本地可运行 Agent，含网页可视化",
+    "拆解 Claude Code、Codex 等主流 Agent"
+  ],
+  "risks": [
+    "实现深度有限，适合入门但距离生产可用有差距"
+  ]
+}

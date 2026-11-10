@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261110-004",
+  "title": "I'm not convinced the AI bubble exists",
+  "source": "rss/hn_ai",
+  "source_url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+  "description": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists\nComments URL: https://news.ycombinator.com/item?id=50418975\nPoints: 541\n# Comments: 934",
+  "summary": "文章反驳当前普遍存在的AI泡沫论，认为AI领域虽有高额资本支出和估值膨胀，但并非典型泡沫。作者指出AI公司收入快速增长，云厂商和数据中心投入有真实需求支撑，AI工具正在被企业和个人广泛采用，与互联网泡沫时期缺乏现金流和商业模式不同。推理成本持续下降、模型能力提升，推动更多应用场景落地，基础设施投资类似于铁路和电网等长期回报资产。文章认为市场对AI生产率提升的预期可能不足而非过度，短期波动不应被误判为泡沫破裂。该观点在Hacker News引发激烈讨论。",
+  "tags": [
+    "ai",
+    "bubble",
+    "economics",
+    "infrastructure",
+    "llm"
+  ],
+  "category": "AI 产业分析",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-10T00:57:26.494144+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "AI收入与真实需求支撑高估值",
+    "推理成本下降驱动应用扩展",
+    "基础设施投资具长期回报属性"
+  ],
+  "risks": [
+    "低估算力过剩和回报周期风险",
+    "对AI货币化速度可能过度乐观"
+  ]
+}

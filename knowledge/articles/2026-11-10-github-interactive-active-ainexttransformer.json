@@ -1,0 +1,33 @@
+{
+  "id": "github-20261110-003",
+  "title": "Interactive-Active-AI/NextTransformer",
+  "source": "github",
+  "source_url": "https://github.com/Interactive-Active-AI/NextTransformer",
+  "description": ":sunrise: A comprehensive, cutting-edge open-source framework for next-generation Transformers/LLM, with compute-matched benchmarking and a platform for autonomous architecture research.",
+  "summary": "NextTransformer 是一个面向下一代 Transformer 和大语言模型的开源框架，致力于提供前沿、完整的模型训练与推理能力。其核心特色包括计算匹配式基准测试，在相同算力预算下公平对比不同架构，减少评估偏差；同时提供自主架构研究平台，支持自动化搜索和优化模型结构。该项目有望加速 LLM 架构创新与实验迭代，适合研究者和工程师进行系统化探索。但目前项目可能仍处于早期阶段，文档、示例和社区生态需要进一步观察。",
+  "tags": [
+    "transformers",
+    "llm",
+    "benchmarking",
+    "architecture-search",
+    "open-source"
+  ],
+  "category": "AI Framework",
+  "status": "draft",
+  "stars": 399,
+  "collected_at": "2026-11-10T00:57:26.494117+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-10-005733.json",
+  "analyzed_at": "2026-11-10T01:13:48.158399+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "计算匹配式公平基准测试",
+    "自主架构搜索研究平台",
+    "面向下一代Transformer/LLM的模块化框架"
+  ],
+  "risks": [
+    "项目成熟度与社区生态可能不足",
+    "自主搜索与公平基准测试计算成本较高"
+  ]
+}
