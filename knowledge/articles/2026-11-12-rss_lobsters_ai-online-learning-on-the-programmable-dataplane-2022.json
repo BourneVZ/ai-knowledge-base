@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261112-007",
+  "title": "Online learning on the programmable dataplane (2022)",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://theses.gla.ac.uk/83235/3/2022SimpsonPhD.pdf",
+  "description": "Comments",
+  "summary": "该项目研究在可编程数据平面（如P4交换机和智能网卡）上实现在线机器学习，使网络设备能够在转发数据的同时实时训练和更新模型。通过将轻量级在线学习算法映射到流水线架构，实现对流量分类、异常检测和拥塞控制等任务的线速自适应决策，避免控制平面参与带来的延迟和带宽开销。该技术要求模型压缩、定点化、状态管理及并发更新机制，在资源受限条件下平衡精度与吞吐。研究为智能网络、自动驾驶网络和边缘计算场景提供了新思路，但也面临硬件资源、算法复杂度和可扩展性等挑战。",
+  "tags": [
+    "programmable dataplane",
+    "online learning",
+    "p4",
+    "in-network computing",
+    "network ai"
+  ],
+  "category": "Network AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 5,
+  "key_points": [
+    "在数据平面实现线速在线学习与转发融合",
+    "无需控制平面参与的实时自适应决策",
+    "面向资源受限流水线的模型轻量化映射"
+  ],
+  "risks": [
+    "数据平面计算与存储资源受限，模型容量有限",
+    "在线学习在分布式数据平面中的一致性与收敛性难保证"
+  ]
+}

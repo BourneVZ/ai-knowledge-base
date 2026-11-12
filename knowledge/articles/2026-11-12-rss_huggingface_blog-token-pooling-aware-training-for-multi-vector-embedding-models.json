@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261112-015",
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/token-pooling",
+  "description": "",
+  "summary": "该项目提出一种令牌池化感知训练方法，用于多向量嵌入模型。传统多向量模型在训练时侧重token级匹配，但实际应用常需通过池化得到单一向量，导致训练与推理不一致。该方法在训练阶段引入与推理一致的池化操作，使模型在优化token表示的同时，直接感知池化后的全局语义，提升检索性能和表示质量。通过对比学习等目标，模型能学习到更适合特定池化策略的token加权与表征，从而缩小多向量与单向量之间的性能差距。该方法可广泛应用于语义检索、问答等场景。",
+  "tags": [
+    "multi-vector embeddings",
+    "token pooling",
+    "contrastive learning",
+    "information retrieval",
+    "semantic search"
+  ],
+  "category": "Embedding Models",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "训练与推理池化一致，提升检索性能",
+    "支持多种池化策略，增强模型灵活性",
+    "强化token级与全局语义联合优化"
+  ],
+  "risks": [
+    "可能增加训练复杂度",
+    "对特定池化策略依赖较强"
+  ]
+}

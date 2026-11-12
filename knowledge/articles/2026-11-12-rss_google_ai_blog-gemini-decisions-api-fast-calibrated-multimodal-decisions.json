@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261112-017",
+  "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+  "summary": "Gemini Decisions API是谷歌推出的决策型API，由最新模型Gemini Decision驱动，面向快速、校准的多模态决策场景。该API能够处理文本、图像等多模态输入，输出带校准置信度的决策结果，帮助开发者在AI代理、自动化流程和业务系统中实现更可靠的操作选择。其核心特点是低延迟与概率校准，使模型不仅给出答案，还能评估不确定性，从而支持高风险或需要阈值判断的任务。该API简化了提示工程和决策逻辑集成，可广泛应用于内容审核、智能路由、风控辅助和个性化推荐等领域。作为Google AI博客发布的新产品，它标志着生成式AI从内容生成向可量化、可信任的决策执行延伸。",
+  "tags": [
+    "gemini",
+    "decision-api",
+    "multimodal",
+    "calibration",
+    "ai-agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "多模态输入与快速决策",
+    "输出带校准置信度",
+    "面向AI Agent与自动化集成"
+  ],
+  "risks": [
+    "校准质量依赖训练数据分布",
+    "决策错误责任归属尚不明确"
+  ]
+}

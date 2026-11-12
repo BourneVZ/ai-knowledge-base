@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261112-016",
+  "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/hub-gcp-marketplace",
+  "description": "",
+  "summary": "该项目是 Hugging Face 推出的支付集成功能，允许用户通过 Google Cloud 账户结算 Hugging Face Hub 的订阅、Pro 与企业服务等费用。用户可在结算时选择 Google Cloud Billing 账户，费用将合并至现有云账单，无需单独绑定信用卡或走额外采购流程。该功能主要面向已使用 Google Cloud 的企业与开发者，能简化预算管理、报销审批，并促进企业更顺畅地采纳 Hugging Face 的模型、数据集与推理服务。通过将 AI 平台消费纳入云服务商账单，Hugging Face 进一步融入云计算生态，降低了企业采购门槛。",
+  "tags": [
+    "huggingface",
+    "google-cloud",
+    "billing",
+    "ai-infrastructure",
+    "cloud-integration"
+  ],
+  "category": "AI Infrastructure",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "整合 Google Cloud 账单统一结算",
+    "简化企业采购与报销流程",
+    "提升企业级 AI 平台易用性"
+  ],
+  "risks": [
+    "依赖 Google Cloud 账户，非 GCP 用户无法使用",
+    "跨平台账单集成可能增加对账复杂度"
+  ]
+}

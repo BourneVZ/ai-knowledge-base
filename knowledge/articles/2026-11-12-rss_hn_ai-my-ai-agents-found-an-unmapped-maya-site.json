@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261112-003",
+  "title": "My AI agents found an unmapped Maya site",
+  "source": "rss/hn_ai",
+  "source_url": "https://pietromiotti.com/latest/maya-site",
+  "description": "Article URL: https://pietromiotti.com/latest/maya-site\nComments URL: https://news.ycombinator.com/item?id=50452455\nPoints: 907\n# Comments: 333",
+  "summary": "该项目展示了作者利用多个AI智能体从公开卫星与激光雷达遥感数据中自动识别中美洲丛林下的潜在玛雅遗址。系统将地理影像分块处理，由智能体检测矩形结构、平台、道路等异常形态，并交叉比对已有考古数据库，筛选出若干未测绘的遗址候选。相比传统人工遥感考古，该方法速度快、成本低，且能持续迭代。项目在Hacker News获得907分和333条评论，引发关于AI辅助考古发现真实性与伦理的广泛讨论。作者强调当前结果仍需地面验证，但展示了AI智能体在人文与历史研究中的实用潜力。",
+  "tags": [
+    "ai agents",
+    "archaeology",
+    "remote sensing",
+    "lidar",
+    "geospatial"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "多智能体协作分析卫星/激光雷达数据",
+    "发现未测绘玛雅遗址候选",
+    "低成本跨学科考古发现"
+  ],
+  "risks": [
+    "遥感识别可能产生假阳性",
+    "未经过实地考古验证"
+  ]
+}

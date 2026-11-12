@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261112-010",
+  "title": "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.12902",
+  "description": "arXiv:2611.12902v1 Announce Type: new \nAbstract: Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series are understanding, e.g., answering questions about a series, and forecasting its future values. Both ta",
+  "summary": "本文提出 TimeOmni-o1 框架，针对现实系统时间序列常伴随文本（如事件报告）的场景，将时间序列基础模型与大语言模型进行双向耦合，实现多模态推理与预测。该框架不是分别处理序列理解与预测，而是让时序模型的数值模式建模能力与 LLM 的语义理解和推理能力互相增强：LLM 借助时序特征回答与序列相关的问题，时序模型利用文本中的事件信息改善未来值预测。研究关注文本-时序对齐与联合建模，目标是统一序列问答和预测任务，提升多模态时间序列分析的整体表现。",
+  "tags": [
+    "time-series",
+    "llm",
+    "multimodal",
+    "forecasting",
+    "reasoning"
+  ],
+  "category": "Multimodal AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "双向耦合时间序列基础模型与LLM",
+    "融合文本语义与时序数值模式",
+    "统一序列问答与未来值预测"
+  ],
+  "risks": [
+    "文本-时序对齐依赖标注数据质量",
+    "双向耦合可能造成误差累积"
+  ]
+}

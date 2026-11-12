@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261112-014",
+  "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/qvac/botpsy",
+  "description": "",
+  "summary": "BotPsy 是一个面向设备端的个人助理项目，核心采用参数量低于十亿的代理语言模型，可在手机、边缘设备上本地运行。该项目探索将小型语言模型与代理能力结合，支持任务规划、工具调用、多步推理与上下文管理，并侧重心理健康对话等个人陪伴场景。由于模型完全在本地推理，用户数据无需上传云端，显著提升隐私保护并降低响应延迟。项目展示了通过模型量化、蒸馏与提示工程，在资源受限环境中实现实用的代理助手，为端侧 AI 和隐私敏感型应用提供了可行方案。",
+  "tags": [
+    "on-device-ai",
+    "small-language-model",
+    "agentic-ai",
+    "personal-assistant",
+    "privacy"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "亚十亿参数模型实现代理能力",
+    "完全本地推理保障隐私",
+    "面向心理健康陪伴场景"
+  ],
+  "risks": [
+    "小模型复杂推理能力有限",
+    "设备算力限制多步代理任务"
+  ]
+}

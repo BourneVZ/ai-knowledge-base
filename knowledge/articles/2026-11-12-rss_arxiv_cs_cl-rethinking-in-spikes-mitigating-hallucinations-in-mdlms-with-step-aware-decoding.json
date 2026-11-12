@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261112-009",
+  "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.12901",
+  "description": "arXiv:2611.12901v1 Announce Type: new \nAbstract: Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a",
+  "summary": "该论文针对多模态扩散语言模型（MDLMs）在迭代去噪生成中的幻觉问题，提出步骤感知解码方法。作者观察到在迭代去噪过程中，掩码不确定性整体呈下降趋势，但存在短暂的“尖峰”现象，这些尖峰可能与幻觉生成相关。基于此，方法在解码时对不同去噪步骤进行动态调整，重新思考并抑制高不确定性的尖峰，从而缓解幻觉。该方法旨在保持 MDLMs 强大的全局建模能力的同时，提升生成内容的可靠性，为扩散语言模型的安全应用提供新的思路。",
+  "tags": [
+    "multimodal",
+    "diffusion",
+    "hallucination",
+    "decoding",
+    "mdlm"
+  ],
+  "category": "Multimodal AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "揭示去噪不确定性尖峰与幻觉的关联",
+    "提出步骤感知解码策略",
+    "缓解多模态扩散语言模型幻觉"
+  ],
+  "risks": [
+    "摘要截断，方法细节有待完整验证",
+    "尖峰检测与步骤选择的泛化性可能受限"
+  ]
+}

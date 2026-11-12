@@ -1,0 +1,33 @@
+{
+  "id": "github-20261112-002",
+  "title": "Dodaios/ste80-humanizer",
+  "source": "github",
+  "source_url": "https://github.com/Dodaios/ste80-humanizer",
+  "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+  "summary": "STE80 Humanizer 是一个代理技能，灵感来自 Andrej Karpathy 分享的文本处理方法。它针对 AI 生成文本中常见的模式化表达和“AI痕迹”，通过提示词与规则约束进行改写，并将文本调整至约 80% 符合 ASD-STE100 简化技术英语标准。该项目不追求完全合规，而是以实用方式提升技术文本的自然度和可读性，适合技术写作、文档整理和 AI 输出后处理等场景。其核心思路是将简化技术英语的词汇与句式偏好嵌入 agent 工作流，在去除机械感的同时尽量保持信息准确性。",
+  "tags": [
+    "ai",
+    "llm",
+    "text-rewriting",
+    "asd-ste100",
+    "humanization"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 404,
+  "collected_at": "2026-11-11T23:48:52.205928+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "基于Karpathy方法去除AI生成痕迹",
+    "按ASD-STE100标准进行约80%技术英语改写",
+    "轻量Agent Skill，易集成到文本后处理流程"
+  ],
+  "risks": [
+    "非完全合规，不适用于严格标准化技术文档",
+    "风格统一可能降低文本多样性或损失语义细节"
+  ]
+}

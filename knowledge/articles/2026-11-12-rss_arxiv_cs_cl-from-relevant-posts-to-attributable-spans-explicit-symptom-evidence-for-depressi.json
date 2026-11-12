@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261112-008",
+  "title": "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.12900",
+  "description": "arXiv:2611.12900v1 Announce Type: new \nAbstract: Longitudinal social-media histories offer an opportunity to assess depression, potentially supporting the inference of standardized depression questionnaire responses. However, this task requires evidence that is semantically relevant to a symptom and",
+  "summary": "该论文研究如何利用纵向社交媒体历史辅助抑郁症评估，目标是推断标准化抑郁问卷的应答。其核心贡献在于不只判断用户是否抑郁，而是从相关帖子中进一步定位和抽取可归因的文本片段，作为与特定症状语义相关的显式证据。这种方法将推断过程从黑盒帖子级分类推进到可核查的证据归因，有助手动审核和临床辅助决策。论文强调症状证据需明确、可追溯，从而提升模型可信度和可解释性。由于摘要未完整给出，具体实现细节尚不清楚，但可看出其关注点在于证据质量、语义相关性和问卷条目的对齐。",
+  "tags": [
+    "mental-health",
+    "nlp",
+    "explainable-ai",
+    "depression-detection",
+    "social-media"
+  ],
+  "category": "AI for Mental Health",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "从相关帖子定位可归因症状证据片段",
+    "支撑标准化抑郁问卷推断并增强可解释性",
+    "纵向社交媒体历史与问卷条目的细粒度对齐"
+  ],
+  "risks": [
+    "社交媒体数据存在选择偏差与隐私伦理风险",
+    "可归因证据可能披露用户敏感信息"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261112-012",
+  "title": "Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.12955",
+  "description": "arXiv:2611.12955v1 Announce Type: new \nAbstract: Time-series classifiers deployed in risk-sensitive domains must be (1) accurate, (2) interpretable, and (3) able to abstain when evidence is weak. Existing methods do not deliver all 3 at once, and the obstacle is structural, rather than logistical. M",
+  "summary": "本文针对风险敏感领域时间序列分类器需同时满足准确、可解释、证据不足时可拒判的三重需求，提出以“预测惊喜”作为自接地概念瓶颈的新方法。该方法不依赖人工标注概念，而是利用预测误差或惊讶信号自动构建概念瓶颈层，使模型在保持时间序列分类精度的同时，通过瓶颈概念提供可解释依据，并在证据薄弱时触发弃权机制。相比现有方法，其关键优势在于结构层面统一了准确性、可解释性和拒判能力，克服了传统概念瓶颈模型需要大量人工概念标注的局限，为医疗监护、金融风控等高风险时间序列应用提供了更实用的可解释决策框架。",
+  "tags": [
+    "time-series",
+    "interpretability",
+    "concept-bottleneck",
+    "uncertainty",
+    "abstention"
+  ],
+  "category": "Explainable AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "预测惊喜作为自接地概念瓶颈，无需人工标注概念",
+    "在时间序列分类中统一准确、可解释与可弃权能力",
+    "适用于风险敏感场景的结构化可解释决策"
+  ],
+  "risks": [
+    "自接地概念的语义直观性可能不足",
+    "预测惊喜估计对分布外数据敏感"
+  ]
+}

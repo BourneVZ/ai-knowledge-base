@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261112-005",
+  "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+  "source": "rss/hn_ai",
+  "source_url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "description": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, `` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ",
+  "summary": "该项目来自 Show HN，面向 AI 编程代理（coding agent），主张停止生成近似 2019 年 JavaScript 的冗余代码，转而采用浏览器原生 Web 原语。文中列举多项现代能力：CSS.highlights 可在不插入大量 span 的情况下高亮文本范围；<dialog> 与 showModal() 原生提供遮罩和更合理的焦点管理；field-sizing 可让 textarea 随用户输入自动增高。目标是用平台层原生特性替代自定义 JS 和第三方依赖，减少代码量，提升可维护性。作者提醒 AI 编程助手应及时更新知识，避免继续输出过时模式，让生成代码更简洁、现代。",
+  "tags": [
+    "web-primitives",
+    "css-highlights",
+    "dialog",
+    "field-sizing",
+    "coding-agent"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "用 CSS.highlights 替代大量 span 高亮文本范围",
+    "用原生 dialog/showModal 管理遮罩与焦点",
+    "用 field-sizing 实现 textarea 自动增高"
+  ],
+  "risks": [
+    "现代特性存在浏览器兼容性差异",
+    "编程代理可能仍倾向生成旧式写法"
+  ]
+}

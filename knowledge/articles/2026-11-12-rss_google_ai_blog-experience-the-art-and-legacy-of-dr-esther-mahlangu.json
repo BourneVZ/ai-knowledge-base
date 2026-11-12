@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261112-019",
+  "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+  "description": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+  "summary": "该项目由Google Arts & Culture推出，为南非著名艺术家Esther Mahlangu博士建立全新在线档案，数字化呈现其生平、艺术创作与文化遗产。项目通过高分辨率影像、虚拟展览与多媒体叙事，系统性梳理恩德贝莱传统几何壁画与当代艺术实践，还原艺术家家乡壁画场景，并提供互动式浏览体验。档案收录代表作品、历史照片、文献与口述资料，使全球观众能够跨越地域限制，深入了解其艺术风格、创作背景与文化传承。作为文化科技融合项目，它推动非洲当代艺术和非物质文化遗产的数字化保存与全球传播，具有较高的文化价值和社会影响力。",
+  "tags": [
+    "google arts & culture",
+    "digital archive",
+    "art preservation",
+    "cultural heritage",
+    "online exhibition"
+  ],
+  "category": "Digital Archive",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "在线档案完整呈现艺术家生平与作品",
+    "依托Google Arts & Culture平台全球开放访问",
+    "数字化保护非洲当代艺术与文化遗产"
+  ],
+  "risks": [
+    "数字化呈现可能削弱原作物质感与现场体验",
+    "档案长期维护依赖平台资源与版权授权"
+  ]
+}

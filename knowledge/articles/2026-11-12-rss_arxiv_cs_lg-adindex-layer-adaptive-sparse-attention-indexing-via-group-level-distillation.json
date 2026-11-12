@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261112-013",
+  "title": "ADIndex: Layer-Adaptive Sparse Attention Indexing via Group-Level Distillation",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.12956",
+  "description": "arXiv:2611.12956v1 Announce Type: new \nAbstract: DeepSeek Sparse Attention (DSA) reduces the computational cost of attention through token-level selection. However, its indexer still scores the entire causal prefix for each query, making indexing a dominant source of latency in long-context inferenc",
+  "summary": "ADIndex 提出层级自适应稀疏注意力索引方法，通过组级蒸馏缓解 DeepSeek 稀疏注意力（DSA）索引器需为每个查询扫描完整因果前缀的问题。该方法针对长上下文推理中索引延迟成为主要瓶颈的现状，在不同层动态调整索引策略，减少冗余的全前缀评分；同时引入组级蒸馏，将高成本索引器知识压缩到轻量级索引模块，保持 token 选择精度。ADIndex 可显著降低长上下文推理的索引开销，提升稀疏注意力的整体效率，适用于大语言模型的高效长序列处理。",
+  "tags": [
+    "sparse attention",
+    "indexing",
+    "knowledge distillation",
+    "long-context",
+    "llm inference"
+  ],
+  "category": "LLM Optimization",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "层级自适应索引策略：不同层动态调整索引计算，减少冗余前缀评分",
+    "组级蒸馏：压缩索引器至轻量级模块，保持选择精度",
+    "显著降低长上下文推理中索引阶段的延迟"
+  ],
+  "risks": [
+    "组级蒸馏可能引入索引精度损失，影响稀疏注意力质量",
+    "层级自适应策略的泛化性需在不同模型和任务上验证"
+  ]
+}

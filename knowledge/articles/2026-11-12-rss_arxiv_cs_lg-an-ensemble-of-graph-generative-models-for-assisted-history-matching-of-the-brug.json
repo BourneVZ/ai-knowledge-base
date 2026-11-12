@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261112-011",
+  "title": "An ensemble of graph generative models for assisted history matching of the Brugge field case",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.12927",
+  "description": "arXiv:2611.12927v1 Announce Type: new \nAbstract: Assisted history matching remains non-unique because many geological realisations can reproduce equivalent production responses with substantial differences between individual well matches. This ambiguity increases when a field comprises several depos",
+  "summary": "辅助历史拟合通常存在非唯一性，不同地质实现可产生相似生产响应但单井匹配差异较大，当地层包含多个沉积相时不确定性更突出。本研究提出一种图生成模型集成方法，用于Brugge油田基准案例的辅助历史拟合。图生成模型能够表达地质体间的空间关系与连通性，通过集成多个生成模型，可采样多样化地质实现，捕捉历史拟合的非唯一性并量化储层不确定性。结合生产动态响应筛选匹配模型，提升复杂油藏表征的可靠性。该工作为油藏历史拟合与不确定性量化提供了新的生成式建模思路。",
+  "tags": [
+    "graph-generative-models",
+    "history-matching",
+    "reservoir-simulation",
+    "uncertainty-quantification",
+    "ensemble-learning"
+  ],
+  "category": "AI for Science",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-11T23:48:52.205950+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "图生成模型表征地质空间连通性",
+    "集成框架缓解历史拟合非唯一性",
+    "Brugge油田基准案例验证"
+  ],
+  "risks": [
+    "图模型对复杂沉积相刻画能力有限",
+    "集成生成与历史拟合计算开销较大"
+  ]
+}

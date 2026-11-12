@@ -1,0 +1,33 @@
+{
+  "id": "github-20261112-001",
+  "title": "RunanywhereAI/trnrt",
+  "source": "github",
+  "source_url": "https://github.com/RunanywhereAI/trnrt",
+  "description": "The open LLM inference engine for AWS Trainium: NKI megakernels, 1M-token context, OpenAI-compatible API. By RunAnywhere.",
+  "summary": "trnrt 是 RunAnywhere 推出的面向 AWS Trainium 芯片的开源 LLM 推理引擎，旨在充分发挥专用 AI 加速硬件性能。该引擎通过 NKI 编写自定义 megakernels，减少 kernel 启动开销并优化数据搬运，从而提升大模型推理吞吐与延迟表现。项目支持高达 100 万 token 的超长上下文，可应对长文档理解、长对话记忆和大规模代码分析等场景。同时提供 OpenAI 兼容 API，开发者可将现有基于 OpenAI 接口的应用平滑迁移到 Trainium 后端，无需大规模重构。整体定位为高性能、易集成的 Trainium 原生推理引擎。",
+  "tags": [
+    "llm",
+    "inference-engine",
+    "aws-trainium",
+    "nki",
+    "openai-compatible"
+  ],
+  "category": "AI Inference Engine",
+  "status": "draft",
+  "stars": 1319,
+  "collected_at": "2026-11-11T23:48:52.205919+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-11-234857.json",
+  "analyzed_at": "2026-11-12T00:03:55.818319+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "NKI megakernels 深度优化 Trainium 推理性能",
+    "支持 1M token 超长上下文",
+    "OpenAI 兼容 API 降低迁移门槛"
+  ],
+  "risks": [
+    "依赖 AWS Trainium 生态，存在硬件锁定风险",
+    "超长上下文推理的显存与稳定性有待验证"
+  ]
+}

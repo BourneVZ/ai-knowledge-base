@@ -1,5 +1,309 @@
 [
   {
+    "id": "hn_ai-20261112-003",
+    "file": "2026-11-12-rss_hn_ai-my-ai-agents-found-an-unmapped-maya-site.json",
+    "title": "My AI agents found an unmapped Maya site",
+    "category": "AI Agent",
+    "tags": [
+      "ai agents",
+      "archaeology",
+      "remote sensing",
+      "lidar",
+      "geospatial"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261112-004",
+    "file": "2026-11-12-rss_hn_ai-apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy.json",
+    "title": "Apple has new Mac app coming to make running local AI models easy",
+    "category": "AI Infrastructure",
+    "tags": [
+      "apple",
+      "mac",
+      "llm",
+      "local-ai",
+      "edge-inference"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261112-005",
+    "file": "2026-11-12-rss_hn_ai-show-hn-get-your-coding-agent-off-2019-javascript-onto-modern-web-primitives.json",
+    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+    "category": "AI Agent",
+    "tags": [
+      "web-primitives",
+      "css-highlights",
+      "dialog",
+      "field-sizing",
+      "coding-agent"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261112-006",
+    "file": "2026-11-12-rss_lobsters_ai-writing-a-siggraph-paper-from-scratch.json",
+    "title": "Writing a SIGGRAPH paper from scratch",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "siggraph",
+      "paper-generation",
+      "academic-writing"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261112-007",
+    "file": "2026-11-12-rss_lobsters_ai-online-learning-on-the-programmable-dataplane-2022.json",
+    "title": "Online learning on the programmable dataplane (2022)",
+    "category": "Network AI",
+    "tags": [
+      "programmable dataplane",
+      "online learning",
+      "p4",
+      "in-network computing",
+      "network ai"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261112-008",
+    "file": "2026-11-12-rss_arxiv_cs_cl-from-relevant-posts-to-attributable-spans-explicit-symptom-evidence-for-depressi.json",
+    "title": "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference",
+    "category": "AI for Mental Health",
+    "tags": [
+      "mental-health",
+      "nlp",
+      "explainable-ai",
+      "depression-detection",
+      "social-media"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261112-009",
+    "file": "2026-11-12-rss_arxiv_cs_cl-rethinking-in-spikes-mitigating-hallucinations-in-mdlms-with-step-aware-decoding.json",
+    "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+    "category": "Multimodal AI",
+    "tags": [
+      "multimodal",
+      "diffusion",
+      "hallucination",
+      "decoding",
+      "mdlm"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261112-010",
+    "file": "2026-11-12-rss_arxiv_cs_cl-timeomni-o1-bidirectionally-coupling-time-series-foundation-models-and-llms-for-.json",
+    "title": "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
+    "category": "Multimodal AI",
+    "tags": [
+      "time-series",
+      "llm",
+      "multimodal",
+      "forecasting",
+      "reasoning"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261112-011",
+    "file": "2026-11-12-rss_arxiv_cs_lg-an-ensemble-of-graph-generative-models-for-assisted-history-matching-of-the-brug.json",
+    "title": "An ensemble of graph generative models for assisted history matching of the Brugge field case",
+    "category": "AI for Science",
+    "tags": [
+      "graph-generative-models",
+      "history-matching",
+      "reservoir-simulation",
+      "uncertainty-quantification",
+      "ensemble-learning"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261112-012",
+    "file": "2026-11-12-rss_arxiv_cs_lg-predictive-surprise-as-self-grounding-concept-bottleneck-for-interpretable-time-.json",
+    "title": "Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series",
+    "category": "Explainable AI",
+    "tags": [
+      "time-series",
+      "interpretability",
+      "concept-bottleneck",
+      "uncertainty",
+      "abstention"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261112-013",
+    "file": "2026-11-12-rss_arxiv_cs_lg-adindex-layer-adaptive-sparse-attention-indexing-via-group-level-distillation.json",
+    "title": "ADIndex: Layer-Adaptive Sparse Attention Indexing via Group-Level Distillation",
+    "category": "LLM Optimization",
+    "tags": [
+      "sparse attention",
+      "indexing",
+      "knowledge distillation",
+      "long-context",
+      "llm inference"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261112-014",
+    "file": "2026-11-12-rss_huggingface_blog-botpsy-on-device-personal-assistant-with-a-sub-billion-parameter-agentic-languag.json",
+    "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+    "category": "AI Agent",
+    "tags": [
+      "on-device-ai",
+      "small-language-model",
+      "agentic-ai",
+      "personal-assistant",
+      "privacy"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261112-015",
+    "file": "2026-11-12-rss_huggingface_blog-token-pooling-aware-training-for-multi-vector-embedding-models.json",
+    "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+    "category": "Embedding Models",
+    "tags": [
+      "multi-vector embeddings",
+      "token pooling",
+      "contrastive learning",
+      "information retrieval",
+      "semantic search"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261112-016",
+    "file": "2026-11-12-rss_huggingface_blog-pay-for-hugging-face-hub-with-your-google-cloud-account.json",
+    "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+    "category": "AI Infrastructure",
+    "tags": [
+      "huggingface",
+      "google-cloud",
+      "billing",
+      "ai-infrastructure",
+      "cloud-integration"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261112-017",
+    "file": "2026-11-12-rss_google_ai_blog-gemini-decisions-api-fast-calibrated-multimodal-decisions.json",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "category": "AI Agent",
+    "tags": [
+      "gemini",
+      "decision-api",
+      "multimodal",
+      "calibration",
+      "ai-agent"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261112-018",
+    "file": "2026-11-12-rss_google_ai_blog-try-tabletop-customizable-collaborative-spaces-for-groups-to-plan-play-and-do-mo.json",
+    "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+    "category": "AI Collaboration Tool",
+    "tags": [
+      "google-labs",
+      "collaboration",
+      "ai",
+      "productivity",
+      "interactive"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261112-019",
+    "file": "2026-11-12-rss_google_ai_blog-experience-the-art-and-legacy-of-dr-esther-mahlangu.json",
+    "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+    "category": "Digital Archive",
+    "tags": [
+      "google arts & culture",
+      "digital archive",
+      "art preservation",
+      "cultural heritage",
+      "online exhibition"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205950+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261112-002",
+    "file": "2026-11-12-github-dodaiosste80-humanizer.json",
+    "title": "Dodaios/ste80-humanizer",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "text-rewriting",
+      "asd-ste100",
+      "humanization"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205928+00:00",
+    "innovation_score": 3,
+    "stars": 404
+  },
+  {
+    "id": "github-20261112-001",
+    "file": "2026-11-12-github-runanywhereaitrnrt.json",
+    "title": "RunanywhereAI/trnrt",
+    "category": "AI Inference Engine",
+    "tags": [
+      "llm",
+      "inference-engine",
+      "aws-trainium",
+      "nki",
+      "openai-compatible"
+    ],
+    "collected_at": "2026-11-11T23:48:52.205919+00:00",
+    "innovation_score": 4,
+    "stars": 1319
+  },
+  {
     "id": "hn_ai-20261110-004",
     "file": "2026-11-10-rss_hn_ai-im-not-convinced-the-ai-bubble-exists.json",
     "title": "I'm not convinced the AI bubble exists",
