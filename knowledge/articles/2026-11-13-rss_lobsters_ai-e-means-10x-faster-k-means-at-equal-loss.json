@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261113-007",
+  "title": "e-means: 10x faster k-means at equal loss",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://e-means.github.io/",
+  "description": "Comments",
+  "summary": "e-means 是一个面向 k-means 聚类的高性能优化项目，宣称在保持相同聚类损失的前提下实现约 10 倍速度提升。其技术路线可能包括利用三角不等式进行距离计算剪枝、减少冗余的样本到中心距离计算、优化初始化和收敛判断，以及引入工程级并行或缓存机制。与牺牲精度换取速度的近似方法不同，e-means 强调最终聚类损失与原算法一致，适合对质量有要求的场景。该优化有助于降低大规模数据聚类的计算成本和时间延迟，提升迭代效率。不过，实际加速效果可能受数据分布、维度、簇数及实现平台影响，需要根据具体任务进行基准测试验证。",
+  "tags": [
+    "k-means",
+    "clustering",
+    "performance",
+    "machine-learning",
+    "optimization"
+  ],
+  "category": "AI Infrastructure",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "相同损失下约10倍加速",
+    "基于三角不等式或剪枝减少计算",
+    "面向大规模聚类场景"
+  ],
+  "risks": [
+    "加速效果依赖数据分布与维度",
+    "可能增加内存占用或实现复杂度"
+  ]
+}

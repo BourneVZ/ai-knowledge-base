@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261113-016",
+  "title": "XYBench: Helping with the problem behind the question",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/allenai/xybench",
+  "description": "",
+  "summary": "XYBench 是一个面向大语言模型的评测基准，聚焦“XY 问题”现象：用户提出的是表面问题 Y，但真实需求是背后的 X。该基准通过构建需要澄清、反向诊断或深层意图识别的问答与对话任务，考察模型是否能够避免机械回答表面问题，转而主动追问、澄清需求或直接解决根本问题。其目标是推动 AI 助手从被动应答向真正理解用户意图演进，提升在真实场景中的实用性和可靠性。项目来源为 Hugging Face 博客，目前公开描述有限，具体任务构造、指标与数据规模需进一步关注。",
+  "tags": [
+    "benchmark",
+    "llm",
+    "xy-problem",
+    "intent-understanding",
+    "ai-safety"
+  ],
+  "category": "AI Benchmark",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "聚焦 XY 问题，评估模型识别真实需求的能力",
+    "推动从直接回答向主动澄清的诊断式交互",
+    "构建基准衡量深层意图理解与问答质量"
+  ],
+  "risks": [
+    "公开信息有限，任务有效性与数据质量待验证",
+    "可能存在标注主观性，影响评测一致性"
+  ]
+}

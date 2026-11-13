@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261113-009",
+  "title": "Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.14661",
+  "description": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in the prompt with an explicit threshold t, so that a model should answer only when its probability of being correct exceeds t. We probe each requirement of compliance on shared items, in 12 checkpoints fr",
+  "summary": "本文研究开放语言模型中的弃权行为与阈值合规问题。Kalai等人提出在提示中声明评分规则及显式阈值t，要求模型仅在正确概率超过t时作答。作者在12个模型检查点上利用共享试题，对该合规性要求的各项条件进行系统性探测。研究发现模型弃权并不等价于严格的阈值概率合规，提示中声明的评分规则未能可靠约束模型的选择性作答行为。该工作揭示了基于提示的评分规则在概率校准与决策阈值方面存在偏差，对构建可靠、可校准的语言模型决策机制具有重要启示。",
+  "tags": [
+    "llm",
+    "abstention",
+    "scoring-rules",
+    "calibration",
+    "ai-safety"
+  ],
+  "category": "AI Safety",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "揭示弃权行为与阈值概率合规之间的偏差",
+    "在12个检查点上系统检验评分规则合规性",
+    "评估开放语言模型的概率校准与选择性作答"
+  ],
+  "risks": [
+    "仅覆盖12个检查点，结论泛化性有限",
+    "提示声明的评分规则可能对措辞敏感"
+  ]
+}

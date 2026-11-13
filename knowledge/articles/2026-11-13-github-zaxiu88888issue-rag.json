@@ -1,0 +1,33 @@
+{
+  "id": "github-20261113-003",
+  "title": "zaxiu88888/issue-rag",
+  "source": "github",
+  "source_url": "https://github.com/zaxiu88888/issue-rag",
+  "description": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
+  "summary": "该项目实现面向 GitHub issues 的检索增强生成（RAG）流程，通过检索历史 issue 来增强回答生成。其核心亮点在于评估严谨性：构建经人工逐条审核的评估集，减少自动标注偏差；对评判器本身进行审计，检验评估指标和打分器是否可靠；报告采用区间估计而非只展示单一最优分数，更真实反映性能波动与不确定性。整体适合 issue 检索、辅助定位、自动摘要或回复建议等维护场景，强调 RAG 输出质量与评估可信度，对评估方法研究有一定参考价值。目前未见大规模部署或复杂查询压力验证。",
+  "tags": [
+    "rag",
+    "github-issues",
+    "evaluation",
+    "llm",
+    "audit"
+  ],
+  "category": "RAG / Evaluation",
+  "status": "draft",
+  "stars": 387,
+  "collected_at": "2026-11-13T22:59:10.547633+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "人工审核评估集",
+    "审计评判器本身",
+    "报告区间而非单点最优值"
+  ],
+  "risks": [
+    "GitHub issues 噪声高且领域分散",
+    "自建评估集规模可能有限"
+  ]
+}

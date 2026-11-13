@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261113-013",
+  "title": "An Asynchronous Federated Learning Platform for Lung Adenocarcinoma Grading via Foundation Models and Structural Pruning",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.14590",
+  "description": "arXiv:2611.14590v1 Announce Type: new \nAbstract: Classification of lung adenocarcinoma into poorly differentiated (PD) and well-to-moderately differentiated (WMD) subtypes plays an important role in patient survival; however, consistent classification is difficult due to inter-observer variability a",
+  "summary": "该项目提出一种异步联邦学习平台，用于肺腺癌分化程度分级，区分低分化（PD）与中高分化（WMD）亚型。平台引入基础模型提取病理图像特征，并采用结构化剪枝压缩模型，以降低通信和计算开销。通过异步联邦学习，多中心可在保护患者隐私的前提下协同训练，缓解病理诊断中的观察者间差异，提升分级一致性和效率。整体工作融合联邦学习、基础模型与模型压缩技术，面向临床病理辅助诊断场景，具有较强的实际应用价值。",
+  "tags": [
+    "federated learning",
+    "lung adenocarcinoma",
+    "foundation models",
+    "structural pruning",
+    "medical imaging"
+  ],
+  "category": "Federated Learning",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "异步联邦学习保护多中心数据隐私",
+    "基础模型提升病理图像特征表达",
+    "结构化剪枝降低通信与计算开销"
+  ],
+  "risks": [
+    "异步机制可能导致模型收敛不稳定",
+    "病理数据异质性影响跨中心泛化能力"
+  ]
+}

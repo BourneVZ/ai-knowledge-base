@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261113-012",
+  "title": "CAFIN: CUDA-accelerated Adaptive Fisher Information Matrix Network Optimization via GPU-Native Kernel Fusion",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.14589",
+  "description": "arXiv:2611.14589v1 Announce Type: new \nAbstract: Second-order optimizers improve deep neural network training using curvature information, but their practical efficiency is limited by GPU execution overhead. AdaFisher reduces Fisher Information Matrix (FIM) approximation costs through diagonal Krone",
+  "summary": "CAFIN 提出一种基于 CUDA 的 GPU 原生内核融合方案，用于加速自适应 Fisher 信息矩阵深度网络优化。传统二阶优化器虽能利用曲率信息改善训练效果，但 Fisher 信息矩阵近似与更新在 GPU 上产生较高执行开销，制约实际效率。CAFIN 在 AdaFisher 基础上优化对角 Kronecker 因式分解等 FIM 近似计算，通过内核融合减少访存与算子启动延迟，降低二阶信息计算成本。该方法有望在保持二阶优化收敛优势的同时提升训练吞吐，适用于大规模深度神经网络训练任务。",
+  "tags": [
+    "cuda",
+    "fisher-information",
+    "second-order-optimization",
+    "kernel-fusion",
+    "deep-learning"
+  ],
+  "category": "AI Infrastructure",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "GPU原生内核融合降低FIM近似开销",
+    "CUDA加速自适应二阶优化器训练",
+    "结合AdaFisher曲率信息与低延迟执行"
+  ],
+  "risks": [
+    "FIM近似可能导致曲率信息精度损失",
+    "内核融合优化可能依赖特定GPU架构"
+  ]
+}

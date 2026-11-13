@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261113-015",
+  "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+  "description": "",
+  "summary": "该项目演示如何利用 SimReady 标准化资产搭建机器人拾取与放置仿真环境。SimReady 资产预置物理属性、碰撞体、材质和语义标签，可大幅减少三维场景准备时间，使开发者专注于机器人任务逻辑与策略训练。项目可能集成 NVIDIA Omniverse/Isaac Sim，支持刚体动力学、相机与深度传感器数据生成，用于训练和测试抓取规划、视觉伺服等算法。通过模块化场景，可快速更换物体、光照和布局，提升仿真多样性。整体上，该技术为具身智能和机器人操作研究提供了可复用、高现实感的虚拟实验平台，适合快速原型验证与数据采集，但需要一定的仿真工具链基础和 GPU 资源。",
+  "tags": [
+    "robotics",
+    "simulation",
+    "simready",
+    "pick-and-place",
+    "embodied-ai"
+  ],
+  "category": "Robotics",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "标准化 SimReady 资产加速仿真场景搭建",
+    "支持抓取放置任务的视觉与物理仿真",
+    "可扩展用于具身智能策略训练与验证"
+  ],
+  "risks": [
+    "依赖 NVIDIA Omniverse/Isaac Sim 生态与较高 GPU 资源",
+    "仿真环境与真实世界存在视觉和物理域差距"
+  ]
+}

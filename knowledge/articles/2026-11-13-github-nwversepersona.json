@@ -1,0 +1,33 @@
+{
+  "id": "github-20261113-006",
+  "title": "nwverse/persona",
+  "source": "github",
+  "source_url": "https://github.com/nwverse/persona",
+  "description": "",
+  "summary": "nwverse/persona 是一个面向大语言模型的开源角色扮演与智能体框架，旨在帮助开发者快速构建具有稳定人格、背景故事和对话风格的虚拟角色。它整合了提示词工程、记忆检索、上下文管理和多角色编排等能力，使角色在长程对话中仍能维持人设一致性。项目采用模块化架构，可接入游戏 NPC、虚拟陪伴、互动叙事和内容生成等场景，并作为实验平台探索个性化 AI 交互。其核心价值在于降低构建人格化智能体的工程门槛，同时提供可扩展接口，方便研究者验证记忆、情感和对话策略等模块。",
+  "tags": [
+    "ai",
+    "llm",
+    "roleplay",
+    "agent",
+    "character-engine"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 314,
+  "collected_at": "2026-11-13T22:59:10.547642+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "人设一致性管理",
+    "记忆与上下文检索模块",
+    "多角色场景编排"
+  ],
+  "risks": [
+    "长程交互中人格漂移",
+    "生成内容合规与伦理风险"
+  ]
+}

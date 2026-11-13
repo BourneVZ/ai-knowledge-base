@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261113-011",
+  "title": "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.14700",
+  "description": "arXiv:2611.14700v1 Announce Type: new \nAbstract: User research and system testing reveal whether products and services meet user needs, yet recruiting specialized participants, designing controlled what-if comparisons, and repeating studies as designs evolve often bottleneck design iteration and dat",
+  "summary": "该研究提出一种基于人格模拟（persona simulation）的方法，用于在产品或服务发布前探索多种“假设世界”场景，以支持现实世界决策。传统用户研究与系统测试需招募特定参与者、设计受控对比实验，并在设计迭代中重复执行，成本高且周期长，成为设计迭代瓶颈。该方法通过构建可交互的人格代理模拟用户行为与反馈，快速评估不同设计方案在假设情境下的表现，帮助团队在发布前预判用户需求满足情况与潜在问题，降低对真实用户招募的依赖，加速设计验证与迭代。",
+  "tags": [
+    "persona simulation",
+    "user research",
+    "what-if analysis",
+    "decision making",
+    "llm agents"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "人格模拟替代真实用户招募",
+    "支持快速假设场景对比与设计迭代",
+    "降低用户研究成本与周期"
+  ],
+  "risks": [
+    "模拟人格与真实用户行为存在偏差",
+    "复杂现实决策场景覆盖有限"
+  ]
+}

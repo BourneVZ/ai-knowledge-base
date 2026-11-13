@@ -1,0 +1,122 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "e-means: 10x faster k-means at equal loss",
+    "url": "https://e-means.github.io/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "libreagi - save OS models",
+    "url": "https://libreagi.com/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Writing a SIGGRAPH paper from scratch",
+    "url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models",
+    "url": "https://arxiv.org/abs/2611.14661",
+    "description": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in the prompt with an explicit threshold t, so that a model should answer only when its probability of being correct exceeds t. We probe each requirement of compliance on shared items, in 12 checkpoints fr",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+    "url": "https://arxiv.org/abs/2611.14675",
+    "description": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by poetic meter. We present MITRA-Swarm, a multi-agent ar",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making",
+    "url": "https://arxiv.org/abs/2611.14700",
+    "description": "arXiv:2611.14700v1 Announce Type: new \nAbstract: User research and system testing reveal whether products and services meet user needs, yet recruiting specialized participants, designing controlled what-if comparisons, and repeating studies as designs evolve often bottleneck design iteration and dat",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "CAFIN: CUDA-accelerated Adaptive Fisher Information Matrix Network Optimization via GPU-Native Kernel Fusion",
+    "url": "https://arxiv.org/abs/2611.14589",
+    "description": "arXiv:2611.14589v1 Announce Type: new \nAbstract: Second-order optimizers improve deep neural network training using curvature information, but their practical efficiency is limited by GPU execution overhead. AdaFisher reduces Fisher Information Matrix (FIM) approximation costs through diagonal Krone",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "An Asynchronous Federated Learning Platform for Lung Adenocarcinoma Grading via Foundation Models and Structural Pruning",
+    "url": "https://arxiv.org/abs/2611.14590",
+    "description": "arXiv:2611.14590v1 Announce Type: new \nAbstract: Classification of lung adenocarcinoma into poorly differentiated (PD) and well-to-moderately differentiated (WMD) subtypes plays an important role in patient survival; however, consistent classification is difficult due to inter-observer variability a",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Adversarial Risk in the Generative AI Era Necessitates Dropping the Small Epsilon Ball",
+    "url": "https://arxiv.org/abs/2611.14594",
+    "description": "arXiv:2611.14594v1 Announce Type: new \nAbstract: Adversarial Machine Learning research is currently centered on the search for the epsilon-ball: minimal perturbations designed to fool models while remaining imperceptible to humans. We argue that this fixation on $\\ell_p$ norms is a metrological trap",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "XYBench: Helping with the problem behind the question",
+    "url": "https://huggingface.co/blog/allenai/xybench",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+    "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "description": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+    "stars": null,
+    "collected_at": "2026-11-13T22:59:10.547667+00:00"
+  }
+]

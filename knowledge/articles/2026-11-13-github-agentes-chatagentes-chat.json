@@ -1,0 +1,33 @@
+{
+  "id": "github-20261113-001",
+  "title": "agentes-chat/agentes-chat",
+  "source": "github",
+  "source_url": "https://github.com/agentes-chat/agentes-chat",
+  "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+  "summary": "该项目是一个开源、可自托管的 Slack 替代品，让团队成员与 AI 智能体在频道和私信中协作。智能体可运行于 Claude、ChatGPT/Codex、Gemini 或 Grok 等模型，具备 MCP 工具调用、专属计算机与浏览器操作、例程、记忆和人工审批等能力。提供 Web、桌面和手机应用，通过 Docker Compose 与 Postgres 快速部署，采用 AGPL-3.0 许可。它旨在将企业通信与可编程 AI 工作流深度融合，既保留团队聊天体验，又加入可执行任务的自主代理，适合对数据隐私和定制集成有要求的团队。",
+  "tags": [
+    "slack-alternative",
+    "ai-agents",
+    "self-hosted",
+    "mcp",
+    "collaboration"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 1337,
+  "collected_at": "2026-11-13T22:59:10.547616+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "多模型 AI 智能体与团队频道协作",
+    "MCP 工具与专属计算机/浏览器操作",
+    "全平台客户端与 Docker Compose 自托管"
+  ],
+  "risks": [
+    "AGPL-3.0 许可存在传染性，商用需谨慎",
+    "自主执行计算机/浏览器操作可能带来安全风险"
+  ]
+}

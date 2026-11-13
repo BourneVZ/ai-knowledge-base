@@ -1,5 +1,293 @@
 [
   {
+    "id": "lobsters_ai-20261113-007",
+    "file": "2026-11-13-rss_lobsters_ai-e-means-10x-faster-k-means-at-equal-loss.json",
+    "title": "e-means: 10x faster k-means at equal loss",
+    "category": "AI Infrastructure",
+    "tags": [
+      "k-means",
+      "clustering",
+      "performance",
+      "machine-learning",
+      "optimization"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261113-008",
+    "file": "2026-11-13-rss_lobsters_ai-libreagi-save-os-models.json",
+    "title": "libreagi - save OS models",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "open-source",
+      "agi",
+      "model-management"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261113-009",
+    "file": "2026-11-13-rss_arxiv_cs_cl-abstention-is-not-threshold-compliance-stated-scoring-rules-in-open-language-mod.json",
+    "title": "Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models",
+    "category": "AI Safety",
+    "tags": [
+      "llm",
+      "abstention",
+      "scoring-rules",
+      "calibration",
+      "ai-safety"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261113-010",
+    "file": "2026-11-13-rss_arxiv_cs_cl-mitra-swarm-injecting-explicit-linguistic-structure-into-foundation-models-for-c.json",
+    "title": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "multi-agent",
+      "machine-translation",
+      "sanskrit"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261113-011",
+    "file": "2026-11-13-rss_arxiv_cs_cl-probe-what-if-worlds-before-you-ship-persona-simulation-for-real-world-decision-.json",
+    "title": "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making",
+    "category": "AI Agent",
+    "tags": [
+      "persona simulation",
+      "user research",
+      "what-if analysis",
+      "decision making",
+      "llm agents"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261113-012",
+    "file": "2026-11-13-rss_arxiv_cs_lg-cafin-cuda-accelerated-adaptive-fisher-information-matrix-network-optimization-v.json",
+    "title": "CAFIN: CUDA-accelerated Adaptive Fisher Information Matrix Network Optimization via GPU-Native Kernel Fusion",
+    "category": "AI Infrastructure",
+    "tags": [
+      "cuda",
+      "fisher-information",
+      "second-order-optimization",
+      "kernel-fusion",
+      "deep-learning"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261113-013",
+    "file": "2026-11-13-rss_arxiv_cs_lg-an-asynchronous-federated-learning-platform-for-lung-adenocarcinoma-grading-via-.json",
+    "title": "An Asynchronous Federated Learning Platform for Lung Adenocarcinoma Grading via Foundation Models and Structural Pruning",
+    "category": "Federated Learning",
+    "tags": [
+      "federated learning",
+      "lung adenocarcinoma",
+      "foundation models",
+      "structural pruning",
+      "medical imaging"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261113-014",
+    "file": "2026-11-13-rss_arxiv_cs_lg-adversarial-risk-in-the-generative-ai-era-necessitates-dropping-the-small-epsilo.json",
+    "title": "Adversarial Risk in the Generative AI Era Necessitates Dropping the Small Epsilon Ball",
+    "category": "AI安全",
+    "tags": [
+      "adversarial-ml",
+      "generative-ai",
+      "robustness",
+      "epsilon-ball",
+      "ai-safety"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261113-015",
+    "file": "2026-11-13-rss_huggingface_blog-build-a-robot-pick-and-place-simulation-with-simready-assets.json",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "category": "Robotics",
+    "tags": [
+      "robotics",
+      "simulation",
+      "simready",
+      "pick-and-place",
+      "embodied-ai"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261113-016",
+    "file": "2026-11-13-rss_huggingface_blog-xybench-helping-with-the-problem-behind-the-question.json",
+    "title": "XYBench: Helping with the problem behind the question",
+    "category": "AI Benchmark",
+    "tags": [
+      "benchmark",
+      "llm",
+      "xy-problem",
+      "intent-understanding",
+      "ai-safety"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261113-017",
+    "file": "2026-11-13-rss_huggingface_blog-llamacpp-v100-a-stronger-foundation-for-the-local-ai-ecosystem.json",
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "category": "AI Inference",
+    "tags": [
+      "llama.cpp",
+      "llm",
+      "inference",
+      "local-ai",
+      "quantization"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261113-018",
+    "file": "2026-11-13-rss_google_ai_blog-google-search-gets-a-major-upgrade-with-gemini-4-hydrogen.json",
+    "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+    "category": "AI Search",
+    "tags": [
+      "google",
+      "search",
+      "gemini",
+      "generative-ai",
+      "multimodal"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547667+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261113-006",
+    "file": "2026-11-13-github-nwversepersona.json",
+    "title": "nwverse/persona",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "roleplay",
+      "agent",
+      "character-engine"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547642+00:00",
+    "innovation_score": 4,
+    "stars": 314
+  },
+  {
+    "id": "github-20261113-005",
+    "file": "2026-11-13-github-mrhlaingbwardevagentic-hacking-skills.json",
+    "title": "mrhlaingbwardev/agentic-hacking-skills",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "security",
+      "automation",
+      "mcp"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547639+00:00",
+    "innovation_score": 4,
+    "stars": 330
+  },
+  {
+    "id": "github-20261113-004",
+    "file": "2026-11-13-github-tiger-ai-labwebsitebench.json",
+    "title": "TIGER-AI-Lab/WebsiteBench",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "web-agents",
+      "benchmark",
+      "browser-automation"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547636+00:00",
+    "innovation_score": 4,
+    "stars": 338
+  },
+  {
+    "id": "github-20261113-003",
+    "file": "2026-11-13-github-zaxiu88888issue-rag.json",
+    "title": "zaxiu88888/issue-rag",
+    "category": "RAG / Evaluation",
+    "tags": [
+      "rag",
+      "github-issues",
+      "evaluation",
+      "llm",
+      "audit"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547633+00:00",
+    "innovation_score": 4,
+    "stars": 387
+  },
+  {
+    "id": "github-20261113-002",
+    "file": "2026-11-13-github-hyperionaidevsmolmaxxing.json",
+    "title": "hyperionaidev/smolmaxxing",
+    "category": "Edge AI",
+    "tags": [
+      "llm",
+      "edge-ai",
+      "quantization",
+      "inference",
+      "embedded"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547620+00:00",
+    "innovation_score": 4,
+    "stars": 631
+  },
+  {
+    "id": "github-20261113-001",
+    "file": "2026-11-13-github-agentes-chatagentes-chat.json",
+    "title": "agentes-chat/agentes-chat",
+    "category": "AI Agent",
+    "tags": [
+      "slack-alternative",
+      "ai-agents",
+      "self-hosted",
+      "mcp",
+      "collaboration"
+    ],
+    "collected_at": "2026-11-13T22:59:10.547616+00:00",
+    "innovation_score": 4,
+    "stars": 1337
+  },
+  {
     "id": "hn_ai-20261112-003",
     "file": "2026-11-12-rss_hn_ai-my-ai-agents-found-an-unmapped-maya-site.json",
     "title": "My AI agents found an unmapped Maya site",

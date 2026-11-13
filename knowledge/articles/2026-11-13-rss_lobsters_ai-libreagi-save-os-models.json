@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261113-008",
+  "title": "libreagi - save OS models",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://libreagi.com/",
+  "description": "Comments",
+  "summary": "LibreAGI 是一个以自由/开源方式构建通用人工智能能力的项目，本次条目标题为“libreagi - save OS models”，主要关注开源模型的保存与复用。它可能提供模型检查点、权重文件、推理配置的持久化能力，使用户能够将不同来源的开源模型统一管理、共享和加载，降低复现和部署成本。由于来源为 Lobsters AI RSS，当前描述仅为 Comments，缺少详细说明，项目或处于早期阶段。整体来看，该项目旨在推动开源模型资产的可保存、可迁移、可协作，是开源 AI 生态中的一项基础工具。",
+  "tags": [
+    "ai",
+    "llm",
+    "open-source",
+    "agi",
+    "model-management"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "开源模型持久化与统一管理",
+    "简化模型保存和复用流程",
+    "社区驱动的开放 AGI 生态"
+  ],
+  "risks": [
+    "项目早期文档不足，功能边界模糊",
+    "模型存储与版本管理存在工程复杂度"
+  ]
+}

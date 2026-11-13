@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261113-014",
+  "title": "Adversarial Risk in the Generative AI Era Necessitates Dropping the Small Epsilon Ball",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.14594",
+  "description": "arXiv:2611.14594v1 Announce Type: new \nAbstract: Adversarial Machine Learning research is currently centered on the search for the epsilon-ball: minimal perturbations designed to fool models while remaining imperceptible to humans. We argue that this fixation on $\\ell_p$ norms is a metrological trap",
+  "summary": "该论文聚焦于对抗机器学习领域的一个核心问题：当前研究过度关注 epsilon 球——一种旨在欺骗模型但对人类不可察觉的微小扰动。文章指出，这种对 lp 范数范式的执着实际上是一种计量学陷阱，可能使研究偏离真实安全需求。特别是在生成式 AI 时代，对抗风险的表现形式更加多样，不再局限于小幅扰动。因此，作者主张放弃小 epsilon 球这一传统评估框架，重新思考鲁棒性的度量标准与防御目标，以更全面应对生成模型带来的新型对抗威胁。",
+  "tags": [
+    "adversarial-ml",
+    "generative-ai",
+    "robustness",
+    "epsilon-ball",
+    "ai-safety"
+  ],
+  "category": "AI安全",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "挑战传统epsilon球对抗研究范式",
+    "指出lp范数中心化是计量学陷阱",
+    "强调生成式AI时代需重新定义对抗风险"
+  ],
+  "risks": [
+    "缺乏具体替代度量方案",
+    "观点性较强，尚缺实验验证"
+  ]
+}

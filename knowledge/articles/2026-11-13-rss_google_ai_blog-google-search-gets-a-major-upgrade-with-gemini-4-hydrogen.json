@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261113-018",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+  "summary": "谷歌宣布将Gemini 4 Hydrogen模型全面集成至Google Search，并在全球范围推出升级版搜索体验。该升级旨在使搜索结果更具帮助性、视觉化和直观性，通过生成式AI能力改善信息检索与呈现方式。用户可以期待更自然的语义理解、图文结合的回答以及更流畅的交互流程，减少传统链接列表的翻阅成本。此次更新标志着谷歌搜索从关键词匹配进一步转向多模态生成式搜索，强化对复杂问题的综合解答能力，同时也会对搜索生态、内容创作者和广告模式产生深远影响。",
+  "tags": [
+    "google",
+    "search",
+    "gemini",
+    "generative-ai",
+    "multimodal"
+  ],
+  "category": "AI Search",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "Gemini 4 Hydrogen深度集成全球搜索",
+    "多模态视觉化回答体验",
+    "生成式语义理解与直观交互"
+  ],
+  "risks": [
+    "AI生成内容可能存在幻觉或事实偏差",
+    "对传统搜索流量与内容生态造成冲击"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261113-010",
+  "title": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.14675",
+  "description": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by poetic meter. We present MITRA-Swarm, a multi-agent ar",
+  "summary": "MITRA-Swarm 是一个面向古典梵语机器翻译的多智能体系统，旨在将显式语言学结构注入基础模型，以弥补单次调用式单体模型在梵语理解上的不足。该系统针对古典梵语三大难题进行设计：音变融合（Sandhi）、密集名词复合词（Samāsa）以及诗歌韵律导致的语篇零回指。通过多智能体分工协作，系统在词法、句法、语篇等层面引入语言规则与结构信息，帮助基础模型更好地处理梵语复杂而规则的形态变化和省略表达。该研究为形态复杂、语料稀缺的古典语言机器翻译提供了一种将语言学知识显式嵌入模型推理的新范式。",
+  "tags": [
+    "ai",
+    "llm",
+    "multi-agent",
+    "machine-translation",
+    "sanskrit"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-13T22:59:10.547667+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "注入显式语言学结构",
+    "多智能体协作应对梵语三大语言现象",
+    "面向低资源古典语言翻译"
+  ],
+  "risks": [
+    "梵语训练数据稀缺",
+    "多智能体协调成本高"
+  ]
+}

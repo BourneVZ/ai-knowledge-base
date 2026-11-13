@@ -1,0 +1,33 @@
+{
+  "id": "github-20261113-002",
+  "title": "hyperionaidev/smolmaxxing",
+  "source": "github",
+  "source_url": "https://github.com/hyperionaidev/smolmaxxing",
+  "description": "maxxing the ability to run different LLMs on the smallest devices possible",
+  "summary": "该项目旨在将多种大语言模型部署到计算资源极少的微型设备上，通过模型量化、剪枝、蒸馏、上下文裁剪、KV缓存压缩以及轻量推理引擎适配等手段，显著降低模型体积和内存占用，使手机、树莓派、嵌入式开发板等终端能够离线运行LLM。项目可能提供模型转换脚本、推理示例、性能对比与部署指南，帮助开发者在端侧场景中平衡模型能力、响应速度与功耗。其探索方向对隐私敏感、无网络或成本受限的边缘AI应用具有参考价值。",
+  "tags": [
+    "llm",
+    "edge-ai",
+    "quantization",
+    "inference",
+    "embedded"
+  ],
+  "category": "Edge AI",
+  "status": "draft",
+  "stars": 631,
+  "collected_at": "2026-11-13T22:59:10.547620+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "支持多种LLM微型化部署",
+    "量化、剪枝、蒸馏等压缩技术",
+    "端侧推理基准与部署工具链"
+  ],
+  "risks": [
+    "微型设备算力与内存限制导致推理缓慢或失败",
+    "过度压缩可能显著降低模型输出质量"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "github-20261113-005",
+  "title": "mrhlaingbwardev/agentic-hacking-skills",
+  "source": "github",
+  "source_url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
+  "description": "AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' ebook (28 SKILL.md templates)",
+  "summary": "该项目是《Agentic Hacking》电子书的官方配套资源，提供面向AI驱动的Web安全测试与自动化场景的28个SKILL.md技能模板、代理配置及MCP连接配置。它通过结构化提示词将侦察、漏洞发现、利用验证与报告等安全任务拆解为可由大语言模型代理执行的技能模块，并借助MCP协议集成浏览器、终端、扫描器等外部工具，降低人工编写安全测试指令的复杂度。项目适合安全研究人员和红队成员探索LLM代理在授权测试中的应用，强调技能模板的可复用与扩展性。整体上，它代表了安全自动化与AI Agent结合的前沿实践，但仍需在合规授权范围内使用。",
+  "tags": [
+    "ai",
+    "llm",
+    "security",
+    "automation",
+    "mcp"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 330,
+  "collected_at": "2026-11-13T22:59:10.547639+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "28个SKILL.md安全技能模板",
+    "MCP协议集成外部安全工具",
+    "面向授权红队与安全自动化场景"
+  ],
+  "risks": [
+    "可能被滥用于未授权攻击",
+    "依赖MCP工具链与LLM能力存在误报风险"
+  ]
+}

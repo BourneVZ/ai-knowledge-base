@@ -1,0 +1,33 @@
+{
+  "id": "github-20261113-004",
+  "title": "TIGER-AI-Lab/WebsiteBench",
+  "source": "github",
+  "source_url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
+  "description": "Can AI agents rebuild websites through browser exploration?",
+  "summary": "WebsiteBench 是 TIGER-AI-Lab 推出的面向 AI 智能体的网站重建基准。它要求智能体通过浏览器自主探索目标网站，理解页面结构、样式与关键交互，并生成可运行的网站重建代码。该基准覆盖多种真实网站与场景，既考察智能体对 DOM、CSS 与资源的提取能力，也评估重建结果的视觉相似度与结构一致性。相比传统静态网页生成任务，WebsiteBench 强调主动探索与长程决策，更贴近真实前端开发与逆向还原场景，为多模态大模型与浏览器智能体提供了更具挑战性的评测平台。",
+  "tags": [
+    "ai",
+    "llm",
+    "web-agents",
+    "benchmark",
+    "browser-automation"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 338,
+  "collected_at": "2026-11-13T22:59:10.547636+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-13-225922.json",
+  "analyzed_at": "2026-11-13T23:15:20.813591+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "首个聚焦浏览器探索式网站重建的基准",
+    "覆盖多类真实网站与交互路径",
+    "提供视觉与结构双重评估指标"
+  ],
+  "risks": [
+    "评估指标难以完全反映功能与交互质量",
+    "长程探索任务复杂度高，现有模型成功率可能偏低"
+  ]
+}
