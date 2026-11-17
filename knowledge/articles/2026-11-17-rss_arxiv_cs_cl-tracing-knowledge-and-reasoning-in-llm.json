@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261117-009",
+  "title": "Tracing Knowledge and Reasoning in LLM",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.17461",
+  "description": "arXiv:2611.17461v1 Announce Type: new \nAbstract: Current evaluations of Large Language Models (LLMs) report performance at the dataset or task level, revealing what a model achieves but offering little insight into the internal processing associated with its performance. We propose a task-centric fr",
+  "summary": "该研究指出当前LLM评估主要报告数据集或任务级性能，仅说明模型达到了什么，却缺乏对其内部处理机制的洞察。为此，作者提出以任务为中心的框架，用于追踪大语言模型中的知识存储与推理过程，揭示模型在完成具体任务时如何调用和整合知识。该方法有望超越表面性能指标，帮助研究者理解模型推理路径、定位知识缺陷与错误来源，从而为模型诊断、改进和可信评估提供新视角。",
+  "tags": [
+    "llm",
+    "interpretability",
+    "reasoning",
+    "knowledge-tracing",
+    "evaluation"
+  ],
+  "category": "LLM Interpretability",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出任务中心框架追踪LLM内部知识与推理",
+    "超越任务级评估，揭示性能背后的内部处理机制",
+    "有助于定位知识缺陷与推理错误来源"
+  ],
+  "risks": [
+    "摘要信息不完整，具体方法效果和实验验证未知",
+    "框架可能依赖特定任务设计，跨任务泛化性有待验证"
+  ]
+}

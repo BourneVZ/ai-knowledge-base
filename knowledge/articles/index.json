@@ -1,5 +1,260 @@
 [
   {
+    "id": "lobsters_ai-20261117-007",
+    "file": "2026-11-17-rss_lobsters_ai-proof-of-use-as-a-requirement-for-open-source-contributions.json",
+    "title": "\"Proof of use\" as a requirement for open source contributions?",
+    "category": "Open Source Governance",
+    "tags": [
+      "open-source",
+      "ai",
+      "pull-requests",
+      "proof-of-use",
+      "maintainer"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261117-008",
+    "file": "2026-11-17-rss_lobsters_ai-you-could-have-invented-transformers-from-memory.json",
+    "title": "You could have invented transformers from memory",
+    "category": "AI理论",
+    "tags": [
+      "transformer",
+      "attention",
+      "deep-learning",
+      "llm",
+      "tutorial"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261117-009",
+    "file": "2026-11-17-rss_arxiv_cs_cl-tracing-knowledge-and-reasoning-in-llm.json",
+    "title": "Tracing Knowledge and Reasoning in LLM",
+    "category": "LLM Interpretability",
+    "tags": [
+      "llm",
+      "interpretability",
+      "reasoning",
+      "knowledge-tracing",
+      "evaluation"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261117-010",
+    "file": "2026-11-17-rss_arxiv_cs_cl-poetry-resurrection-from-llms.json",
+    "title": "Poetry 'resurrection' from LLMs",
+    "category": "Creative AI",
+    "tags": [
+      "llm",
+      "poetry-generation",
+      "computational-creativity",
+      "ai-authorship"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261117-011",
+    "file": "2026-11-17-rss_arxiv_cs_cl-creating-steering-vectors-via-input-optimisation.json",
+    "title": "Creating Steering Vectors via Input Optimisation",
+    "category": "AI Alignment",
+    "tags": [
+      "activation steering",
+      "input optimization",
+      "llm",
+      "ai alignment",
+      "interpretability"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261117-012",
+    "file": "2026-11-17-rss_arxiv_cs_lg-alignment-with-reflect-reasoning-learning-how-to-follow-principles.json",
+    "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+    "category": "AI Alignment",
+    "tags": [
+      "alignment",
+      "llm",
+      "reflection",
+      "reasoning",
+      "principle-following"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261117-013",
+    "file": "2026-11-17-rss_arxiv_cs_lg-wetw-learning-pair-specific-weighted-euclidean-distances-for-efficient-dtw-searc.json",
+    "title": "WETW: Learning Pair-Specific Weighted Euclidean Distances for Efficient DTW Search",
+    "category": "Time Series Similarity Search",
+    "tags": [
+      "time series",
+      "dtw",
+      "metric learning",
+      "similarity search",
+      "euclidean distance"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261117-014",
+    "file": "2026-11-17-rss_arxiv_cs_lg-classification-with-large-step-gradient-descent-unifying-self-stabilization-and-.json",
+    "title": "Classification with Large-Step Gradient Descent: Unifying Self-Stabilization and Convergence Rates",
+    "category": "机器学习理论",
+    "tags": [
+      "gradient descent",
+      "classification",
+      "convergence",
+      "optimization",
+      "deep learning"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261117-015",
+    "file": "2026-11-17-rss_huggingface_blog-hugging-face-and-openrouter-join-forces-to-make-open-weight-models-easy-to-run.json",
+    "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+    "category": "AI Infrastructure",
+    "tags": [
+      "ai",
+      "llm",
+      "open-source",
+      "inference",
+      "api"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261117-016",
+    "file": "2026-11-17-rss_google_ai_blog-new-ask-maps-features-to-help-with-holiday-travel-and-prep.json",
+    "title": "New Ask Maps features to help with holiday travel and prep",
+    "category": "AI Agent",
+    "tags": [
+      "google maps",
+      "ai assistant",
+      "travel planning",
+      "local search",
+      "personalization"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714657+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261117-006",
+    "file": "2026-11-17-github-winnerspecialistgemini-config-checker.json",
+    "title": "WinnerSpecialist/Gemini-Config-Checker-",
+    "category": "Proxy Scanner",
+    "tags": [
+      "proxy",
+      "gemini",
+      "scanner",
+      "anti-dpi",
+      "region-unlock"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714639+00:00",
+    "innovation_score": 4,
+    "stars": 473
+  },
+  {
+    "id": "github-20261117-005",
+    "file": "2026-11-17-github-wingdatavacuumgemini-config-checker.json",
+    "title": "WingDataVacuum/Gemini-Config-Checker-",
+    "category": "Network Tool",
+    "tags": [
+      "proxy",
+      "gemini",
+      "anti-dpi",
+      "scanner",
+      "network"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714637+00:00",
+    "innovation_score": 3,
+    "stars": 473
+  },
+  {
+    "id": "github-20261117-004",
+    "file": "2026-11-17-github-typetyrantschemegemini-config-checker.json",
+    "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+    "category": "Network Tool",
+    "tags": [
+      "proxy",
+      "gemini",
+      "anti-dpi",
+      "scanner",
+      "region-unlock"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714635+00:00",
+    "innovation_score": 3,
+    "stars": 473
+  },
+  {
+    "id": "github-20261117-003",
+    "file": "2026-11-17-github-visionbeyondtrackgemini-config-checker.json",
+    "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+    "category": "Network Proxy Scanner",
+    "tags": [
+      "proxy",
+      "gemini",
+      "anti-dpi",
+      "network-scanner",
+      "cross-platform"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714634+00:00",
+    "innovation_score": 3,
+    "stars": 473
+  },
+  {
+    "id": "github-20261117-002",
+    "file": "2026-11-17-github-yellowlaborermarketgemini-config-checker.json",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "category": "Network Proxy Tool",
+    "tags": [
+      "proxy",
+      "gemini",
+      "scanner",
+      "anti-dpi",
+      "cross-platform"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714632+00:00",
+    "innovation_score": 4,
+    "stars": 474
+  },
+  {
+    "id": "github-20261117-001",
+    "file": "2026-11-17-github-hitkeeenblender-ai-mcp-addon.json",
+    "title": "hitkeeen/blender-ai-mcp-addon",
+    "category": "AI Agent",
+    "tags": [
+      "blender",
+      "mcp",
+      "ai-assistant",
+      "llm",
+      "bpy"
+    ],
+    "collected_at": "2026-11-17T01:15:04.714602+00:00",
+    "innovation_score": 4,
+    "stars": 2203
+  },
+  {
     "id": "lobsters_ai-20261113-007",
     "file": "2026-11-13-rss_lobsters_ai-e-means-10x-faster-k-means-at-equal-loss.json",
     "title": "e-means: 10x faster k-means at equal loss",

@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261117-008",
+  "title": "You could have invented transformers from memory",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://alexwang.ai/posts/associative-memory/",
+  "description": "Comments",
+  "summary": "本文以“你本可以凭记忆发明 Transformer”为题，从序列建模中的记忆与检索需求出发，逐步推导注意力机制、查询-键-值结构、多头注意力和位置编码等核心组件。文章强调 Transformer 并非难以理解的黑箱，而是为解决长程依赖与内容寻址问题自然演化出的设计。它通过直觉化重构，帮助读者理解自注意力如何在令牌间分配权重、如何并行处理序列，以及为何需要位置信息。整体上是一篇注重教学和原理梳理的深度解读，适合想从第一性原理理解大模型基座的读者。",
+  "tags": [
+    "transformer",
+    "attention",
+    "deep-learning",
+    "llm",
+    "tutorial"
+  ],
+  "category": "AI理论",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "从记忆检索视角重构Transformer核心机制",
+    "逐步推导QKV注意力与多头设计",
+    "强调第一性原理与教学可解释性"
+  ],
+  "risks": [
+    "内容可能偏重教学而缺少工程实现细节",
+    "对已熟悉Transformer的读者增量有限"
+  ]
+}

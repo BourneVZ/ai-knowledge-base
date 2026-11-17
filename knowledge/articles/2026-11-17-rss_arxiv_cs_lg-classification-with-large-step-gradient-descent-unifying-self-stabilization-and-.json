@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261117-014",
+  "title": "Classification with Large-Step Gradient Descent: Unifying Self-Stabilization and Convergence Rates",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.17459",
+  "description": "arXiv:2611.17459v1 Announce Type: new \nAbstract: Neural networks are often trained with gradient descent (GD) using step sizes that exceed classical stability thresholds, a regime where standard convergence theory no longer applies. Despite exhibiting non-monotonic loss and oscillatory dynamics, thi",
+  "summary": "该论文研究分类任务中使用大步长梯度下降的训练行为。传统收敛理论通常依赖小步长稳定性条件，而实际神经网络训练常采用超出经典稳定性阈值的学习率，此时损失函数不再单调下降，参数更新呈现振荡。作者将这类大步长训练中的自稳定现象与收敛速率统一在一个理论框架下，为分类问题提供收敛性分析，解释非单调损失和振荡动力学下模型仍能收敛的机制。该工作旨在弥合实践中的大学习率训练与理论学习之间的差距。",
+  "tags": [
+    "gradient descent",
+    "classification",
+    "convergence",
+    "optimization",
+    "deep learning"
+  ],
+  "category": "机器学习理论",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "统一大步长自稳定与收敛速率理论",
+    "突破经典稳定性阈值的分类收敛分析",
+    "解释非单调损失与振荡动力学下的收敛机制"
+  ],
+  "risks": [
+    "理论结果可能局限于分类任务",
+    "对更复杂模型与优化器的泛化性未知"
+  ]
+}

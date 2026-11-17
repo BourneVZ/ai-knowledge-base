@@ -1,0 +1,122 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "\"Proof of use\" as a requirement for open source contributions?",
+    "url": "https://lobste.rs/s/ki1l5r/proof_use_as_requirement_for_open_source",
+    "description": "As an open source maintainer, I get a lot of AI slop PRs. Some of these have genuine value. Most address edge cases that almost never occur in real life. It's not that they're not fixing real problems, it's that they're fixing problems that nobody is ever likely to encounter.\nI'm experimenting with ",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+    "url": "https://arxiv.org/abs/2605.29713",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "You could have invented transformers from memory",
+    "url": "https://alexwang.ai/posts/associative-memory/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Tracing Knowledge and Reasoning in LLM",
+    "url": "https://arxiv.org/abs/2611.17461",
+    "description": "arXiv:2611.17461v1 Announce Type: new \nAbstract: Current evaluations of Large Language Models (LLMs) report performance at the dataset or task level, revealing what a model achieves but offering little insight into the internal processing associated with its performance. We propose a task-centric fr",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Poetry 'resurrection' from LLMs",
+    "url": "https://arxiv.org/abs/2611.17464",
+    "description": "arXiv:2611.17464v1 Announce Type: new \nAbstract: In an era where linguistic creativity is challenged by algorithmic authorship, we pose a provocative question: can artificial intelligence (AI) write an infinite poem? We set up two experiments to investigate the quantitative and qualitative output pr",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Creating Steering Vectors via Input Optimisation",
+    "url": "https://arxiv.org/abs/2611.17481",
+    "description": "arXiv:2611.17481v1 Announce Type: new \nAbstract: Activation steering influences a language model's behaviour by adding a steering vector to its residual stream during generation, but it requires white-box access to modify the hidden states at every generation step. We introduce ActGCG, a modificatio",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+    "url": "https://arxiv.org/abs/2611.17398",
+    "description": "arXiv:2611.17398v1 Announce Type: new \nAbstract: The appropriate governing norms and principles for the alignment of Large Language Models (LLMs) often depend on cultural context and deployment application. However, most alignment techniques focus on training models to conform to human preferences o",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "WETW: Learning Pair-Specific Weighted Euclidean Distances for Efficient DTW Search",
+    "url": "https://arxiv.org/abs/2611.17412",
+    "description": "arXiv:2611.17412v1 Announce Type: new \nAbstract: Dynamic Time Warping (DTW) is the standard distance for similarity search over time series that are misaligned in time, but its cost is quadratic in the series length and lower bounds often prune few candidates, so search over large collections of lon",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Classification with Large-Step Gradient Descent: Unifying Self-Stabilization and Convergence Rates",
+    "url": "https://arxiv.org/abs/2611.17459",
+    "description": "arXiv:2611.17459v1 Announce Type: new \nAbstract: Neural networks are often trained with gradient descent (GD) using step sizes that exceed classical stability thresholds, a regime where standard convergence theory no longer applies. Despite exhibiting non-monotonic loss and oscillatory dynamics, thi",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+    "url": "https://huggingface.co/blog/openrouter",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "XYBench: Helping with the problem behind the question",
+    "url": "https://huggingface.co/blog/allenai/xybench",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "New Ask Maps features to help with holiday travel and prep",
+    "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+    "description": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+    "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    "stars": null,
+    "collected_at": "2026-11-17T01:15:04.714657+00:00"
+  }
+]

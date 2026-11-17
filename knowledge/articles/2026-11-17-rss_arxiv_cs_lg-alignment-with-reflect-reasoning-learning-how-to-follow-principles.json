@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261117-012",
+  "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.17398",
+  "description": "arXiv:2611.17398v1 Announce Type: new \nAbstract: The appropriate governing norms and principles for the alignment of Large Language Models (LLMs) often depend on cultural context and deployment application. However, most alignment techniques focus on training models to conform to human preferences o",
+  "summary": "该项目提出一种基于反思推理的对齐方法，使大型语言模型学会遵循原则，而不只是对齐人类偏好。由于治理规范和原则往往随文化背景和部署应用而变化，传统对齐技术难以灵活适配。该方法通过引入反思推理机制，让模型在执行前显式推理应遵循的原则，从而在多样化场景中更可靠地遵循规范。核心思路是将对齐目标从静态偏好扩展到可推理、可调整的原则遵循，以提升跨文化和跨应用的泛化性。该工作可能为上下文相关、原则驱动的对齐提供新方向。",
+  "tags": [
+    "alignment",
+    "llm",
+    "reflection",
+    "reasoning",
+    "principle-following"
+  ],
+  "category": "AI Alignment",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "引入反思推理机制以学习原则遵循",
+    "对齐目标从人类偏好扩展到可推理原则",
+    "适配文化背景与部署场景差异"
+  ],
+  "risks": [
+    "摘要截断，方法细节与实验未知",
+    "反思推理可能增加推理成本"
+  ]
+}

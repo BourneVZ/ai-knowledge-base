@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261117-007",
+  "title": "\"Proof of use\" as a requirement for open source contributions?",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://lobste.rs/s/ki1l5r/proof_use_as_requirement_for_open_source",
+  "description": "As an open source maintainer, I get a lot of AI slop PRs. Some of these have genuine value. Most address edge cases that almost never occur in real life. It's not that they're not fixing real problems, it's that they're fixing problems that nobody is ever likely to encounter.\nI'm experimenting with ",
+  "summary": "开源维护者面临大量 AI 生成的“垃圾 PR”，其中多数修复的是现实中几乎不会遇到的边缘情况。该项目提出将“实际使用证明”作为合并贡献的前提，要求贡献者展示真实使用场景或需求证据，以过滤低价值自动化补丁。通过这一机制，维护者可以将精力集中在影响真实用户的问题上，减少审核 AI slop PR 的负担，同时保留有实际价值的 AI 辅助贡献。该思路属于开源治理与质量控制创新，但需平衡门槛设置，避免误伤罕见但有效的修复。",
+  "tags": [
+    "open-source",
+    "ai",
+    "pull-requests",
+    "proof-of-use",
+    "maintainer"
+  ],
+  "category": "Open Source Governance",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "以“使用证明”过滤 AI 低价值 PR，减少维护者审核负担",
+    "引导贡献聚焦真实用户需求，提升代码合并质量",
+    "为开源社区治理 AI 辅助贡献提供可复制机制"
+  ],
+  "risks": [
+    "可能误伤罕见但真实的边缘修复",
+    "使用证明可能被伪造，仍需额外验证成本"
+  ]
+}

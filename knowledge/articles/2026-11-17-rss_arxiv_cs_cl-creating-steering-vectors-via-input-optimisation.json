@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261117-011",
+  "title": "Creating Steering Vectors via Input Optimisation",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.17481",
+  "description": "arXiv:2611.17481v1 Announce Type: new \nAbstract: Activation steering influences a language model's behaviour by adding a steering vector to its residual stream during generation, but it requires white-box access to modify the hidden states at every generation step. We introduce ActGCG, a modificatio",
+  "summary": "本文针对激活引导需在生成过程中白盒修改残差流、难以直接应用的问题，提出 ActGCG 方法，通过输入优化来创建 steering vector。ActGCG 将控制信号转化为对输入序列的优化，可能借鉴贪婪坐标梯度等离散优化策略，在不具备每步修改隐藏状态权限时也能影响语言模型行为。该方法有望降低对模型内部访问的依赖，提升激活引导的实用性和迁移性。不过摘要内容截断，具体实现细节与实验效果尚未完整披露。",
+  "tags": [
+    "activation steering",
+    "input optimization",
+    "llm",
+    "ai alignment",
+    "interpretability"
+  ],
+  "category": "AI Alignment",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "用输入优化替代残差流干预",
+    "引入 ActGCG 方法创建 steering vector",
+    "降低对白盒修改隐藏状态的依赖"
+  ],
+  "risks": [
+    "优化后的输入可能引入语义扰动",
+    "实际效果受限于截断摘要，缺乏完整评估"
+  ]
+}

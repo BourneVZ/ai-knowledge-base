@@ -1,0 +1,33 @@
+{
+  "id": "github-20261117-006",
+  "title": "WinnerSpecialist/Gemini-Config-Checker-",
+  "source": "github",
+  "source_url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "summary": "Gemini-Config-Checker 是一个面向受限网络环境的代理配置扫描工具，致力于发现可稳定访问 Google AI Studio 与 Gemini 的链式代理节点。它支持已登录浏览器会话检测，能在真实登录状态下验证代理可用性，避免仅通过匿名请求产生误判；同时集成抗深度包检测（anti-DPI）能力，可绕过部分网络审查与流量干扰。工具覆盖 Windows、macOS、Linux 和 Android 平台，用户可在不同设备上扫描并验证代理配置，恢复对 Gemini 服务的访问。该项目偏实用脚本型，自动化程度较高，但实际效果依赖代理资源质量，并可能涉及服务条款合规风险。",
+  "tags": [
+    "proxy",
+    "gemini",
+    "scanner",
+    "anti-dpi",
+    "region-unlock"
+  ],
+  "category": "Proxy Scanner",
+  "status": "draft",
+  "stars": 473,
+  "collected_at": "2026-11-17T01:15:04.714639+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "已登录浏览器会话验证代理可用性",
+    "抗DPI能力绕过深度包检测",
+    "跨平台覆盖 Windows/macOS/Linux/Android"
+  ],
+  "risks": [
+    "可能违反 Google 服务条款或当地法规",
+    "代理节点质量不稳定且存在账号风控风险"
+  ]
+}

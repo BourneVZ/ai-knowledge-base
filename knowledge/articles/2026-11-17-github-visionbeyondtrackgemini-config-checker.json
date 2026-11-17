@@ -1,0 +1,33 @@
+{
+  "id": "github-20261117-003",
+  "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+  "source": "github",
+  "source_url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "summary": "Visionbeyondtrack/Gemini-Config-Checker 是一款面向受限网络环境的跨平台代理配置扫描工具，旨在自动发现可稳定访问 Google AI Studio 与 Gemini 的代理节点。项目通过链式区域扫描机制，结合已登录浏览器会话检测与抗深度包检测（DPI）能力，验证代理在 Windows、macOS、Linux 和 Android 等平台上的可用性，降低手动测试成本。该工具适合需要接入 Google AI 服务的开发者和研究者，但依赖第三方代理且可能涉及合规风险，需谨慎使用。",
+  "tags": [
+    "proxy",
+    "gemini",
+    "anti-dpi",
+    "network-scanner",
+    "cross-platform"
+  ],
+  "category": "Network Proxy Scanner",
+  "status": "draft",
+  "stars": 473,
+  "collected_at": "2026-11-17T01:15:04.714634+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "链式区域扫描自动筛选可访问 Gemini/Google AI Studio 的代理",
+    "集成已登录浏览器会话检测与抗 DPI 验证",
+    "支持 Windows/macOS/Linux/Android 多平台"
+  ],
+  "risks": [
+    "可能违反服务条款或当地法规",
+    "第三方代理隐私与稳定性存在隐患"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "github-20261117-005",
+  "title": "WingDataVacuum/Gemini-Config-Checker-",
+  "source": "github",
+  "source_url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "summary": "该项目是一个面向受限网络环境的链式区域扫描工具，用于发现可访问 Google AI Studio 和 Gemini 的代理配置。它通过登录后的浏览器检查验证代理可用性，并引入抗 DPI 机制以降低流量被识别和干扰的概率，覆盖 Windows、macOS、Linux 和 Android 平台。项目核心价值在于自动化寻找可用链式代理，减少人工测试成本，适合需要稳定访问 Gemini 的开发者和研究者。但工具可能依赖第三方代理节点，存在隐私与安全风险，且绕过地区限制可能违反相关服务条款或法律法规，使用者需自行评估合规性。",
+  "tags": [
+    "proxy",
+    "gemini",
+    "anti-dpi",
+    "scanner",
+    "network"
+  ],
+  "category": "Network Tool",
+  "status": "draft",
+  "stars": 473,
+  "collected_at": "2026-11-17T01:15:04.714637+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "链式区域代理自动扫描",
+    "登录后浏览器可用性验证",
+    "抗 DPI 与多平台支持"
+  ],
+  "risks": [
+    "可能违反服务条款或当地法规",
+    "第三方代理节点存在数据安全风险"
+  ]
+}

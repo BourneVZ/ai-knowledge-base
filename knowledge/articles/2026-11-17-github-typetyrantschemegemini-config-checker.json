@@ -1,0 +1,33 @@
+{
+  "id": "github-20261117-004",
+  "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+  "source": "github",
+  "source_url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "summary": "该项目是一个链式区域扫描器，用于发现可让用户登录并访问 Google AI Studio 和 Gemini 的代理配置。工具通过自动扫描候选代理、执行带登录态浏览器检查，并集成反深度包检测（anti-DPI）机制，在 Windows、macOS、Linux 与 Android 平台上筛选可用的网络链路。其工作方式偏向网络层探测：收集代理地址后测试连通性，模拟已登录浏览器环境访问目标服务，判断是否能够绕过区域限制。项目具备跨平台、自动化检测和多协议适配等特点，对受网络封锁地区的 AI 用户具有一定实用价值。但该项目可能助长规避官方服务区域条款，且依赖第三方代理节点，存在账号封禁、数据泄露和链路不稳定的风险。",
+  "tags": [
+    "proxy",
+    "gemini",
+    "anti-dpi",
+    "scanner",
+    "region-unlock"
+  ],
+  "category": "Network Tool",
+  "status": "draft",
+  "stars": 473,
+  "collected_at": "2026-11-17T01:15:04.714635+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "跨平台代理配置扫描与登录态验证",
+    "内置反深度包检测规避机制",
+    "面向 Gemini/AI Studio 的连通性筛选"
+  ],
+  "risks": [
+    "可能违反服务条款并导致账号封禁",
+    "依赖第三方代理，存在隐私与稳定性风险"
+  ]
+}

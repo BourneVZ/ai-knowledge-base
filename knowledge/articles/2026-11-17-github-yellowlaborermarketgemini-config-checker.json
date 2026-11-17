@@ -1,0 +1,33 @@
+{
+  "id": "github-20261117-002",
+  "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+  "source": "github",
+  "source_url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+  "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+  "summary": "该项目是一个面向 Google AI Studio 与 Gemini 访问的代理配置扫描工具，核心思路是通过链式区域扫描自动查找可用的代理配置，帮助用户在受限网络环境下进入目标服务。工具支持对已登录浏览器会话的检测，并结合抗 DPI 干扰能力，提升在深度包检测环境中的连通率。项目覆盖 Windows、macOS、Linux 和 Android 多平台，能够适应不同设备的配置需求。总体来看，它降低了手动测试代理可用性的成本，为需要访问 Gemini 相关服务的用户提供了自动化发现入口的辅助方案。",
+  "tags": [
+    "proxy",
+    "gemini",
+    "scanner",
+    "anti-dpi",
+    "cross-platform"
+  ],
+  "category": "Network Proxy Tool",
+  "status": "draft",
+  "stars": 474,
+  "collected_at": "2026-11-17T01:15:04.714632+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "链式区域扫描自动筛选可用代理配置",
+    "支持已登录浏览器检测与抗DPI干扰",
+    "跨 Windows/macOS/Linux/Android 多平台"
+  ],
+  "risks": [
+    "第三方代理可用性不稳定，需频繁更新",
+    "可能涉及访问限制地区合规风险"
+  ]
+}

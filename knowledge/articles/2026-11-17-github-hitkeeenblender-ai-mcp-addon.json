@@ -1,0 +1,33 @@
+{
+  "id": "github-20261117-001",
+  "title": "hitkeeen/blender-ai-mcp-addon",
+  "source": "github",
+  "source_url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+  "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+  "summary": "该项目将 Blender 与 AI 助手及 MCP 服务器结合，为 3D 创作者提供可视化聊天、场景编辑工具和多智能体工作流。支持 ChatGPT、Claude、Gemini、Ollama、OpenCode 等多种模型，通过 bpy Python 脚本实现对 Blender 场景的控制与生成，定位为 3D 领域的 AI Copilot。其 MCP 集成允许外部智能体标准化调用 Blender 能力，适合自动化建模、资产管理与辅助创作等场景。项目兼具前端插件与后端服务属性，降低非编程用户使用 AI 操控 Blender 的门槛，同时为开发者提供可扩展的多代理协作接口。整体创新性较强，但工程落地需注意执行安全与兼容性问题。",
+  "tags": [
+    "blender",
+    "mcp",
+    "ai-assistant",
+    "llm",
+    "bpy"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 2203,
+  "collected_at": "2026-11-17T01:15:04.714602+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "Blender 内可视化 AI 聊天与场景工具",
+    "MCP 标准化集成，支持多智能体工作流",
+    "兼容多种主流 LLM 与 bpy 脚本控制"
+  ],
+  "risks": [
+    "自动执行 bpy 脚本存在误操作与安全风险",
+    "依赖外部 AI 服务及 Blender 版本兼容性"
+  ]
+}

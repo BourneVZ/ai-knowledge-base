@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261117-013",
+  "title": "WETW: Learning Pair-Specific Weighted Euclidean Distances for Efficient DTW Search",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.17412",
+  "description": "arXiv:2611.17412v1 Announce Type: new \nAbstract: Dynamic Time Warping (DTW) is the standard distance for similarity search over time series that are misaligned in time, but its cost is quadratic in the series length and lower bounds often prune few candidates, so search over large collections of lon",
+  "summary": "动态时间规整（DTW）是时间序列相似性搜索的标准距离度量，但其计算成本随序列长度二次增长，且常用下界方法剪枝效果有限，导致大规模长序列检索效率低下。本文提出WETW方法，通过学习针对序列对的加权欧氏距离，构建更紧致的下界或近似距离，以加速DTW最近邻搜索。该方法结合度量学习，针对不同序列对自适应调整各时间点权重，提升候选剪枝能力，在保持DTW精度前提下降低计算开销，适用于大规模时间序列数据库的高效检索场景。",
+  "tags": [
+    "time series",
+    "dtw",
+    "metric learning",
+    "similarity search",
+    "euclidean distance"
+  ],
+  "category": "Time Series Similarity Search",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "学习成对特定加权欧氏距离",
+    "提升DTW搜索下界紧致性与剪枝效率",
+    "保持精度同时降低二次计算成本"
+  ],
+  "risks": [
+    "成对权重可能增加存储或在线计算开销",
+    "对未见序列对的泛化能力尚需验证"
+  ]
+}

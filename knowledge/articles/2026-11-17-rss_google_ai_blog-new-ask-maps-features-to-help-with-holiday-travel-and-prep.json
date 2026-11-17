@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261117-016",
+  "title": "New Ask Maps features to help with holiday travel and prep",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+  "description": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+  "summary": "Google 推出 Ask Maps 新功能，面向假期出行与准备场景，提供智能路线规划、路线提示、本地预约查找以及保存列表搜索能力。用户可以用自然语言描述需求，系统结合地图数据与个人偏好生成公路旅行方案，并在途中提供路线优化建议。同时可发现附近的餐饮、服务或活动并完成预约，还能检索用户保存的地点列表，提升个性化出行效率。该功能属于 AI Agent 在地图服务的落地，涉及自然语言理解、多步任务规划、地理信息检索与用户数据整合。整体上降低了用户规划成本，但也对信息实时性、预约接口和隐私保护提出更高要求。",
+  "tags": [
+    "google maps",
+    "ai assistant",
+    "travel planning",
+    "local search",
+    "personalization"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "自然语言规划假日公路旅行与路线提示",
+    "查找并预约本地服务",
+    "搜索个人保存列表，增强个性化出行管理"
+  ],
+  "risks": [
+    "路线与预约信息时效性不足可能误导用户",
+    "用户保存列表和位置数据涉及隐私与权限管理"
+  ]
+}

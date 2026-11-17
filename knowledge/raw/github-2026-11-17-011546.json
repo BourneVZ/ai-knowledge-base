@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "hitkeeen/blender-ai-mcp-addon",
+    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+    "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+    "stars": 2203,
+    "collected_at": "2026-11-17T01:15:04.714602+00:00"
+  },
+  {
+    "source": "github",
+    "title": "agentes-chat/agentes-chat",
+    "url": "https://github.com/agentes-chat/agentes-chat",
+    "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+    "stars": 1624,
+    "collected_at": "2026-11-17T01:15:04.714622+00:00"
+  },
+  {
+    "source": "github",
+    "title": "hyperionaidev/smolmaxxing",
+    "url": "https://github.com/hyperionaidev/smolmaxxing",
+    "description": "maxxing the ability to run different LLMs on the smallest devices possible",
+    "stars": 880,
+    "collected_at": "2026-11-17T01:15:04.714627+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Dodaios/ste80-humanizer",
+    "url": "https://github.com/Dodaios/ste80-humanizer",
+    "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+    "stars": 742,
+    "collected_at": "2026-11-17T01:15:04.714629+00:00"
+  },
+  {
+    "source": "github",
+    "title": "TIGER-AI-Lab/WebsiteBench",
+    "url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
+    "description": "Can AI agents rebuild websites through browser exploration?",
+    "stars": 477,
+    "collected_at": "2026-11-17T01:15:04.714630+00:00"
+  },
+  {
+    "source": "github",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 474,
+    "collected_at": "2026-11-17T01:15:04.714632+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+    "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-17T01:15:04.714634+00:00"
+  },
+  {
+    "source": "github",
+    "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+    "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-17T01:15:04.714635+00:00"
+  },
+  {
+    "source": "github",
+    "title": "WingDataVacuum/Gemini-Config-Checker-",
+    "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-17T01:15:04.714637+00:00"
+  },
+  {
+    "source": "github",
+    "title": "WinnerSpecialist/Gemini-Config-Checker-",
+    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-17T01:15:04.714639+00:00"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "arxiv_cs_cl-20261117-010",
+  "title": "Poetry 'resurrection' from LLMs",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.17464",
+  "description": "arXiv:2611.17464v1 Announce Type: new \nAbstract: In an era where linguistic creativity is challenged by algorithmic authorship, we pose a provocative question: can artificial intelligence (AI) write an infinite poem? We set up two experiments to investigate the quantitative and qualitative output pr",
+  "summary": "该论文提出一个挑衅性问题：人工智能能否写出无限长诗？研究围绕算法作者身份对语言创造力的冲击，设置两项实验分别从生成数量与生成质量两个维度考察大语言模型的诗歌创作表现。项目名称“Poetry 'resurrection' from LLMs”表明其意图借助大语言模型复活或延续诗歌创作传统，探索AI作为诗歌创作者的能力边界。研究关注在算法写作兴起的背景下，语言艺术是否可以被无限生成，以及生成结果在文学质量上是否可接受，整体属于计算语言学与创意生成交叉方向。",
+  "tags": [
+    "llm",
+    "poetry-generation",
+    "computational-creativity",
+    "ai-authorship"
+  ],
+  "category": "Creative AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "探索LLM创作无限诗歌的可能性",
+    "从定量与定性双维度评估生成质量",
+    "回应算法作者身份对语言创造力的挑战"
+  ],
+  "risks": [
+    "诗歌质量评估主观性强",
+    "无限生成可能缺乏主题与美学一致性"
+  ]
+}

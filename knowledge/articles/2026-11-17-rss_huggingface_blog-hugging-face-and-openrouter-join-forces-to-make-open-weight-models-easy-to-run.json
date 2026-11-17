@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261117-015",
+  "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/openrouter",
+  "description": "",
+  "summary": "Hugging Face 与 OpenRouter 宣布合作，将 Hugging Face 庞大的开放权重模型生态与 OpenRouter 的多供应商推理 API 平台打通。开发者可通过统一接口直接调用 Hugging Face 上的开源模型，无需自行部署复杂基础设施。该合作整合 OpenRouter 的路由、自动缩放和兼容 OpenAI 的 API，并结合 Hugging Face 的模型卡片、版本管理与社区资源，使 Llama、Mistral、Qwen 等开放权重模型更容易在生产环境中运行，降低中小团队使用高性能开源模型的门槛，同时保留灵活切换推理后端的能力，加快从原型到上线的速度。",
+  "tags": [
+    "ai",
+    "llm",
+    "open-source",
+    "inference",
+    "api"
+  ],
+  "category": "AI Infrastructure",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-17T01:15:04.714657+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-17-011546.json",
+  "analyzed_at": "2026-11-17T01:30:16.628592+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "统一 API 调用开放权重模型",
+    "整合 Hugging Face 模型库与 OpenRouter 推理路由",
+    "降低部署与运行门槛"
+  ],
+  "risks": [
+    "第三方推理依赖可能带来延迟与成本",
+    "开放权重模型托管质量参差不齐"
+  ]
+}
