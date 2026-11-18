@@ -1,0 +1,122 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+    "url": "https://energy-based-reasoners.github.io/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+    "url": "https://arxiv.org/abs/2607.02512",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+    "url": "https://arxiv.org/abs/2611.21622",
+    "description": "arXiv:2611.21622v1 Announce Type: new \nAbstract: Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and de-escalation central to crisis ",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
+    "url": "https://arxiv.org/abs/2611.21641",
+    "description": "arXiv:2611.21641v1 Announce Type: new \nAbstract: Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any production model: a blind spot for the",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Sleep2Word: Peripheral-to-EEG Translation via Duration-Aware Wordization",
+    "url": "https://arxiv.org/abs/2611.21643",
+    "description": "arXiv:2611.21643v1 Announce Type: new \nAbstract: Estimating full-night electroencephalography (EEG) spectrograms from peripheral measurements could extend EEG-informed sleep analysis to recordings acquired without EEG. This task requires compact representations of signals with different temporal str",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution",
+    "url": "https://arxiv.org/abs/2611.21688",
+    "description": "arXiv:2611.21688v1 Announce Type: new \nAbstract: Tool-using agents rely on execution harnesses to organize and schedule tool operations. The same task and resource description can conceal runtime conditions that reverse the latency ordering of valid execution plans. Resolving this uncertainty requir",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "AdaFlowLite: Scalable and Non-blocking Inference on Asynchronous Mobile Data",
+    "url": "https://arxiv.org/abs/2611.21691",
+    "description": "arXiv:2611.21691v1 Announce Type: new \nAbstract: The rise of mobile devices equipped with numerous sensors, such as LiDAR and cameras, has driven the adoption of multi-modal deep intelligence for distributed sensing tasks, such as smart cabins and driving assistance. However, the arrival time of mob",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "TIBECG: Temporal Information Bottleneck for Lead-Specific Demographic Privacy in ECG Waveform Release",
+    "url": "https://arxiv.org/abs/2611.21694",
+    "description": "arXiv:2611.21694v1 Announce Type: new \nAbstract: Transmitting an electrocardiogram (ECG) waveform can expose demographic information beyond an intended diagnostic task. We evaluate TIBECG, an architectural temporal information bottleneck, on individual leads extracted from hospital twelve-lead recor",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+    "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Why your fine-tuning job takes longer than the FLOPs say",
+    "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+    "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "The Gemini app is now available on lower-memory Android devices.",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "description": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Put Gemini to work for you",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+    "description": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "New Ask Maps features to help with holiday travel and prep",
+    "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+    "description": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+    "stars": null,
+    "collected_at": "2026-11-18T23:40:50.534155+00:00"
+  }
+]

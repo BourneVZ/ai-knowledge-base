@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "agentes-chat/agentes-chat",
+    "url": "https://github.com/agentes-chat/agentes-chat",
+    "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+    "stars": 1719,
+    "collected_at": "2026-11-18T23:40:50.534104+00:00"
+  },
+  {
+    "source": "github",
+    "title": "sybil-solutions/inference-optimisation-skill",
+    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+    "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+    "stars": 1105,
+    "collected_at": "2026-11-18T23:40:50.534123+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Dodaios/ste80-humanizer",
+    "url": "https://github.com/Dodaios/ste80-humanizer",
+    "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+    "stars": 870,
+    "collected_at": "2026-11-18T23:40:50.534126+00:00"
+  },
+  {
+    "source": "github",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 475,
+    "collected_at": "2026-11-18T23:40:50.534127+00:00"
+  },
+  {
+    "source": "github",
+    "title": "WinnerSpecialist/Gemini-Config-Checker-",
+    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-18T23:40:50.534129+00:00"
+  },
+  {
+    "source": "github",
+    "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+    "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-18T23:40:50.534131+00:00"
+  },
+  {
+    "source": "github",
+    "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+    "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-18T23:40:50.534132+00:00"
+  },
+  {
+    "source": "github",
+    "title": "WingDataVacuum/Gemini-Config-Checker-",
+    "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-18T23:40:50.534134+00:00"
+  },
+  {
+    "source": "github",
+    "title": "TurtleReside/Gemini-Config-Checker-",
+    "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-18T23:40:50.534135+00:00"
+  },
+  {
+    "source": "github",
+    "title": "VortexHostFeel/Gemini-Config-Checker-",
+    "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 473,
+    "collected_at": "2026-11-18T23:40:50.534137+00:00"
+  }
+]

@@ -1,0 +1,732 @@
+{
+  "timestamp": "2026-11-18-235635",
+  "iterations_used": 2,
+  "last_feedback": "[弱项: technical_depth, originality] 整体结构完整，摘要准确度尚可，但存在明显的重复项和一致性缺陷。两个 Gemini-Config-Checker 条目描述几乎相同却保留为两条，category 分别归为 AI Tool 和 Network Tool，innovation_score 分别为 2 和 4，这会降低 relevance 和 formatting 的可信度，建议在入库前增加 URL/title/description 去重和冲突合并。技术深度不足：多数摘要停留在原描述的中文转述，缺少实现级信息，例如 agentes-chat 的审批与沙箱机制、inference-optimisation 的搜索参数与基准方法、STE80 的规则实现细节。原创性偏弱：较少提供独立分析、项目对比或风险分级，创新/难度评分缺乏可追溯依据。建议补充可验证的技术细节、改进评分一致性，并明确网络代理类工具的合规收录标准。",
+  "analyses": [
+    {
+      "source": "github",
+      "title": "agentes-chat/agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+      "stars": 1719,
+      "collected_at": "2026-11-18T23:40:50.534104+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "agentes-chat 是一个开源、可自托管的 Slack 替代方案，让人类团队与 AI 智能体在频道和私信中协作。项目支持 Claude、ChatGPT/Codex、Gemini 和 Grok 等多种模型，并通过 MCP 协议接入工具，使智能体拥有独立计算机和浏览器能力，可执行例程、维护记忆并接受审批。系统提供 Web、桌面和手机端应用，采用 Docker Compose 与 PostgreSQL 部署，采用 AGPL-3.0 许可证。该平台旨在将 AI 代理作为团队一成员纳入日常沟通与任务执行，适合希望私有化部署并深度定制 AI 工作流的团队。",
+      "tags": [
+        "ai",
+        "agents",
+        "mcp",
+        "self-hosted",
+        "slack"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 4,
+      "difficulty_score": 4,
+      "key_points": [
+        "开源自托管 Slack 替代，团队与 AI 智能体在频道/私信协作",
+        "支持 Claude、ChatGPT/Codex、Gemini、Grok 多模型及 MCP 工具、计算机与浏览器",
+        "覆盖 Web、桌面、手机端，并支持例程、记忆与审批机制"
+      ],
+      "risks": [
+        "AGPL-3.0 许可证可能限制闭源商业集成",
+        "自托管多模型、计算机/浏览器沙箱及跨端应用运维复杂度高"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "stars": 1105,
+      "collected_at": "2026-11-18T23:40:50.534123+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "该项目提供一种面向本地大语言模型推理服务的智能体技能，基于爬山算法对关键性能参数进行自动搜索与调优，覆盖解码、推测解码、预填充、KV缓存、启动时间及首token延迟等指标。它能够在任意硬件和量化方案上运行，通过自动基准测试闭环驱动配置优化，减少人工调参成本，提升推理吞吐与响应速度。其通用性适合异构部署环境，但需要依赖大量重复测量来收敛，且搜索空间较大。",
+      "tags": [
+        "llm",
+        "inference",
+        "optimization",
+        "agent",
+        "serving"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 4,
+      "difficulty_score": 4,
+      "key_points": [
+        "自动爬山调优多维度推理指标",
+        "硬件与量化无关的通用适配",
+        "闭环基准测试减少人工干预"
+      ],
+      "risks": [
+        "可能陷入局部最优配置",
+        "搜索过程需要大量推理基准测试开销"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "Dodaios/ste80-humanizer",
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+      "stars": 870,
+      "collected_at": "2026-11-18T23:40:50.534126+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "STE80 Humanizer 是一个代理技能，旨在消除 AI 生成文本中的机械痕迹，并按照 ASD-STE100 简化技术英语标准进行 80% 程度的改写。该方法源自 Andrej Karpathy 分享的实践，通过约束词汇和语法规则，使输出更接近人类技术写作风格，同时保留技术准确性。项目以 GitHub 仓库形式提供，可集成到 AI Agent 工作流中，适用于需要清晰、标准化英语表达的技术文档场景。其核心价值在于降低 AI 文本的识别度，提升可读性和专业度，但并非完全符合 STE100 规范，而是达到 80% 的近似度，平衡了严格标准与自然表达。",
+      "tags": [
+        "ai",
+        "llm",
+        "agent-skill",
+        "technical-english",
+        "text-rewriting"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "去除 AI 生成痕迹",
+        "80% 符合 ASD-STE100 简化技术英语",
+        "集成 Karpathy 分享的改写方法"
+      ],
+      "risks": [
+        "过度简化可能削弱语义或语气",
+        "主要适用于技术文档，通用性有限"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+      "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 475,
+      "collected_at": "2026-11-18T23:40:50.534127+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "该项目是一个面向受限网络环境的代理配置扫描器，用于筛选可访问 Google AI Studio 和 Gemini 的链式区域节点。它支持已登录浏览器状态检测、抗 DPI 策略以及 Windows、macOS、Linux、Android 多平台运行，帮助用户自动找到可用代理配置。项目重点在网络连通性验证而非模型能力，实用性强但创新度一般，并需关注合规风险。",
+      "tags": [
+        "gemini",
+        "proxy",
+        "network-tool",
+        "anti-dpi",
+        "ai-access"
+      ],
+      "category": "AI Tool",
+      "innovation_score": 2,
+      "difficulty_score": 3,
+      "key_points": [
+        "跨平台代理配置扫描",
+        "已登录浏览器状态检测",
+        "抗 DPI 节点筛选"
+      ],
+      "risks": [
+        "可能违反服务条款或当地法规",
+        "代理节点可用性不稳定"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "WinnerSpecialist/Gemini-Config-Checker-",
+      "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 473,
+      "collected_at": "2026-11-18T23:40:50.534129+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "该项目是一个面向 Google AI Studio 与 Gemini 访问的链式区域扫描工具，通过自动探测可用代理配置，帮助用户在受限网络环境中建立连接。工具执行已登录浏览器会话检查，确保代理不仅可达，还能通过 Google 账号验证；内置抗深度包检测能力，降低流量被识别和干扰的概率。支持 Windows、macOS、Linux 和 Android 多平台，便于不同设备部署。其核心在于将代理发现、登录态验证与抗审查特性整合为自动化流程，降低用户手动测试成本。需注意该工具可能违反 Google 服务条款，代理节点稳定性和安全性亦存在风险。",
+      "tags": [
+        "proxy",
+        "gemini",
+        "google-ai",
+        "anti-dpi",
+        "scanner"
+      ],
+      "category": "Network Tool",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "跨平台代理配置扫描",
+        "登录态浏览器验证",
+        "抗DPI深度包检测规避"
+      ],
+      "risks": [
+        "可能违反Google服务条款",
+        "代理节点稳定性与安全风险"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+      "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 473,
+      "collected_at": "2026-11-18T23:40:50.534131+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "该项目是一个面向 Google AI Studio 与 Gemini 访问的代理配置扫描工具，通过链式区域扫描发现可用代理节点，并进行已登录浏览器会话检查，确保代理能够稳定访问 Gemini。工具具备抗深度包检测（anti-DPI）能力，可绕过部分网络限制，支持 Windows、macOS、Linux 和 Android 多平台。项目核心价值在于自动验证代理配置与 Google AI 服务的连通性，为受限网络环境下的开发者提供诊断与配置辅助。技术上涉及代理链管理、HTTP/TLS 指纹、区域出口检测和浏览器会话验证等。需注意使用场景可能涉及绕过地理限制或违反 Google 服务条款。",
+      "tags": [
+        "proxy",
+        "gemini",
+        "network",
+        "anti-dpi",
+        "scanner"
+      ],
+      "category": "AI Access Tool",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "链式区域扫描代理配置",
+        "已登录浏览器会话检查",
+        "抗 DPI 与多平台支持"
+      ],
+      "risks": [
+        "可能被用于绕过地区限制，违反服务条款",
+        "第三方代理可能存在数据泄露风险"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+      "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 473,
+      "collected_at": "2026-11-18T23:40:50.534132+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "该项目是一个面向 Google AI Studio 与 Gemini 的链式区域代理配置扫描器，支持 Windows、macOS、Linux 和 Android 平台。它通过浏览器登录态校验和抗深度包检测（anti-DPI）手段，筛选出可稳定访问 Gemini 服务的代理节点配置，帮助用户绕过网络区域限制。核心流程包括代理候选收集、链式转发测试、浏览器签名检查与可用性验证。项目技术栈涵盖跨平台网络请求、TLS 指纹处理与自动化代理测试，适合需要访问受限 AI 服务的开发者。主要风险在于可能违反 Google 服务条款，且代理节点存在稳定性与隐私合规隐患，长期可用性受区域策略影响较大。",
+      "tags": [
+        "proxy",
+        "gemini",
+        "anti-dpi",
+        "network-scanner",
+        "region-unlock"
+      ],
+      "category": "Proxy Scanner",
+      "innovation_score": 3,
+      "difficulty_score": 3,
+      "key_points": [
+        "跨平台代理配置扫描",
+        "浏览器登录态与抗DPI校验",
+        "链式区域解锁 Gemini 服务"
+      ],
+      "risks": [
+        "可能违反 Google 服务条款",
+        "代理节点合规与隐私风险"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "WingDataVacuum/Gemini-Config-Checker-",
+      "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 473,
+      "collected_at": "2026-11-18T23:40:50.534134+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "该项目是一个面向 Google AI Studio 与 Gemini 访问的代理配置扫描工具，通过已登录浏览器环境检测代理连通性，并结合反 DPI 手段绕过网络干扰，自动发现可用的链式区域代理配置。它支持 Windows、macOS、Linux 与 Android 多平台，能够批量验证代理是否可访问目标 AI 服务，减少用户手动试错成本。工具定位偏向网络可达性测试与配置筛选，适合需要稳定访问 Gemini 的开发者或研究人员，但使用场景可能涉及绕过地区限制，存在一定合规风险。",
+      "tags": [
+        "proxy",
+        "gemini",
+        "anti-dpi",
+        "scanner",
+        "google-ai-studio"
+      ],
+      "category": "Network Tool",
+      "innovation_score": 3,
+      "difficulty_score": 3,
+      "key_points": [
+        "自动扫描代理配置",
+        "已登录浏览器检查与反 DPI",
+        "跨平台支持"
+      ],
+      "risks": [
+        "可能违反服务条款或地区限制",
+        "代理可用性不稳定"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "TurtleReside/Gemini-Config-Checker-",
+      "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 473,
+      "collected_at": "2026-11-18T23:40:50.534135+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "Gemini-Config-Checker 是一个面向受限网络环境的开源代理配置扫描工具，旨在帮助用户找到可访问 Google AI Studio 与 Gemini 服务的代理节点。它通过已登录浏览器会话进行真实连通性检查，避免仅凭网络延迟或端口开放误判，并集成抗深度包检测（anti-DPI）技术，提升在复杂网络干扰下的可用性。工具支持 Windows、macOS、Linux 和 Android 平台，采用链式区域扫描方式批量验证多个候选配置，自动筛选可用项，降低手动测试成本。该项目主要服务于需要突破网络封锁、访问 Google AI 服务的用户与开发者，但可能涉及合规和服务条款风险，使用时需谨慎。",
+      "tags": [
+        "proxy",
+        "gemini",
+        "anti-dpi",
+        "scanner",
+        "network-circumvention"
+      ],
+      "category": "Network Tool",
+      "innovation_score": 3,
+      "difficulty_score": 3,
+      "key_points": [
+        "已登录浏览器会话验证代理可用性",
+        "集成 anti-DPI 技术应对深度包检测",
+        "跨平台支持桌面与移动端批量扫描"
+      ],
+      "risks": [
+        "可能违反 Google 服务条款或当地网络管理法规",
+        "代理节点来源不明，存在隐私泄露与账号安全风险"
+      ]
+    },
+    {
+      "source": "github",
+      "title": "VortexHostFeel/Gemini-Config-Checker-",
+      "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 473,
+      "collected_at": "2026-11-18T23:40:50.534137+00:00",
+      "raw_path": "knowledge/raw/github-2026-11-18-234102.json",
+      "summary": "该项目是一个跨平台代理配置扫描工具，旨在帮助用户发现可用的代理节点，以访问 Google AI Studio 和 Gemini 等 AI 服务。它通过链式区域扫描、登录浏览器状态检测和抗 DPI 技术，筛选出稳定可用的代理配置，支持 Windows、macOS、Linux 和 Android。项目面向网络受限地区的开发者，提供自动化探测与验证能力，降低使用 Google AI 服务的门槛。不过需注意其可能违反服务条款及当地法规。",
+      "tags": [
+        "proxy",
+        "gemini",
+        "google-ai-studio",
+        "anti-dpi",
+        "region-unlock"
+      ],
+      "category": "AI Tool",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "链式区域扫描与代理可用性自动验证",
+        "集成登录浏览器检测与抗 DPI 能力",
+        "跨平台支持（Windows/macOS/Linux/Android）"
+      ],
+      "risks": [
+        "可能违反 Google 服务条款或相关法律法规",
+        "代理节点稳定性与安全性难以保障"
+      ]
+    },
+    {
+      "source": "rss/lobsters_ai",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "description": "Comments",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "该项目提出一种名为 Sleep Framework 的新方法，用于提升大语言模型在持续学习中的知识保留能力。其核心思想借鉴生物睡眠的记忆巩固机制，让模型在完成新任务学习后进入离线“睡眠”阶段，通过回放、整合或重演先前知识来强化重要权重，减少灾难性遗忘。与传统持续学习方法相比，该框架不依赖大规模外部记忆库，而是利用模型自身参数进行内隐巩固，有望在多个连续任务上保持更高稳定性与可塑性平衡。该研究为 LLM 终身学习提供了新的生物学启发思路，但仍处于早期阶段，需在更多复杂场景和模型规模上验证效果。",
+      "tags": [
+        "ai",
+        "llm",
+        "continual-learning",
+        "memory-consolidation",
+        "sleep"
+      ],
+      "category": "Continual Learning",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "借鉴生物睡眠记忆巩固机制",
+        "离线睡眠阶段减少灾难性遗忘",
+        "不依赖外部记忆库的内隐巩固"
+      ],
+      "risks": [
+        "睡眠阶段引入额外训练开销",
+        "在更大规模模型和复杂任务上的效果待验证"
+      ]
+    },
+    {
+      "source": "rss/lobsters_ai",
+      "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+      "url": "https://energy-based-reasoners.github.io/",
+      "description": "Comments",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "该项目提出一种能量基推理器框架，认为循环推理模型应构建为能量基模型。传统循环网络通过逐步前向传播产生隐状态，而能量基推理器为每个状态定义能量函数，将推理转化为在状态空间中搜索低能量解的过程。这样可支持多轮迭代优化、全局一致的结构预测，并能表达多模态分布，适用于复杂推理、约束满足和规划等任务。相比普通 RNN 或 Transformer，能量基模型更易引入领域约束和全局目标，但训练依赖采样近似，推理时优化开销较高，是该方向需解决的关键挑战。",
+      "tags": [
+        "energy-based-model",
+        "recurrent-reasoner",
+        "deep-learning",
+        "inference",
+        "optimization"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 4,
+      "difficulty_score": 4,
+      "key_points": [
+        "将循环推理建模为能量基模型",
+        "推理等价于低能量状态搜索",
+        "支持多步迭代与多模态分布"
+      ],
+      "risks": [
+        "训练采样近似不稳定",
+        "推理优化计算成本高"
+      ]
+    },
+    {
+      "source": "rss/lobsters_ai",
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "url": "https://arxiv.org/abs/2607.02512",
+      "description": "Comments",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "该项目提出“程序即权重”的编程范式，将模糊函数的行为编码为可学习的权重参数，而非传统显式指令。开发者定义输入输出及模糊目标，通过优化权重隐式实现函数映射，使程序具备可微分、可优化和一定容错性。该范式借鉴神经网络表示，旨在处理不确定、不精确或概率性计算场景，可利用梯度下降等工具自动调整程序行为，减少手工规则编写。然而程序逻辑隐藏在数值权重中，可解释性与可验证性较差，调试维护面临挑战，整体上是一种面向模糊计算的新颖编程抽象。",
+      "tags": [
+        "programming-paradigm",
+        "fuzzy-logic",
+        "differentiable-programming",
+        "neural-networks",
+        "weight-encoding"
+      ],
+      "category": "Differentiable Programming",
+      "innovation_score": 4,
+      "difficulty_score": 4,
+      "key_points": [
+        "以权重隐式编码模糊函数",
+        "支持可微优化与自动调整",
+        "减少手工规则编写"
+      ],
+      "risks": [
+        "可解释性差，调试困难",
+        "逻辑验证与可靠性不足"
+      ]
+    },
+    {
+      "source": "rss/arxiv_cs_cl",
+      "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+      "url": "https://arxiv.org/abs/2611.21622",
+      "description": "arXiv:2611.21622v1 Announce Type: new \nAbstract: Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and de-escalation central to crisis ",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "CrisisBench 是一个面向危机咨询 AI 的评估套件，聚焦危机热线场景。研究背景指出，危机热线在心理健康体系中至关重要，但长期面临人手与资金不足；大语言模型有潜力辅助咨询师，然而现有基准未能覆盖危机干预中最关键的升级识别、风险评估与降级沟通能力。该套件旨在系统评估模型在高风险、多轮对话中的表现，包括是否及时识别自杀或自伤风险、是否能有效缓解求助者情绪并引导其获得专业支持。通过专家标注的危机场景与安全指标，CrisisBench 可帮助研究者和机构筛选更适合部署于危机热线的 AI 系统，弥补现有评估在安全性和临床相关性上的空白。",
+      "tags": [
+        "crisis counseling",
+        "llm",
+        "evaluation benchmark",
+        "mental health",
+        "ai safety"
+      ],
+      "category": "AI Benchmark",
+      "innovation_score": 4,
+      "difficulty_score": 4,
+      "key_points": [
+        "聚焦危机干预中的升级识别、风险评估与降级沟通评估",
+        "面向危机热线场景的 LLM 部署安全验证",
+        "弥补现有基准临床相关性与安全性不足"
+      ],
+      "risks": [
+        "摘要未披露具体任务、指标与验证方式",
+        "危机场景数据敏感可能限制公开规模与复现性"
+      ]
+    },
+    {
+      "source": "rss/arxiv_cs_cl",
+      "title": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
+      "url": "https://arxiv.org/abs/2611.21641",
+      "description": "arXiv:2611.21641v1 Announce Type: new \nAbstract: Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any production model: a blind spot for the",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "该论文提出 RAW 方法，用于在真实部署环境中因果测量大语言模型拒绝行为对用户参与度的影响。现有研究多关注模型拒绝率或安全指标，却忽视用户被拒绝后的行为反应，如是否减少使用或直接脱离。RAW 通过在规模化生产对话中设计因果推断，量化拒绝事件对用户后续互动的平均因果效应，从而度量“拒绝厌恶”程度。该方法旨在弥补当前生产模型在用户侧代价测量上的盲点，为模型提供方在安全策略与用户体验之间做出数据驱动的权衡，并为优化拒绝机制提供评估依据。",
+      "tags": [
+        "llm",
+        "refusal",
+        "causal inference",
+        "user engagement",
+        "deployed systems"
+      ],
+      "category": "AI Evaluation",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "在真实生产环境中首次因果测量拒绝行为对用户脱离的影响",
+        "量化用户侧拒绝代价，弥补只关注模型端指标的测量盲点",
+        "为安全策略与用户体验的权衡提供可操作的评估框架"
+      ],
+      "risks": [
+        "生产环境因果推断易受混淆变量与数据偏差影响",
+        "用户行为数据可观测性和隐私限制可能制约测量精度"
+      ]
+    },
+    {
+      "source": "rss/arxiv_cs_cl",
+      "title": "Sleep2Word: Peripheral-to-EEG Translation via Duration-Aware Wordization",
+      "url": "https://arxiv.org/abs/2611.21643",
+      "description": "arXiv:2611.21643v1 Announce Type: new \nAbstract: Estimating full-night electroencephalography (EEG) spectrograms from peripheral measurements could extend EEG-informed sleep analysis to recordings acquired without EEG. This task requires compact representations of signals with different temporal str",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "该论文提出Sleep2Word框架，利用外周生理信号（如心率、呼吸、体动等）重建全夜脑电图频谱图，旨在让无脑电设备的睡眠监测也能获得脑电层面的睡眠分析能力。其核心是时长感知词元化（Duration-Aware Wordization），将不同时间尺度的外周信号与脑电频谱压缩为离散词序列，从而用序列到序列模型实现跨模态翻译。相比直接回归连续频谱，词元化可降低信号长度和采样率差异带来的对齐困难，捕捉睡眠阶段相关的时长模式。该技术有望扩展到家庭睡眠监测和大型健康数据，但外周与脑电之间的个体差异和非线性映射仍是主要挑战。整体属于多模态生理信号生成与健康AI应用。",
+      "tags": [
+        "sleep-analysis",
+        "eeg-translation",
+        "peripheral-signals",
+        "multimodal-learning",
+        "time-series"
+      ],
+      "category": "Healthcare AI",
+      "innovation_score": 4,
+      "difficulty_score": 4,
+      "key_points": [
+        "外周至脑电跨模态翻译",
+        "时长感知词元化表示",
+        "支持无EEG睡眠分析扩展"
+      ],
+      "risks": [
+        "外周信号与EEG映射存在个体差异，泛化性待验证",
+        "离散词元化可能损失频谱细节"
+      ]
+    },
+    {
+      "source": "rss/arxiv_cs_lg",
+      "title": "DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution",
+      "url": "https://arxiv.org/abs/2611.21688",
+      "description": "arXiv:2611.21688v1 Announce Type: new \nAbstract: Tool-using agents rely on execution harnesses to organize and schedule tool operations. The same task and resource description can conceal runtime conditions that reverse the latency ordering of valid execution plans. Resolving this uncertainty requir",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "DeltaHarness 提出一种自演化的执行框架，用于资源自适应的工具执行。传统工具型智能体依赖静态执行 harness 来组织和调度工具操作，但相同任务与资源描述可能掩盖运行时条件，导致原本有效的执行计划在延迟排序上发生逆转。DeltaHarness 旨在通过感知运行时资源状态并动态调整工具执行策略，同时从历史执行反馈中持续学习演化，以降低不确定性带来的性能损失。该方法有望提升 LLM 工具调用在复杂、动态资源环境下调度的鲁棒性与效率，适用于多工具智能体与自动化工作流等场景。",
+      "tags": [
+        "ai agent",
+        "llm",
+        "tool execution",
+        "resource-adaptive",
+        "self-evolving"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "自演化执行框架",
+        "资源自适应工具调度",
+        "运行时不确定性动态应对"
+      ],
+      "risks": [
+        "摘要信息不完整，具体实现与实验效果未知",
+        "自演化机制可能带来额外计算开销与稳定性风险"
+      ]
+    },
+    {
+      "source": "rss/arxiv_cs_lg",
+      "title": "AdaFlowLite: Scalable and Non-blocking Inference on Asynchronous Mobile Data",
+      "url": "https://arxiv.org/abs/2611.21691",
+      "description": "arXiv:2611.21691v1 Announce Type: new \nAbstract: The rise of mobile devices equipped with numerous sensors, such as LiDAR and cameras, has driven the adoption of multi-modal deep intelligence for distributed sensing tasks, such as smart cabins and driving assistance. However, the arrival time of mob",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "AdaFlowLite 面向移动设备多传感器场景，解决 LiDAR、摄像头等多模态数据到达时间异步、不规律导致的推理阻塞问题。传统流水线通常等待所有模态对齐后处理，造成延迟与资源浪费。AdaFlowLite 提出可扩展、非阻塞的推理框架，采用自适应流式调度和轻量化模型设计，使各模态数据到达后即可独立处理并按需融合，无需强制同步等待。该方法适用于智能座舱、驾驶辅助等分布式感知任务，能够在资源受限的移动端降低推理延迟、提升吞吐与可扩展性，为异步多模态移动智能提供高效部署方案。",
+      "tags": [
+        "asynchronous inference",
+        "mobile computing",
+        "multimodal ai",
+        "edge ai",
+        "non-blocking"
+      ],
+      "category": "Edge AI",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "面向异步移动数据的非阻塞推理",
+        "自适应流调度与轻量化设计",
+        "支持多模态分布式感知任务"
+      ],
+      "risks": [
+        "移动端资源受限可能限制模型容量",
+        "异步模态融合精度需进一步验证"
+      ]
+    },
+    {
+      "source": "rss/arxiv_cs_lg",
+      "title": "TIBECG: Temporal Information Bottleneck for Lead-Specific Demographic Privacy in ECG Waveform Release",
+      "url": "https://arxiv.org/abs/2611.21694",
+      "description": "arXiv:2611.21694v1 Announce Type: new \nAbstract: Transmitting an electrocardiogram (ECG) waveform can expose demographic information beyond an intended diagnostic task. We evaluate TIBECG, an architectural temporal information bottleneck, on individual leads extracted from hospital twelve-lead recor",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "该论文提出 TIBECG，一种面向心电图波形发布的时间信息瓶颈架构，用于在传输心电数据时减少年龄、性别等人口统计信息泄露。心电图波形在用于诊断任务时可能附带暴露患者人口统计学信息。TIBECG 通过在时间维度上引入信息瓶颈，对从医院十二导联记录中提取的单个导联进行隐私过滤，在保留诊断相关特征的同时抑制导联特定的人口统计信息。研究评估了不同导联的隐私保护效果，探索隐私与临床效用之间的平衡。该方法为医疗波形数据的隐私保护发布提供了架构层面的解决思路，具有潜在临床应用价值。",
+      "tags": [
+        "privacy-preserving ml",
+        "ecg",
+        "information bottleneck",
+        "healthcare ai",
+        "temporal modeling"
+      ],
+      "category": "Privacy-Preserving AI",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "提出时间信息瓶颈架构 TIBECG 用于 ECG 隐私保护",
+        "实现导联级人口统计信息抑制",
+        "在保留诊断任务的同时降低人口统计泄露风险"
+      ],
+      "risks": [
+        "隐私与诊断效用的权衡需进一步验证",
+        "仅在单导联数据上评估，十二导联整体效果未知"
+      ]
+    },
+    {
+      "source": "rss/huggingface_blog",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "description": "",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "DaisyRose-27B 是一个以提升后训练效率为核心目标的 27B 参数开源大语言模型。项目致力于在有限数据和算力条件下，通过优化监督微调、偏好对齐等后训练流程，实现接近更大模型的能力表现。其核心思路包括高质量数据筛选、精简训练步骤和高效适配已有底座模型，从而降低高性能模型的后训练门槛。该模型在多项基准测试中表现出较强的综合能力，展示了后训练阶段对模型性能提升的关键作用，并为中小团队复现高性能模型提供了可行路径。",
+      "tags": [
+        "llm",
+        "post-training",
+        "efficiency",
+        "open-source",
+        "27b"
+      ],
+      "category": "LLM",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "高效后训练流程",
+        "27B参数开源模型",
+        "数据与算力效率优化"
+      ],
+      "risks": [
+        "基准泛化性有待验证",
+        "技术细节披露有限"
+      ]
+    },
+    {
+      "source": "rss/huggingface_blog",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "description": "",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "本文来自 Hugging Face 博客，分析了微调任务实际耗时远高于理论 FLOPs 推算时间的原因。文章指出，仅用 FLOPs 评估训练成本会忽略内存带宽、注意力计算模式、激活重计算、优化器状态更新、数据加载及 GPU 通信等隐性开销。通过对典型 LLM 微调流程进行拆解，作者展示了不同模块在计算与访存之间的瓶颈差异，并解释了序列长度、batch size 和硬件特性如何显著影响实际吞吐。最后给出针对 GPU 微调的效率诊断和优化建议，帮助用户在成本与速度之间做出更合理权衡。",
+      "tags": [
+        "fine-tuning",
+        "llm",
+        "gpu",
+        "performance",
+        "memory-bandwidth"
+      ],
+      "category": "AI Infra",
+      "innovation_score": 3,
+      "difficulty_score": 3,
+      "key_points": [
+        "揭示FLOPs与实际训练耗时之间的差距",
+        "拆解注意力、MLP等模块的性能瓶颈",
+        "提供GPU微调效率诊断与优化建议"
+      ],
+      "risks": [
+        "分析结论可能依赖特定GPU和框架",
+        "未充分覆盖大规模分布式训练场景"
+      ]
+    },
+    {
+      "source": "rss/huggingface_blog",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "description": "",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "该项目探讨了在 Streamhouse（流式数据仓库）环境中部署时间序列模型的新趋势与典型用例。通过将 Hugging Face 等预训练时间序列模型接入实时数据流管道，系统能够对传感器、交易、日志等高频数据进行低延迟预测与异常检测，突破传统批处理的时效限制。文章分析了流式存储、特征实时计算、模型推理与服务编排等关键环节，并展示金融风控、物联网预测性维护、能源负载预测、电商需求预测等场景。其核心价值在于实现数据到达即刻分析，缩短决策周期，提升运维与业务响应速度。",
+      "tags": [
+        "time-series",
+        "streaming",
+        "forecasting",
+        "anomaly-detection",
+        "machine-learning"
+      ],
+      "category": "Time Series AI",
+      "innovation_score": 4,
+      "difficulty_score": 4,
+      "key_points": [
+        "流式数仓中实时推理与预测",
+        "融合预训练时间序列模型与流处理管道",
+        "覆盖金融、IoT、能源等多元用例"
+      ],
+      "risks": [
+        "数据漂移与模型性能衰减",
+        "流式推理延迟与资源开销高"
+      ]
+    },
+    {
+      "source": "rss/google_ai_blog",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "description": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "谷歌宣布 Gemini 应用现已支持低内存安卓设备，将 Gemini Live 语音交互和自定义图像生成功能带给中低端手机用户。这一更新降低了生成式 AI 的使用门槛，有助于扩大新兴市场和入门设备的用户覆盖。技术上可能通过客户端资源优化、模型量化或云端协同降低内存占用，使低配置设备也能流畅使用核心 AI 功能。这是谷歌在移动 AI 助手竞争中推动多模态能力普及的重要一步，同时提升 Gemini 的生态渗透率。不过低内存设备在响应速度、画面质量和离线可用性方面可能仍存在体验差异。",
+      "tags": [
+        "google",
+        "gemini",
+        "android",
+        "multimodal",
+        "generative-ai"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 3,
+      "difficulty_score": 3,
+      "key_points": [
+        "支持低内存安卓设备",
+        "提供 Gemini Live 语音交互",
+        "开放自定义图像生成功能"
+      ],
+      "risks": [
+        "低内存设备性能与响应速度受限",
+        "功能依赖云服务与网络连接"
+      ]
+    },
+    {
+      "source": "rss/google_ai_blog",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "description": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "谷歌宣布 Gemini 中的 Tasks 功能在六个国家免费开放，并在美国率先推出新功能，同时加深与 Google Workspace 的集成，让 AI 能更主动地代替用户完成任务。Tasks 可设置提醒、自动执行多步骤工作流，并与 Gmail、Docs、Calendar 等应用协同，标志着 Gemini 从对话助手向可执行任务的 AI Agent 演进。此次更新降低了使用门槛，扩大了覆盖范围，并强化了生产力场景的自动化能力。不过新功能仍以美国为起点，地区扩展节奏可能较慢，深度集成依赖谷歌生态。",
+      "tags": [
+        "gemini",
+        "ai-agent",
+        "google-workspace",
+        "task-automation",
+        "llm"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "Tasks免费开放六国",
+        "美国率先推出新功能",
+        "加深Google Workspace集成"
+      ],
+      "risks": [
+        "新功能地域覆盖有限",
+        "依赖谷歌生态与权限授权"
+      ]
+    },
+    {
+      "source": "rss/google_ai_blog",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "description": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+      "stars": null,
+      "collected_at": "2026-11-18T23:40:50.534155+00:00",
+      "raw_path": "knowledge/raw/rss-2026-11-18-234102.json",
+      "summary": "谷歌地图推出的Ask Maps新功能面向假日出行与准备场景，通过对话式AI助手帮助用户规划公路旅行、获取路线建议、查找本地预约服务，并支持搜索已保存的地点列表。该功能将大语言模型与地图数据结合，使用户能够用自然语言提出复杂出行需求，获得个性化、可交互的路线和目的地推荐，减少手动筛选和规划时间。它标志着地图应用从工具型查询向智能体化任务规划演进，提升假期出行效率与体验。实际效果仍取决于地图数据实时性、商户信息完整性以及模型推荐的准确性。",
+      "tags": [
+        "ai",
+        "llm",
+        "maps",
+        "travel",
+        "agent"
+      ],
+      "category": "AI Agent",
+      "innovation_score": 4,
+      "difficulty_score": 3,
+      "key_points": [
+        "对话式假日公路旅行规划与路线建议",
+        "本地预约服务智能查找",
+        "个人收藏列表语义搜索"
+      ],
+      "risks": [
+        "推荐依赖商户数据完整性与实时性",
+        "个人收藏数据调用可能涉及隐私顾虑"
+      ]
+    }
+  ]
+}
