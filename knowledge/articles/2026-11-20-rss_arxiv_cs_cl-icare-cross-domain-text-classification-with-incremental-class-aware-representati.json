@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261120-010",
+  "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.24959",
+  "description": "arXiv:2611.24959v1 Announce Type: new \nAbstract: The rise of powerful, fine-tuned large language models (LLMs) necessitates robust natural language inference (NLI) systems. These NLI systems ideally train across various tasks, encompassing diverse concepts like sentiment analysis, news classificatio",
+  "summary": "ICARE 面向跨域文本分类提出增量类感知表示与蒸馏学习框架，旨在提升自然语言推理系统在多样任务和概念下的稳健性。随着强大大语言模型兴起，NLI 系统需处理情感分析、新闻分类等不断扩展的领域。该方法通过类感知表示增强类别间区分，利用蒸馏学习在增量学习过程中迁移已有知识，缓解跨域差异与灾难性遗忘，从而支持新类别或领域的持续接入，提高文本分类的泛化能力和训练效率。",
+  "tags": [
+    "text-classification",
+    "cross-domain",
+    "distillation",
+    "incremental-learning",
+    "nli"
+  ],
+  "category": "NLP",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "增量类感知表示增强类别语义区分",
+    "蒸馏学习实现跨域知识迁移",
+    "支持多任务NLI的持续学习框架"
+  ],
+  "risks": [
+    "跨域差异较大时蒸馏效果可能受限",
+    "增量扩展类别可能引入标签冲突"
+  ]
+}

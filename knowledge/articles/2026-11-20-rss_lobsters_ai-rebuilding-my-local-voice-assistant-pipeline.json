@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261120-006",
+  "title": "Rebuilding my local voice assistant pipeline",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+  "description": "Comments",
+  "summary": "该项目记录了作者重建本地语音助手流水线的实践，旨在实现无需云端、隐私友好的语音交互。管道通常包含唤醒词检测、语音识别（ASR）、意图理解与大语言模型响应、以及语音合成（TTS）等环节。通过本地部署 Whisper 等识别模型和 Piper 等合成引擎，在树莓派或迷你主机上运行，减少对外部服务的依赖，降低延迟并保护家庭数据。作者可能对比了不同工具的准确率、资源占用和延迟，并解决模块间通信、流式处理与多语言支持等问题。整体方案适合智能家居控制和离线场景，体现个人开发者对可控、可定制语音助手的探索。",
+  "tags": [
+    "voice-assistant",
+    "local-ai",
+    "asr",
+    "tts",
+    "self-hosted"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "全本地语音流水线",
+    "模块化替换云端ASR/TTS",
+    "优化低延迟流式交互"
+  ],
+  "risks": [
+    "本地模型精度与资源受限",
+    "多语言和噪音场景稳健性不足"
+  ]
+}

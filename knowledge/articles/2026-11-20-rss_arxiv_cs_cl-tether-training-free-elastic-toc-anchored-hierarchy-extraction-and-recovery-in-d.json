@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261120-011",
+  "title": "TETHER: Training-Free, Elastic, ToC-Anchored Hierarchy Extraction and Recovery in Design-Driven Long Documents",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.24960",
+  "description": "arXiv:2611.24960v1 Announce Type: new \nAbstract: Converting complex documents into structured knowledge constitutes the critical infrastructure urgently required for deploying Large Language Models (LLMs) in downstream research. However, blind to the Table of Contents (ToC) as a macro-structure, exi",
+  "summary": "TETHER 是一种面向设计驱动型长文档的无训练层次提取与恢复方法，核心思想是以文档目录（ToC）为宏观结构锚点，将复杂文档自动解析为结构化知识，弥补现有方法忽略目录这一全局层次线索的不足。该方法无需额外训练，具备弹性适配能力，可应对不同版式与设计风格的长文档。其输出可作为大型语言模型下游研究与应用的关键基础设施，提升文档理解、检索和知识构建的效率与准确性。",
+  "tags": [
+    "document-ai",
+    "information-extraction",
+    "llm",
+    "hierarchy-extraction",
+    "training-free"
+  ],
+  "category": "Document Understanding",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "以目录作为宏观结构锚点，增强长文档层次提取能力",
+    "无需训练即可弹性适配不同设计驱动型文档",
+    "将复杂文档转化为结构化知识，服务LLM下游任务"
+  ],
+  "risks": [
+    "严重依赖文档目录质量，缺失或不规范时效果可能下降",
+    "对复杂版式或非标准设计文档的泛化能力有限"
+  ]
+}

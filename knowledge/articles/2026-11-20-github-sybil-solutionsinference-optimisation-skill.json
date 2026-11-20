@@ -1,0 +1,33 @@
+{
+  "id": "github-20261120-002",
+  "title": "sybil-solutions/inference-optimisation-skill",
+  "source": "github",
+  "source_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+  "summary": "该项目是一个面向本地大语言模型推理部署的智能体技能，采用爬山算法自动搜索与优化服务配置，致力于在任意硬件和量化条件下提升推理速度。优化目标覆盖解码、投机解码、预填充、KV缓存、启动时间及首token延迟等关键性能环节，帮助用户在本地环境中找到吞吐与延迟更优的配置组合。该技能以Agent形式集成，能够自动执行基准测试、参数调整和迭代搜索，减少人工调优负担，适用于多种推理框架与硬件平台。",
+  "tags": [
+    "llm",
+    "inference",
+    "optimization",
+    "agent",
+    "serving"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 1326,
+  "collected_at": "2026-11-20T23:28:46.599020+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "爬山算法自动搜索局部最优配置",
+    "覆盖解码、预填充、KV缓存与TTFT等多维指标",
+    "适配任意硬件与量化方案"
+  ],
+  "risks": [
+    "搜索空间大且可能陷入局部最优",
+    "优化结果依赖特定硬件与负载场景"
+  ]
+}

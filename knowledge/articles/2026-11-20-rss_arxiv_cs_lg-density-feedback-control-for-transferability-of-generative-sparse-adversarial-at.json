@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261120-014",
+  "title": "Density Feedback Control for Transferability of Generative Sparse Adversarial Attacks",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.25001",
+  "description": "arXiv:2611.25001v1 Announce Type: new \nAbstract: Generator-based sparse adversarial attacks train encoder--decoder networks to produce transferable sparse perturbations for black-box robustness evaluation. Their perturbation density, however, is set only indirectly by a fixed sparsity coefficient wh",
+  "summary": "该论文提出一种面向生成式稀疏对抗攻击的密度反馈控制方法。现有基于生成器的稀疏对抗攻击通过编码器-解码器网络产生可迁移的稀疏扰动，用于黑盒鲁棒性评估，但扰动密度仅由固定稀疏系数间接设定，难以针对目标模型和样本自适应调节。该方法引入密度反馈控制机制，在生成过程中动态监控和调整扰动稀疏程度，使生成的对抗扰动在保持稀疏性的同时提升跨模型迁移能力，从而更有效地评估黑盒模型鲁棒性。整体工作旨在解决稀疏对抗攻击中密度不可控与迁移性不足的问题，为黑盒安全评测提供更灵活、更具攻击性的生成式稀疏扰动方案。",
+  "tags": [
+    "adversarial-attack",
+    "sparse-perturbation",
+    "transferability",
+    "black-box",
+    "generative-model"
+  ],
+  "category": "AI Security",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "引入密度反馈动态调控稀疏扰动",
+    "提升黑盒场景下对抗样本迁移性",
+    "增强生成式稀疏攻击的评测能力"
+  ],
+  "risks": [
+    "论文摘要截断，具体实现效果不明确",
+    "密度反馈机制可能增加训练计算开销"
+  ]
+}

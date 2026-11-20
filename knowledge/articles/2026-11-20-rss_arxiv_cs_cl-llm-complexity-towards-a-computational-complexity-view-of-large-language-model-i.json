@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261120-009",
+  "title": "LLM Complexity: Towards a Computational Complexity View of Large Language Model Inference",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.24943",
+  "description": "arXiv:2611.24943v1 Announce Type: new \nAbstract: Computational complexity theory offers a principled framework for characterizing the efficiency of computational problems, and Large Language Models (LLMs) can similarly be viewed as computational systems executing a structured process of input, infer",
+  "summary": "该论文从计算复杂性理论视角审视大语言模型推理，将LLM视为执行输入、推理与输出的结构化计算系统。研究旨在刻画模型在注意力机制、上下文长度、推理步数和参数规模等约束下的资源消耗、表达能力与固有问题边界，并探讨LLM可有效解决的计算问题类。通过建立理论框架，论文希望揭示规模化带来的能力提升与效率限制，为模型架构设计、推理策略优化和复杂任务可行性判断提供原则性依据。相关工作有助于弥合经验性能与理论解释之间的鸿沟。",
+  "tags": [
+    "llm",
+    "computational complexity",
+    "inference",
+    "theory",
+    "transformer"
+  ],
+  "category": "AI Theory",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "引入计算复杂性框架分析LLM推理",
+    "刻画模型表达能力与资源消耗边界",
+    "为LLM架构与推理策略提供理论依据"
+  ],
+  "risks": [
+    "理论假设可能简化实际系统特性",
+    "缺乏实验验证支撑"
+  ]
+}

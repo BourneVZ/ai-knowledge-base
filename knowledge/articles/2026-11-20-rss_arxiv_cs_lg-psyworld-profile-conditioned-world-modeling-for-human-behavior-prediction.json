@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261120-012",
+  "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.24999",
+  "description": "arXiv:2611.24999v1 Announce Type: new \nAbstract: Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving rea",
+  "summary": "PsyWorld 提出一种以稳定心理测量特质与时变心理状态联合条件化的世界模型，用于预测人类行为。与现有个性化智能体常把静态画像直接作为动作条件不同，该方法强调内在特质和情境状态共同驱动行为。理解稳定特质与时变状态如何共同影响行为是计算行为科学的重要问题，PsyWorld 通过构建心理画像条件化世界模型，有望提升行为预测的准确性与个性化程度，为心理健康、行为模拟和个性化交互等场景提供新思路。该工作属于 AI Agent 与世界建模交叉研究。",
+  "tags": [
+    "world modeling",
+    "human behavior prediction",
+    "psychometrics",
+    "personalized agents",
+    "computational behavioral science"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "联合稳定心理特质与时变状态建模",
+    "提出心理画像条件化世界模型",
+    "弥补静态画像条件智能体局限"
+  ],
+  "risks": [
+    "心理数据隐私与伦理风险",
+    "复杂人类行为预测泛化性存疑"
+  ]
+}

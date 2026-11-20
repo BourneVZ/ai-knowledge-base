@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261120-017",
+  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+  "description": "",
+  "summary": "DaisyRose-27B是一个约有270亿参数的大语言模型项目，核心目标是提升模型后训练阶段的效率。它可能通过参数高效微调、模型合并或强化学习等策略，在保持较强语言理解和生成能力的同时，减少训练成本与算力需求。该项目来自Hugging Face开源生态，体现当前大模型研究从单纯扩大参数规模转向优化训练后流程的趋势，尤其关注如何在较小资源预算下获得接近更大模型的效果，适合研究者和开发者进行本地化部署、微调实验与成本敏感场景的探索。",
+  "tags": [
+    "ai",
+    "llm",
+    "post-training",
+    "efficiency",
+    "open-source"
+  ],
+  "category": "LLM",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "270亿参数规模",
+    "专注后训练效率优化",
+    "开源社区驱动"
+  ],
+  "risks": [
+    "技术细节披露有限",
+    "中等参数规模在复杂推理上可能仍有局限"
+  ]
+}

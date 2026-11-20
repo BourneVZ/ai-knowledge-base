@@ -1,5 +1,323 @@
 [
   {
+    "id": "lobsters_ai-20261120-006",
+    "file": "2026-11-20-rss_lobsters_ai-rebuilding-my-local-voice-assistant-pipeline.json",
+    "title": "Rebuilding my local voice assistant pipeline",
+    "category": "AI Agent",
+    "tags": [
+      "voice-assistant",
+      "local-ai",
+      "asr",
+      "tts",
+      "self-hosted"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261120-007",
+    "file": "2026-11-20-rss_lobsters_ai-the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning.json",
+    "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+    "category": "LLM",
+    "tags": [
+      "llm",
+      "continual-learning",
+      "memory-consolidation",
+      "catastrophic-forgetting",
+      "sleep-inspired"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261120-008",
+    "file": "2026-11-20-rss_lobsters_ai-energy-based-reasoners-your-recurrent-reasoner-should-be-an-energy-based-model.json",
+    "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+    "category": "AI Reasoning",
+    "tags": [
+      "energy-based-models",
+      "recurrent-neural-networks",
+      "reasoning",
+      "machine-learning"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261120-009",
+    "file": "2026-11-20-rss_arxiv_cs_cl-llm-complexity-towards-a-computational-complexity-view-of-large-language-model-i.json",
+    "title": "LLM Complexity: Towards a Computational Complexity View of Large Language Model Inference",
+    "category": "AI Theory",
+    "tags": [
+      "llm",
+      "computational complexity",
+      "inference",
+      "theory",
+      "transformer"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261120-010",
+    "file": "2026-11-20-rss_arxiv_cs_cl-icare-cross-domain-text-classification-with-incremental-class-aware-representati.json",
+    "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+    "category": "NLP",
+    "tags": [
+      "text-classification",
+      "cross-domain",
+      "distillation",
+      "incremental-learning",
+      "nli"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261120-011",
+    "file": "2026-11-20-rss_arxiv_cs_cl-tether-training-free-elastic-toc-anchored-hierarchy-extraction-and-recovery-in-d.json",
+    "title": "TETHER: Training-Free, Elastic, ToC-Anchored Hierarchy Extraction and Recovery in Design-Driven Long Documents",
+    "category": "Document Understanding",
+    "tags": [
+      "document-ai",
+      "information-extraction",
+      "llm",
+      "hierarchy-extraction",
+      "training-free"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261120-012",
+    "file": "2026-11-20-rss_arxiv_cs_lg-psyworld-profile-conditioned-world-modeling-for-human-behavior-prediction.json",
+    "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+    "category": "AI Agent",
+    "tags": [
+      "world modeling",
+      "human behavior prediction",
+      "psychometrics",
+      "personalized agents",
+      "computational behavioral science"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261120-013",
+    "file": "2026-11-20-rss_arxiv_cs_lg-watch-where-you-linearize-predicting-and-correcting-model-merging-interference.json",
+    "title": "Watch Where You Linearize: Predicting and Correcting Model-Merging Interference",
+    "category": "Model Merging",
+    "tags": [
+      "model-merging",
+      "task-vectors",
+      "interference",
+      "deep-learning",
+      "linearization"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261120-014",
+    "file": "2026-11-20-rss_arxiv_cs_lg-density-feedback-control-for-transferability-of-generative-sparse-adversarial-at.json",
+    "title": "Density Feedback Control for Transferability of Generative Sparse Adversarial Attacks",
+    "category": "AI Security",
+    "tags": [
+      "adversarial-attack",
+      "sparse-perturbation",
+      "transferability",
+      "black-box",
+      "generative-model"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261120-015",
+    "file": "2026-11-20-rss_huggingface_blog-welcome-inkling-2-mini-cutting-edge-performance-for-your-local-setup.json",
+    "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+    "category": "Small Language Model",
+    "tags": [
+      "llm",
+      "on-device",
+      "small-model",
+      "local-inference"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261120-016",
+    "file": "2026-11-20-rss_huggingface_blog-introducing-harness-adapters-adapt-your-favorite-model-to-your-harness-to-improv.json",
+    "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+    "category": "AI Infra",
+    "tags": [
+      "huggingface",
+      "adapter",
+      "llm",
+      "evaluation",
+      "inference"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261120-017",
+    "file": "2026-11-20-rss_huggingface_blog-daisyrose-27b-pushing-the-frontier-of-post-training-efficiency.json",
+    "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+    "category": "LLM",
+    "tags": [
+      "ai",
+      "llm",
+      "post-training",
+      "efficiency",
+      "open-source"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261120-018",
+    "file": "2026-11-20-rss_google_ai_blog-introducing-tool-retrieval-in-the-gemini-api.json",
+    "title": "Introducing Tool Retrieval in the Gemini API",
+    "category": "AI Agent",
+    "tags": [
+      "tool-retrieval",
+      "gemini-api",
+      "ai-agent",
+      "function-calling",
+      "llm"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261120-019",
+    "file": "2026-11-20-rss_google_ai_blog-walter-isaacson-on-curiosity-and-creativity-in-the-ai-age.json",
+    "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+    "category": "AI and Society",
+    "tags": [
+      "ai",
+      "creativity",
+      "innovation",
+      "history",
+      "human-judgment"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261120-020",
+    "file": "2026-11-20-rss_google_ai_blog-the-gemini-app-is-now-available-on-lower-memory-android-devices.json",
+    "title": "The Gemini app is now available on lower-memory Android devices.",
+    "category": "AI Agent",
+    "tags": [
+      "google",
+      "gemini",
+      "android",
+      "llm",
+      "mobile"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599047+00:00",
+    "innovation_score": 2,
+    "stars": null
+  },
+  {
+    "id": "github-20261120-005",
+    "file": "2026-11-20-github-weightcashiercupolagemini-config-checker.json",
+    "title": "weightcashiercupola/Gemini-Config-Checker-",
+    "category": "AI Tool",
+    "tags": [
+      "proxy",
+      "gemini",
+      "google-ai",
+      "anti-dpi",
+      "region-unlock"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599027+00:00",
+    "innovation_score": 4,
+    "stars": 473
+  },
+  {
+    "id": "github-20261120-004",
+    "file": "2026-11-20-github-beiwocaishijiagezhi-sheets.json",
+    "title": "beiwocaishijia/gezhi-sheets",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "spreadsheet",
+      "nlp",
+      "local-llm",
+      "productivity"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599025+00:00",
+    "innovation_score": 4,
+    "stars": 475
+  },
+  {
+    "id": "github-20261120-003",
+    "file": "2026-11-20-github-mankidevantialgorithm.json",
+    "title": "mankidev/antialgorithm",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "agent",
+      "creativity",
+      "prompt-engineering",
+      "anti-cliche"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599023+00:00",
+    "innovation_score": 4,
+    "stars": 569
+  },
+  {
+    "id": "github-20261120-002",
+    "file": "2026-11-20-github-sybil-solutionsinference-optimisation-skill.json",
+    "title": "sybil-solutions/inference-optimisation-skill",
+    "category": "AI Agent",
+    "tags": [
+      "llm",
+      "inference",
+      "optimization",
+      "agent",
+      "serving"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599020+00:00",
+    "innovation_score": 4,
+    "stars": 1326
+  },
+  {
+    "id": "github-20261120-001",
+    "file": "2026-11-20-github-bookwjitchieni1986blender-ai-mcp-addon.json",
+    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+    "category": "AI Agent",
+    "tags": [
+      "blender",
+      "mcp",
+      "ai-assistant",
+      "llm",
+      "3d"
+    ],
+    "collected_at": "2026-11-20T23:28:46.599018+00:00",
+    "innovation_score": 4,
+    "stars": 1754
+  },
+  {
     "id": "lobsters_ai-20261117-007",
     "file": "2026-11-17-rss_lobsters_ai-proof-of-use-as-a-requirement-for-open-source-contributions.json",
     "title": "\"Proof of use\" as a requirement for open source contributions?",

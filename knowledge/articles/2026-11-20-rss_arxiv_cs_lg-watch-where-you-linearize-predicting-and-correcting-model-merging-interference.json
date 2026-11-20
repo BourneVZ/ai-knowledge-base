@@ -1,0 +1,32 @@
+{
+  "id": "arxiv_cs_lg-20261120-013",
+  "title": "Watch Where You Linearize: Predicting and Correcting Model-Merging Interference",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.25000",
+  "description": "arXiv:2611.25000v1 Announce Type: new \nAbstract: Model merging combines separately fine-tuned models by adding their task vectors to a shared backbone. Interference is typically assessed only after constructing and evaluating a candidate merge, making coefficient search expensive. We show that a fir",
+  "summary": "该论文研究模型合并中的干扰问题。模型合并通过将多个独立微调模型的任务向量加到共享基座上来组合能力，但传统方法只能在构建并评估候选合并后才发现干扰，导致系数搜索成本高。作者提出“注意线性化位置”的方法，在合并前预测任务向量之间的干扰，并据此进行校正。核心思想是利用局部线性化近似估计参数叠加后的损失变化，识别干扰严重的层或方向，进而修正合并系数或调整任务向量，减少性能下降。该方法有望显著降低多模型融合的搜索开销，提升合并模型的可靠性与可扩展性。",
+  "tags": [
+    "model-merging",
+    "task-vectors",
+    "interference",
+    "deep-learning",
+    "linearization"
+  ],
+  "category": "Model Merging",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "在合并前预测任务向量间干扰，避免反复构建候选合并模型",
+    "关注线性化关键位置，指导干扰修正与合并系数搜索",
+    "降低多模型融合的评估开销，提升合并稳定性"
+  ],
+  "risks": [
+    "线性化假设可能不适用于强非线性参数区域或复杂任务"
+  ]
+}

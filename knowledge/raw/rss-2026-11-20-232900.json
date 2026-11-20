@@ -1,0 +1,122 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Rebuilding my local voice assistant pipeline",
+    "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+    "url": "https://energy-based-reasoners.github.io/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "LLM Complexity: Towards a Computational Complexity View of Large Language Model Inference",
+    "url": "https://arxiv.org/abs/2611.24943",
+    "description": "arXiv:2611.24943v1 Announce Type: new \nAbstract: Computational complexity theory offers a principled framework for characterizing the efficiency of computational problems, and Large Language Models (LLMs) can similarly be viewed as computational systems executing a structured process of input, infer",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+    "url": "https://arxiv.org/abs/2611.24959",
+    "description": "arXiv:2611.24959v1 Announce Type: new \nAbstract: The rise of powerful, fine-tuned large language models (LLMs) necessitates robust natural language inference (NLI) systems. These NLI systems ideally train across various tasks, encompassing diverse concepts like sentiment analysis, news classificatio",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "TETHER: Training-Free, Elastic, ToC-Anchored Hierarchy Extraction and Recovery in Design-Driven Long Documents",
+    "url": "https://arxiv.org/abs/2611.24960",
+    "description": "arXiv:2611.24960v1 Announce Type: new \nAbstract: Converting complex documents into structured knowledge constitutes the critical infrastructure urgently required for deploying Large Language Models (LLMs) in downstream research. However, blind to the Table of Contents (ToC) as a macro-structure, exi",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+    "url": "https://arxiv.org/abs/2611.24999",
+    "description": "arXiv:2611.24999v1 Announce Type: new \nAbstract: Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving rea",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Watch Where You Linearize: Predicting and Correcting Model-Merging Interference",
+    "url": "https://arxiv.org/abs/2611.25000",
+    "description": "arXiv:2611.25000v1 Announce Type: new \nAbstract: Model merging combines separately fine-tuned models by adding their task vectors to a shared backbone. Interference is typically assessed only after constructing and evaluating a candidate merge, making coefficient search expensive. We show that a fir",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Density Feedback Control for Transferability of Generative Sparse Adversarial Attacks",
+    "url": "https://arxiv.org/abs/2611.25001",
+    "description": "arXiv:2611.25001v1 Announce Type: new \nAbstract: Generator-based sparse adversarial attacks train encoder--decoder networks to produce transferable sparse perturbations for black-box robustness evaluation. Their perturbation density, however, is set only indirectly by a fixed sparsity coefficient wh",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+    "url": "https://huggingface.co/blog/inkling2mini",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+    "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+    "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Introducing Tool Retrieval in the Gemini API",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+    "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "The Gemini app is now available on lower-memory Android devices.",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "description": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+    "stars": null,
+    "collected_at": "2026-11-20T23:28:46.599047+00:00"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "github-20261120-001",
+  "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+  "source": "github",
+  "source_url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+  "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+  "summary": "该项目是一个面向Blender的AI助手与MCP服务器插件，提供可视化聊天、场景工具和多智能体工作流。它兼容ChatGPT/GPT、Claude、Gemini、Ollama、OpenCode等多种大模型，用户可通过自然语言与3D场景交互，由AI生成或执行bpy Python脚本，完成建模、场景编辑、渲染等任务。借助MCP协议集成，项目可将Blender能力开放给外部AI Agent，实现跨工具自动化协作。定位为3D创作Copilot，旨在降低脚本编写门槛、提升工作流效率，适合艺术家与开发者使用。整体技术融合了Blender API、MCP服务与多模型适配，具有较好的生态扩展性与实用价值。",
+  "tags": [
+    "blender",
+    "mcp",
+    "ai-assistant",
+    "llm",
+    "3d"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 1754,
+  "collected_at": "2026-11-20T23:28:46.599018+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "集成MCP服务器，支持多种大模型",
+    "可视化聊天与自然语言驱动3D场景",
+    "多智能体工作流与bpy脚本自动化"
+  ],
+  "risks": [
+    "依赖外部LLM服务可用性与API成本",
+    "Blender版本升级可能导致插件兼容问题"
+  ]
+}

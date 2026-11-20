@@ -1,0 +1,32 @@
+{
+  "id": "lobsters_ai-20261120-008",
+  "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://energy-based-reasoners.github.io/",
+  "description": "Comments",
+  "summary": "该项目提出将循环推理器构建为能量基模型。传统循环网络按固定步骤生成推理链，容易受错误累积和模式坍缩影响。新框架为每个推理状态定义能量函数，将推理过程转化为在能量景观中寻找低能量解，网络更新等同于执行梯度下降或随机采样。这样推理具备概率解释，温度和停止条件可控，能够产生多个合理推导路径，并缓解长程推理的不稳定性。该方法为数学、逻辑和自然语言推理等任务提供了新的建模思路。",
+  "tags": [
+    "energy-based-models",
+    "recurrent-neural-networks",
+    "reasoning",
+    "machine-learning"
+  ],
+  "category": "AI Reasoning",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "将循环推理器构建为能量基模型",
+    "推理过程对应能量最小化或采样",
+    "支持多路径推理与概率解释"
+  ],
+  "risks": [
+    "能量基模型训练与采样效率较低",
+    "能量景观设计不当可能限制泛化"
+  ]
+}

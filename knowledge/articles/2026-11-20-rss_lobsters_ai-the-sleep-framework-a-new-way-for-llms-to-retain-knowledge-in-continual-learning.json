@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261120-007",
+  "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+  "description": "Comments",
+  "summary": "该项目提出受人类睡眠机制启发的LLM持续学习框架，将训练分为清醒与睡眠阶段。清醒阶段学习新任务并存储关键记忆，睡眠阶段通过离线重放、记忆整合与冲突消解，将新知识稳定写入模型参数，缓解灾难性遗忘。框架借鉴非快速眼动与快速眼动睡眠分工，分别侧重知识压缩和记忆重组，在不显著增加在线推理成本的情况下提升序列任务性能。实验表明，相比正则化或简单重放基线，该框架在多任务学习中能更好保留旧任务能力，为LLM持续更新提供新思路。",
+  "tags": [
+    "llm",
+    "continual-learning",
+    "memory-consolidation",
+    "catastrophic-forgetting",
+    "sleep-inspired"
+  ],
+  "category": "LLM",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "模拟睡眠阶段进行知识巩固",
+    "缓解持续学习中的灾难性遗忘",
+    "离线重放与在线学习解耦"
+  ],
+  "risks": [
+    "睡眠阶段的数据回放可能增加算力开销",
+    "生物睡眠机制简化可能导致收益有限"
+  ]
+}

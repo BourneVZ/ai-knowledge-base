@@ -1,0 +1,33 @@
+{
+  "id": "github-20261120-004",
+  "title": "beiwocaishijia/gezhi-sheets",
+  "source": "github",
+  "source_url": "https://github.com/beiwocaishijia/gezhi-sheets",
+  "description": "格知 AI · Gezhi Sheets｜让表格听懂你的话。支持 GLM、Kimi、豆包、DeepSeek、Qwen 的本地 AI 表格助手。",
+  "summary": "格知 AI Gezhi Sheets 是一款让表格听懂人话的本地 AI 表格助手，用户可通过自然语言完成查询、公式生成、数据清洗与汇总等操作。它兼容 GLM、Kimi、豆包、DeepSeek、Qwen 等主流国产大模型，提供多模型适配与切换能力，便于本地或可信环境部署，降低敏感表格数据外泄风险。项目核心价值在于把大模型能力嵌入高频表格场景，减少用户学习公式与复杂操作的成本。技术上需解决表格结构理解、模型调用抽象和结果回填等工程问题。整体定位为隐私友好、多模型兼容的生产力工具，适合办公自动化与个人数据处理场景。",
+  "tags": [
+    "ai",
+    "spreadsheet",
+    "nlp",
+    "local-llm",
+    "productivity"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 475,
+  "collected_at": "2026-11-20T23:28:46.599025+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "多模型本地适配与切换",
+    "自然语言驱动表格查询与处理",
+    "面向隐私场景的本地化部署"
+  ],
+  "risks": [
+    "本地模型性能受硬件限制",
+    "复杂表格语义理解准确率有限"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261120-020",
+  "title": "The Gemini app is now available on lower-memory Android devices.",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+  "description": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+  "summary": "谷歌宣布Gemini应用正式支持低内存安卓设备，使更多中低端手机用户能够体验Gemini Live语音交互和自定义图像生成功能。此举通过优化内存占用、模型推理与端云协同，降低了对设备硬件的要求，扩大了Gemini的覆盖面。用户可在手机上直接使用实时对话和文生图能力，无需高端旗舰设备。该更新体现了谷歌推动AI助手普及化、降低使用门槛的战略，同时可能对端侧性能与功能完整性带来一定取舍。",
+  "tags": [
+    "google",
+    "gemini",
+    "android",
+    "llm",
+    "mobile"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 2,
+  "difficulty_score": 3,
+  "key_points": [
+    "支持低内存安卓设备运行",
+    "开放Gemini Live实时对话功能",
+    "提供自定义图像生成能力"
+  ],
+  "risks": [
+    "低内存设备上性能与响应速度可能受限",
+    "部分功能依赖云端，离线能力有限"
+  ]
+}

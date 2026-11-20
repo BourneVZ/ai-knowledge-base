@@ -1,0 +1,32 @@
+{
+  "id": "huggingface_blog-20261120-015",
+  "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/inkling2mini",
+  "description": "",
+  "summary": "Hugging Face 博客发布 Inkling 2 Mini，定位为可在本地环境运行的高性能小型模型。其重点是在消费级 GPU 或 CPU 上提供接近大模型的表现，同时减少内存占用和推理延迟。博客可能涵盖模型架构、训练数据、量化版本以及如何通过 Transformers 等库快速部署。该模型适合构建本地助手、代码生成、摘要等轻量任务，并兼顾隐私与成本控制。",
+  "tags": [
+    "llm",
+    "on-device",
+    "small-model",
+    "local-inference"
+  ],
+  "category": "Small Language Model",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "面向本地或消费级硬件优化的紧凑模型",
+    "强调高性能与低资源消耗的平衡",
+    "支持量化与主流推理框架"
+  ],
+  "risks": [
+    "复杂推理与长上下文能力可能受限",
+    "实际性能依赖本地硬件配置"
+  ]
+}

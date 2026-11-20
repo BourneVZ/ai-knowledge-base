@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261120-019",
+  "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+  "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+  "summary": "本访谈中，Walter Isaacson 与 Google 探讨达芬奇、爱因斯坦、乔布斯等历史创新者如何通过好奇心、跨学科思维与人文关怀取得突破，并思考这些品质在 AI 时代的价值。他认为，AI 能加速知识获取和模式识别，但真正的创造力仍源于人类提出新问题、做出价值判断和承担风险。好奇心驱动探索未知，创造力将不同领域连接，人类判断力则在伦理与审美层面为技术校准方向。Google 借此提醒开发者在拥抱 AI 工具时，保持以人为本的创新文化，推动技术与社会良性互动。",
+  "tags": [
+    "ai",
+    "creativity",
+    "innovation",
+    "history",
+    "human-judgment"
+  ],
+  "category": "AI and Society",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 2,
+  "key_points": [
+    "历史创新者的思维模式对AI时代创造力的启示",
+    "强调人类判断力与好奇心的不可替代性",
+    "探讨跨学科融合驱动创新"
+  ],
+  "risks": [
+    "内容偏重思辨，缺乏技术落地细节",
+    "对AI研发的直接指导作用有限"
+  ]
+}

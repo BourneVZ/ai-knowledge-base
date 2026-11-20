@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261120-018",
+  "title": "Introducing Tool Retrieval in the Gemini API",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+  "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+  "summary": "谷歌在 Gemini API 中推出工具检索（Tool Retrieval）预览功能，使 AI 代理在调用工具时可从数百个工具中智能筛选最相关者，显著降低上下文 token 消耗。该功能结合检索机制与函数调用，让模型无需每次加载全部工具 schema，而是按需获取相关工具定义，从而扩展代理可访问工具规模并提升效率。当前处于预览阶段，开发者可通过 Gemini API 体验。该能力面向需要大规模工具集成的 AI Agent 场景。工具检索可能利用模型判断相关性，存在一定选择偏差风险。",
+  "tags": [
+    "tool-retrieval",
+    "gemini-api",
+    "ai-agent",
+    "function-calling",
+    "llm"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "智能筛选相关工具，降低 token 消耗",
+    "支持数百种工具扩展代理能力",
+    "基于 Gemini API 预览版提供"
+  ],
+  "risks": [
+    "工具检索准确性可能影响任务执行",
+    "预览版功能稳定性与兼容性尚未成熟"
+  ]
+}

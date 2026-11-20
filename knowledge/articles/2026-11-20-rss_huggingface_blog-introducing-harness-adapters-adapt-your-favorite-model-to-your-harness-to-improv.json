@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261120-016",
+  "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+  "description": "",
+  "summary": "该项目介绍了 Hugging Face 推出的 harness adapters，一种轻量模型适配层，用于将各类模型快速接入统一评估与推理框架（harness）。开发者无需为不同模型重写样板代码，即可通过适配器自动处理输入输出格式差异，并利用框架内置的批处理、量化及分布式推理等优化，从而提升评测和部署效率、降低计算成本。它特别适合需要跨多种模型或后端进行基准测试与规模化推理的团队，同时与 Hugging Face 生态深度集成，降低维护门槛。整体上，该项目减少了模型接入与优化之间的摩擦，但复杂模型仍可能需额外定制。",
+  "tags": [
+    "huggingface",
+    "adapter",
+    "llm",
+    "evaluation",
+    "inference"
+  ],
+  "category": "AI Infra",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-20T23:28:46.599047+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-20-232900.json",
+  "analyzed_at": "2026-11-20T23:42:19.100883+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "统一适配接口，快速接入多种模型",
+    "自动启用批处理与量化等推理优化",
+    "深度集成 Hugging Face 生态"
+  ],
+  "risks": [
+    "复杂模型适配仍需人工定制",
+    "优化效果依赖后端与硬件支持"
+  ]
+}
