@@ -1,0 +1,33 @@
+{
+  "id": "github-20261124-002",
+  "title": "molly554/whiteboard-ai-tutor",
+  "source": "github",
+  "source_url": "https://github.com/molly554/whiteboard-ai-tutor",
+  "description": "Open-source whiteboard AI tutor with animated lessons and interactive playback. Compare Claude, Gemini & DeepSeek across 288 generation runs and 64 blind-reviewed boards.",
+  "summary": "该项目是一个开源的白板AI导师系统，通过生成式AI自动创建带动画的教学白板，并支持互动式回放。项目同时构建了一个多模型评估基准，对Claude、Gemini与DeepSeek进行了288次生成任务和64块白板的盲审对比，旨在衡量不同模型在教学内容可视化、讲解逻辑和互动呈现上的表现，为教育场景下的大模型选型和质量改进提供可复现参考。",
+  "tags": [
+    "whiteboard",
+    "ai-tutor",
+    "llm-evaluation",
+    "generative-ai",
+    "education"
+  ],
+  "category": "AI Education",
+  "status": "draft",
+  "stars": 556,
+  "collected_at": "2026-11-24T03:34:56.380419+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "白板动画课程自动生成与互动回放",
+    "多模型盲评：288次生成与64块白板对比",
+    "开源可复现的教学场景LLM评估基准"
+  ],
+  "risks": [
+    "模型生成内容可能存在教学准确性风险",
+    "样本量和盲评主观性可能影响结论通用性"
+  ]
+}

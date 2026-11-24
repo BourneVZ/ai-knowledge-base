@@ -1,0 +1,33 @@
+{
+  "id": "github-20261124-005",
+  "title": "jackson-cmd/risk-aware-trading-agents",
+  "source": "github",
+  "source_url": "https://github.com/jackson-cmd/risk-aware-trading-agents",
+  "description": "AI trading agents for US stocks with news backtesting that can't see the future: a public LLM trading agent leaderboard (rta-bench-1), frozen point-in-time 2020/2022/2026 markets (prices, VIX, news), a look-ahead check on every run, LLM agents over MCP, and paper/live trading on 10 brokers. 风险感知美股交易智能体 · 新闻回测 · LLM 榜单",
+  "summary": "该项目构建风险感知的美股AI交易智能体与评测基准，提供公开LLM交易代理排行榜rta-bench-1。系统采用冻结在2020/2022/2026等时点的价格、VIX与新闻数据，防止模型回测时看到未来；每次运行执行前视检查，提升可信度。支持通过MCP接入多种LLM智能体，并可在10家券商进行模拟盘或实盘交易，覆盖新闻驱动回测与风险感知场景。项目帮助比较不同大模型在真实历史环境下的交易决策能力，降低数据泄漏与幸存者偏差，推动量化交易智能体透明可复现评估。",
+  "tags": [
+    "ai",
+    "llm",
+    "trading",
+    "backtesting",
+    "risk-management"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 474,
+  "collected_at": "2026-11-24T03:34:56.380423+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "冻结时点市场数据与前视检查",
+    "公开LLM交易代理排行榜rta-bench-1",
+    "MCP多智能体接入与10家券商模拟/实盘"
+  ],
+  "risks": [
+    "新闻数据时点覆盖与前视泄漏仍难完全消除",
+    "依赖多家券商API，实盘合规与稳定性存在风险"
+  ]
+}

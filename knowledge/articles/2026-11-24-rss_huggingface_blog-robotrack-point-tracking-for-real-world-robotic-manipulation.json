@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261124-012",
+  "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/allenai/robotrack",
+  "description": "",
+  "summary": "RoboTrack 旨在将视频点跟踪技术引入真实世界机器人操作。项目利用点跟踪模型对场景中的关键像素点进行持续追踪，将其运动轨迹作为机器人策略的视觉表征，替代或补充传统 RGB 图像输入。这种表征能够显式编码物体和操作部位的时空运动信息，使机器人更好地理解接触、形变和遮挡等动态过程。相比仅依赖图像或关键点的方案，RoboTrack 更适合精细操作任务，并有望提升跨视角和跨场景的泛化能力。项目强调真实世界部署，关注点跟踪精度、推理速度与模仿学习策略的融合。",
+  "tags": [
+    "robotics",
+    "point-tracking",
+    "imitation-learning",
+    "computer-vision",
+    "manipulation"
+  ],
+  "category": "Robotics",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "以点跟踪轨迹作为机器人策略的视觉表征",
+    "面向真实世界精细操作，增强抗遮挡与运动建模",
+    "无需稠密三维重建即可提供时空运动线索"
+  ],
+  "risks": [
+    "点跟踪在快速运动或严重遮挡下可能出现漂移，影响策略稳定性",
+    "真实场景实时点跟踪推理对计算资源要求较高"
+  ]
+}

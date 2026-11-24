@@ -1,5 +1,229 @@
 [
   {
+    "id": "arxiv_cs_cl-20261124-006",
+    "file": "2026-11-24-rss_arxiv_cs_cl-skillprivus-uncovering-privacy-of-use-harms-in-agentic-skills.json",
+    "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+    "category": "AI Agent",
+    "tags": [
+      "privacy",
+      "ai agents",
+      "llm",
+      "security",
+      "agent skills"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261124-007",
+    "file": "2026-11-24-rss_arxiv_cs_cl-reinforcement-learning-unlearns-corrupted-sft-reasoning.json",
+    "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
+    "category": "LLM Training",
+    "tags": [
+      "reinforcement learning",
+      "llm",
+      "reasoning",
+      "sft",
+      "robustness"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261124-008",
+    "file": "2026-11-24-rss_arxiv_cs_cl-know-your-context-bank-repairing-inconsistency-and-measuring-generalization-in-c.json",
+    "title": "Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL",
+    "category": "Text-to-SQL",
+    "tags": [
+      "text-to-sql",
+      "context-bank",
+      "data-consistency",
+      "generalization",
+      "llm"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261124-009",
+    "file": "2026-11-24-rss_arxiv_cs_lg-on-the-loss-landscape-of-the-linear-neural-network-beyond-critical-points.json",
+    "title": "On the loss landscape of the linear neural network: beyond critical points",
+    "category": "深度学习理论",
+    "tags": [
+      "loss-landscape",
+      "linear-neural-networks",
+      "optimization-theory",
+      "nonconvex-optimization",
+      "deep-learning"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261124-010",
+    "file": "2026-11-24-rss_arxiv_cs_lg-parasite-features-causal-abstraction-through-spurious-pathways.json",
+    "title": "Parasite Features: Causal Abstraction Through Spurious Pathways",
+    "category": "AI Interpretability",
+    "tags": [
+      "causal abstraction",
+      "mechanistic interpretability",
+      "spurious features",
+      "neural networks",
+      "ai safety"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261124-011",
+    "file": "2026-11-24-rss_arxiv_cs_lg-cross-attack-robust-aggregation-for-federated-learning.json",
+    "title": "Cross-Attack Robust Aggregation for Federated Learning",
+    "category": "AI Security",
+    "tags": [
+      "federated learning",
+      "robust aggregation",
+      "poisoning attack",
+      "iot",
+      "security"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261124-012",
+    "file": "2026-11-24-rss_huggingface_blog-robotrack-point-tracking-for-real-world-robotic-manipulation.json",
+    "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+    "category": "Robotics",
+    "tags": [
+      "robotics",
+      "point-tracking",
+      "imitation-learning",
+      "computer-vision",
+      "manipulation"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261124-013",
+    "file": "2026-11-24-rss_huggingface_blog-how-to-build-and-maintain-an-agentic-evaluation.json",
+    "title": "How to build and maintain an agentic evaluation",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "agent",
+      "evaluation",
+      "benchmark"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261124-014",
+    "file": "2026-11-24-rss_google_ai_blog-a-more-tailored-google-search-thats-uniquely-yours.json",
+    "title": "A more tailored Google Search that’s uniquely yours",
+    "category": "AI Search",
+    "tags": [
+      "google search",
+      "personalization",
+      "ai mode",
+      "privacy",
+      "gemini"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380444+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261124-005",
+    "file": "2026-11-24-github-jackson-cmdrisk-aware-trading-agents.json",
+    "title": "jackson-cmd/risk-aware-trading-agents",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "trading",
+      "backtesting",
+      "risk-management"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380423+00:00",
+    "innovation_score": 4,
+    "stars": 474
+  },
+  {
+    "id": "github-20261124-004",
+    "file": "2026-11-24-github-ysunyang4nexus.json",
+    "title": "ysunyang4/Nexus",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "mcp",
+      "agent",
+      "web-assistant",
+      "local-tools"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380422+00:00",
+    "innovation_score": 4,
+    "stars": 496
+  },
+  {
+    "id": "github-20261124-003",
+    "file": "2026-11-24-github-w01fb0sspibot.json",
+    "title": "w01fb0ss/PiBot",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "agent",
+      "local-first",
+      "mcp",
+      "automation"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380420+00:00",
+    "innovation_score": 4,
+    "stars": 509
+  },
+  {
+    "id": "github-20261124-002",
+    "file": "2026-11-24-github-molly554whiteboard-ai-tutor.json",
+    "title": "molly554/whiteboard-ai-tutor",
+    "category": "AI Education",
+    "tags": [
+      "whiteboard",
+      "ai-tutor",
+      "llm-evaluation",
+      "generative-ai",
+      "education"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380419+00:00",
+    "innovation_score": 4,
+    "stars": 556
+  },
+  {
+    "id": "github-20261124-001",
+    "file": "2026-11-24-github-pierridotitemobile-agent-testers.json",
+    "title": "pierridotite/mobile-agent-testers",
+    "category": "AI Agent",
+    "tags": [
+      "ai-testing",
+      "mobile",
+      "claude-code",
+      "ci-cd",
+      "accessibility"
+    ],
+    "collected_at": "2026-11-24T03:34:56.380414+00:00",
+    "innovation_score": 4,
+    "stars": 1513
+  },
+  {
     "id": "lobsters_ai-20261120-006",
     "file": "2026-11-20-rss_lobsters_ai-rebuilding-my-local-voice-assistant-pipeline.json",
     "title": "Rebuilding my local voice assistant pipeline",

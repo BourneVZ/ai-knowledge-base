@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261124-007",
+  "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.26756",
+  "description": "arXiv:2611.26756v1 Announce Type: new \nAbstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a mathematical reasoning dataset (GSM8K), we systematically corrupt training trajectories across 361 conf",
+  "summary": "该研究展示了强化学习在推理任务中的鲁棒性：即使监督微调数据被严重破坏，模型仍能通过 RL 恢复正确推理能力。作者在数学推理数据集 GSM8K 上系统性地破坏训练轨迹，覆盖多种配置，验证 RL 能够“反学习”损坏的推理模式，而不是简单模仿错误样本。结果表明强化学习对监督信号质量具有较强容错能力，不完全依赖高质量 SFT 数据。该发现对推理模型训练、数据成本控制以及错误标注场景具有启示意义，但研究主要限于数学推理任务与系统性损坏场景，后续需跨领域和更真实噪声条件验证。",
+  "tags": [
+    "reinforcement learning",
+    "llm",
+    "reasoning",
+    "sft",
+    "robustness"
+  ],
+  "category": "LLM Training",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "强化学习可克服损坏的监督微调信号",
+    "在 GSM8K 上系统验证对错误推理轨迹的鲁棒性",
+    "揭示 RL 不完全依赖高质量 SFT 数据"
+  ],
+  "risks": [
+    "仅在 GSM8K 数学推理上验证，跨域泛化存疑",
+    "系统性损坏可能无法完全代表真实噪声"
+  ]
+}

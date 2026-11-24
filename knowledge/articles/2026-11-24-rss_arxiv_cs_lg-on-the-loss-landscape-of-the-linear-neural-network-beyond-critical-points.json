@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261124-009",
+  "title": "On the loss landscape of the linear neural network: beyond critical points",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.26671",
+  "description": "arXiv:2611.26671v1 Announce Type: new \nAbstract: While the critical points of the loss landscape in linear neural networks have been extensively studied since the seminal work of Baldi \\& Hornik in the late 1980s, a description of this landscape at an intermediate or global scale is still lacking. S",
+  "summary": "本文针对线性神经网络损失景观的研究，指出自Baldi与Hornik以来学界主要关注临界点，但对损失景观在中间尺度及全局尺度上的描述仍然缺乏。作者尝试超越传统临界点分析，刻画损失函数在不同区域间的过渡结构、低损失平台与全局几何形态，以揭示优化算法在线性网络中的动态行为。该研究弥补了局部临界点分析到全局景观理解之间的空白，为梯度下降在高维非凸优化中的轨迹和隐式偏置提供几何视角，对深度学习损失景观理论具有启发意义。",
+  "tags": [
+    "loss-landscape",
+    "linear-neural-networks",
+    "optimization-theory",
+    "nonconvex-optimization",
+    "deep-learning"
+  ],
+  "category": "深度学习理论",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "从临界点分析拓展到中间及全局尺度损失景观",
+    "刻画非临界区域与低损失平台的结构",
+    "为优化路径和隐式偏置提供几何解释"
+  ],
+  "risks": [
+    "局限于线性网络，难以直接推广到非线性深度网络",
+    "可能缺乏对实际训练动态的验证"
+  ]
+}

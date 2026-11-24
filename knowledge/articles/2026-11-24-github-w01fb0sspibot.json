@@ -1,0 +1,33 @@
+{
+  "id": "github-20261124-003",
+  "title": "w01fb0ss/PiBot",
+  "source": "github",
+  "source_url": "https://github.com/w01fb0ss/PiBot",
+  "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+  "summary": "PiBot 是一个开源、本地优先的桌面 AI 代理团队项目，支持 macOS、Windows、Linux 和 Android。它提供多代理群聊、计算机操作、浏览器自动化、MCP 集成、例程与审批机制，让多个 AI 代理能在本地协作完成复杂任务。项目基于 pi 框架构建，强调本地优先与用户控制，通过审批环节降低自动操作风险。其跨平台特性覆盖桌面与移动端，适合注重隐私、需要灵活工作流和可审计自动化行为的用户。",
+  "tags": [
+    "ai",
+    "agent",
+    "local-first",
+    "mcp",
+    "automation"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 509,
+  "collected_at": "2026-11-24T03:34:56.380420+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "本地优先的多代理协作",
+    "支持 MCP 与计算机/浏览器自动化",
+    "跨桌面与 Android 平台"
+  ],
+  "risks": [
+    "本地资源占用较高",
+    "自动操作需严格审批与安全边界"
+  ]
+}

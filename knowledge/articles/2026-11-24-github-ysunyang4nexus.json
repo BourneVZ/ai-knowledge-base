@@ -1,0 +1,33 @@
+{
+  "id": "github-20261124-004",
+  "title": "ysunyang4/Nexus",
+  "source": "github",
+  "source_url": "https://github.com/ysunyang4/Nexus",
+  "description": "Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with user-controlled permissions.",
+  "summary": "Nexus 通过 MCP 将 Web AI 助手接入本地文件、终端、Git 和桌面工具，提供用户可控的权限管理，使助手在授权范围内读取文件、执行命令或操作桌面应用。项目为浏览器环境中的 AI Agent 提供轻量可扩展的本地工具调用层，降低 AI 接入个人工作流的门槛，同时以权限校验降低直接暴露系统能力的风险。其核心是 MCP 工具注册、权限控制与本地执行，适合开发者构建安全、个性化的 AI 助手环境，在远端大模型与本地资源之间充当桥梁。",
+  "tags": [
+    "ai",
+    "mcp",
+    "agent",
+    "web-assistant",
+    "local-tools"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 496,
+  "collected_at": "2026-11-24T03:34:56.380422+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "通过 MCP 将 Web AI 助手接入本地文件、终端、Git 与桌面工具",
+    "提供用户可控的细粒度权限管理",
+    "轻量可扩展的本地工具调用层"
+  ],
+  "risks": [
+    "本地系统暴露面增大，权限配置不当可能引发安全风险",
+    "依赖 MCP 与浏览器生态兼容性，跨平台稳定性需验证"
+  ]
+}

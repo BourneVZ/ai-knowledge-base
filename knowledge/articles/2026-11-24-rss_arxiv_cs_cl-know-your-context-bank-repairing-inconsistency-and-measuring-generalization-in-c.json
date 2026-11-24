@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261124-008",
+  "title": "Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.26775",
+  "description": "arXiv:2611.26775v1 Announce Type: new \nAbstract: Text-to-SQL systems increasingly rely on context banks: curated collections of example queries, metric definitions, and domain knowledge that tell a model how an organization writes its queries. In the enterprise, a bank grows over years as many analy",
+  "summary": "该论文研究企业级Text-to-SQL系统中上下文银行的不一致问题。上下文银行包含示例查询、指标定义和领域知识，但长期多人维护易产生定义冲突、示例过时和错误标注。论文提出检测并修复不一致的方法，协调冲突知识；并设计评估框架，衡量模型在跨库、新问题类型和未见领域的泛化能力。实验表明，修复后的上下文银行能提升SQL生成准确率和稳定性，为企业级语义解析系统提供可维护方案。",
+  "tags": [
+    "text-to-sql",
+    "context-bank",
+    "data-consistency",
+    "generalization",
+    "llm"
+  ],
+  "category": "Text-to-SQL",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "上下文银行不一致检测与修复",
+    "衡量跨库与分布外泛化能力",
+    "提升企业级SQL生成稳定性"
+  ],
+  "risks": [
+    "修复过程可能依赖人工规则或标注",
+    "泛化评估范围可能受基准数据限制"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261124-010",
+  "title": "Parasite Features: Causal Abstraction Through Spurious Pathways",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.26711",
+  "description": "arXiv:2611.26711v1 Announce Type: new \nAbstract: Causal Abstraction defines a notion of \\emph{equivalence} between a neural network and an algorithm, thus serving as a powerful framework for mechanistic interpretability. In this paper, however, we show the existence of a class of \\emph{spurious feat",
+  "summary": "本文研究因果抽象框架下的神经网络与算法等价性问题。因果抽象是机制可解释性的重要工具，但作者发现存在一类经由虚假路径产生的寄生特征，这些特征可使网络在行为层面看似等价于目标算法，然而其内部因果通路并非真实对应。这一现象表明，单纯的等价性判断可能被虚假相关性所欺骗，从而威胁可解释性结论的可靠性。论文强调，在利用因果抽象进行机制分析时，必须区分真实因果通路与寄生性虚假通路，以避免误解模型内部机制。该工作对可解释性方法论提出了重要警示。",
+  "tags": [
+    "causal abstraction",
+    "mechanistic interpretability",
+    "spurious features",
+    "neural networks",
+    "ai safety"
+  ],
+  "category": "AI Interpretability",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "揭示因果抽象中寄生特征的存在性",
+    "指出虚假路径可导致伪等价",
+    "强调可解释性需区分真实与虚假因果"
+  ],
+  "risks": [
+    "仅展示存在性，未提供缓解方法",
+    "理论分析对大规模实际网络的适用性待验证"
+  ]
+}

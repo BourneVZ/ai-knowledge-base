@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261124-014",
+  "title": "A more tailored Google Search that’s uniquely yours",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+  "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+  "summary": "谷歌正在测试更个性化的搜索体验，在 AI Mode 中引入 Personal Intelligence。用户可自愿、安全地选择连接 Google Wallet、Drive 和 Gemini 应用，使搜索引擎能够结合个人财务、文件和对话上下文，返回更贴合自身情况的响应。该功能强调用户主动选择加入，并采用安全机制保护数据，避免在未授权的情况下使用个人信息。通过跨服务数据整合，搜索不再仅依赖公共网页，而是理解个人背景，提升结果的相关性与实用性。潜在问题主要集中在隐私安全与对个性化推荐的过度依赖。",
+  "tags": [
+    "google search",
+    "personalization",
+    "ai mode",
+    "privacy",
+    "gemini"
+  ],
+  "category": "AI Search",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "安全连接 Google Wallet、Drive 与 Gemini",
+    "基于个人数据的定制搜索响应",
+    "用户主动选择加入的隐私保护机制"
+  ],
+  "risks": [
+    "跨服务数据整合可能引发隐私与安全顾虑",
+    "个性化结果可能加剧信息茧房或过度依赖"
+  ]
+}

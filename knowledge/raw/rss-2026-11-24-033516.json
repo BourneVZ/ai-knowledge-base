@@ -1,0 +1,122 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Rebuilding my local voice assistant pipeline",
+    "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+    "url": "https://energy-based-reasoners.github.io/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+    "url": "https://arxiv.org/abs/2611.26747",
+    "description": "arXiv:2611.26747v1 Announce Type: new \nAbstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclo",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
+    "url": "https://arxiv.org/abs/2611.26756",
+    "description": "arXiv:2611.26756v1 Announce Type: new \nAbstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a mathematical reasoning dataset (GSM8K), we systematically corrupt training trajectories across 361 conf",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL",
+    "url": "https://arxiv.org/abs/2611.26775",
+    "description": "arXiv:2611.26775v1 Announce Type: new \nAbstract: Text-to-SQL systems increasingly rely on context banks: curated collections of example queries, metric definitions, and domain knowledge that tell a model how an organization writes its queries. In the enterprise, a bank grows over years as many analy",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "On the loss landscape of the linear neural network: beyond critical points",
+    "url": "https://arxiv.org/abs/2611.26671",
+    "description": "arXiv:2611.26671v1 Announce Type: new \nAbstract: While the critical points of the loss landscape in linear neural networks have been extensively studied since the seminal work of Baldi \\& Hornik in the late 1980s, a description of this landscape at an intermediate or global scale is still lacking. S",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Parasite Features: Causal Abstraction Through Spurious Pathways",
+    "url": "https://arxiv.org/abs/2611.26711",
+    "description": "arXiv:2611.26711v1 Announce Type: new \nAbstract: Causal Abstraction defines a notion of \\emph{equivalence} between a neural network and an algorithm, thus serving as a powerful framework for mechanistic interpretability. In this paper, however, we show the existence of a class of \\emph{spurious feat",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Cross-Attack Robust Aggregation for Federated Learning",
+    "url": "https://arxiv.org/abs/2611.26731",
+    "description": "arXiv:2611.26731v1 Announce Type: new \nAbstract: Federated learning (FL) lets resource-constrained IoT and edge devices train a shared model without exchanging raw data, but compromised or faulty devices can poison the global model. Existing robust aggregators each fail in some regime: naive averagi",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+    "url": "https://huggingface.co/blog/allenai/robotrack",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "How to build and maintain an agentic evaluation",
+    "url": "https://huggingface.co/blog/agentic-evals",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+    "url": "https://huggingface.co/blog/inkling2mini",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "A more tailored Google Search that’s uniquely yours",
+    "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+    "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Introducing Tool Retrieval in the Gemini API",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+    "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+    "stars": null,
+    "collected_at": "2026-11-24T03:34:56.380444+00:00"
+  }
+]

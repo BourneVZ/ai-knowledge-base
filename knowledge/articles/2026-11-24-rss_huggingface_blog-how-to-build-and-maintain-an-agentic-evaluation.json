@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261124-013",
+  "title": "How to build and maintain an agentic evaluation",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/agentic-evals",
+  "description": "",
+  "summary": "本文围绕如何构建与维护智能体（agentic）评估体系展开，系统梳理了从评估目标定义、任务场景设计、指标选取到数据收集与持续迭代的完整流程。文章指出，随着大语言模型驱动的智能体能力快速演进，传统静态基准难以充分衡量其在复杂、开放环境中的真实表现，需要设计动态、可扩展的评估框架，并建立长期维护机制以应对任务变化、数据污染及评估失效等问题。内容可能涵盖自动化评估与人工评估的结合、可复现流程的搭建，以及如何根据实际反馈不断调整评估策略，从而确保评估结果可靠、可比且具有实际指导意义。整体为研究者和工程师提供了一套构建与维护智能体评估体系的实践思路。",
+  "tags": [
+    "ai",
+    "llm",
+    "agent",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "构建动态可扩展的智能体评估框架",
+    "强调评估体系的持续维护与迭代",
+    "结合自动化与人工评估保障可靠性"
+  ],
+  "risks": [
+    "评估标准难以统一",
+    "长期维护成本较高"
+  ]
+}

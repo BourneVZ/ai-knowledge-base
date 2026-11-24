@@ -1,0 +1,32 @@
+{
+  "id": "arxiv_cs_lg-20261124-011",
+  "title": "Cross-Attack Robust Aggregation for Federated Learning",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.26731",
+  "description": "arXiv:2611.26731v1 Announce Type: new \nAbstract: Federated learning (FL) lets resource-constrained IoT and edge devices train a shared model without exchanging raw data, but compromised or faulty devices can poison the global model. Existing robust aggregators each fail in some regime: naive averagi",
+  "summary": "该项目针对联邦学习中恶意或故障设备投毒全局模型的问题，提出一种跨攻击鲁棒聚合方法。随着物联网与边缘设备参与训练，传统聚合器（如朴素平均、Krum、中位数等）往往只在特定攻击类型下表现良好，面对拜占庭攻击、标签翻转、后门攻击或混合攻击时鲁棒性不足。本文方法旨在跨多种攻击机制提高全局模型聚合的鲁棒性，降低对单一攻击假设的依赖，并兼顾资源受限场景下的计算与通信效率，从而提升联邦学习系统在不可信环境中的安全性和稳定性。",
+  "tags": [
+    "federated learning",
+    "robust aggregation",
+    "poisoning attack",
+    "iot",
+    "security"
+  ],
+  "category": "AI Security",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出跨攻击鲁棒聚合方法",
+    "适用于资源受限IoT与边缘设备",
+    "提升对多种投毒攻击的防御能力"
+  ],
+  "risks": [
+    "摘要信息不完整，具体防御机制待验证"
+  ]
+}

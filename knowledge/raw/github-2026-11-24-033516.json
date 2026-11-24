@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "sybil-solutions/inference-optimisation-skill",
+    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+    "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+    "stars": 2234,
+    "collected_at": "2026-11-24T03:34:56.380394+00:00"
+  },
+  {
+    "source": "github",
+    "title": "pierridotite/mobile-agent-testers",
+    "url": "https://github.com/pierridotite/mobile-agent-testers",
+    "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+    "stars": 1513,
+    "collected_at": "2026-11-24T03:34:56.380414+00:00"
+  },
+  {
+    "source": "github",
+    "title": "mankidev/antialgorithm",
+    "url": "https://github.com/mankidev/antialgorithm",
+    "description": "Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.",
+    "stars": 781,
+    "collected_at": "2026-11-24T03:34:56.380417+00:00"
+  },
+  {
+    "source": "github",
+    "title": "molly554/whiteboard-ai-tutor",
+    "url": "https://github.com/molly554/whiteboard-ai-tutor",
+    "description": "Open-source whiteboard AI tutor with animated lessons and interactive playback. Compare Claude, Gemini & DeepSeek across 288 generation runs and 64 blind-reviewed boards.",
+    "stars": 556,
+    "collected_at": "2026-11-24T03:34:56.380419+00:00"
+  },
+  {
+    "source": "github",
+    "title": "w01fb0ss/PiBot",
+    "url": "https://github.com/w01fb0ss/PiBot",
+    "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+    "stars": 509,
+    "collected_at": "2026-11-24T03:34:56.380420+00:00"
+  },
+  {
+    "source": "github",
+    "title": "ysunyang4/Nexus",
+    "url": "https://github.com/ysunyang4/Nexus",
+    "description": "Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with user-controlled permissions.",
+    "stars": 496,
+    "collected_at": "2026-11-24T03:34:56.380422+00:00"
+  },
+  {
+    "source": "github",
+    "title": "jackson-cmd/risk-aware-trading-agents",
+    "url": "https://github.com/jackson-cmd/risk-aware-trading-agents",
+    "description": "AI trading agents for US stocks with news backtesting that can't see the future: a public LLM trading agent leaderboard (rta-bench-1), frozen point-in-time 2020/2022/2026 markets (prices, VIX, news), a look-ahead check on every run, LLM agents over MCP, and paper/live trading on 10 brokers. 风险感知美股交易智能体 · 新闻回测 · LLM 榜单",
+    "stars": 474,
+    "collected_at": "2026-11-24T03:34:56.380423+00:00"
+  },
+  {
+    "source": "github",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 467,
+    "collected_at": "2026-11-24T03:34:56.380425+00:00"
+  },
+  {
+    "source": "github",
+    "title": "weightcashiercupola/Gemini-Config-Checker-",
+    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 465,
+    "collected_at": "2026-11-24T03:34:56.380427+00:00"
+  },
+  {
+    "source": "github",
+    "title": "WinnerSpecialist/Gemini-Config-Checker-",
+    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 464,
+    "collected_at": "2026-11-24T03:34:56.380429+00:00"
+  }
+]

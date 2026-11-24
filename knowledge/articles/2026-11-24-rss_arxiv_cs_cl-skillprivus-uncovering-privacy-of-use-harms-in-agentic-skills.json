@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261124-006",
+  "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.26747",
+  "description": "arXiv:2611.26747v1 Announce Type: new \nAbstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclo",
+  "summary": "SkillPrivus聚焦智能体技能（Agentic Skills）带来的用户隐私使用危害。此类技能通过可安装的指令与代码扩展AI助手，能访问用户文件、账户与数据；即便执行其宣传任务，也可能推断敏感属性、过度保留不必要信息或泄露隐私。该项目旨在系统揭示并审计这些风险，提出面向智能体技能生态的隐私危害分析框架或检测方法，弥补现有AI助手安全研究在可安装第三方技能场景中的不足。虽然摘要未给出完整实验设计与评估细节，但其问题定位明确，针对LLM驱动的智能体扩展机制开展隐私风险研究，具有较强现实意义。",
+  "tags": [
+    "privacy",
+    "ai agents",
+    "llm",
+    "security",
+    "agent skills"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-24T03:34:56.380444+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "揭示智能体技能在使用中的隐私危害",
+    "覆盖敏感属性推断、过度数据保留与泄露等风险",
+    "面向可安装技能生态提出审计或分析框架"
+  ],
+  "risks": [
+    "摘要信息不完整，缺乏实验与数据支撑",
+    "可能依赖特定平台或模型，泛化性有待验证"
+  ]
+}

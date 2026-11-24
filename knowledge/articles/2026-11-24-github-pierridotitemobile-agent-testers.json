@@ -1,0 +1,33 @@
+{
+  "id": "github-20261124-001",
+  "title": "pierridotite/mobile-agent-testers",
+  "source": "github",
+  "source_url": "https://github.com/pierridotite/mobile-agent-testers",
+  "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+  "summary": "项目在 GitHub 免费 runner 上并行运行 20 个 AI 测试代理，分别部署在 20 台不同的 iOS 模拟器或 Android 模拟器中。每个代理由 Claude Code 驱动，自主探索应用界面与操作流程，重点发现交互流程中断、翻译错误、布局异常以及可访问性缺陷。这种“AI 测试员”方案将大模型智能体引入移动端质量保障，以并行、多设备方式降低传统脚本化 UI 测试的覆盖成本。整体实现依赖 GitHub Actions、移动模拟器与 Claude Code 的组合，具备较好的可复制性，但受免费 runner 资源配额和模拟器稳定性限制。",
+  "tags": [
+    "ai-testing",
+    "mobile",
+    "claude-code",
+    "ci-cd",
+    "accessibility"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": 1513,
+  "collected_at": "2026-11-24T03:34:56.380414+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-24-033516.json",
+  "analyzed_at": "2026-11-24T03:50:54.682301+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "20 个 Claude Code 测试代理并行驱动多设备模拟器",
+    "在 GitHub 免费 runner 上实现移动端多设备 UI 测试",
+    "自动发现流程、翻译、布局与可访问性缺陷"
+  ],
+  "risks": [
+    "免费 runner 并发与模拟器资源易受限",
+    "AI 驱动测试存在误报与稳定性风险"
+  ]
+}
