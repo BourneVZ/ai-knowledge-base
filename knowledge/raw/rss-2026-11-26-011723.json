@@ -1,0 +1,146 @@
+[
+  {
+    "source": "rss/hn_ai",
+    "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+    "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+    "description": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/\nComments URL: https://news.ycombinator.com/item?id=50637056\nPoints: 392\n# Comments: 77",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "Tidal bans AI-generated music",
+    "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+    "description": "Article URL: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/\nComments URL: https://news.ycombinator.com/item?id=50630309\nPoints: 334\n# Comments: 332",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/hn_ai",
+    "title": "LLM agents work for their parent companies, not for you",
+    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+    "description": "Article URL: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/\nComments URL: https://news.ycombinator.com/item?id=50627340\nPoints: 1000\n# Comments: 410",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Matrix Multiplication is Θ(n^2.25)",
+    "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "9/UX: a Macintosh-inspired desktop for 9front",
+    "url": "https://progrium.github.io/9ux/",
+    "description": "I have written a story about this on the Register, but of course I can't post that here.\nI think this is a quite astonishing effort and could make 9front considerably more usable... but it's bot-assisted, so I don't think they'll take it.\nComments",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Rebuilding my local voice assistant pipeline",
+    "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study",
+    "url": "https://arxiv.org/abs/2611.31251",
+    "description": "arXiv:2611.31251v1 Announce Type: new \nAbstract: Large language model (LLM) chatbots are increasingly used by patients seeking cancer information, but their safety when users present evidence-misaligned beliefs about treatment remains uncharacterized. We hypothesized that LLMs exhibit validation bia",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows",
+    "url": "https://arxiv.org/abs/2611.31252",
+    "description": "arXiv:2611.31252v1 Announce Type: new \nAbstract: Estimating the quality of generative AI workflows is challenging because these workflows comprise multiple stages, and errors can propagate across them, making end-to-end performance depend not only on the accuracy of individual models but also on how",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Instantiation of Human Values in Image Generation",
+    "url": "https://arxiv.org/abs/2611.31253",
+    "description": "arXiv:2611.31253v1 Announce Type: new \nAbstract: Text-to-image (T2I) models are increasingly embedded in everyday visual culture, yet little is known about how they translate abstract human values into visual scenes. We address this gap by introducing a framework, grounded in Schwartz's theory of ba",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Local subspace encoding for spectral prediction: from TabPFN to operator-adaptive calibration",
+    "url": "https://arxiv.org/abs/2611.31245",
+    "description": "arXiv:2611.31245v1 Announce Type: new \nAbstract: TabPFN has already shown useful predictive performance on near-infrared spectra. RamanPFN subsequently proposed two spectral representations for tabular inference: Global Compositional Unmixing (GCU) and Local Vibrational Subspace Encoding (LVSE). We ",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Actionwave: A Systematic Benchmark for Waveform-Centric Clinical Prediction Across Care Scenarios",
+    "url": "https://arxiv.org/abs/2611.31249",
+    "description": "arXiv:2611.31249v1 Announce Type: new \nAbstract: Continuous bedside waveforms record rapid physiological changes that can inform clinical decisions. Existing benchmarks examine selected prediction conditions, but it remains unclear how model advantages depend on signal duration, warning time, and av",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_lg",
+    "title": "Chain-of-Thought Is Not Explainability",
+    "url": "https://arxiv.org/abs/2611.31271",
+    "description": "arXiv:2611.31271v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) allows language models to verbalise multi-step rationales before producing their final answer. While this technique often boosts task performance and offers an impression of transparency into the model's reasoning, this position",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Where scientists draw the line on AI agents",
+    "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "An Indic Voice Agent with CUGA",
+    "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+    "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "How Gemini is changing the game for Golden State's organization and fans.",
+    "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+    "description": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "A more tailored Google Search that’s uniquely yours",
+    "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+    "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Introducing Tool Retrieval in the Gemini API",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+    "stars": null,
+    "collected_at": "2026-11-26T01:17:07.575757+00:00"
+  }
+]

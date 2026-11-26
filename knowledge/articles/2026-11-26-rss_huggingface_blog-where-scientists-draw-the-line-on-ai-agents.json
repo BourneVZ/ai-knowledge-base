@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261126-015",
+  "title": "Where scientists draw the line on AI agents",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+  "description": "",
+  "summary": "文章围绕科研场景中 AI 代理的自主边界展开，讨论科学家对 AI 代理介入程度的共识与分歧。AI 代理在文献检索、数据预处理、代码生成等辅助环节逐渐受到认可，但在实验设计、因果推断、结论撰写与学术署名等高风险或需专业判断的环节，仍普遍要求人类保留最终决定权。文章还涉及责任归属、可复现性、透明性与安全护栏等议题，提出通过人在回路、透明日志与分级授权来约束代理行为，避免错误累积与责任模糊。整体上，这是一篇关于科学智能体人机协作边界与信任条件的前沿讨论，强调 AI 代理应增强而非替代科学家的专业判断。",
+  "tags": [
+    "ai agents",
+    "human oversight",
+    "scientific research",
+    "trust",
+    "ai safety"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "梳理科学家对 AI 代理自主性的信任边界",
+    "强调高风险决策保留人类监督与人在回路",
+    "提出分级授权与透明审计机制"
+  ],
+  "risks": [
+    "边界划分缺乏统一标准，依赖主观判断",
+    "过度限制可能降低科研自动化效率"
+  ]
+}

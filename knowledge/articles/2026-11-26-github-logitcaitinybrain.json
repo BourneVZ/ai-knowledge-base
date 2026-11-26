@@ -1,0 +1,33 @@
+{
+  "id": "github-20261126-003",
+  "title": "logitcai/tinybrain",
+  "source": "github",
+  "source_url": "https://github.com/logitcai/tinybrain",
+  "description": "A Chinese-first small language model built from scratch: open 60B-token dataset, tokenizer, mHC + Engram + MoE model, pretraining through RL, all in PyTorch. 从零做中文小模型，数据和代码全部开源",
+  "summary": "tinybrain 是一个以中文为优先的小型语言模型项目，从零构建并开源全部数据与代码。项目公开约 600 亿 token 中文数据集与配套 tokenizer，采用 mHC、Engram 与 MoE 混合架构，并引入强化学习进行预训练，全部基于 PyTorch 实现。其目标是降低中文小模型训练门槛，提供可复现的中文优先训练流程和模块化实现。整体方案将数据、分词、模型结构与训练策略一体化开放，适用于研究与教学场景。",
+  "tags": [
+    "ai",
+    "llm",
+    "chinese-nlp",
+    "mixture-of-experts",
+    "reinforcement-learning"
+  ],
+  "category": "LLM",
+  "status": "draft",
+  "stars": 492,
+  "collected_at": "2026-11-26T01:17:07.575734+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "开放60B token中文数据集与分词器",
+    "mHC+Engram+MoE混合架构",
+    "强化学习预训练，全PyTorch开源"
+  ],
+  "risks": [
+    "模型规模较小，复杂推理与长尾知识能力有限",
+    "RL预训练与MoE结构训练稳定性、复现成本较高"
+  ]
+}

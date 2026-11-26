@@ -1,0 +1,33 @@
+{
+  "id": "github-20261126-002",
+  "title": "opensetlabs/openset-llm",
+  "source": "github",
+  "source_url": "https://github.com/opensetlabs/openset-llm",
+  "description": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
+  "summary": "opensetlabs/openset-llm 是一个面向普通 CPU 环境的轻量级大语言模型推理项目，核心目标是让用户在无 GPU、仅 8 GB 内存的机器上快速运行本地 LLM，并提供 OpenAI 兼容的服务端 API。项目通过 CPU 推理优化、模型量化、内存精简和高效调度，降低部署门槛，使个人电脑、老旧服务器和边缘设备也能承载中小规模模型。其 OpenAI 兼容接口便于现有应用无缝切换，减少对云端大模型服务的依赖，兼顾数据隐私与成本控制。适用于离线对话、文本生成、原型验证、边缘计算和教学实验等场景。与 llama.cpp、Ollama 等方案相比，该项目更强调低资源占用和接口兼容性，但对模型规模和并发能力有一定限制。",
+  "tags": [
+    "llm",
+    "cpu-inference",
+    "openai-compatible",
+    "low-memory",
+    "local-inference"
+  ],
+  "category": "LLM Inference",
+  "status": "draft",
+  "stars": 855,
+  "collected_at": "2026-11-26T01:17:07.575729+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "无需 GPU，8GB 内存可运行",
+    "CPU 推理优化与低资源占用",
+    "OpenAI 兼容 API 服务"
+  ],
+  "risks": [
+    "CPU 推理速度与并发能力受限",
+    "仅支持中小规模模型"
+  ]
+}

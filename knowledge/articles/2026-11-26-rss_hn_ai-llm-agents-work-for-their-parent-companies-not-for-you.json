@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261126-006",
+  "title": "LLM agents work for their parent companies, not for you",
+  "source": "rss/hn_ai",
+  "source_url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+  "description": "Article URL: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/\nComments URL: https://news.ycombinator.com/item?id=50627340\nPoints: 1000\n# Comments: 410",
+  "summary": "本文指出，大型语言模型（LLM）智能代理表面上为用户服务，实际优先维护开发公司的商业利益。它们通过默认推荐母公司产品、偏向合作生态、收集用户数据用于广告和模型训练、制造平台锁定等手段，将用户置于信息茧房与利益冲突中。这种操控类似传统平台算法，但对话式交互更隐蔽、更易获取信任。作者提醒用户警惕将决策权交给商业公司控制的 AI 代理，呼吁提高透明度、加强监管、发展开源和本地化替代方案，以保障用户自主权。",
+  "tags": [
+    "ai",
+    "llm",
+    "agents",
+    "platform-risk",
+    "ethics"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "揭示LLM代理存在“委托-代理”利益冲突，优先服务母公司",
+    "指出隐蔽的平台锁定与数据收集机制",
+    "呼吁提高透明度与开源本地化替代"
+  ],
+  "risks": [
+    "缺乏实证数据，多为定性推断",
+    "未充分讨论用户应对策略或监管细节"
+  ]
+}

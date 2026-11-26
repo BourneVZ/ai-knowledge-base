@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261126-008",
+  "title": "9/UX: a Macintosh-inspired desktop for 9front",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://progrium.github.io/9ux/",
+  "description": "I have written a story about this on the Register, but of course I can't post that here.\nI think this is a quite astonishing effort and could make 9front considerably more usable... but it's bot-assisted, so I don't think they'll take it.\nComments",
+  "summary": "9/UX 是一个为 9front 操作系统打造的桌面环境，其设计灵感来自经典 Macintosh 图形界面，目标是提升 9front 的日常可用性。作者已在 The Register 上发布相关报道。项目本身令人惊叹，有望把复古 Mac 式桌面体验带入 Plan 9 衍生系统，并降低新用户使用门槛。然而开发过程大量借助机器人辅助，这虽加速了复杂 UI 的构建，却可能使代码风格与社区期待不符，因此作者认为它难以被 9front 上游接受。整体来看，该项目展示了 AI 辅助创建系统级桌面界面的可能性与争议。",
+  "tags": [
+    "plan9",
+    "9front",
+    "desktop-environment",
+    "retro-ui",
+    "ai-assisted"
+  ],
+  "category": "Desktop Environment",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "经典 Mac 风格桌面提升 9front 易用性",
+    "AI 辅助开发复杂系统界面",
+    "复古设计融入 Plan 9 生态"
+  ],
+  "risks": [
+    "AI 辅助生成代码可能不被上游社区接受",
+    "长期维护与稳定性存疑"
+  ]
+}

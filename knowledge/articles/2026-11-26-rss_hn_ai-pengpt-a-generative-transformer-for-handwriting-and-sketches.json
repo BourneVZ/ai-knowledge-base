@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261126-004",
+  "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+  "source": "rss/hn_ai",
+  "source_url": "https://greydanus.github.io/2026/11/12/pengpt/",
+  "description": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/\nComments URL: https://news.ycombinator.com/item?id=50637056\nPoints: 392\n# Comments: 77",
+  "summary": "PenGPT 是一个面向手写与草图生成的生成式 Transformer 模型。它将笔迹和草图轨迹建模为序列，通过自回归方式预测下一点或下一笔段，利用注意力机制捕捉笔画之间的长程依赖，从而生成自然、多样且具有一定风格可控性的手写文本和简笔画。相比于传统 RNN、GAN 或模板方法，Transformer 结构在序列建模和并行训练上更具优势，可实现文本到笔迹、草图补全、风格迁移等任务。项目在 Hacker News 获得 392 点、77 条评论，显示社区对其在个性化字体、教育、设计辅助和签名模拟等应用的关注。潜在风险包括生成笔迹被用于伪造签名或身份欺骗。",
+  "tags": [
+    "generative-transformer",
+    "handwriting",
+    "sketches",
+    "sequence-modeling",
+    "ai"
+  ],
+  "category": "Generative AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "基于Transformer对手写和草图进行序列化生成建模",
+    "支持笔迹风格控制与多样化草图合成",
+    "在HN获得392点与77条讨论，社区关注度高"
+  ],
+  "risks": [
+    "手写伪造与签名滥用风险",
+    "风格一致性与细节质量可能受限"
+  ]
+}

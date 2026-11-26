@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261126-013",
+  "title": "Actionwave: A Systematic Benchmark for Waveform-Centric Clinical Prediction Across Care Scenarios",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.31249",
+  "description": "arXiv:2611.31249v1 Announce Type: new \nAbstract: Continuous bedside waveforms record rapid physiological changes that can inform clinical decisions. Existing benchmarks examine selected prediction conditions, but it remains unclear how model advantages depend on signal duration, warning time, and av",
+  "summary": "该论文提出了 Actionwave，一个以连续床边波形为核心的系统性临床预测基准。床边波形能记录快速生理变化并用于临床决策，但现有基准通常只覆盖少数预测条件，难以系统比较模型在不同信号时长、预警时间和数据可用性下的表现。Actionwave 跨多个护理场景构建评估体系，旨在揭示模型优势与上述条件之间的依赖关系，为波形驱动的临床预测提供更全面、可比的评测框架。该工作有助于研究者理解模型在实际临床环境中的适用边界和鲁棒性，推动更可靠的临床决策支持系统开发。",
+  "tags": [
+    "clinical-prediction",
+    "waveform",
+    "benchmark",
+    "healthcare-ai",
+    "time-series"
+  ],
+  "category": "AI for Healthcare",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "系统化波形中心临床预测基准",
+    "跨护理场景覆盖可变信号时长与预警时间",
+    "揭示模型性能对数据条件的依赖"
+  ],
+  "risks": [
+    "基准覆盖的具体场景和数据来源尚未完全公开",
+    "对非波形多模态信息利用有限"
+  ]
+}

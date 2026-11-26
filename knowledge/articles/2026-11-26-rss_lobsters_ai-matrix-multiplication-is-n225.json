@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261126-007",
+  "title": "Matrix Multiplication is Θ(n^2.25)",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+  "description": "Comments",
+  "summary": "该项目指向一项关于矩阵乘法复杂度的理论突破，声称其时间复杂度为Θ(n^2.25)，即上下界一致。这远优于目前已知的上界约O(n^2.371)，若成立将解决计算理论中的长期开放问题。项目可能采用新的张量分解、组合方法或AI辅助证明，重新刻画矩阵乘法的难度。当前公开描述仅显示为评论来源，技术细节和证明过程尚不充分，仍需同行评审与复现验证。该结果一旦被证实，将对数值计算、图算法、机器学习等领域产生深远影响，并可能改变对矩阵乘法固有复杂度的认知。",
+  "tags": [
+    "matrix-multiplication",
+    "complexity-theory",
+    "algorithms",
+    "theoretical-cs",
+    "ai-assisted-proof"
+  ],
+  "category": "算法理论",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 5,
+  "difficulty_score": 5,
+  "key_points": [
+    "将矩阵乘法复杂度统一为Θ(n^2.25)",
+    "突破当前上界约O(n^2.371)",
+    "可能提出新的张量秩或组合方法"
+  ],
+  "risks": [
+    "结果尚未经同行评审，证明可靠性待验证",
+    "公开技术细节有限，复现与验证门槛较高"
+  ]
+}

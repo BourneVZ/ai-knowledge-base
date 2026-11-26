@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261126-010",
+  "title": "DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.31252",
+  "description": "arXiv:2611.31252v1 Announce Type: new \nAbstract: Estimating the quality of generative AI workflows is challenging because these workflows comprise multiple stages, and errors can propagate across them, making end-to-end performance depend not only on the accuracy of individual models but also on how",
+  "summary": "该项目针对生成式AI工作流质量评估难题提出DAGGER框架。由于工作流由多个阶段组成，错误会在阶段间传播，端到端性能不仅依赖单模型精度，还依赖阶段交互与调度方式。传统评估通常需要实际部署并运行完整工作流，成本高且反馈慢。DAGGER旨在实现免部署质量估计，通过分析工作流结构、组件能力与错误传播特性，预测最终输出质量，而无需执行整个流程。该方法有助于在开发早期快速筛选和优化工作流配置，降低评估开销，提升生成式AI系统的迭代效率。",
+  "tags": [
+    "generative-ai",
+    "workflow",
+    "quality-estimation",
+    "error-propagation",
+    "deployment-free"
+  ],
+  "category": "AI Workflow",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "免部署质量估计，减少完整工作流运行开销",
+    "建模多阶段错误传播与组件交互影响",
+    "支持早期快速筛选和优化生成式AI工作流"
+  ],
+  "risks": [
+    "估计结果可能与真实部署性能存在偏差",
+    "对未见过的工作流结构和组件泛化能力有限"
+  ]
+}

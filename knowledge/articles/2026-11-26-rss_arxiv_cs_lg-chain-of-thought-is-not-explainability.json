@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261126-014",
+  "title": "Chain-of-Thought Is Not Explainability",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.31271",
+  "description": "arXiv:2611.31271v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) allows language models to verbalise multi-step rationales before producing their final answer. While this technique often boosts task performance and offers an impression of transparency into the model's reasoning, this position",
+  "summary": "本文提出链式思维（CoT）虽然能让语言模型在最终答案前显式生成多步推理，常被用来提升任务表现并营造透明印象，但这并不等同于可解释性。作者认为，CoT生成的推理文本未必忠实反映模型内部真实的决策过程，可能只是事后合理化或与真实计算机制脱节，因而无法提供可靠的因果解释或可信度保证。文章主张应明确区分“可解释性”与“推理文本输出”，并提醒研究者和使用者不要将CoT直接作为模型决策的解释依据，尤其在高风险场景中需保持警惕。",
+  "tags": [
+    "chain-of-thought",
+    "explainability",
+    "language-models",
+    "interpretability",
+    "ai-safety"
+  ],
+  "category": "AI Interpretability",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "指出CoT生成的推理文本不保证忠实于模型内部决策过程",
+    "区分推理输出与可解释性，警示过度信任CoT透明度",
+    "为评估LLM可解释性提供批判性视角"
+  ],
+  "risks": [
+    "可能低估CoT在实际任务中的部分解释价值",
+    "立场性论证缺少系统性实证验证"
+  ]
+}

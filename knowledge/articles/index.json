@@ -1,5 +1,293 @@
 [
   {
+    "id": "hn_ai-20261126-004",
+    "file": "2026-11-26-rss_hn_ai-pengpt-a-generative-transformer-for-handwriting-and-sketches.json",
+    "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+    "category": "Generative AI",
+    "tags": [
+      "generative-transformer",
+      "handwriting",
+      "sketches",
+      "sequence-modeling",
+      "ai"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261126-005",
+    "file": "2026-11-26-rss_hn_ai-tidal-bans-ai-generated-music.json",
+    "title": "Tidal bans AI-generated music",
+    "category": "AI Policy",
+    "tags": [
+      "ai",
+      "music",
+      "streaming",
+      "copyright",
+      "policy"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 2,
+    "stars": null
+  },
+  {
+    "id": "hn_ai-20261126-006",
+    "file": "2026-11-26-rss_hn_ai-llm-agents-work-for-their-parent-companies-not-for-you.json",
+    "title": "LLM agents work for their parent companies, not for you",
+    "category": "AI Agent",
+    "tags": [
+      "ai",
+      "llm",
+      "agents",
+      "platform-risk",
+      "ethics"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261126-007",
+    "file": "2026-11-26-rss_lobsters_ai-matrix-multiplication-is-n225.json",
+    "title": "Matrix Multiplication is Θ(n^2.25)",
+    "category": "算法理论",
+    "tags": [
+      "matrix-multiplication",
+      "complexity-theory",
+      "algorithms",
+      "theoretical-cs",
+      "ai-assisted-proof"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 5,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261126-008",
+    "file": "2026-11-26-rss_lobsters_ai-9ux-a-macintosh-inspired-desktop-for-9front.json",
+    "title": "9/UX: a Macintosh-inspired desktop for 9front",
+    "category": "Desktop Environment",
+    "tags": [
+      "plan9",
+      "9front",
+      "desktop-environment",
+      "retro-ui",
+      "ai-assisted"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261126-009",
+    "file": "2026-11-26-rss_arxiv_cs_cl-validation-bias-in-large-language-model-responses-to-cancer-treatment-queries-a-.json",
+    "title": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study",
+    "category": "AI Safety",
+    "tags": [
+      "llm",
+      "validation-bias",
+      "cancer-treatment",
+      "ai-safety",
+      "medical-ai"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261126-010",
+    "file": "2026-11-26-rss_arxiv_cs_cl-dagger-deployment-free-quality-estimation-for-generative-ai-workflows.json",
+    "title": "DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows",
+    "category": "AI Workflow",
+    "tags": [
+      "generative-ai",
+      "workflow",
+      "quality-estimation",
+      "error-propagation",
+      "deployment-free"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261126-011",
+    "file": "2026-11-26-rss_arxiv_cs_cl-instantiation-of-human-values-in-image-generation.json",
+    "title": "Instantiation of Human Values in Image Generation",
+    "category": "AI Alignment",
+    "tags": [
+      "text-to-image",
+      "human-values",
+      "ai-alignment",
+      "schwartz-theory",
+      "generative-ai"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261126-012",
+    "file": "2026-11-26-rss_arxiv_cs_lg-local-subspace-encoding-for-spectral-prediction-from-tabpfn-to-operator-adaptive.json",
+    "title": "Local subspace encoding for spectral prediction: from TabPFN to operator-adaptive calibration",
+    "category": "AI for Science",
+    "tags": [
+      "spectral-prediction",
+      "tabpfn",
+      "ramanpfn",
+      "subspace-encoding",
+      "operator-adaptive-calibration"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261126-013",
+    "file": "2026-11-26-rss_arxiv_cs_lg-actionwave-a-systematic-benchmark-for-waveform-centric-clinical-prediction-acros.json",
+    "title": "Actionwave: A Systematic Benchmark for Waveform-Centric Clinical Prediction Across Care Scenarios",
+    "category": "AI for Healthcare",
+    "tags": [
+      "clinical-prediction",
+      "waveform",
+      "benchmark",
+      "healthcare-ai",
+      "time-series"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_lg-20261126-014",
+    "file": "2026-11-26-rss_arxiv_cs_lg-chain-of-thought-is-not-explainability.json",
+    "title": "Chain-of-Thought Is Not Explainability",
+    "category": "AI Interpretability",
+    "tags": [
+      "chain-of-thought",
+      "explainability",
+      "language-models",
+      "interpretability",
+      "ai-safety"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261126-015",
+    "file": "2026-11-26-rss_huggingface_blog-where-scientists-draw-the-line-on-ai-agents.json",
+    "title": "Where scientists draw the line on AI agents",
+    "category": "AI Agent",
+    "tags": [
+      "ai agents",
+      "human oversight",
+      "scientific research",
+      "trust",
+      "ai safety"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261126-016",
+    "file": "2026-11-26-rss_huggingface_blog-an-indic-voice-agent-with-cuga.json",
+    "title": "An Indic Voice Agent with CUGA",
+    "category": "AI Agent",
+    "tags": [
+      "voice-agent",
+      "indic-languages",
+      "speech-recognition",
+      "llm",
+      "multimodal"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261126-017",
+    "file": "2026-11-26-rss_huggingface_blog-hill-climbing-inkling-2-mini-inference-on-one-rtx-pro-6000.json",
+    "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+    "category": "AI Inference",
+    "tags": [
+      "inference",
+      "hill-climbing",
+      "gpu-optimization",
+      "llm",
+      "local-deployment"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "google_ai_blog-20261126-018",
+    "file": "2026-11-26-rss_google_ai_blog-how-gemini-is-changing-the-game-for-golden-states-organization-and-fans.json",
+    "title": "How Gemini is changing the game for Golden State's organization and fans.",
+    "category": "AI Agent",
+    "tags": [
+      "gemini",
+      "sports",
+      "ai",
+      "fan engagement",
+      "business operations"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575757+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261126-003",
+    "file": "2026-11-26-github-logitcaitinybrain.json",
+    "title": "logitcai/tinybrain",
+    "category": "LLM",
+    "tags": [
+      "ai",
+      "llm",
+      "chinese-nlp",
+      "mixture-of-experts",
+      "reinforcement-learning"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575734+00:00",
+    "innovation_score": 4,
+    "stars": 492
+  },
+  {
+    "id": "github-20261126-002",
+    "file": "2026-11-26-github-opensetlabsopenset-llm.json",
+    "title": "opensetlabs/openset-llm",
+    "category": "LLM Inference",
+    "tags": [
+      "llm",
+      "cpu-inference",
+      "openai-compatible",
+      "low-memory",
+      "local-inference"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575729+00:00",
+    "innovation_score": 4,
+    "stars": 855
+  },
+  {
+    "id": "github-20261126-001",
+    "file": "2026-11-26-github-sous-labssonge.json",
+    "title": "sous-labs/songe",
+    "category": "AI Infrastructure",
+    "tags": [
+      "ai",
+      "llm",
+      "distributed-training",
+      "idle-compute",
+      "local-model"
+    ],
+    "collected_at": "2026-11-26T01:17:07.575727+00:00",
+    "innovation_score": 4,
+    "stars": 865
+  },
+  {
     "id": "arxiv_cs_cl-20261124-006",
     "file": "2026-11-24-rss_arxiv_cs_cl-skillprivus-uncovering-privacy-of-use-harms-in-agentic-skills.json",
     "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",

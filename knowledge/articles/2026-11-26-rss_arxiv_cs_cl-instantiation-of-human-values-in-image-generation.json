@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261126-011",
+  "title": "Instantiation of Human Values in Image Generation",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.31253",
+  "description": "arXiv:2611.31253v1 Announce Type: new \nAbstract: Text-to-image (T2I) models are increasingly embedded in everyday visual culture, yet little is known about how they translate abstract human values into visual scenes. We address this gap by introducing a framework, grounded in Schwartz's theory of ba",
+  "summary": "本文针对文本到图像（T2I）模型日益普及但缺乏其对抽象人类价值观进行视觉转化研究的空白，提出一个基于Schwartz基本价值观理论的分析框架。该框架旨在系统识别和评估T2I生成图像中人类价值观的实例化方式，揭示模型在视觉场景中对不同价值维度的表征模式与偏差。研究为生成式人工智能的价值对齐、文化表达及社会影响评估提供了新的理论视角和可操作工具，有助于推动更具价值敏感性和社会责任感的图像生成系统发展。",
+  "tags": [
+    "text-to-image",
+    "human-values",
+    "ai-alignment",
+    "schwartz-theory",
+    "generative-ai"
+  ],
+  "category": "AI Alignment",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "引入Schwartz价值观理论分析图像生成",
+    "构建价值观实例化评估框架",
+    "揭示T2I模型视觉价值表征偏差"
+  ],
+  "risks": [
+    "价值观标注存在文化主观性",
+    "框架覆盖长尾场景的能力有限"
+  ]
+}

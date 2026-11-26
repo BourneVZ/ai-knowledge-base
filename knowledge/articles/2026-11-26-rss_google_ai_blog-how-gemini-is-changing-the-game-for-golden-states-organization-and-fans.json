@@ -1,0 +1,33 @@
+{
+  "id": "google_ai_blog-20261126-018",
+  "title": "How Gemini is changing the game for Golden State's organization and fans.",
+  "source": "rss/google_ai_blog",
+  "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+  "description": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+  "summary": "谷歌Gemini与金州勇士达成合作，为勇士队、女武神队及大通中心提供AI支持，覆盖球迷互动、内容生成、场馆运营和商业决策等场景。通过生成式AI，球队可打造个性化球迷体验，优化票务、零售和客户服务流程，同时辅助数据分析和营销内容创作。该合作展示了大型语言模型在体育娱乐产业的落地潜力，但实际效果仍取决于执行成熟度、用户接受度及数据治理能力。",
+  "tags": [
+    "gemini",
+    "sports",
+    "ai",
+    "fan engagement",
+    "business operations"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "多模态AI提升球迷互动与个性化体验",
+    "整合票务、零售和客服等商业运营流程",
+    "覆盖勇士、女武神及大通中心多场景应用"
+  ],
+  "risks": [
+    "球迷数据隐私与安全合规风险",
+    "AI生成内容的准确性和品牌一致性挑战"
+  ]
+}

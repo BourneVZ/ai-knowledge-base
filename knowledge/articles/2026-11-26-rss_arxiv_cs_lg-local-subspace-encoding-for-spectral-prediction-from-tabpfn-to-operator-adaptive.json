@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_lg-20261126-012",
+  "title": "Local subspace encoding for spectral prediction: from TabPFN to operator-adaptive calibration",
+  "source": "rss/arxiv_cs_lg",
+  "source_url": "https://arxiv.org/abs/2611.31245",
+  "description": "arXiv:2611.31245v1 Announce Type: new \nAbstract: TabPFN has already shown useful predictive performance on near-infrared spectra. RamanPFN subsequently proposed two spectral representations for tabular inference: Global Compositional Unmixing (GCU) and Local Vibrational Subspace Encoding (LVSE). We ",
+  "summary": "本文提出面向光谱预测的局部子空间编码方法，将TabPFN在近红外光谱上的预测能力进一步拓展。此前RamanPFN提出全局组成解混（GCU）和局部振动子空间编码（LVSE）两种光谱表示，用于表格化推理。本文在此基础上引入算子自适应校准机制，针对不同光谱测量算子或仪器条件动态调整局部子空间表示，以提升光谱数据在表格模型中的表示效率和预测稳定性。方法有望改善近红外、拉曼等光谱分析中的校准偏差和泛化性能，为光谱数据驱动建模提供更灵活的编码方案。",
+  "tags": [
+    "spectral-prediction",
+    "tabpfn",
+    "ramanpfn",
+    "subspace-encoding",
+    "operator-adaptive-calibration"
+  ],
+  "category": "AI for Science",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "局部振动子空间编码提升光谱表格化表示",
+    "算子自适应校准动态适配光谱测量条件",
+    "继承并扩展TabPFN/RamanPFN的光谱预测框架"
+  ],
+  "risks": [
+    "摘要信息不完整，实际效果需实验验证",
+    "对非光谱表格数据的泛化性有限"
+  ]
+}

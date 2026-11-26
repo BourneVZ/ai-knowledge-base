@@ -1,0 +1,33 @@
+{
+  "id": "github-20261126-001",
+  "title": "sous-labs/songe",
+  "source": "github",
+  "source_url": "https://github.com/sous-labs/songe",
+  "description": "A training engine for your local model, using your idle compute",
+  "summary": "Songe 是一个面向本地模型的训练引擎，旨在将用户闲置计算资源组织起来，用于模型训练或微调。它允许个人设备在空闲时贡献算力，降低本地模型训练成本与门槛。该项目通过分布式训练调度，聚合异构节点算力，实现碎片化资源的高效利用。用户可在本地发起训练任务，借助社区或自有设备池完成计算，适合个性化模型、小规模微调等场景。潜在局限包括节点波动、通信开销和安全隔离等。整体上，Songe 探索了去中心化、低成本训练本地模型的新路径。",
+  "tags": [
+    "ai",
+    "llm",
+    "distributed-training",
+    "idle-compute",
+    "local-model"
+  ],
+  "category": "AI Infrastructure",
+  "status": "draft",
+  "stars": 865,
+  "collected_at": "2026-11-26T01:17:07.575727+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "利用闲置算力训练本地模型",
+    "降低本地模型微调门槛",
+    "支持异构设备协作训练"
+  ],
+  "risks": [
+    "节点可用性不稳定影响训练效率",
+    "数据传输与模型安全存在挑战"
+  ]
+}

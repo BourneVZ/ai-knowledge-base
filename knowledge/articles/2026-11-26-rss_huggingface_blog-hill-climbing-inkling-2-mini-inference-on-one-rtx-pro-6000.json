@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261126-017",
+  "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+  "description": "",
+  "summary": "该项目探索在单张 NVIDIA RTX PRO 6000 专业显卡上对 Inkling 2 Mini 模型进行高效推理部署，结合爬山算法对推理配置进行自动调优。通过局部搜索策略，项目尝试在 48GB 显存约束下动态调整批大小、量化精度和 KV 缓存等关键参数，以在推理延迟、吞吐量和显存占用之间找到较优平衡点。Inkling 2 Mini 作为轻量级模型，与 RTX PRO 6000 工作站级算力相结合，有望降低本地化大模型推理门槛，并为小模型在专业 GPU 上的工程化部署提供实践参考。",
+  "tags": [
+    "inference",
+    "hill-climbing",
+    "gpu-optimization",
+    "llm",
+    "local-deployment"
+  ],
+  "category": "AI Inference",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "单卡 48GB 显存高效推理轻量模型",
+    "爬山算法自动搜索最优推理参数",
+    "平衡延迟、吞吐与显存占用"
+  ],
+  "risks": [
+    "爬山算法可能陷入局部最优配置",
+    "单卡硬件难以支撑高并发或更大规模模型"
+  ]
+}

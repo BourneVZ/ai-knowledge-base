@@ -1,0 +1,33 @@
+{
+  "id": "hn_ai-20261126-005",
+  "title": "Tidal bans AI-generated music",
+  "source": "rss/hn_ai",
+  "source_url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+  "description": "Article URL: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/\nComments URL: https://news.ycombinator.com/item?id=50630309\nPoints: 334\n# Comments: 332",
+  "summary": "Tidal 宣布禁止 AI 生成音乐在其平台分发，以保护人类音乐人的创作价值和版权收入。该政策在 Hacker News 上引发热议，讨论聚焦于 AI 音乐版权归属、检测技术可行性以及平台是否应成为内容守门人。支持者认为此举有助于遏制低质量 AI 内容泛滥、维护音乐生态；反对者担忧检测 AI 生成内容存在技术挑战，可能误伤使用 AI 辅助工具的人类创作者，且禁令可能被简单绕过。该事件反映了音乐流媒体在生成式 AI 冲击下对内容治理与创作者经济的平衡尝试，也为其他平台提供了政策参考。",
+  "tags": [
+    "ai",
+    "music",
+    "streaming",
+    "copyright",
+    "policy"
+  ],
+  "category": "AI Policy",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-26T01:17:07.575757+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-26-011723.json",
+  "analyzed_at": "2026-11-26T01:37:05.386202+00:00",
+  "published_at": null,
+  "innovation_score": 2,
+  "difficulty_score": 3,
+  "key_points": [
+    "禁止 AI 生成音乐分发",
+    "保护人类艺术家版权与收益",
+    "引发 AI 内容检测与平台治理讨论"
+  ],
+  "risks": [
+    "AI 生成内容检测技术不成熟，易误判",
+    "定义模糊可能波及 AI 辅助创作"
+  ]
+}
