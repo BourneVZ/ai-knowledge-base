@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261128-002",
+  "title": "Curb impacts of AI on programming to maintain EU sovereignty",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://www.draketo.de/software/curb-ai-impact",
+  "description": "Comments",
+  "summary": "该项目聚焦于人工智能编程助手（如代码生成模型）对欧盟技术主权的潜在冲击，主张通过监管干预、扶持本地开源模型与编程工具链、强化数据与基础设施自主可控等手段，减少欧盟开发者对非欧盟商业AI服务的依赖。其核心目标是保障欧洲在软件开发关键环节的独立性、安全性与竞争力，防止核心技术外流或被外部供应商锁定。该议题涉及政策、开源生态与产业协同，具有一定前瞻性与争议性，需要在创新激励与主权保护之间寻求平衡。",
+  "tags": [
+    "ai",
+    "programming",
+    "eu-sovereignty",
+    "regulation",
+    "open-source"
+  ],
+  "category": "AI Governance",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "倡导欧盟在AI编程工具领域实现技术自主",
+    "强调降低对非欧盟商业AI服务的依赖",
+    "可能结合监管与本土开源生态扶持"
+  ],
+  "risks": [
+    "可能抑制创新与国际协作",
+    "政策执行与产业落地难度较高"
+  ]
+}

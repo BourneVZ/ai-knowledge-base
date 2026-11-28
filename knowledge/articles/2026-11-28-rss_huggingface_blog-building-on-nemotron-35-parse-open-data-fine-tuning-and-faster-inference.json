@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261128-009",
+  "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+  "description": "",
+  "summary": "该项目围绕 Nemotron 3.5 Parse 模型展开，重点介绍如何利用开放数据、微调方法以及推理优化来构建高性能文档解析系统。Nemotron 3.5 Parse 面向 PDF、扫描件等非结构化文档，能够提取文本、表格和版式信息。文章分享开放数据集与微调流程，帮助用户针对特定领域适配模型；同时通过推理加速技术降低延迟、提高吞吐。整体方案适合需要大规模文档结构化、RAG 数据预处理或知识库构建的场景。",
+  "tags": [
+    "document-ai",
+    "llm",
+    "fine-tuning",
+    "inference-optimization",
+    "open-data"
+  ],
+  "category": "Document AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "开放数据与微调流程，支持领域定制",
+    "面向非结构化文档的高精度解析",
+    "推理加速，降低延迟并提升吞吐"
+  ],
+  "risks": [
+    "复杂版式和低质量扫描件的鲁棒性仍需验证",
+    "开放数据规模与领域覆盖可能有限"
+  ]
+}

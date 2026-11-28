@@ -1,0 +1,33 @@
+{
+  "id": "github-20261128-001",
+  "title": "alesha-pro/llm.asm",
+  "source": "github",
+  "source_url": "https://github.com/alesha-pro/llm.asm",
+  "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+  "summary": "该项目以 100% 纯 x86-64 NASM 汇编实现多个 AI 组件：12KB 的 Qwen3-0.6B 推理程序、22KB 的裸金属可启动操作系统，以及 32KB 从零实现的 Mini-GPT 训练器，并带有实时盲文终端界面。全程不使用 C、libc 或任何外部依赖，展示了极致的底层代码优化和系统编程能力。其体积与常规 AI 推理栈相比缩小数个数量级，适合在极低资源或裸机环境下运行。项目具有浓重的实验与炫技色彩，同时为理解汇编级张量运算、模型加载和训练反向传播提供了独特参考。",
+  "tags": [
+    "assembly",
+    "llm-inference",
+    "bare-metal",
+    "qwen3",
+    "zero-dependencies"
+  ],
+  "category": "Edge AI",
+  "status": "draft",
+  "stars": 2219,
+  "collected_at": "2026-11-28T00:48:38.836175+00:00",
+  "raw_path": "knowledge/raw/github-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 5,
+  "difficulty_score": 5,
+  "key_points": [
+    "100% 纯汇编实现 Qwen3-0.6B 推理，体积仅 12KB",
+    "构建裸金属可启动操作系统，零 C/libc/外部依赖",
+    "从零实现 Mini-GPT 训练器及实时盲文 TUI"
+  ],
+  "risks": [
+    "纯汇编代码可读性和可维护性差，难以迭代扩展",
+    "仅针对 0.6B 模型和 x86-64，平台与模型规模受限"
+  ]
+}

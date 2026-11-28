@@ -1,0 +1,82 @@
+[
+  {
+    "source": "github",
+    "title": "sybil-solutions/inference-optimisation-skill",
+    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+    "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+    "stars": 2882,
+    "collected_at": "2026-11-28T00:48:38.836152+00:00"
+  },
+  {
+    "source": "github",
+    "title": "pierridotite/mobile-agent-testers",
+    "url": "https://github.com/pierridotite/mobile-agent-testers",
+    "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+    "stars": 2613,
+    "collected_at": "2026-11-28T00:48:38.836172+00:00"
+  },
+  {
+    "source": "github",
+    "title": "alesha-pro/llm.asm",
+    "url": "https://github.com/alesha-pro/llm.asm",
+    "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+    "stars": 2219,
+    "collected_at": "2026-11-28T00:48:38.836175+00:00"
+  },
+  {
+    "source": "github",
+    "title": "sous-labs/songe",
+    "url": "https://github.com/sous-labs/songe",
+    "description": "A training engine for your local model, using your idle compute",
+    "stars": 927,
+    "collected_at": "2026-11-28T00:48:38.836176+00:00"
+  },
+  {
+    "source": "github",
+    "title": "w01fb0ss/PiBot",
+    "url": "https://github.com/w01fb0ss/PiBot",
+    "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+    "stars": 678,
+    "collected_at": "2026-11-28T00:48:38.836178+00:00"
+  },
+  {
+    "source": "github",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 454,
+    "collected_at": "2026-11-28T00:48:38.836179+00:00"
+  },
+  {
+    "source": "github",
+    "title": "weightcashiercupola/Gemini-Config-Checker-",
+    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 453,
+    "collected_at": "2026-11-28T00:48:38.836181+00:00"
+  },
+  {
+    "source": "github",
+    "title": "WingDataVacuum/Gemini-Config-Checker-",
+    "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 451,
+    "collected_at": "2026-11-28T00:48:38.836183+00:00"
+  },
+  {
+    "source": "github",
+    "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+    "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 451,
+    "collected_at": "2026-11-28T00:48:38.836184+00:00"
+  },
+  {
+    "source": "github",
+    "title": "WinnerSpecialist/Gemini-Config-Checker-",
+    "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
+    "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "stars": 451,
+    "collected_at": "2026-11-28T00:48:38.836186+00:00"
+  }
+]

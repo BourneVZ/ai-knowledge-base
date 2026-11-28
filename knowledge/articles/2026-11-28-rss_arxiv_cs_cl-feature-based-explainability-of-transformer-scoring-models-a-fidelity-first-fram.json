@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261128-006",
+  "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.33175",
+  "description": "arXiv:2611.33175v1 Announce Type: new \nAbstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc e",
+  "summary": "该研究关注Transformer自动写作评分模型在取得与人工评分高度一致的同时，透明度不足的问题。为此提出一种基于特征的事后解释框架，以“保真度优先”为核心，评估模型预测所关联的写作响应特征，提升可解释性。该方法在不牺牲评分性能的前提下，帮助理解模型关注的语言或结构特征，为自动写作评估提供更可信的决策依据。研究属于可解释人工智能在教育评测中的应用，重点衡量解释的保真度与实用性。",
+  "tags": [
+    "explainability",
+    "transformer",
+    "automated-writing-scoring",
+    "post-hoc",
+    "fidelity"
+  ],
+  "category": "Explainable AI",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "提出保真度优先的特征级事后解释框架",
+    "提升自动写作评分模型的决策透明度",
+    "兼顾评分性能与可解释性"
+  ],
+  "risks": [
+    "依赖手工特征可能限制跨任务泛化",
+    "事后解释与模型内部机制仍存在差距"
+  ]
+}

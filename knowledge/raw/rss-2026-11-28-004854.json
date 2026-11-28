@@ -1,0 +1,98 @@
+[
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Curb impacts of AI on programming to maintain EU sovereignty",
+    "url": "https://www.draketo.de/software/curb-ai-impact",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "The need for a formally verifiable mainstream programming language",
+    "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/lobsters_ai",
+    "title": "Matrix Multiplication is Θ(n^2.25)",
+    "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+    "description": "Comments",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
+    "url": "https://arxiv.org/abs/2611.33173",
+    "description": "arXiv:2611.33173v1 Announce Type: new \nAbstract: The Bundesrat is Germany's second legislative chamber and a constitutional veto player within its political system. The members of the Bundesrat are delegates of state governments. Tracing the political discourse in the Bundesrat is challenging as it ",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+    "url": "https://arxiv.org/abs/2611.33174",
+    "description": "arXiv:2611.33174v1 Announce Type: new \nAbstract: Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking generative LLMs to rewrite history into summaries, facts, or kno",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/arxiv_cs_cl",
+    "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+    "url": "https://arxiv.org/abs/2611.33175",
+    "description": "arXiv:2611.33175v1 Announce Type: new \nAbstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc e",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/huggingface_blog",
+    "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+    "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "description": "",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "How Gemini is changing the game for Golden State's organization and fans.",
+    "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+    "description": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "A more tailored Google Search that’s uniquely yours",
+    "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+    "description": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  },
+  {
+    "source": "rss/google_ai_blog",
+    "title": "Introducing Tool Retrieval in the Gemini API",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+    "stars": null,
+    "collected_at": "2026-11-28T00:48:38.836204+00:00"
+  }
+]

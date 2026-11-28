@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261128-007",
+  "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/video-trainium3",
+  "description": "",
+  "summary": "本文介绍了在 AWS Trainium3 芯片上运行 LTX-2.5 开源视频生成模型的实践。项目将 Lightricks 的 LTX-2.5 模型适配到 Trainium3 硬件，利用 AWS Neuron SDK 进行编译与优化，实现视频生成任务的高效推理。文章展示了从模型加载、权重转换到生成管道的完整流程，并对比了成本与性能表现。通过将视频生成负载迁移到专用 AI 加速器，该方法旨在降低大规模视频生成的单位成本，提升吞吐量。该工作验证了 Trainium3 对扩散视频模型的支持能力，为在云上部署高性能开源视频生成服务提供了参考。",
+  "tags": [
+    "aws",
+    "trainium3",
+    "video-generation",
+    "ltx-2.5",
+    "neuron"
+  ],
+  "category": "AI Infrastructure",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 4,
+  "key_points": [
+    "在 Trainium3 上适配 LTX-2.5 视频生成模型",
+    "利用 AWS Neuron SDK 完成模型编译与优化",
+    "展示低成本高吞吐的视频生成推理方案"
+  ],
+  "risks": [
+    "Trainium3 软件栈生态尚不成熟",
+    "视频生成模型在专用加速器上的性能调优复杂"
+  ]
+}

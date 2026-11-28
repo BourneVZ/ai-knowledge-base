@@ -1,5 +1,149 @@
 [
   {
+    "id": "lobsters_ai-20261128-002",
+    "file": "2026-11-28-rss_lobsters_ai-curb-impacts-of-ai-on-programming-to-maintain-eu-sovereignty.json",
+    "title": "Curb impacts of AI on programming to maintain EU sovereignty",
+    "category": "AI Governance",
+    "tags": [
+      "ai",
+      "programming",
+      "eu-sovereignty",
+      "regulation",
+      "open-source"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "lobsters_ai-20261128-003",
+    "file": "2026-11-28-rss_lobsters_ai-the-need-for-a-formally-verifiable-mainstream-programming-language.json",
+    "title": "The need for a formally verifiable mainstream programming language",
+    "category": "Formal Verification",
+    "tags": [
+      "formal-verification",
+      "programming-language",
+      "safety-critical",
+      "proof-assistant",
+      "language-design"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261128-004",
+    "file": "2026-11-28-rss_arxiv_cs_cl-the-bundesrat-corpus-a-dataset-of-political-discourse-in-the-german-federal-coun.json",
+    "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
+    "category": "NLP Dataset",
+    "tags": [
+      "dataset",
+      "political-discourse",
+      "german",
+      "corpus",
+      "nlp"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261128-005",
+    "file": "2026-11-28-rss_arxiv_cs_cl-mgmem-an-efficient-deterministic-and-provenance-preserving-framework-for-long-ho.json",
+    "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+    "category": "AI Agent",
+    "tags": [
+      "agent-memory",
+      "llm",
+      "deterministic",
+      "provenance",
+      "long-horizon"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "arxiv_cs_cl-20261128-006",
+    "file": "2026-11-28-rss_arxiv_cs_cl-feature-based-explainability-of-transformer-scoring-models-a-fidelity-first-fram.json",
+    "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+    "category": "Explainable AI",
+    "tags": [
+      "explainability",
+      "transformer",
+      "automated-writing-scoring",
+      "post-hoc",
+      "fidelity"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261128-007",
+    "file": "2026-11-28-rss_huggingface_blog-taking-trainium3-to-the-track-generating-videos-with-ltx-25.json",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "category": "AI Infrastructure",
+    "tags": [
+      "aws",
+      "trainium3",
+      "video-generation",
+      "ltx-2.5",
+      "neuron"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261128-008",
+    "file": "2026-11-28-rss_huggingface_blog-introducing-the-llamacpp-benchmark-dashboard-for-amd-ryzen-and-radeon.json",
+    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "category": "AI Benchmark",
+    "tags": [
+      "ai",
+      "llm",
+      "benchmark",
+      "amd",
+      "llama.cpp"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 3,
+    "stars": null
+  },
+  {
+    "id": "huggingface_blog-20261128-009",
+    "file": "2026-11-28-rss_huggingface_blog-building-on-nemotron-35-parse-open-data-fine-tuning-and-faster-inference.json",
+    "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+    "category": "Document AI",
+    "tags": [
+      "document-ai",
+      "llm",
+      "fine-tuning",
+      "inference-optimization",
+      "open-data"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836204+00:00",
+    "innovation_score": 4,
+    "stars": null
+  },
+  {
+    "id": "github-20261128-001",
+    "file": "2026-11-28-github-alesha-prollmasm.json",
+    "title": "alesha-pro/llm.asm",
+    "category": "Edge AI",
+    "tags": [
+      "assembly",
+      "llm-inference",
+      "bare-metal",
+      "qwen3",
+      "zero-dependencies"
+    ],
+    "collected_at": "2026-11-28T00:48:38.836175+00:00",
+    "innovation_score": 5,
+    "stars": 2219
+  },
+  {
     "id": "hn_ai-20261126-004",
     "file": "2026-11-26-rss_hn_ai-pengpt-a-generative-transformer-for-handwriting-and-sketches.json",
     "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",

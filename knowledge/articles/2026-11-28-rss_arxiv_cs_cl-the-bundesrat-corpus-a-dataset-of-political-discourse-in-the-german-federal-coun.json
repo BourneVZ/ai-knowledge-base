@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261128-004",
+  "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.33173",
+  "description": "arXiv:2611.33173v1 Announce Type: new \nAbstract: The Bundesrat is Germany's second legislative chamber and a constitutional veto player within its political system. The members of the Bundesrat are delegates of state governments. Tracing the political discourse in the Bundesrat is challenging as it ",
+  "summary": "该项目发布德国联邦参议院（Bundesrat）政治话语语料库。德国联邦参议院是德国第二立法机构，在政治体制中具有宪法否决权，其成员为各州政府代表。由于参议院辩论分散、文本形式多样，追踪其政治话语一直存在挑战。该语料库系统收集并整理相关发言与辩论记录，为研究德国联邦参议院中的政治立场、政党协调及州政府利益表达提供结构化数据。数据集可用于计算语言学、政治学和自然语言处理等领域的分析任务，如主题建模、立场检测与话语分析。",
+  "tags": [
+    "dataset",
+    "political-discourse",
+    "german",
+    "corpus",
+    "nlp"
+  ],
+  "category": "NLP Dataset",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "构建德国联邦参议院政治话语语料库",
+    "覆盖第二立法机构辩论与发言记录",
+    "支持政治话语计算分析与立场检测"
+  ],
+  "risks": [
+    "德语文本为主，跨语言泛化有限",
+    "语料时间覆盖与获取授权尚未明确"
+  ]
+}

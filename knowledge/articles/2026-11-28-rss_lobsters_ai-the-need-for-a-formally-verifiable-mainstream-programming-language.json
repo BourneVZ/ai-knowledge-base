@@ -1,0 +1,33 @@
+{
+  "id": "lobsters_ai-20261128-003",
+  "title": "The need for a formally verifiable mainstream programming language",
+  "source": "rss/lobsters_ai",
+  "source_url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+  "description": "Comments",
+  "summary": "该项目关注为什么主流编程语言普遍缺乏内建的形式化验证能力，导致关键软件安全高度依赖测试与人工审查。作者提出需要一种新的主流语言，在保持实用开发效率的同时，原生支持形式规约与机器可检查证明，使验证不再是专家专属。文章认为难点在于平衡表达力、证明自动化与易用性，并需建立工具链与生态。若实现，可显著降低安全关键系统的验证成本，减少逻辑缺陷，推动业界对高可信软件开发的采纳。",
+  "tags": [
+    "formal-verification",
+    "programming-language",
+    "safety-critical",
+    "proof-assistant",
+    "language-design"
+  ],
+  "category": "Formal Verification",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 5,
+  "key_points": [
+    "原生集成形式化规约与证明",
+    "降低验证门槛至主流开发者",
+    "兼顾开发效率与高可信"
+  ],
+  "risks": [
+    "证明自动化程度可能不足",
+    "生态建设与学习曲线阻碍普及"
+  ]
+}

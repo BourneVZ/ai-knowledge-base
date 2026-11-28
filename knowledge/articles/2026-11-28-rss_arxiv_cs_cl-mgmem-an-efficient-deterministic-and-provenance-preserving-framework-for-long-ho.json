@@ -1,0 +1,33 @@
+{
+  "id": "arxiv_cs_cl-20261128-005",
+  "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+  "source": "rss/arxiv_cs_cl",
+  "source_url": "https://arxiv.org/abs/2611.33174",
+  "description": "arXiv:2611.33174v1 Announce Type: new \nAbstract: Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking generative LLMs to rewrite history into summaries, facts, or kno",
+  "summary": "MGMem 是一个面向长程 LLM 智能体的记忆框架，强调高效、确定性与来源保留。传统系统常依赖生成式 LLM 将历史重写为摘要、事实或知识库索引，可能引入不确定性与信息丢失。MGMem 采用确定性索引策略，在数千轮交互中精准检索相关历史，保证记忆可追溯、计算高效，适用于需要稳定可复现行为的长程智能体场景。",
+  "tags": [
+    "agent-memory",
+    "llm",
+    "deterministic",
+    "provenance",
+    "long-horizon"
+  ],
+  "category": "AI Agent",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 4,
+  "difficulty_score": 3,
+  "key_points": [
+    "确定性记忆索引，避免生成式总结的不稳定性",
+    "保留信息来源，可追溯历史交互",
+    "面向数千轮长程任务的高效检索"
+  ],
+  "risks": [
+    "摘要未完全披露实现与评测，需进一步验证普适性",
+    "确定性索引可能降低语义抽象灵活性"
+  ]
+}

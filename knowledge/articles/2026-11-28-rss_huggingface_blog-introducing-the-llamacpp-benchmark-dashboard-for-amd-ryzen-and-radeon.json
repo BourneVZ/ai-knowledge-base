@@ -1,0 +1,33 @@
+{
+  "id": "huggingface_blog-20261128-008",
+  "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+  "source": "rss/huggingface_blog",
+  "source_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+  "description": "",
+  "summary": "该项目介绍了针对 AMD Ryzen 处理器与 Radeon 显卡的 llama.cpp 基准测试仪表板，用于集中展示和比较不同 AMD 硬件上运行大语言模型推理的性能。仪表板提供交互式图表，用户可按型号、量化精度、上下文长度等条件筛选，查看吞吐量、延迟和内存带宽等指标。该工具旨在帮助开发者和硬件爱好者选择适合本地 LLM 推理的 AMD 平台，并支持社区提交测试结果，形成持续更新的性能数据库。",
+  "tags": [
+    "ai",
+    "llm",
+    "benchmark",
+    "amd",
+    "llama.cpp"
+  ],
+  "category": "AI Benchmark",
+  "status": "draft",
+  "stars": null,
+  "collected_at": "2026-11-28T00:48:38.836204+00:00",
+  "raw_path": "knowledge/raw/rss-2026-11-28-004854.json",
+  "analyzed_at": "2026-11-28T01:03:23.043582+00:00",
+  "published_at": null,
+  "innovation_score": 3,
+  "difficulty_score": 3,
+  "key_points": [
+    "覆盖 AMD Ryzen CPU 与 Radeon GPU 的 llama.cpp 推理性能对比",
+    "支持按模型、量化精度、上下文长度等条件筛选的交互式仪表板",
+    "社区驱动的基准数据提交与持续更新"
+  ],
+  "risks": [
+    "基准结果受驱动版本、系统配置和测试方法影响，可比性有限",
+    "仅覆盖 AMD 硬件，无法直接对比 NVIDIA 或 Intel 平台"
+  ]
+}
